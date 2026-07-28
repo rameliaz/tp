@@ -7,6 +7,7 @@
 .claude
 
 CLAUDE.md
+AGENTS.md
 /.quarto/
 **/*.quarto_ipynb
 /references

@@ -31,7 +31,7 @@ execute:
 * **Kesimpulan** dan *take-away message* dari saya
 :::
 
-## *Disclaimer*
+## Perlu diketahui
 
 ![](libs/alfluency.png){fig-align="center" width="90%"}
 
@@ -42,7 +42,7 @@ Materi ini banyak terinspirasi dari kursus daring "*AI Fluency: Framework & Foun
 
 [**Klik di sini untuk mengikuti kursus tersebut**](https://anthropic.skilljar.com/ai-fluency-framework-foundations)
 
-Saya menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+Saya menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
 
 :::
 
@@ -62,14 +62,14 @@ Saya menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* m
 Angkat tangan kalau dalam **seminggu terakhir** Anda:
 
 ::: {.incremental}
-1. Menggunakan ChatGPT/Claude/Gemini/Copilot/Kimi/DeepSeek minimal sekali
-2. Menggunakannya untuk tugas kuliah atau pekerjaan
-3. Menggunakannya untuk urusan **di luar** kuliah dan pekerjaan (e.g., minta resep, curhat, menyusun rencana liburan, dsb.)
-4. Pernah **mendapati** AI memberikan jawaban yang salah, tapi terdengar sangat meyakinkan
+1. Menggunakan AI *chatbot* (e.g., ChatGPT, Claude, Gemini, Copilot, Kimi, DeepSeek, dll.) minimal sekali
+2. Menggunakannya untuk tugas-tugas yang berkaitan dengan perkuliahan atau pekerjaan
+3. Menggunakannya untuk urusan **di luar** kuliah dan pekerjaan (e.g., minta resep masakan, curhat, menyusun rencana liburan, dsb.)
+4. Pernah **mendapati** AI memberikan **jawaban yang salah**, tapi *tone output* teksnya sangat meyakinkan
 :::
 
 ::: {.callout-note}
-### Ingat jawaban Anda tadi
+### Ingat-ingat jawaban Anda tadi
 ...nanti kita cocokkan dengan data penggunaan AI secara global.
 :::
 
@@ -79,15 +79,15 @@ Pembuka interaktif ±5 menit. Poin 4 adalah jembatan penting ke materi discernme
 
 # Apa Sebenarnya Akal Imitasi? 🤖 {background-color="#14497F"}
 
-## *Artificial intelligence* dan "akal imitasi"
+## *Artificial intelligence* a.k.a "akal imitasi"
 
 ::: {.incremental}
-* Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan," dan akibatnya, publik menganggap seolah-olah AI benar-benar *cerdas*
-* Padahal yang sebenarnya terjadi: ia adalah model statistik dengan *output* teks ("*large language model*") yang **meniru** produk kognisi manusia ("bahasa natural")
+* Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan" dalam Bahasa Indonesia, dan akibatnya, publik menganggap **seolah-olah** AI benar-benar *cerdas*
+* Padahal AI *chatbot* adalah model statistik dengan *output* teks ("*large language model*") yang **meniru** proses dan produk kognisi manusia ("bahasa natural")
 * Frasa *akal imitasi* mengingatkan kita pada dua hal sekaligus:
-  + Kemampuan *large language model* (LLM) secara aktual memang **sangat berguna** karena teks *output*nya memang sangat meyakinkan
+  + Kemampuan *large language model* (LLM) **terasa natural** seperti manusia karena kualitas teks *output*nya memang sangat meyakinkan
   + Tapi ia **bukan manusia**, sehingga tidak punya pemahaman, niat, apalagi tanggung jawab
-* Konsekuensinya: yang bertanggung jawab atas hasil kerjanya adalah **kita** sebagai penggunanya
+* Konsekuensinya: yang bertanggung jawab atas *output* teks AI adalah **kita** sebagai penggunanya
 :::
 
 ## AI tidak *ujug-ujug* diciptakan
@@ -98,7 +98,7 @@ Pembuka interaktif ±5 menit. Poin 4 adalah jembatan penting ke materi discernme
 ::: {.incremental}
 * **1950-an–1980-an** — AI simbolik: manusia menuliskan aturan logikanya satu per satu (*expert systems*)
 * **1990-an–2000-an** — *machine learning*: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., *spam filter*)
-* **2010-an** — *deep learning*: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (*natural language processing*, NLP)
+* **2010-an** — *deep learning* yang merupakan permodelan bahasa yang meniru cara kerja jaringan saraf manusia; terobosan besar dalam rekognisi gambar dan suara (*natural language processing*, NLP)
 * **2017** — arsitektur [***transformer***](https://www.ibm.com/think/topics/transformer-model) diperkenalkan, yang merupakan fondasi semua LLM modern
 * **2022** — OpenAI merilis GPT-3.5; *generative* AI menjadi fenomena massal
 :::
@@ -120,7 +120,7 @@ Sumber: [*A Timeline of LLM Innovation*](https://synthedia.substack.com/p/a-time
 
 ## Model Statistik di Balik Layar
 
-*Large language model* (LLM) pada intinya adalah model statistik raksasa yang menjawab satu pertanyaan:
+*Large language model* (LLM) pada intinya adalah model statistik raksasa dengan *output* teks yang menjawab satu pertanyaan:
 
 > **"Dari semua *input* kata sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?"**
 
@@ -133,11 +133,11 @@ Sumber: [*A Timeline of LLM Innovation*](https://synthedia.substack.com/p/a-time
 ::: {.columns}
 ::: {.column width="60%"}
 
-Terobosan kuncinya adalah mekanisme ***attention***: setiap kata bisa "memperhatikan" konteks dari semua kata lain dalam konteks untuk menentukan maknanya.
+Terobosannya adalah mekanisme ***attention***: setiap kata bisa "memperhatikan" konteks dari semua kata lain dalam konteks untuk menentukan maknanya.
 
 ::: {.incremental}
-* "Bisa **ular** itu berbahaya" vs. "Saya **bisa** datang besok"
-  + "Bisa" adalah kata yang sama, makna berbeda; *attention* menangkap perbedaannya dari konteks
+* "Bisa **ular** itu amat mematikan" vs. "Saya **bisa** datang besok"
+  + "Bisa" adalah kata yang sama, makna berbeda (i.e., "homonim")
 * Model bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; *transformer* memproses seluruh kalimat **sekaligus, secara paralel**
 * Paralelisme inilah yang memungkinkan *training* dengan data yang jauh lebih besar (e.g., [Kimi 3 dengan 2.8 trilyun parameter](https://www.kimi.com/blog/kimi-k3))
 :::
@@ -159,12 +159,12 @@ Terobosan kuncinya adalah mekanisme ***attention***: setiap kata bisa "memperhat
 ::: {.incremental}
 1. ***Pre-training*** — model membaca miliaran dokumen dan belajar memprediksi kata berikutnya
    + Hasilnya: *base model* yang menguasai pola bahasa, pengetahuan umum, bahkan penalaran, tapi belum bisa menjadi "asisten" 
-2. ***Fine-tuning*** (termasuk RLHF, *reinforcement learning from human feedback*) — model dilatih mengikuti instruksi, menjawab dengan sopan, dan menolak permintaan tidak patut bahkan berbahaya
+2. ***Fine-tuning*** (termasuk [*reinforcement learning from human feedback*, RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)) — model dilatih mengikuti instruksi, menjawab dengan sopan, dan menolak permintaan tidak patut bahkan berbahaya
    + Hasilnya: *Chatbot* seperti ChatGPT, DeepSeek, atau Claude yang Anda kenal sekarang
 :::
 
 ::: {.callout-tip}
-### Analogi psikologinya 
+### Analogi proses psikologisnya 
 
 *Pre-training* ≈ pemerolehan bahasa dan pengetahuan; *fine-tuning* ≈ sosialisasi — belajar norma tentang *bagaimana* menggunakan kemampuan itu.
 :::
@@ -188,7 +188,7 @@ Sumber: [Ghali, et al. (2024)](https://www.researchgate.net/publication/38110881
 3. ***Hardware*/Komputasi** — GPU dan investasi besar-besaran pada AI *data center*
 :::
 
-::: {.callout-important}
+::: {.callout-tip}
 ### *Emergent capabilities*
 
 Gabungan ketiganya memunculkan fenomena menarik, yaitu *emergent capabilities* kemampuan yang muncul begitu saja setelah model melewati ukuran tertentu, tanpa pernah diprogram secara eksplisit (menerjemahkan, menulis kode, penalaran berantai...)
@@ -211,12 +211,12 @@ Gabungan ketiganya memunculkan fenomena menarik, yaitu *emergent capabilities* k
 ::: {.columns}
 ::: {.column width="50%"}
 
-Lanskapnya bergerak sangat cepat:
+Lanskapnya berubah sangat cepat:
 
 ::: {.incremental}
 * ***Chatbot*** — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)
-* ***Reasoning models*** — "berpikir" langkah demi langkah dulu sebelum menjawab (e.g., model-model "*frontier*" seperti Opus, Kimi, GPT-Sol, Fable, etc.)
-* ***AI agents*** — merencanakan dan **mengeksekusi** tugas multi-langkah secara mandiri atas nama penggunanya: menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman [Yang et al. (2025)](https://arxiv.org/abs/2512.07828)
+* ***Reasoning models*** — "berpikir" langkah demi langkah dulu sebelum menjawab (e.g., model-model "*frontier*" seperti Opus 5, Kimi 3, GPT-5.6 Sol, Fable 5, etc.)
+* ***AI agent*** — merencanakan dan mengeksekusi tugas multi-langkah **secara mandiri** atas nama penggunanya, misalnya menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman [Yang et al. (2025)](https://arxiv.org/abs/2512.07828)
 * ***Embodied AI*** — akal imitasi yang diberi "tubuh": robot yang "ditanam" LLM
 :::
 :::
@@ -243,7 +243,7 @@ Lanskapnya bergerak sangat cepat:
 ## Apa *keterbatasan* AI?
 
 ::: {.incremental}
-* **Halusinasi** — menghasilkan informasi salah dengan *tone* yang sangat meyakinkan, termasuk **mengarang referensi ilmiah** 
+* **Halusinasi** — menghasilkan *output* yang salah secara faktual, tetapi dengan *tone* yang sangat meyakinkan, termasuk **mengarang referensi ilmiah** 
 * ***Knowledge cutoff*** — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web
 * ***Context window*** terbatas — *working memory*-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses
 * **Penalaran yang rapuh** — LLM bisa memberikan jawaban yang sama sekali berbeda ketika *prompt*nya diubah sedikit saja dari pola *data training*nya
@@ -263,9 +263,9 @@ Lanskapnya bergerak sangat cepat:
 :::
 
 ::: {.callout-important}
-### *Human-AI collaboration* menjadi keterampilan esensial
+### Kemampuan berkolaborasi dengan AI menjadi keterampilan esensial
 
-Artinya: kemampuan berkolaborasi dengan AI, ke depan, akan menjadi keterampilan dasar, seperti halnya literasi digital.
+Konsekuensinya, kemampuan berkolaborasi dengan AI akan menjadi keterampilan dasar, seperti halnya literasi digital.
 :::
 
 ## Untuk apa orang menggunakannya?
@@ -279,7 +279,8 @@ Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-4
   + ***Seeking information*** — menggantikan mesin pencari
   + ***Writing*** — menulis **dan** menyunting; 40% dari pesan terkait pekerjaan
 * Menariknya: ⅔ pesan pada tugas *writing* meminta AI **mengolah teks penggunanya** (menyunting, mengkritik, menerjemahkan), bukan benar-benar menulis dari nol
-* *Value* utamanya adalah ***decision support***: AI sebagai teman berpikir untuk pekerjaan produksi pengetahuan
+* *Value* utamanya adalah ***decision support*** 
+  + AI sebagai teman berpikir untuk pekerjaan yang berkaitan dengan produksi pengetahuan
 :::
 
 ## Tren terbaru: penggunaan *AI agent*
@@ -295,7 +296,7 @@ Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-4
 
 ## Belajar sekarang, sebelum terlambat
 
-**Dua pesan untuk Anda** sebagai mahasiswa magister psikologi:
+**Pesan saya untuk Anda** sebagai mahasiswa magister psikologi:
 
 ::: {.incremental}
 
@@ -333,7 +334,7 @@ Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-4
 
 ## *AI literacy* vs. *AI fluency*
 
-[Rogers & Carbonaro (2025)](https://jtl.uwindsor.ca/index.php/jtl/article/view/9420) membedakan dua jenjang:
+[Rogers & Carbonaro (2025)](https://jtl.uwindsor.ca/index.php/jtl/article/view/9420) membedakan dua jenjang kompetensi:
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -355,7 +356,7 @@ Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-4
 ::: {.fragment}
 Analoginya seperti belajar bahasa: *literacy* = bisa membaca; *fluency* = bisa berbincang dengan lancar. 
 
-Bagian awal presentasi tadi fokusnya adalah *literacy*; sisa sesi ini tentang *fluency*.
+Bagian awal presentasi tadi fokusnya adalah *literacy*; sisa sesi ini berikutnya akan membahas tentang *fluency*.
 :::
 
 ::: {.callout-note}
@@ -370,14 +371,14 @@ Kemampuan berkolaborasi dengan AI secara **efektif, efisien, etis, dan aman** ([
 
 ::: {.incremental}
 * Pengguna yang fasih mengerjakan tugas yang **jauh lebih kompleks** (rata-rata 3,1 vs. 1,5 pada skala 5)
-* Pengguna fasih bersikap ***augmentative*** — bolak-balik menyempurnakan, mempertajam tujuan, mengkritisi *output*
-* Pengguna pemula bersikap **pasif** — menerima begitu saja rencana dan jawaban AI
+* Pengguna fasih bersikap ***augmentative*** dalam kolaborasi — berulang-ulang menyempurnakan, mempertajam tujuan, dan mengkritisi *output*
+* Sebaliknya, pengguna pemula bersikap **pasif** — menerima begitu saja rencana dan jawaban AI
 :::
 
 ::: {.fragment}
-**Paradoksnya:** pengguna fasih justru mengalami **lebih banyak kegagalan** (i.e., menolak *output* AI), tapi kegagalan mereka *visible*, karena mereka aktif memeriksa, dan lebih sering berujung perbaikan *output*. 
+**Paradoksnya:** pengguna fasih justru mengalami **lebih banyak kegagalan** (i.e., menolak *output* AI), tapi kegagalan mereka *visible*, karena mereka aktif memeriksa, dan lebih sering berujung pada perbaikan *output*. 
 
-Kegagalan pemula justru *invisible*: percakapan tampak sukses men*deliver* *output*, padahal hasilnya meleset dan tidak koheren sama sekali.
+**Kegagalan pemula justru *invisible***. Artinya, percakapan tampak sukses men*deliver* *output*, padahal hasilnya meleset dan tidak koheren sama sekali.
 :::
 
 ::: {.callout-important}
@@ -395,11 +396,11 @@ Kegagalan pemula justru *invisible*: percakapan tampak sukses men*deliver* *outp
 * ***Augmentation*** — Anda dan AI berkolaborasi sebagai mitra berpikir
   + *"Ayo kita bedah kelemahan desain penelitian saya satu per satu"*
 * ***Agency*** — Anda mengonfigurasi AI untuk bekerja mandiri atas nama Anda
-  + *"Setiap ada artikel baru tentang topik X, ringkas dan kirimkan ke saya"*
+  + *"Setiap ada artikel baru tentang topik X, ringkas isinya dan kirimkan ringkasannya ke email saya setiap pagi"*
 :::
 
 ::: {.fragment}
-Riset menunjukkan mode yang paling produktif untuk pekerja pengetahuan adalah ***augmentation***, yaitu AI sebagai *thought partner*, bukan pengganti ([Potts & Sudhof, 2026](http://arxiv.org/abs/2604.25905)).
+Riset menunjukkan mode yang paling produktif untuk pekerja pengetahuan adalah ***augmentation***, yaitu AI sebagai *thought partner*, bukan pengganti proses berpikir ([Potts & Sudhof, 2026](http://arxiv.org/abs/2604.25905)).
 :::
 
 ## *Automation* vs. *Agency*
@@ -427,7 +428,7 @@ Materi 4D diadaptasi dari kursus *AI Fluency: Framework & Foundations*, [Bent, D
 Sebelum meminta *chatbot* melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:
 
 ::: {.incremental}
-1. ***Problem awareness*** — apa sebenarnya tujuan saya? Seperti apa *output* teks yang baik dan bisa saya terima?
+1. ***Problem awareness*** — apa sebenarnya tujuan saya berkolaborasi dengan AI? Seperti apa *output* teks yang baik dan bisa saya terima?
 2. ***Platform awareness*** — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?
 3. ***Task delegation*** — bagian mana yang butuh keahlian dan *judgment* **saya**; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan **bersama**?
 :::
@@ -457,22 +458,22 @@ Kualitas *output* AI sangat ditentukan oleh kualitas komunikasi Anda. Berikut in
 * ***Performance description*** — **bagaimana AI harus "bersikap"** selama kolaborasi: ringkas atau rinci? Menantang atau suportif? Bertanya dulu atau langsung eksekusi?
 :::
 
-::: {.callout-caution}
-### Perlakukan AI sebagai kolaborator 
-
-Perlakukan AI sebagai kolaborator, bukan "jin botol"🧞. Komunikasikan dan evaluasi *output* AI, meskipun Anda menolak *output* dari percakapan tersebut. 
-:::
-
 :::
 ::: {.column width="40%"}
 
 ![](libs/jin.png){fig-align="center" width="90%"}
 
-::: {style="text-align: center"}
+::: {style="text-align: center; font-size: 0.5em;"}
 Ilustrasi dibuat dengan GPT-5.5
 :::
 
 :::
+:::
+
+::: {.callout-caution}
+### Perlakukan AI sebagai kolaborator, bukan "jin botol"🧞
+
+Komunikasikan dan evaluasi *output* AI, meskipun Anda menolak *output* dari percakapan tersebut. Jelaskan mengapa *output* tersebut Anda tolak sehingga AI bisa menyesuaikan *output* berikutnya berdasarkan *feedback* Anda, sesuai prinsip [*reinforcement learning from human feedback* (RLHF)](https://www.ibm.com/think/topics/rlhf).
 :::
 
 ## 6️⃣ teknik *prompt engineering*
@@ -533,17 +534,17 @@ Minta mahasiswa mengidentifikasi teknik mana saja yang terpakai: konteks ✓, ba
 :::
 
 ::: {.fragment}
-Keduanya lalu membentuk *feedback loop*: *describe* → *discern* → perbaiki deskripsi → *discern* lagi... sampai hasilnya benar-benar layak. 
+Keduanya lalu membentuk *feedback loop*: *describe* → *discern* → perbaiki deskripsi → *discern* lagi... sampai hasilnya benar-benar sesuai dengan standar Anda. 
 :::
 
-## Waspadai kegagalan yang tidak terlihat 👻
+## Waspadai "kegagalan" yang tidak terlihat 👻
 
 Ingat temuan [Potts & Sudhof (2026)](http://arxiv.org/abs/2604.25905):
 
 ::: {.incremental}
-* Kegagalan pengguna pemula bersifat ***invisible*** — percakapan tampak sukses, penggunanya puas, padahal hasilnya **tidak koheren sama sekali karena tidak pernah diperiksa secara kritis**
+* Kegagalan *user* pemula bersifat ***invisible*** — percakapan tampak sukses, penggunanya puas, padahal hasilnya **tidak koheren sama sekali karena tidak pernah diperiksa secara kritis**
 * Dalam konteks akademik, *invisible failure* itu wujudnya: referensi fiktif di naskah Anda, salah baca hasil statistik, klaim teori yang keliru, yang baru ketahuan saat **dibaca pembimbing atau *reviewer***
-* Pengguna yang fasih lebih sering *menemukan* kegagalan justru karena mereka **aktif mencarinya**
+* *User* yang lebih fasih berkolaborasi dengan AI lebih sering *menemukan* kegagalan karena mereka **aktif mencarinya**
 :::
 
 ::: {.callout-important}
@@ -566,7 +567,7 @@ Bayangkan diri Anda sebagai detektif ketika memeriksa *output* AI. Menemukan kes
 > Ironisnya, justru godaan terbesar memakai AI adalah menggunakannya untuk hal-hal yang tidak kita pahami, persis di titik *discernment* kita paling lemah.
 :::
 
-## Menggunakan AI dan *Deskilling*
+## Menggunakan AI dan ancaman *deskilling*
 
 ::: {.incremental}
 * ***Cognitive offloading*** — "menitipkan" proses berpikir ke alat bantu. 
@@ -576,25 +577,27 @@ Bayangkan diri Anda sebagai detektif ketika memeriksa *output* AI. Menemukan kes
 * Studi magister Anda adalah kesempatan membangun *expertise* yang justru membuat AI berguna. Pakai AI untuk **meningkatkan pengalaman dan proses belajar**; minta ia menguji pemahaman dan menantang argumen Anda.
 :::
 
-## Menggunakan AI dan *Deskilling*
+## Menggunakan AI dan ancaman *deskilling*
 
 Kolaborasi manusia–AI hanya bisa:
 
 ::: {.incremental}
 
-* **Efektif** — kalau Anda cukup ahli untuk *mengarahkan* AI
-* **Efisien** — kalau Anda cukup ahli untuk *memverifikasi dengan cepat* *output* teks AI
-* **Etis** — kalau Anda cukup ahli untuk *mempertanggungjawabkan* *output* teks AI
-* **Aman** — kalau Anda cukup ahli untuk *menangkap kesalahan dalam output AI sebelum merugikan diri Anda sendiri dan orang lain*
+* **Efektif** — kalau Anda cukup mahir untuk *mengarahkan* AI
+* **Efisien** — kalau Anda cukup mahir untuk *memverifikasi dengan cepat* *output* teks AI
+* **Etis** — kalau Anda mampu *mempertanggungjawabkan* *output* teks AI
+* **Aman** — kalau Anda cukup mahir untuk *menangkap kesalahan dalam output AI sebelum merugikan diri Anda sendiri dan orang lain*
 
 :::
 
 ::: {.callout-important}
+### Penting diingat
+
 *Domain expertise* adalah ***guardrail* paling penting** dari kolaborasi manusia–AI. Tanpa *expertise*, keempat kriteria *fluency* tadi runtuh semuanya dan AI kembali menjadi "jin dalam botol"🧞.
 :::
 
 ::: notes
-Ini pesan sentral kuliah ini — beri waktu. Hubungkan ke pengalaman mereka: "pernahkah menyerahkan tugas berbantuan AI yang sebenarnya tidak Anda pahami? Bagaimana rasanya kalau ditanya pembimbing?" Tegaskan: menjadi psikolog/peneliti yang lebih ahli adalah strategi AI terbaik.
+Ini pesan sentral kuliah ini — beri waktu. Hubungkan ke pengalaman mereka: "pernahkah menyerahkan tugas yang dibantu AI yang sebenarnya tidak Anda pahami? Bagaimana rasanya kalau ditanya pembimbing?" Tegaskan: menjadi psikolog/peneliti yang lebih ahli adalah strategi AI terbaik.
 :::
 
 # Diligence: Bertanggung Jawab atas Output AI ⚖️ {background-color="#14497F"}
@@ -628,7 +631,7 @@ Praktik yang baik: sertakan ***diligence statement*** dalam karya hasil kolabora
 
 ::: {.incremental}
 * Selalu cek kebijakan yang berlaku: banyak jurnal kini mewajibkan pengungkapan penggunaan AI dan hampir semuanya **melarang AI menjadi penulis**
-* Kalau ragu, prinsipnya sederhana: **lebih baik terbuka sejak awal**
+* Kalau Anda ragu, solusinya sederhana: **lebih baik terbuka sejak awal**
 :::
 
 ## *Deployment diligence*: Anda penanggung jawab akhirnya
@@ -642,7 +645,7 @@ Praktik yang baik: sertakan ***diligence statement*** dalam karya hasil kolabora
 :::
 
 ::: {.callout-important}
-### Cek dulu...
+### Cek dulu...✅
 
 Kalau pembimbing bertanya *"coba jelaskan paragraf ini"* dan Anda tidak bisa menjawab, maka paragraf itu tidak boleh ada di naskah Anda.
 :::
@@ -653,22 +656,22 @@ Kalau pembimbing bertanya *"coba jelaskan paragraf ini"* dan Anda tidak bisa men
 
 ::: {.incremental}
 * ***Delegation*** — keahlian dan *judgment* **Anda** tetap fondasinya
-* ***Description*** — komunikasi yang jernih menjembatani maksud Anda dan kemampuan AI
-* ***Discernment*** — evaluasi kritis menjaga kualitas; carilah potensi kegagalan sebelum ia "menggagalkan" Anda
+* ***Description*** — komunikasi yang jernih menjembatani maksud Anda dan *output* AI
+* ***Discernment*** — evaluasi kritis menjaga kualitas *output*; carilah potensi kegagalan sebelum ia "menggagalkan" Anda
 * ***Diligence*** — akuntabilitas dan transparansi menjaga integritas Anda
 :::
 
 ::: {.fragment}
-🗝️nya: keterlibatan aktif dalam *human-AI collaboration*, bukan penerimaan pasif. Ini yang membedakan AI sebagai *asisten* dari AI sebagai "jin botol"🧞 ([Potts & Sudhof, 2026](http://arxiv.org/abs/2604.25905)).
+🗝️nya: keterlibatan aktif dalam *human-AI collaboration*. Jangan menerima secara pasif *output* yang dihasilkan oleh AI. Keterlibatan aktif inilah yang membedakan AI sebagai *asisten* dengan AI sebagai "jin botol"🧞 ([Potts & Sudhof, 2026](http://arxiv.org/abs/2604.25905)).
 :::
 
 ::: {.fragment}
-**Satu *skill*** yang membuat Anda tidak tergantikan oleh AI: *domain expertise* Anda. Menjadi psikolog dan peneliti yang semakin ahli adalah strategi *human-AI collaboration* yang terbaik yang bisa Anda terapkan. 
+**Satu hal** yang membuat Anda tidak tergantikan oleh AI adalah *domain expertise* Anda. Menjadi ilmuwan psikologi yang semakin terampil/mahir adalah strategi *human-AI collaboration* yang terbaik yang bisa Anda terapkan. 
 
-Ingat, *fluency* tidak datang dari satu kuliah matrikulasi😄, ia tumbuh lewat praktik yang dilakukan berulang-ulang secara reflektif.
+Ingat, AI *fluency* tidak datang dari satu kuliah matrikulasi😄, ia tumbuh lewat praktik yang dilakukan berulang-ulang secara reflektif.
 :::
 
-## 🧩 Aktivitas: Uji AI dengan keahlian Anda
+## 🧩 Aktivitas: Uji AI dengan topik yang paling Anda kuasai
 
 Buka *chatbot* di ponsel/laptop Anda:
 
@@ -701,29 +704,30 @@ Renungkan 4️⃣ poin di bawah:
 4. Bagaimana saya mengungkapkan penggunaan AI kepada dosen pembimbing?
 :::
 
-## Referensi {.scrollable}
+## Referensi {.scrollable .smaller}
 
-* Bent, D., Dakan, R., Feller, J., & Vo, M. (2026). *AI Fluency: Framework & Foundations* [kursus daring]. Anthropic. <https://anthropic.skilljar.com/ai-fluency-framework-foundations>
+* Bent, D., Dakan, R., Feller, J., & Vo, M. (2026). *AI fluency: Framework & foundations* [Kursus daring]. Anthropic. <https://anthropic.skilljar.com/ai-fluency-framework-foundations>
 * Cash, T. N., Kelly, M. O., Macnamara, B. N., & Risko, E. F. (2026). Is AI making us stupid? *Trends in Cognitive Sciences*. <https://www.sciencedirect.com/science/article/pii/S1364661326001312>
-* Chatterji, A., Cunningham, T., Deming, D., Hitzig, Z., Ong, C., Shan, C., & Wadman, K. (2025). *How people use ChatGPT*. OpenAI/NBER Working Paper.
-* Fung, P., Bachrach, Y., Celikyilmaz, A., et al. (2025). *Embodied AI agents: Modeling the world* (arXiv:2506.22355). arXiv. <https://arxiv.org/abs/2506.22355>
-* Ghali, M.-K., Farrag, A., Sakai, H., El Baz, H., Jin, Y., & Lam, S. (2024). *GAMedX: Generative AI-based medical entity data extractor using large language models* (arXiv:2405.20585). arXiv. <https://arxiv.org/abs/2405.20585>
+* Chatterji, A., Cunningham, T., Deming, D., Hitzig, Z., Ong, C., Shan, C., & Wadman, K. (2025). *How people use ChatGPT* [Working paper]. OpenAI/NBER.
+* Fung, P., Bachrach, Y., Celikyilmaz, A., et al. (2025). *Embodied AI agents: Modeling the world*. arXiv. <https://arxiv.org/abs/2506.22355>
+* Ghali, M.-K., Farrag, A., Sakai, H., El Baz, H., Jin, Y., & Lam, S. (2024). *GAMedX: Generative AI-based medical entity data extractor using large language models*. arXiv. <https://arxiv.org/abs/2405.20585>
 * Hommel, B. E., & Arslan, R. C. (2025). Language models accurately infer correlations between psychological items and scales from text alone. *Advances in Methods and Practices in Psychological Science*. <https://doi.org/10.1177/25152459251377093>
-* Potts, C., & Sudhof, M. (2026). *A paradox of AI fluency* [technical report]. Bigspin AI.
+* Potts, C., & Sudhof, M. (2026). *A paradox of AI fluency* [Technical report]. Bigspin AI.
 * Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. *Trends in Cognitive Sciences, 20*(9), 676–688.
 * Rogers, T., & Carbonaro, M. (2025). From understanding to creating: Bridging AI literacy and AI fluency in K-12 education. *Journal of Teaching and Learning, 19*(4), 20–38.
-* Russell-Lasalandra, L. L., Christensen, A. P., & Golino, H. (2024). *Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation* [preprint]. PsyArXiv. <https://doi.org/10.31234/osf.io/fgbj4>
-* Shao, Y., Zope, H., Jiang, Y., Pei, J., Nguyen, D., Brynjolfsson, E., & Yang, D. (2025). *Future of work with AI agents: Auditing automation and augmentation potential across the U.S. workforce* (arXiv:2506.06576). arXiv. <https://arxiv.org/abs/2506.06576>
+* Russell-Lasalandra, L. L., Christensen, A. P., & Golino, H. (2024). *Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation*. PsyArXiv. <https://doi.org/10.31234/osf.io/fgbj4>
+* Shao, Y., Zope, H., Jiang, Y., Pei, J., Nguyen, D., Brynjolfsson, E., & Yang, D. (2025). *Future of work with AI agents: Auditing automation and augmentation potential across the U.S. workforce*. arXiv. <https://arxiv.org/abs/2506.06576>
 * Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008.
 * Wright, A. G. C., Ringwald, W. R., Vize, C. E., Eichstaedt, J. C., Angstadt, M., Taxali, A., & Sripada, C. (2026). Assessing personality using zero-shot generative AI scoring of brief open-ended text. *Nature Human Behaviour*.
-* Yang, J., Yonack, N., Zyskowski, K., Yarats, D., Ho, J., & Ma, J. (2025). *The adoption and usage of AI agents: Early evidence from Perplexity*. Working paper.
-
+* Yang, J., Yonack, N., Zyskowski, K., Yarats, D., Ho, J., & Ma, J. (2025). *The adoption and usage of AI agents: Early evidence from Perplexity* [Working paper].
 
 ## Ada pertanyaan❓
 
 ![](libs/closing.JPG){fig-align="center"}
 
 ::: {.callout-note}
+### Catatan
+
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 * Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
