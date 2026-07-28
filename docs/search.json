@@ -46,21 +46,21 @@
     "href": "slides/matrikulasi-mapsi.html#artificial-intelligence-dan-akal-imitasi",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Artificial intelligence dan “akal imitasi”",
-    "text": "Artificial intelligence dan “akal imitasi”\n\nBanyak orang menerjemahkan artificial intelligence sebagai “kecerdasan buatan,” dan akibatnya, publik menganggap seolah-olah AI benar-benar cerdas\nPadahal yang sebenarnya terjadi: ia adalam model statistik dengan output teks (“large langauge model”) yang meniru produk kognisi manusia (“bahasa natural”)\nFrasa akal imitasi mengingatkan kita pada dua hal sekaligus:\n\nKemampuan large language model (LLM) secara aktual memang sangat berguna karena teks outputnya memang sangat meyakinkan\nTapi ia bukan manusia, sehingga tidak punya pemahaman, niat, apalagi tanggung jawab\n\nKonsekuensinya: yang bertanggung jawab atas hasil kerjanya adalah kita sebagai penggunanya"
+    "text": "Artificial intelligence dan “akal imitasi”\n\nBanyak orang menerjemahkan artificial intelligence sebagai “kecerdasan buatan,” dan akibatnya, publik menganggap seolah-olah AI benar-benar cerdas\nPadahal yang sebenarnya terjadi: ia adalah model statistik dengan output teks (“large language model”) yang meniru produk kognisi manusia (“bahasa natural”)\nFrasa akal imitasi mengingatkan kita pada dua hal sekaligus:\n\nKemampuan large language model (LLM) secara aktual memang sangat berguna karena teks outputnya memang sangat meyakinkan\nTapi ia bukan manusia, sehingga tidak punya pemahaman, niat, apalagi tanggung jawab\n\nKonsekuensinya: yang bertanggung jawab atas hasil kerjanya adalah kita sebagai penggunanya"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#ai-tidak-ujug-ujug-diciptakan",
     "href": "slides/matrikulasi-mapsi.html#ai-tidak-ujug-ujug-diciptakan",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "AI tidak ujug-ujug diciptakan",
-    "text": "AI tidak ujug-ujug diciptakan\n\n\n\n1950-an–1980-an — AI simbolik: manusia menuliskan aturan logikanya satu per satu (expert systems)\n1990-an–2000-an — machine learning: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., spam filter, )\n2010-an — deep learning: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (neuro-linguistic programming, NLP)\n2017 — arsitektur transformer diperkenalkan, yang merupakan fondasi semua LLM modern\n2022 — OpenAI merilis GPT-3.5; generative AI menjadi fenomena massal\n\n\n\n\n\n\n\n\nKlik di sini untuk lengkapnya\n\n\n\n\nSumber: A Timeline of LLM Innovation"
+    "text": "AI tidak ujug-ujug diciptakan\n\n\n\n1950-an–1980-an — AI simbolik: manusia menuliskan aturan logikanya satu per satu (expert systems)\n1990-an–2000-an — machine learning: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., spam filter)\n2010-an — deep learning: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (natural language processing, NLP)\n2017 — arsitektur transformer diperkenalkan, yang merupakan fondasi semua LLM modern\n2022 — OpenAI merilis GPT-3.5; generative AI menjadi fenomena massal\n\n\n\n\n\n\n\n\nKlik di sini untuk lengkapnya\n\n\n\n\nSumber: A Timeline of LLM Innovation"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#model-statistik-di-balik-layar",
     "href": "slides/matrikulasi-mapsi.html#model-statistik-di-balik-layar",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Model Statistik di Balik Layar",
-    "text": "Model Statistik di Balik Layar\nLarge language model (LLM) pada intinya adalah model statistik raksasa yang menjawab satu pertanyaan:\n\n“Dari semua input kata sejauh konteks percapakan ini, kata apa yang paling mungkin muncul berikutnya?”\n\n\nKlik di sini ➡️ AnimatedLLM"
+    "text": "Model Statistik di Balik Layar\nLarge language model (LLM) pada intinya adalah model statistik raksasa yang menjawab satu pertanyaan:\n\n“Dari semua input kata sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?”\n\n\nKlik di sini ➡️ AnimatedLLM"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#transformer-dan-mekanisme-attention",
@@ -95,7 +95,7 @@
     "href": "slides/matrikulasi-mapsi.html#dari-chatbot-ke-agentic-dan-embodied-ai",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Dari chatbot ke agentic dan embodied AI",
-    "text": "Dari chatbot ke agentic dan embodied AI\n\n\nLanskapnya bergerak sangat cepat:\n\nChatbot — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)\nReasoning models — “berpikir” langkah demi langkah dulu sebelum menjawab (e.g., model-model “frontier” seperti Opus, Kimi, Fable, etc.)\nAI agents — merencanakan dan mengeksekusi tugas multi-langkah secara mandiri atas nama penggunanya: menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman Yang et al. (2025)\nEmbodied AI — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM\n\n\n\n\n\n\n\n\nSumber gambar"
+    "text": "Dari chatbot ke agentic dan embodied AI\n\n\nLanskapnya bergerak sangat cepat:\n\nChatbot — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)\nReasoning models — “berpikir” langkah demi langkah dulu sebelum menjawab (e.g., model-model “frontier” seperti Opus, Kimi, GPT-Sol, Fable, etc.)\nAI agents — merencanakan dan mengeksekusi tugas multi-langkah secara mandiri atas nama penggunanya: menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman Yang et al. (2025)\nEmbodied AI — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM\n\n\n\n\n\n\n\n\nSumber gambar"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#embodied-ai",
@@ -109,7 +109,7 @@
     "href": "slides/matrikulasi-mapsi.html#apa-keterbatasan-ai",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Apa keterbatasan AI?",
-    "text": "Apa keterbatasan AI?\n\nHalusinasi — menghasilkan informasi salah dengan tone yang sangat meyakinkan, termasuk mengarang referensi ilmiah\nKnowledge cutoff — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web\nContext window terbatas — working memory-nya bisa penuh; percakapan dan dkumen yang sangat panjang terpaksa terpotong, tidak selesai diproses\nPenalaran yang rapuh — LLM bisa memberikan jawaban yang sama sekali berbeda ketika promptnya diubah yang sedikit saja dari pola data trainingnya\nSycophancy — cenderung memberikan jawaban yang menyenangkan user, alih-alih mengoreksi kesalahan yang dilakukan oleh user"
+    "text": "Apa keterbatasan AI?\n\nHalusinasi — menghasilkan informasi salah dengan tone yang sangat meyakinkan, termasuk mengarang referensi ilmiah\nKnowledge cutoff — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web\nContext window terbatas — working memory-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses\nPenalaran yang rapuh — LLM bisa memberikan jawaban yang sama sekali berbeda ketika promptnya diubah sedikit saja dari pola data trainingnya\nSycophancy — cenderung memberikan jawaban yang menyenangkan user, alih-alih mengoreksi kesalahan yang dilakukan oleh user"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#adopsi-teknologi-tercepat-dalam-sejarah",
@@ -123,14 +123,21 @@
     "href": "slides/matrikulasi-mapsi.html#untuk-apa-orang-menggunakannya",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Untuk apa orang menggunakannya?",
-    "text": "Untuk apa orang menggunakannya?\nTemuan dari Chatterji et al. (2025):\n\nPenggunaan non-pekerjaan tumbuh lebih cepat daripada penggunaan AI untuk perkerjaan: dari 53% (2024) menjadi &gt;70% (2025) dari seluruh pesan\nHampir 80% percakapan masuk ke tiga kategori besar:\n\nPractical guidance — tutoring, saran how-to, brainstorming ide (kategori terbesar)\nSeeking information — menggantikan mesin pencari\nWriting — menulis dan menyunting; 40% dari pesan terkait pekerjaan\n\nMenariknya: ⅔ pesan pada tugas writing meminta AI mengolah teks penggunanya (menyunting, mengkritik, menerjemahkan), bukan benar-benar menulis dari nol\nValue utamanya adalah decision support: AI sebagai teman berpikir untuk pekerjaan produksi pengetahuan"
+    "text": "Untuk apa orang menggunakannya?\nTemuan dari Chatterji et al. (2025):\n\nPenggunaan non-pekerjaan tumbuh lebih cepat daripada penggunaan AI untuk pekerjaan: dari 53% (2024) menjadi &gt;70% (2025) dari seluruh pesan\nHampir 80% percakapan masuk ke tiga kategori besar:\n\nPractical guidance — tutoring, saran how-to, brainstorming ide (kategori terbesar)\nSeeking information — menggantikan mesin pencari\nWriting — menulis dan menyunting; 40% dari pesan terkait pekerjaan\n\nMenariknya: ⅔ pesan pada tugas writing meminta AI mengolah teks penggunanya (menyunting, mengkritik, menerjemahkan), bukan benar-benar menulis dari nol\nValue utamanya adalah decision support: AI sebagai teman berpikir untuk pekerjaan produksi pengetahuan"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#tren-terbaru-penggunaan-ai-agent",
     "href": "slides/matrikulasi-mapsi.html#tren-terbaru-penggunaan-ai-agent",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Tren terbaru: penggunaan AI agent",
-    "text": "Tren terbaru: penggunaan AI agent\nYang et al. (2025) melakukan field study pertama tentang AI agent (Comet Assistant, Perplexity):\n\nDua topik terbesar: productivity & workflow dan learning & research — 57% dari seluruh query\nKonteks penggunaan: 55% personal, 30% profesional, 16% pendidikan\nEarly adopters-nya: pekerja sektor digital dan padat pengetahuan, termasuk akademisi\nSeiring waktu, pengguna bergeser ke tugas-tugas yang membutuhkan kapasitas kognitif yang lebih besar\n\n\nDua pesan untuk Anda sebagai mahasiswa magister psikologi:\n\nAI sudah menjadi bagian dari infrastruktur aktivitas akademik. Fokusnya saat ini adalah belajar bagaimana caranya menggunakan AI\nOleh karena itu, menggunakan AI dengan efektif, efisien, etis, dan aman harus dipelajari dan diusahakan dengan sungguh-sungguh\nMenggunakan AI harus dipelajari mulai sekarang, sebelum menggunakan AI semakin kompleks dan mahal"
+    "text": "Tren terbaru: penggunaan AI agent\nYang et al. (2025) melakukan field study pertama tentang AI agent (Comet Assistant, Perplexity):\n\nDua topik terbesar: productivity & workflow dan learning & research — 57% dari seluruh query\nKonteks penggunaan: 55% personal, 30% profesional, 16% pendidikan\nEarly adopters-nya: pekerja sektor digital dan padat pengetahuan, termasuk akademisi\nSeiring waktu, pengguna bergeser ke tugas-tugas yang membutuhkan kapasitas kognitif yang lebih besar"
+  },
+  {
+    "objectID": "slides/matrikulasi-mapsi.html#belajar-sekarang-sebelum-terlambat",
+    "href": "slides/matrikulasi-mapsi.html#belajar-sekarang-sebelum-terlambat",
+    "title": "Berkolaborasi dengan Akal Imitasi",
+    "section": "Belajar sekarang, sebelum terlambat",
+    "text": "Belajar sekarang, sebelum terlambat\nDua pesan untuk Anda sebagai mahasiswa magister psikologi:\n\nAI sudah menjadi bagian dari infrastruktur aktivitas akademik. Fokusnya saat ini adalah belajar bagaimana caranya menggunakan AI\nOleh karena itu, menggunakan AI dengan efektif, efisien, etis, dan aman harus dipelajari dan diusahakan dengan sungguh-sungguh\nKeterampilan berkolaborasi dengan AI harus dipelajari mulai sekarang, sebelum menggunakan AI semakin kompleks dan mahal"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#ai-digunakan-dalam-riset-psikologi",
@@ -158,7 +165,7 @@
     "href": "slides/matrikulasi-mapsi.html#ai-literacy-vs.-ai-fluency",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "AI literacy vs. AI fluency",
-    "text": "AI literacy vs. AI fluency\nRogers & Carbonaro (2025) membedakan dua jenjang:\n\n\nAI literacy\n\nMemahami cara kerja AI\nMengevaluasi teknologi AI\nTahu risiko dan batasannya\n\n\nAI fluency\n\nBerkarya dan berinovasi dengan AI\nMemecahkan masalah bersama AI\nMengelola penggunaannya secara etis\n\n\n\nAnaloginya seperti belajar bahasa: literacy = bisa membaca; fluency = bisa bercakap-cakap dengan lancar. Bagian 1–2 tadi adalah literacy; sisa sesi ini tentang fluency.\n\n\n\n\n\n\n\nDefinisi AI fluency\n\n\nKemampuan berkolaborasi dengan AI secara efektif, efisien, etis, dan aman (Bent, Dakan, Feller, & Vo, 2026)."
+    "text": "AI literacy vs. AI fluency\nRogers & Carbonaro (2025) membedakan dua jenjang:\n\n\nAI literacy\n\nMemahami cara kerja AI\nMengevaluasi teknologi AI\nTahu risiko dan batasannya\n\n\nAI fluency\n\nBerkarya dan berinovasi dengan AI\nMemecahkan masalah bersama AI\nMengelola penggunaannya secara etis\n\n\n\nAnaloginya seperti belajar bahasa: literacy = bisa membaca; fluency = bisa berbincang dengan lancar.\nBagian awal presentasi tadi fokusnya adalah literacy; sisa sesi ini tentang fluency.\n\n\n\n\n\n\n\nDefinisi AI fluency\n\n\nKemampuan berkolaborasi dengan AI secara efektif, efisien, etis, dan aman (Bent, Dakan, Feller, & Vo, 2026)."
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#mengapa-fluency-menentukan-hasil",
@@ -193,14 +200,14 @@
     "href": "slides/matrikulasi-mapsi.html#delegation-secara-singkat",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Delegation secara singkat",
-    "text": "Delegation secara singkat\nSebelum meminta chatbot melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:\n\nProblem awareness — apa sebenarnya tujuan saya? Seperti apa hasil yang baik?\nPlatform awareness — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?\nTask delegation — bagian mana yang butuh keahlian dan judgment saya; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan bersama?\n\n\nContoh untuk tesis Anda:\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh menjadi mitra diskusi)\n\n\nMemoles bahasa akademik naskah\nAI, lalu Anda sunting\n\n\nMenginterpretasi hasil analisis\nAI dan Anda bersama-sama, AI menawarkan alternatif, Anda yang membuat keputusan akhir"
+    "text": "Delegation secara singkat\nSebelum meminta chatbot melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:\n\nProblem awareness — apa sebenarnya tujuan saya? Seperti apa output teks yang baik dan bisa saya terima?\nPlatform awareness — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?\nTask delegation — bagian mana yang butuh keahlian dan judgment saya; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan bersama?\n\n\nContoh untuk tesis Anda:\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh menjadi mitra diskusi)\n\n\nMemoles bahasa akademik naskah\nAI, lalu Anda sunting\n\n\nMenginterpretasi hasil analisis\nAI dan Anda bersama-sama, AI menawarkan alternatif, Anda yang membuat keputusan akhir"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#ai-tidak-bisa-membaca-pikiran-anda",
     "href": "slides/matrikulasi-mapsi.html#ai-tidak-bisa-membaca-pikiran-anda",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "AI tidak bisa membaca pikiran Anda",
-    "text": "AI tidak bisa membaca pikiran Anda\n\n\nKualitas output AI sangat ditentukan oleh kualitas komunikasi Anda. Tiga komponen description:\n\nProduct description — apa yang Anda inginkan: bentuk output, format, audiens, gaya, dst.\nProcess description — bagaimana sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah\nPerformance description — bagaimana AI harus “bersikap” selama kolaborasi: ringkas atau rinci? Menantang atau suportif? Bertanya dulu atau langsung eksekusi?\n\n\n\n\n\n\n\nPerlakukan AI sebagai kolaborator\n\n\nPerlakukan AI sebagai kolaborator, bukan “jin botol”🧞. Komunikasikan dan evaluasi output AI, meskipun Anda menolak output dari percakapan tersebut."
+    "text": "AI tidak bisa membaca pikiran Anda\n\n\nKualitas output AI sangat ditentukan oleh kualitas komunikasi Anda. Berikut ini adalah 3️⃣ komponen description:\n\nProduct description — apa yang Anda inginkan: bentuk output, format, audiens, gaya, dst.\nProcess description — bagaimana sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah\nPerformance description — bagaimana AI harus “bersikap” selama kolaborasi: ringkas atau rinci? Menantang atau suportif? Bertanya dulu atau langsung eksekusi?\n\n\n\n\n\n\n\nPerlakukan AI sebagai kolaborator\n\n\nPerlakukan AI sebagai kolaborator, bukan “jin botol”🧞. Komunikasikan dan evaluasi output AI, meskipun Anda menolak output dari percakapan tersebut.\n\n\n\n\n\n\n\n\n\n\nIlustrasi dibuat dengan GPT-5.5"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#teknik-prompt-engineering",
@@ -256,14 +263,14 @@
     "href": "slides/matrikulasi-mapsi.html#tiga-bentuk-tanggung-jawab",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Tiga bentuk tanggung jawab",
-    "text": "Tiga bentuk tanggung jawab\n\nCreation diligence — cermat memilih sistem AI dan cara berinteraksi dengannya\n\nData apa yang Anda unggah? Bagaimana kebijakan privasinya?\n\nTransparency diligence — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu\n\nPembimbing, kolaborator, jurnal, institusi — ekspektasinya bisa berbeda-beda, cek kebijakan yang berlaku di Unair\n\nDeployment diligence — mengambil tanggung jawab penuh atas output yang Anda gunakan dan sebarkan\n\nAnda yang menandatangani, Anda yang menjamin isinya"
+    "text": "Tiga bentuk tanggung jawab\n\nCreation diligence — cermat memilih sistem AI dan cara berinteraksi dengannya\n\nData apa yang Anda unggah? Bagaimana kebijakan privasinya?\n\nTransparency diligence — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu\n\nPembimbing, kolaborator, jurnal, institusi — ekspektasinya bisa berbeda-beda, cek kebijakan yang berlaku di UNAIR\n\nDeployment diligence — mengambil tanggung jawab penuh atas output yang Anda gunakan dan sebarkan\n\nKalau Anda mengklaim output teks AI sebagai karya Anda, maka Anda yang harus menjamin kualitas isinya"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#creation-diligence-untuk-peneliti-psikologi",
     "href": "slides/matrikulasi-mapsi.html#creation-diligence-untuk-peneliti-psikologi",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Creation diligence untuk peneliti psikologi",
-    "text": "Creation diligence untuk peneliti psikologi\n\nJangan pernah mengunggah data partisipan yang bisa diidentifikasi (transkrip wawancara, data mentah beridentitas) ke AI system yang Anda tidak benar-benar tahu kebijakan privasi/pengelolaan datanya\n\nIni merupakan pelanggaran etika penelitian\n\nPeriksa: apakah AI system yang Anda pakai menggunakan input Anda untuk melatih modelnya?\nPikirkan dua kali sebelum mengunggah dokumen-dokumen ini ke AI system: naskah yang belum terbit, ide penelitian yang belum dibuat publik, dokumen internal institusi\nPilihan yang lebih aman selalu ada: anonimkan dulu, pakai data sintetis untuk contoh, atau pilih AI system dengan jaminan privasi yang jelas"
+    "text": "Creation diligence untuk peneliti psikologi\n\nJangan pernah mengunggah data partisipan yang bisa diidentifikasi (transkrip wawancara, data mentah beridentitas) ke AI system yang Anda tidak benar-benar tahu kebijakan privasi/pengelolaan datanya\n\nIni merupakan pelanggaran etika penelitian\n\nPeriksa dulu apakah AI system yang Anda pakai menggunakan input Anda untuk melatih modelnya?\nPikirkan dua kali sebelum mengunggah dokumen-dokumen berikut ini ke AI system: naskah yang belum terbit, ide penelitian yang belum dibuat publik, dokumen internal institusi\nPilihan yang lebih aman: anonimkan dulu, pakai data sintetis untuk contoh, atau pilih AI system dengan jaminan privasi data pengguna yang jelas"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#transparency-diligence-diligence-statement",

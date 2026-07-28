@@ -236,7 +236,7 @@ Rizqy Amelia Zein
 <h2><em>Artificial intelligence</em> dan “akal imitasi”</h2>
 <ul>
 <li class="fragment">Banyak orang menerjemahkan <em>artificial intelligence</em> sebagai “kecerdasan buatan,” dan akibatnya, publik menganggap seolah-olah AI benar-benar <em>cerdas</em></li>
-<li class="fragment">Padahal yang sebenarnya terjadi: ia adalam model statistik dengan <em>output</em> teks (“<em>large langauge model</em>”) yang <strong>meniru</strong> produk kognisi manusia (“bahasa natural”)</li>
+<li class="fragment">Padahal yang sebenarnya terjadi: ia adalah model statistik dengan <em>output</em> teks (“<em>large language model</em>”) yang <strong>meniru</strong> produk kognisi manusia (“bahasa natural”)</li>
 <li class="fragment">Frasa <em>akal imitasi</em> mengingatkan kita pada dua hal sekaligus:
 <ul>
 <li class="fragment">Kemampuan <em>large language model</em> (LLM) secara aktual memang <strong>sangat berguna</strong> karena teks <em>output</em>nya memang sangat meyakinkan</li>
@@ -251,8 +251,8 @@ Rizqy Amelia Zein
 <div class="column" style="width:60%;">
 <ul>
 <li class="fragment"><strong>1950-an–1980-an</strong> — AI simbolik: manusia menuliskan aturan logikanya satu per satu (<em>expert systems</em>)</li>
-<li class="fragment"><strong>1990-an–2000-an</strong> — <em>machine learning</em>: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., <em>spam filter</em>, )</li>
-<li class="fragment"><strong>2010-an</strong> — <em>deep learning</em>: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (<em>neuro-linguistic programming</em>, NLP)</li>
+<li class="fragment"><strong>1990-an–2000-an</strong> — <em>machine learning</em>: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., <em>spam filter</em>)</li>
+<li class="fragment"><strong>2010-an</strong> — <em>deep learning</em>: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (<em>natural language processing</em>, NLP)</li>
 <li class="fragment"><strong>2017</strong> — arsitektur <a href="https://www.ibm.com/think/topics/transformer-model"><strong><em>transformer</em></strong></a> diperkenalkan, yang merupakan fondasi semua LLM modern</li>
 <li class="fragment"><strong>2022</strong> — OpenAI merilis GPT-3.5; <em>generative</em> AI menjadi fenomena massal</li>
 </ul>
@@ -274,7 +274,7 @@ Rizqy Amelia Zein
 <h2>Model Statistik di Balik Layar</h2>
 <p><em>Large language model</em> (LLM) pada intinya adalah model statistik raksasa yang menjawab satu pertanyaan:</p>
 <blockquote>
-<p><strong>“Dari semua <em>input</em> kata sejauh konteks percapakan ini, kata apa yang paling mungkin muncul berikutnya?”</strong></p>
+<p><strong>“Dari semua <em>input</em> kata sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?”</strong></p>
 </blockquote>
 
 <img data-src="libs/animatedllm.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><h3 id="klik-di-sini-animatedllm">Klik di sini ➡️ <a href="https://animatedllm.github.io/generation-simple">AnimatedLLM</a></h3>
@@ -377,7 +377,7 @@ Rizqy Amelia Zein
 <p>Lanskapnya bergerak sangat cepat:</p>
 <ul>
 <li class="fragment"><strong><em>Chatbot</em></strong> — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)</li>
-<li class="fragment"><strong><em>Reasoning models</em></strong> — “berpikir” langkah demi langkah dulu sebelum menjawab (e.g., model-model “<em>frontier</em>” seperti Opus, Kimi, Fable, etc.)</li>
+<li class="fragment"><strong><em>Reasoning models</em></strong> — “berpikir” langkah demi langkah dulu sebelum menjawab (e.g., model-model “<em>frontier</em>” seperti Opus, Kimi, GPT-Sol, Fable, etc.)</li>
 <li class="fragment"><strong><em>AI agents</em></strong> — merencanakan dan <strong>mengeksekusi</strong> tugas multi-langkah secara mandiri atas nama penggunanya: menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman <a href="https://arxiv.org/abs/2512.07828">Yang et al.&nbsp;(2025)</a></li>
 <li class="fragment"><strong><em>Embodied AI</em></strong> — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM</li>
 </ul>
@@ -404,8 +404,8 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong>Halusinasi</strong> — menghasilkan informasi salah dengan <em>tone</em> yang sangat meyakinkan, termasuk <strong>mengarang referensi ilmiah</strong></li>
 <li class="fragment"><strong><em>Knowledge cutoff</em></strong> — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web</li>
-<li class="fragment"><strong><em>Context window</em></strong> terbatas — <em>working memory</em>-nya bisa penuh; percakapan dan dkumen yang sangat panjang terpaksa terpotong, tidak selesai diproses</li>
-<li class="fragment"><strong>Penalaran yang rapuh</strong> — LLM bisa memberikan jawaban yang sama sekali berbeda ketika <em>prompt</em>nya diubah yang sedikit saja dari pola <em>data training</em>nya</li>
+<li class="fragment"><strong><em>Context window</em></strong> terbatas — <em>working memory</em>-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses</li>
+<li class="fragment"><strong>Penalaran yang rapuh</strong> — LLM bisa memberikan jawaban yang sama sekali berbeda ketika <em>prompt</em>nya diubah sedikit saja dari pola <em>data training</em>nya</li>
 <li class="fragment"><strong><em>Sycophancy</em></strong> — cenderung memberikan jawaban yang menyenangkan <em>user</em>, alih-alih mengoreksi kesalahan yang dilakukan oleh <em>user</em></li>
 </ul>
 </section></section>
@@ -440,7 +440,7 @@ Rizqy Amelia Zein
 <h2>Untuk apa orang menggunakannya?</h2>
 <p>Temuan dari <a href="https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf">Chatterji et al.&nbsp;(2025)</a>:</p>
 <ul>
-<li class="fragment">Penggunaan <strong>non-pekerjaan</strong> tumbuh lebih cepat daripada penggunaan AI untuk perkerjaan: dari 53% (2024) menjadi <strong>&gt;70%</strong> (2025) dari seluruh pesan</li>
+<li class="fragment">Penggunaan <strong>non-pekerjaan</strong> tumbuh lebih cepat daripada penggunaan AI untuk pekerjaan: dari 53% (2024) menjadi <strong>&gt;70%</strong> (2025) dari seluruh pesan</li>
 <li class="fragment">Hampir <strong>80%</strong> percakapan masuk ke tiga kategori besar:
 <ul>
 <li class="fragment"><strong><em>Practical guidance</em></strong> — <em>tutoring</em>, saran <em>how-to</em>, <em>brainstorming</em> ide (kategori terbesar)</li>
@@ -460,14 +460,15 @@ Rizqy Amelia Zein
 <li class="fragment"><em>Early adopters</em>-nya: pekerja sektor digital dan padat pengetahuan, termasuk <strong>akademisi</strong></li>
 <li class="fragment">Seiring waktu, pengguna bergeser ke tugas-tugas yang <strong>membutuhkan kapasitas kognitif yang lebih besar</strong></li>
 </ul>
-<div class="fragment">
+</section>
+<section id="belajar-sekarang-sebelum-terlambat" class="slide level2">
+<h2>Belajar sekarang, sebelum terlambat</h2>
 <p><strong>Dua pesan untuk Anda</strong> sebagai mahasiswa magister psikologi:</p>
-<ol type="1">
-<li>AI sudah menjadi bagian dari infrastruktur aktivitas akademik. Fokusnya saat ini adalah belajar <em>bagaimana</em> caranya menggunakan AI</li>
-<li>Oleh karena itu, menggunakan AI dengan <strong>efektif, efisien, etis, dan aman</strong> harus dipelajari dan diusahakan dengan sungguh-sungguh</li>
-<li>Menggunakan AI harus dipelajari mulai sekarang, <strong>sebelum menggunakan AI semakin kompleks dan mahal</strong></li>
-</ol>
-</div>
+<ul>
+<li class="fragment">AI sudah menjadi bagian dari infrastruktur aktivitas akademik. Fokusnya saat ini adalah belajar <em>bagaimana</em> caranya menggunakan AI</li>
+<li class="fragment">Oleh karena itu, menggunakan AI dengan <strong>efektif, efisien, etis, dan aman</strong> harus dipelajari dan diusahakan dengan sungguh-sungguh</li>
+<li class="fragment">Keterampilan berkolaborasi dengan AI harus dipelajari mulai sekarang, <strong>sebelum menggunakan AI semakin kompleks dan mahal</strong></li>
+</ul>
 </section>
 <section id="ai-digunakan-dalam-riset-psikologi" class="slide level2">
 <h2>AI digunakan dalam riset psikologi</h2>
@@ -515,7 +516,8 @@ Rizqy Amelia Zein
 </ul>
 </div></div>
 <div class="fragment">
-<p>Analoginya seperti belajar bahasa: <em>literacy</em> = bisa membaca; <em>fluency</em> = bisa bercakap-cakap dengan lancar. Bagian 1–2 tadi adalah <em>literacy</em>; sisa sesi ini tentang <em>fluency</em>.</p>
+<p>Analoginya seperti belajar bahasa: <em>literacy</em> = bisa membaca; <em>fluency</em> = bisa berbincang dengan lancar.</p>
+<p>Bagian awal presentasi tadi fokusnya adalah <em>literacy</em>; sisa sesi ini tentang <em>fluency</em>.</p>
 </div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -606,7 +608,7 @@ Rizqy Amelia Zein
 <h2><em>Delegation</em> secara singkat</h2>
 <p>Sebelum meminta <em>chatbot</em> melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:</p>
 <ol type="1">
-<li class="fragment"><strong><em>Problem awareness</em></strong> — apa sebenarnya tujuan saya? Seperti apa hasil yang baik?</li>
+<li class="fragment"><strong><em>Problem awareness</em></strong> — apa sebenarnya tujuan saya? Seperti apa <em>output</em> teks yang baik dan bisa saya terima?</li>
 <li class="fragment"><strong><em>Platform awareness</em></strong> — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?</li>
 <li class="fragment"><strong><em>Task delegation</em></strong> — bagian mana yang butuh keahlian dan <em>judgment</em> <strong>saya</strong>; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan <strong>bersama</strong>?</li>
 </ol>
@@ -649,7 +651,7 @@ Rizqy Amelia Zein
 <h2>AI tidak bisa membaca pikiran Anda</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p>Kualitas <em>output</em> AI sangat ditentukan oleh kualitas komunikasi Anda. Tiga komponen <em>description</em>:</p>
+<p>Kualitas <em>output</em> AI sangat ditentukan oleh kualitas komunikasi Anda. Berikut ini adalah 3️⃣ komponen <em>description</em>:</p>
 <ul>
 <li class="fragment"><strong><em>Product description</em></strong> — <strong>apa</strong> yang Anda inginkan: bentuk <em>output</em>, format, audiens, gaya, dst.</li>
 <li class="fragment"><strong><em>Process description</em></strong> — <strong>bagaimana</strong> sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah</li>
@@ -671,8 +673,11 @@ Rizqy Amelia Zein
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/jin.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+<p><img data-src="libs/jin.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
+</div>
+<div style="text-align: center">
+<p>Ilustrasi dibuat dengan GPT-5.5</p>
 </div>
 </div></div>
 </section>
@@ -836,11 +841,11 @@ berikan pertanyaan sebelum mulai tugasnya. Jangan selalu setuju pada argumen say
 </ul></li>
 <li class="fragment"><strong><em>Transparency diligence</em></strong> — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu
 <ul>
-<li class="fragment">Pembimbing, kolaborator, jurnal, institusi — ekspektasinya bisa berbeda-beda, cek kebijakan yang berlaku di Unair</li>
+<li class="fragment">Pembimbing, kolaborator, jurnal, institusi — ekspektasinya bisa berbeda-beda, cek kebijakan yang berlaku di UNAIR</li>
 </ul></li>
 <li class="fragment"><strong><em>Deployment diligence</em></strong> — mengambil tanggung jawab penuh atas <em>output</em> yang Anda gunakan dan sebarkan
 <ul>
-<li class="fragment">Anda yang menandatangani, Anda yang menjamin isinya</li>
+<li class="fragment">Kalau Anda mengklaim <em>output</em> teks AI sebagai karya Anda, maka Anda yang harus menjamin kualitas isinya</li>
 </ul></li>
 </ul>
 </section>
@@ -851,9 +856,9 @@ berikan pertanyaan sebelum mulai tugasnya. Jangan selalu setuju pada argumen say
 <ul>
 <li class="fragment">Ini merupakan pelanggaran etika penelitian</li>
 </ul></li>
-<li class="fragment">Periksa: apakah AI <em>system</em> yang Anda pakai menggunakan <em>input</em> Anda untuk melatih modelnya?</li>
-<li class="fragment">Pikirkan dua kali sebelum mengunggah dokumen-dokumen ini ke AI <em>system</em>: naskah yang belum terbit, ide penelitian yang belum dibuat publik, dokumen internal institusi</li>
-<li class="fragment">Pilihan yang lebih aman selalu ada: anonimkan dulu, pakai data sintetis untuk contoh, atau pilih AI <em>system</em> dengan jaminan privasi yang jelas</li>
+<li class="fragment">Periksa dulu apakah AI <em>system</em> yang Anda pakai menggunakan <em>input</em> Anda untuk melatih modelnya?</li>
+<li class="fragment">Pikirkan dua kali sebelum mengunggah dokumen-dokumen berikut ini ke AI <em>system</em>: naskah yang belum terbit, ide penelitian yang belum dibuat publik, dokumen internal institusi</li>
+<li class="fragment">Pilihan yang lebih aman: anonimkan dulu, pakai data sintetis untuk contoh, atau pilih AI <em>system</em> dengan jaminan privasi data pengguna yang jelas</li>
 </ul>
 </section>
 <section id="transparency-diligence-diligence-statement" class="slide level2">
@@ -975,7 +980,7 @@ berikan pertanyaan sebelum mulai tugasnya. Jangan selalu setuju pada argumen say
 <section id="ada-pertanyaan" class="slide level2">
 <h2>Ada pertanyaan❓</h2>
 
-<img data-src="..\slides/libs/closing.JPG" class="quarto-figure quarto-figure-center r-stretch"><div class="callout callout-note callout-titled callout-style-default">
+<img data-src="libs/closing.JPG" class="quarto-figure quarto-figure-center r-stretch"><div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">

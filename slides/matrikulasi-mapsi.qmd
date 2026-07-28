@@ -83,7 +83,7 @@ Pembuka interaktif ±5 menit. Poin 4 adalah jembatan penting ke materi discernme
 
 ::: {.incremental}
 * Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan," dan akibatnya, publik menganggap seolah-olah AI benar-benar *cerdas*
-* Padahal yang sebenarnya terjadi: ia adalam model statistik dengan *output* teks ("*large langauge model*") yang **meniru** produk kognisi manusia ("bahasa natural")
+* Padahal yang sebenarnya terjadi: ia adalah model statistik dengan *output* teks ("*large language model*") yang **meniru** produk kognisi manusia ("bahasa natural")
 * Frasa *akal imitasi* mengingatkan kita pada dua hal sekaligus:
   + Kemampuan *large language model* (LLM) secara aktual memang **sangat berguna** karena teks *output*nya memang sangat meyakinkan
   + Tapi ia **bukan manusia**, sehingga tidak punya pemahaman, niat, apalagi tanggung jawab
@@ -97,8 +97,8 @@ Pembuka interaktif ±5 menit. Poin 4 adalah jembatan penting ke materi discernme
 
 ::: {.incremental}
 * **1950-an–1980-an** — AI simbolik: manusia menuliskan aturan logikanya satu per satu (*expert systems*)
-* **1990-an–2000-an** — *machine learning*: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., *spam filter*, )
-* **2010-an** — *deep learning*: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (*neuro-linguistic programming*, NLP)
+* **1990-an–2000-an** — *machine learning*: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., *spam filter*)
+* **2010-an** — *deep learning*: jaringan saraf tiruan berlapis-lapis; terobosan besar dalam pengenalan gambar dan suara (*natural language processing*, NLP)
 * **2017** — arsitektur [***transformer***](https://www.ibm.com/think/topics/transformer-model) diperkenalkan, yang merupakan fondasi semua LLM modern
 * **2022** — OpenAI merilis GPT-3.5; *generative* AI menjadi fenomena massal
 :::
@@ -122,7 +122,7 @@ Sumber: [*A Timeline of LLM Innovation*](https://synthedia.substack.com/p/a-time
 
 *Large language model* (LLM) pada intinya adalah model statistik raksasa yang menjawab satu pertanyaan:
 
-> **"Dari semua *input* kata sejauh konteks percapakan ini, kata apa yang paling mungkin muncul berikutnya?"**
+> **"Dari semua *input* kata sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?"**
 
 ![](libs/animatedllm.png){fig-align="center" width="80%"}
 
@@ -215,7 +215,7 @@ Lanskapnya bergerak sangat cepat:
 
 ::: {.incremental}
 * ***Chatbot*** — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)
-* ***Reasoning models*** — "berpikir" langkah demi langkah dulu sebelum menjawab (e.g., model-model "*frontier*" seperti Opus, Kimi, Fable, etc.)
+* ***Reasoning models*** — "berpikir" langkah demi langkah dulu sebelum menjawab (e.g., model-model "*frontier*" seperti Opus, Kimi, GPT-Sol, Fable, etc.)
 * ***AI agents*** — merencanakan dan **mengeksekusi** tugas multi-langkah secara mandiri atas nama penggunanya: menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman [Yang et al. (2025)](https://arxiv.org/abs/2512.07828)
 * ***Embodied AI*** — akal imitasi yang diberi "tubuh": robot yang "ditanam" LLM
 :::
@@ -245,8 +245,8 @@ Lanskapnya bergerak sangat cepat:
 ::: {.incremental}
 * **Halusinasi** — menghasilkan informasi salah dengan *tone* yang sangat meyakinkan, termasuk **mengarang referensi ilmiah** 
 * ***Knowledge cutoff*** — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web
-* ***Context window*** terbatas — *working memory*-nya bisa penuh; percakapan dan dkumen yang sangat panjang terpaksa terpotong, tidak selesai diproses
-* **Penalaran yang rapuh** — LLM bisa memberikan jawaban yang sama sekali berbeda ketika *prompt*nya diubah yang sedikit saja dari pola *data training*nya 
+* ***Context window*** terbatas — *working memory*-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses
+* **Penalaran yang rapuh** — LLM bisa memberikan jawaban yang sama sekali berbeda ketika *prompt*nya diubah sedikit saja dari pola *data training*nya
 * ***Sycophancy*** — cenderung memberikan jawaban yang menyenangkan *user*, alih-alih mengoreksi kesalahan yang dilakukan oleh *user*
 :::
 
@@ -273,7 +273,7 @@ Artinya: kemampuan berkolaborasi dengan AI, ke depan, akan menjadi keterampilan 
 Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf):
 
 ::: {.incremental}
-* Penggunaan **non-pekerjaan** tumbuh lebih cepat daripada penggunaan AI untuk perkerjaan: dari 53% (2024) menjadi **>70%** (2025) dari seluruh pesan
+* Penggunaan **non-pekerjaan** tumbuh lebih cepat daripada penggunaan AI untuk pekerjaan: dari 53% (2024) menjadi **>70%** (2025) dari seluruh pesan
 * Hampir **80%** percakapan masuk ke tiga kategori besar:
   + ***Practical guidance*** — *tutoring*, saran *how-to*, *brainstorming* ide (kategori terbesar)
   + ***Seeking information*** — menggantikan mesin pencari
@@ -293,12 +293,16 @@ Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-4
 * Seiring waktu, pengguna bergeser ke tugas-tugas yang **membutuhkan kapasitas kognitif yang lebih besar**
 :::
 
-::: {.fragment}
+## Belajar sekarang, sebelum terlambat
+
 **Dua pesan untuk Anda** sebagai mahasiswa magister psikologi:
 
-1. AI sudah menjadi bagian dari infrastruktur aktivitas akademik. Fokusnya saat ini adalah belajar *bagaimana* caranya menggunakan AI
-2. Oleh karena itu, menggunakan AI dengan **efektif, efisien, etis, dan aman** harus dipelajari dan diusahakan dengan sungguh-sungguh
-3. Menggunakan AI harus dipelajari mulai sekarang, **sebelum menggunakan AI semakin kompleks dan mahal**
+::: {.incremental}
+
+* AI sudah menjadi bagian dari infrastruktur aktivitas akademik. Fokusnya saat ini adalah belajar *bagaimana* caranya menggunakan AI
+* Oleh karena itu, menggunakan AI dengan **efektif, efisien, etis, dan aman** harus dipelajari dan diusahakan dengan sungguh-sungguh
+* Keterampilan berkolaborasi dengan AI harus dipelajari mulai sekarang, **sebelum menggunakan AI semakin kompleks dan mahal**
+
 :::
 
 ## AI digunakan dalam riset psikologi
@@ -349,7 +353,9 @@ Temuan dari [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-4
 :::
 
 ::: {.fragment}
-Analoginya seperti belajar bahasa: *literacy* = bisa membaca; *fluency* = bisa bercakap-cakap dengan lancar. Bagian 1–2 tadi adalah *literacy*; sisa sesi ini tentang *fluency*.
+Analoginya seperti belajar bahasa: *literacy* = bisa membaca; *fluency* = bisa berbincang dengan lancar. 
+
+Bagian awal presentasi tadi fokusnya adalah *literacy*; sisa sesi ini tentang *fluency*.
 :::
 
 ::: {.callout-note}
@@ -421,7 +427,7 @@ Materi 4D diadaptasi dari kursus *AI Fluency: Framework & Foundations*, [Bent, D
 Sebelum meminta *chatbot* melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:
 
 ::: {.incremental}
-1. ***Problem awareness*** — apa sebenarnya tujuan saya? Seperti apa hasil yang baik?
+1. ***Problem awareness*** — apa sebenarnya tujuan saya? Seperti apa *output* teks yang baik dan bisa saya terima?
 2. ***Platform awareness*** — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?
 3. ***Task delegation*** — bagian mana yang butuh keahlian dan *judgment* **saya**; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan **bersama**?
 :::
@@ -443,7 +449,7 @@ Contoh untuk tesis Anda:
 ::: {.columns}
 ::: {.column width="60%"}
 
-Kualitas *output* AI sangat ditentukan oleh kualitas komunikasi Anda. Tiga komponen *description*:
+Kualitas *output* AI sangat ditentukan oleh kualitas komunikasi Anda. Berikut ini adalah 3️⃣ komponen *description*:
 
 ::: {.incremental}
 * ***Product description*** — **apa** yang Anda inginkan: bentuk *output*, format, audiens, gaya, dst.
@@ -460,7 +466,11 @@ Perlakukan AI sebagai kolaborator, bukan "jin botol"🧞. Komunikasikan dan eval
 :::
 ::: {.column width="40%"}
 
-![](libs/jin.png){fig-align="center" width="85%"}
+![](libs/jin.png){fig-align="center" width="90%"}
+
+::: {style="text-align: center"}
+Ilustrasi dibuat dengan GPT-5.5
+:::
 
 :::
 :::
@@ -595,9 +605,9 @@ Ini pesan sentral kuliah ini — beri waktu. Hubungkan ke pengalaman mereka: "pe
 * ***Creation diligence*** — cermat memilih sistem AI dan cara berinteraksi dengannya
   + Data apa yang Anda unggah? Bagaimana kebijakan privasinya?
 * ***Transparency diligence*** — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu
-  + Pembimbing, kolaborator, jurnal, institusi — ekspektasinya bisa berbeda-beda, cek kebijakan yang berlaku di Unair
+  + Pembimbing, kolaborator, jurnal, institusi — ekspektasinya bisa berbeda-beda, cek kebijakan yang berlaku di UNAIR
 * ***Deployment diligence*** — mengambil tanggung jawab penuh atas *output* yang Anda gunakan dan sebarkan
-  + Anda yang menandatangani, Anda yang menjamin isinya
+  + Kalau Anda mengklaim *output* teks AI sebagai karya Anda, maka Anda yang harus menjamin kualitas isinya
 :::
 
 ## *Creation diligence* untuk peneliti psikologi
@@ -605,9 +615,9 @@ Ini pesan sentral kuliah ini — beri waktu. Hubungkan ke pengalaman mereka: "pe
 ::: {.incremental}
 * **Jangan pernah** mengunggah data partisipan yang bisa diidentifikasi (transkrip wawancara, data mentah beridentitas) ke AI *system* yang Anda tidak benar-benar tahu kebijakan privasi/pengelolaan datanya 
   + Ini merupakan pelanggaran etika penelitian
-* Periksa: apakah AI *system* yang Anda pakai menggunakan *input* Anda untuk melatih modelnya?
-* Pikirkan dua kali sebelum mengunggah dokumen-dokumen ini ke AI *system*: naskah yang belum terbit, ide penelitian yang belum dibuat publik, dokumen internal institusi
-* Pilihan yang lebih aman selalu ada: anonimkan dulu, pakai data sintetis untuk contoh, atau pilih AI *system* dengan jaminan privasi yang jelas
+* Periksa dulu apakah AI *system* yang Anda pakai menggunakan *input* Anda untuk melatih modelnya?
+* Pikirkan dua kali sebelum mengunggah dokumen-dokumen berikut ini ke AI *system*: naskah yang belum terbit, ide penelitian yang belum dibuat publik, dokumen internal institusi
+* Pilihan yang lebih aman: anonimkan dulu, pakai data sintetis untuk contoh, atau pilih AI *system* dengan jaminan privasi data pengguna yang jelas
 :::
 
 ## *Transparency diligence*: *diligence statement*
@@ -711,7 +721,7 @@ Renungkan 4️⃣ poin di bawah:
 
 ## Ada pertanyaan❓
 
-![](/slides/libs/closing.JPG){fig-align="center"}
+![](libs/closing.JPG){fig-align="center"}
 
 ::: {.callout-note}
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
