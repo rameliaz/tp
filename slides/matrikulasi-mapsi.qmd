@@ -136,7 +136,8 @@ Sumber: [*A Timeline of LLM Innovation*](https://synthedia.substack.com/p/a-time
 Terobosan kuncinya adalah mekanisme ***attention***: setiap kata bisa "memperhatikan" konteks dari semua kata lain dalam konteks untuk menentukan maknanya.
 
 ::: {.incremental}
-* "Bisa **ular** itu berbahaya" vs. "Saya **bisa** datang besok" — kata yang sama, makna berbeda; *attention* menangkap perbedaannya dari konteks
+* "Bisa **ular** itu berbahaya" vs. "Saya **bisa** datang besok"
+  + "Bisa" adalah kata yang sama, makna berbeda; *attention* menangkap perbedaannya dari konteks
 * Model bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; *transformer* memproses seluruh kalimat **sekaligus, secara paralel**
 * Paralelisme inilah yang memungkinkan *training* dengan data yang jauh lebih besar (e.g., [Kimi 3 dengan 2.8 trilyun parameter](https://www.kimi.com/blog/kimi-k3))
 :::
