@@ -25,7 +25,7 @@
     "href": "slides/matrikulasi-mapsi.html#disclaimer",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Disclaimer",
-    "text": "Disclaimer\n\n\n\n\n\n\n\nBagaimana saya menyusun materi ini dan disclosure penggunaan AI\nMateri ini banyak terinspirasi dari kursus daring “AI Fluency: Framework & Foundations” yang disediakan secara gratis oleh Anthropic.\nKlik di sini untuk mengikuti kursus tersebut\nSaya menggunakan Claude Code (Model Fable 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "text": "Disclaimer\n\n\n\n\n\n\n\nBagaimana saya menyusun materi ini dan disclosure penggunaan AI\nMateri ini banyak terinspirasi dari kursus daring “AI Fluency: Framework & Foundations” yang disediakan secara gratis oleh Anthropic.\nKlik di sini untuk mengikuti kursus tersebut\nSaya menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk brainstorming materi, mencari referensi, dan melakukan troubleshooting kode quarto. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#mungkin-kursus-ini-juga-menarik",
@@ -67,7 +67,7 @@
     "href": "slides/matrikulasi-mapsi.html#transformer-dan-mekanisme-attention",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Transformer dan mekanisme attention",
-    "text": "Transformer dan mekanisme attention\n\n\nTerobosan kuncinya adalah mekanisme attention: setiap kata bisa “memperhatikan” konteks dari semua kata lain dalam konteks untuk menentukan maknanya.\n\n“Bisa ular itu berbahaya” vs. “Saya bisa datang besok” — kata yang sama, makna berbeda; attention menangkap perbedaannya dari konteks\nModel bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; transformer memproses seluruh kalimat sekaligus, secara paralel\nParalelisme inilah yang memungkinkan training dengan data yang jauh lebih besar (e.g., Kimi 3 dengan 2.8 trilyun parameter)\n\n\n\n\n\n\n\n\n\n\nAttention is all you need (Vaswani et al., 2017)"
+    "text": "Transformer dan mekanisme attention\n\n\nTerobosan kuncinya adalah mekanisme attention: setiap kata bisa “memperhatikan” konteks dari semua kata lain dalam konteks untuk menentukan maknanya.\n\n“Bisa ular itu berbahaya” vs. “Saya bisa datang besok”\n\n“Bisa” adalah kata yang sama, makna berbeda; attention menangkap perbedaannya dari konteks\n\nModel bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; transformer memproses seluruh kalimat sekaligus, secara paralel\nParalelisme inilah yang memungkinkan training dengan data yang jauh lebih besar (e.g., Kimi 3 dengan 2.8 trilyun parameter)\n\n\n\n\n\n\n\n\n\n\nAttention is all you need (Vaswani et al., 2017)"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#bagaimana-llm-dibesarkan",
@@ -189,11 +189,11 @@
     "text": "4️⃣D AI Fluency Framework\n\n\n\n\n\n\n\nCatatan\n\n\nDelegation dan description → efektif dan efisien; discernment dan diligence → etis dan aman. Hari ini kita mendalami tiga yang terakhir. Materi 4D diadaptasi dari kursus AI Fluency: Framework & Foundations, Bent, Dakan, Feller, & Vo, 2026."
   },
   {
-    "objectID": "slides/matrikulasi-mapsi.html#delegation-dalam-satu-slide",
-    "href": "slides/matrikulasi-mapsi.html#delegation-dalam-satu-slide",
+    "objectID": "slides/matrikulasi-mapsi.html#delegation-secara-singkat",
+    "href": "slides/matrikulasi-mapsi.html#delegation-secara-singkat",
     "title": "Berkolaborasi dengan Akal Imitasi",
-    "section": "Delegation dalam satu slide",
-    "text": "Delegation dalam satu slide\nSebelum meminta chatbot melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:\n\nProblem awareness — apa sebenarnya tujuan saya? Seperti apa hasil yang baik?\nPlatform awareness — AI (yang mana) bisa apa, dan tidak bisa apa?\nTask delegation — bagian mana yang butuh keahlian dan judgment saya; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan bersama?\n\n\nContoh untuk tesis Anda:\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh menjadi mitra diskusi)\n\n\nMemoles bahasa akademik naskah\nAI, lalu Anda sunting\n\n\nMenginterpretasi hasil analisis\nAI dan Anda bersama-sama, AI menawarkan alternatif, Anda yang membuat keputusan akhir"
+    "section": "Delegation secara singkat",
+    "text": "Delegation secara singkat\nSebelum meminta chatbot melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:\n\nProblem awareness — apa sebenarnya tujuan saya? Seperti apa hasil yang baik?\nPlatform awareness — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?\nTask delegation — bagian mana yang butuh keahlian dan judgment saya; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan bersama?\n\n\nContoh untuk tesis Anda:\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh menjadi mitra diskusi)\n\n\nMemoles bahasa akademik naskah\nAI, lalu Anda sunting\n\n\nMenginterpretasi hasil analisis\nAI dan Anda bersama-sama, AI menawarkan alternatif, Anda yang membuat keputusan akhir"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#ai-tidak-bisa-membaca-pikiran-anda",

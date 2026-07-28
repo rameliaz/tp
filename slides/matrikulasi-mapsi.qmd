@@ -42,7 +42,7 @@ Materi ini banyak terinspirasi dari kursus daring "*AI Fluency: Framework & Foun
 
 [**Klik di sini untuk mengikuti kursus tersebut**](https://anthropic.skilljar.com/ai-fluency-framework-foundations)
 
-Saya menggunakan Claude Code (Model Fable 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+Saya menggunakan Claude Code (Model Opus 5 dan Sonnet 5) untuk *brainstorming* materi, mencari referensi, dan melakukan *troubleshooting* kode `quarto`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
 
 :::
 
@@ -416,13 +416,13 @@ Riset menunjukkan mode yang paling produktif untuk pekerja pengetahuan adalah **
 Materi 4D diadaptasi dari kursus *AI Fluency: Framework & Foundations*, [Bent, Dakan, Feller, & Vo, 2026](https://anthropic.skilljar.com/ai-fluency-framework-foundations).
 :::
 
-## *Delegation* dalam satu slide
+## *Delegation* secara singkat
 
 Sebelum meminta *chatbot* melakukan sesuatu, tanyakan 3️⃣ hal ini pada diri Anda sendiri:
 
 ::: {.incremental}
 1. ***Problem awareness*** — apa sebenarnya tujuan saya? Seperti apa hasil yang baik?
-2. ***Platform awareness*** — AI (yang mana) bisa apa, dan tidak bisa apa?
+2. ***Platform awareness*** — AI (yang mana) bisa apa, dan apa yang ia tidak bisa lakukan?
 3. ***Task delegation*** — bagian mana yang butuh keahlian dan *judgment* **saya**; bagian mana yang bisa dikerjakan AI; bagian mana yang paling berdampak kalau dikerjakan **bersama**?
 :::
 
