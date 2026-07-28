@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+.claude
+
+CLAUDE.md
+/.quarto/
+**/*.quarto_ipynb
+/references
