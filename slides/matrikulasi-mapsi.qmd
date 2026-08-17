@@ -211,7 +211,7 @@ Gabungan ketiganya memunculkan fenomena menarik, yaitu *emergent capabilities* k
 ::: {.columns}
 ::: {.column width="50%"}
 
-Lanskapnya berubah sangat cepat:
+Empat tahap perkembangannya:
 
 ::: {.incremental}
 * ***Chatbot*** — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)

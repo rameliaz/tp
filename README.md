@@ -1,6 +1,6 @@
-# Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian
+# Teknologi dalam Pembelajaran
 
-Repositori ini menyimpan materi pengajaran tentang peran kecerdasan buatan (*akal imitasi*) dalam proses pembelajaran dan penelitian — mencakup bagaimana LLM dan alat berbasis AI dapat digunakan secara bertanggung jawab dalam belajar, mengajar, dan riset.
+Repositori ini menyimpan kumpulan ceramah dan materi kuliah tentang pemanfaatan teknologi dalam proses pembelajaran dan penelitian yang termasuk, namun tidak terbatas pada, peran kecerdasan buatan (*akal imitasi*)/LLM sebagai salah satu topiknya. Materi mencakup bagaimana berbagai teknologi dapat digunakan secara bertanggung jawab dalam belajar, mengajar, dan riset.
 
 **Pengajar:** Rizqy Amelia Zein — Departemen Psikologi, Universitas Airlangga
 
@@ -8,23 +8,23 @@ Repositori ini menyimpan materi pengajaran tentang peran kecerdasan buatan (*aka
 
 🚧 *Work in progress* — sebagian besar materi masih dalam proses penyusunan. Lihat situs yang sudah dirender untuk struktur terkini.
 
-## Struktur folder (tentatif)
+## Struktur folder
 
 ```
 akal-imitasi/
 ├── _quarto.yml       # konfigurasi situs (navbar, daftar render, tema)
-├── index.qmd         # halaman utama
-├── slides/           # bahan presentasi reveal.js per bagian
-├── materials/        # (rencana) bahan bacaan, worksheet, handout
-├── articles/         # (rencana) halaman/tulisan mandiri
-├── img/              # (rencana) gambar yang dipakai di slide/halaman
-├── libs/             # (rencana) aset JS/CSS bersama
+├── index.qmd         # halaman utama — daftar materi
+├── slides/           # bahan presentasi reveal.js, satu file per pertemuan/topik
+│   └── libs/         # gambar & aset yang dipakai di slide
 ├── references/       # PDF & bahan sumber (lokal, tidak di-commit)
 ├── _extensions/      # ekstensi Quarto (tema UNAIR, ikon)
-└── docs/             # hasil render situs (di-commit, disajikan GitHub Pages)
+├── docs/             # hasil render situs (di-commit, disajikan GitHub Pages)
+├── materials/        # (rencana) bahan bacaan, worksheet, handout
+├── articles/         # (rencana) halaman/tulisan mandiri
+└── libs/             # (rencana) aset JS/CSS bersama di luar slide
 ```
 
-Folder bertanda "(rencana)" sudah dirujuk di `_quarto.yml` tetapi belum dibuat — akan ditambahkan seiring materi disusun.
+`materials/`, `articles/`, dan `libs/` sudah dirujuk di `_quarto.yml` tetapi belum dibuat — akan ditambahkan seiring materi disusun.
 
 ## Lisensi
 

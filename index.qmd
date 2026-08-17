@@ -1,5 +1,5 @@
 ---
-title: "Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian"
+title: "Teknologi dalam Pembelajaran"
 ---
 
 ::: {.callout-warning}
@@ -7,14 +7,25 @@ title: "Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian"
 Materi mata kuliah ini sedang disusun secara bertahap, sehingga sebagian besar materi belum selesai ditulis.
 :::
 
+## Materi Matrikulasi S2 Mapsi 2026/2027
 
+* [Berkolaborasi dengan Akal Imitasi](slides/matrikulasi-mapsi.qmd) — Pengantar *AI Fluency* untuk Mahasiswa Magister Psikologi
 
+## Rencana Pertemuan
 
----
+Jadwal di bawah ini hanya mencakup pertemuan yang diampu oleh Rizqy Amelia Zein (Amel) pada mata kuliah **Teknologi dalam Pembelajaran**. Pertemuan yang diampu oleh Dr. Tino Leonardi tidak dicantumkan di sini — lihat Kontrak Perkuliahan di Psyche mata kuliah untuk jadwal lengkap.
 
-## Referensi
+| TM | Tanggal & Waktu | Topik | Moda | Tautan | Materi |
+|:--:|------------------|-------|------|--------|--------|
+| 7 | Jumat, 25 September, 15.30 WIB | *Human-AI collaboration* dan *reinforcement learning from human feedback* | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan7.qmd) |
+| 9 | Jumat, 16 Oktober, 15.30 WIB | AI *literacy* dan *fluency* | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan9.qmd) |
+| 10 | Jumat, 23 Oktober, 15.30 WIB | Teknologi pembelajaran untuk kebutuhan khusus: aksesibilitas/teknologi pembantu | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan10.qmd) |
+| 11 | Jumat, 30 Oktober, 15.30 WIB | Penggunaan teknologi dalam asesmen pembelajaran | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan11.qmd) |
+| 12 | Jumat, 6 November, 15.30 WIB | Dampak dan implikasi teknologi pada pembelajaran | Diskusi | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | *belum tersedia* |
+| 13 | Jumat, 13 November, 15.30 WIB | Dampak dan implikasi teknologi pada pembelajaran | Seminar | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | *belum tersedia* |
+| 14 | Jumat, 20 November, 15.30 WIB | Media pembelajaran (komputer, internet, dan KB): pendidikan dasar, menengah, tinggi dan luar sekolah | Praktik | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | *belum tersedia* |
 
-*
+: {tbl-colwidths="[5,15,35,10,20,15]"}
 
 ---
 
@@ -22,5 +33,6 @@ Materi mata kuliah ini sedang disusun secara bertahap, sehingga sebagian besar m
 
 #### Deklarasi penggunaan akal imitasi
 
+Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
 
 :::

@@ -12,21 +12,29 @@ project:
     - slides/
 
 website:
-  title: "Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian"
+  title: "Teknologi dalam Pembelajaran"
   navbar:
     left:
       - href: https://rameliaz.github.io/
         icon: house
         text: "oleh Rizqy Amelia Zein"
       - icon: github
-        href: https://github.com/rameliaz/akal-imitasi
+        href: https://github.com/rameliaz/tp
     right:
+      - text: "Jadwal"
+        href: index.html#rencana-pertemuan
       - text: "Materi"
         menu:
-          - text: "Pengantar"
-            href: slides/pengantar.html
           - text: "Matrikulasi MaPsi — Berkolaborasi dengan Akal Imitasi"
             href: slides/matrikulasi-mapsi.html
+          - text: "TM 7 — Human-AI Collaboration & RLHF"
+            href: slides/pertemuan7.html
+          - text: "TM 9 — AI Literacy dan Fluency"
+            href: slides/pertemuan9.html
+          - text: "TM 10 — Teknologi untuk Kebutuhan Khusus"
+            href: slides/pertemuan10.html
+          - text: "TM 11 — Asesmen Pembelajaran"
+            href: slides/pertemuan11.html
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
       - icon: github

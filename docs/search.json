@@ -1,17 +1,234 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian",
-    "section": "",
-    "text": "WarningWork in Progress 👷‍♀️\n\n\n\nMateri mata kuliah ini sedang disusun secara bertahap, sehingga sebagian besar materi belum selesai ditulis."
+    "objectID": "slides/pertemuan11.html#outline",
+    "href": "slides/pertemuan11.html#outline",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Outline",
+    "text": "Outline\n\nMengapa asesmen bergeser ke ranah digital dan otomatis\nRagam asesmen berbasis teknologi — dari computer-based testing hingga adaptive testing\nPenilaian otomatis (automated scoring) — dari statistik klasik ke large language model\nLearning analytics — memanfaatkan jejak data belajar untuk asesmen formatif\nValiditas, reliabilitas, dan keadilan asesmen berbasis AI\nIntegritas akademik di era AI generatif — dan arah assessment redesign\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
-    "objectID": "index.html#referensi",
-    "href": "index.html#referensi",
-    "title": "Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian",
-    "section": "Referensi",
-    "text": "Referensi\n\n\n\n\n\nDeklarasi penggunaan akal imitasi"
+    "objectID": "slides/pertemuan11.html#dari-fungsi-tunggal-ke-ekosistem-data",
+    "href": "slides/pertemuan11.html#dari-fungsi-tunggal-ke-ekosistem-data",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Dari fungsi tunggal ke ekosistem data",
+    "text": "Dari fungsi tunggal ke ekosistem data\n\nAsesmen tradisional: ujian kertas, dinilai manual, hasilnya statis (satu angka, satu waktu)\nAsesmen berbasis teknologi memungkinkan: skala (menilai ribuan jawaban serentak), kecepatan (umpan balik instan), dan granularitas data (jejak proses asesmen, tidak terbatas pada hasil akhir)\nPendorong utama: kebutuhan akan asesmen formatif yang berkelanjutan, bukan cuma sumatif di akhir semester"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#asesmen-formatif-vs.-sumatif-sekilas-ulang",
+    "href": "slides/pertemuan11.html#asesmen-formatif-vs.-sumatif-sekilas-ulang",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Asesmen formatif vs. sumatif — sekilas ulang",
+    "text": "Asesmen formatif vs. sumatif — sekilas ulang\n\n\nFormatif\n\nBerlangsung selama proses belajar\nTujuan: umpan balik untuk perbaikan\nRisiko rendah (low-stakes)\n\n\nSumatif\n\nDilakukan di akhir suatu periode belajar\nTujuan: mengukur capaian akhir\nRisiko tinggi (high-stakes)\n\n\n\n\n\n\n\n\nMengapa ini penting untuk teknologi asesmen\n\n\nTeknologi paling berdampak justru pada asesmen formatif — karena skala dan kecepatan umpan balik yang dibutuhkan sulit dicapai manusia sendirian"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#computer-based-testing-cbt",
+    "href": "slides/pertemuan11.html#computer-based-testing-cbt",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Computer-based testing (CBT)",
+    "text": "Computer-based testing (CBT)\n\nUjian yang diselenggarakan lewat perangkat digital, menggantikan kertas — mis. UTBK, TOEFL iBT\nKeuntungan: penilaian objektif otomatis (pilihan ganda), distribusi dan administrasi lebih efisien\nKeterbatasan: soal tetap statis — semua peserta mengerjakan set soal yang sama tanpa memandang kemampuan masing-masing"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#computerized-adaptive-testing-cat",
+    "href": "slides/pertemuan11.html#computerized-adaptive-testing-cat",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Computerized adaptive testing (CAT)",
+    "text": "Computerized adaptive testing (CAT)\n\nSoal berikutnya disesuaikan secara real-time dengan performa peserta pada soal sebelumnya, berbasis item response theory\nJawaban benar → soal berikutnya lebih sulit; jawaban salah → soal lebih mudah\nHasilnya: estimasi kemampuan yang lebih presisi dengan jumlah soal lebih sedikit\n\n\n\nWainer, H., Dorans, N. J., Eignor, D., Flaugher, R., Green, B. F., Mislevy, R. J., Steinberg, L., & Thissen, D. (2000). Computerized Adaptive Testing: A Primer (2nd ed.). Routledge."
+  },
+  {
+    "objectID": "slides/pertemuan11.html#dari-teknik-statistik-klasik-ke-large-language-model",
+    "href": "slides/pertemuan11.html#dari-teknik-statistik-klasik-ke-large-language-model",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Dari teknik statistik klasik ke large language model",
+    "text": "Dari teknik statistik klasik ke large language model\n\nAutomated essay scoring (AES) pertama kali dikembangkan tahun 1966 oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, kosakata) untuk memprediksi skor manusia.\nGenerasi machine learning (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih “atomistik”, jadi belum benar-benar “memahami” makna esai.\nGenerasi LLM (2020-an–kini): model dapat mengevaluasi kualitas argumen dan memberi umpan balik berbentuk kalimat.\n\n\n\nPage, E. B. (1966). The imminence of grading essays by computer. Phi Delta Kappan, 47(5), 238–243."
+  },
+  {
+    "objectID": "slides/pertemuan11.html#automation-atau-augmentation",
+    "href": "slides/pertemuan11.html#automation-atau-augmentation",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Automation atau augmentation?",
+    "text": "Automation atau augmentation?\nKerangka Fügener et al. (2026) yang sudah kita bahas relevan di sini:\n\nAutomation — AI menggantikan penilai manusia sepenuhnya (mis. skor pilihan ganda otomatis)\nAugmentation — AI membantu dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah — keputusan akhir tetap di tangan manusia\nUntuk asesmen berisiko tinggi (nilai akhir, kelulusan), augmentation jauh lebih aman secara etis dan legal dibanding automation penuh"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#memanfaatkan-jejak-data-belajar",
+    "href": "slides/pertemuan11.html#memanfaatkan-jejak-data-belajar",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Memanfaatkan jejak data belajar",
+    "text": "Memanfaatkan jejak data belajar\n\nLearning analytics = pengumpulan dan analisis data interaksi mahasiswa (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar\nContoh aplikasi: dashboard kemajuan belajar, sistem peringatan dini (early-warning system) untuk mahasiswa berisiko drop out, rekomendasi materi yang dipersonalisasi\nBergeser dari mengukur hasil belajar ke memahami proses belajar secara real-time\n\n\n\n\n\n\n\n\nIsu privasi\n\n\nData jejak belajar sangat granular dan sensitif — siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen, harus jelas sejak awal (informed consent, bukan surveillance diam-diam)\n\n\n\n\nSiemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. EDUCAUSE Review, 46(5), 30–40."
+  },
+  {
+    "objectID": "slides/pertemuan11.html#pertanyaan-lama-konteks-baru",
+    "href": "slides/pertemuan11.html#pertanyaan-lama-konteks-baru",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Pertanyaan lama, konteks baru",
+    "text": "Pertanyaan lama, konteks baru\n\nValiditas konstruk — apakah skor AI benar-benar mengukur kemampuan yang ingin diukur, atau justru fitur permukaan yang mudah “digoreng” (esai panjang cenderung dinilai tinggi meski isinya lemah)?\nReliabilitas — apakah model memberi skor yang konsisten untuk kualitas jawaban yang setara?\nKeadilan (fairness) — apakah model bias terhadap gaya menulis kelompok tertentu (penutur bahasa kedua, dialek non-standar)?"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#bukti-bias-dalam-penilaian-otomatis",
+    "href": "slides/pertemuan11.html#bukti-bias-dalam-penilaian-otomatis",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Bukti bias dalam penilaian otomatis",
+    "text": "Bukti bias dalam penilaian otomatis\n\nSistem automated speech recognition, komponen kunci di balik banyak alat asesmen berbasis suara, terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih (Koenecke et al., 2020)\nPola serupa berulang pada automated essay scoring: model cenderung “menghukum” gaya penulisan yang menyimpang dari norma dominan dalam data pelatihannya (mis. tulisan penutur bahasa kedua)\nPrinsipnya sama dengan bias yang kita bahas pada reinforcement learning from human feedback: model mewarisi (dan bisa memperbesar) bias dari data trainingnya\n\n\n\n\n\n\n\nImplikasi praktis\n\n\nAI tidak boleh menjadi satu-satunya penilai untuk asesmen berisiko tinggi. Perlu audit berkala dan manusia yang tetap terlibat dalam keputusan akhir (human-in-the-loop), termasuk jalur banding bagi mahasiswa yang merasa dirugikan"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#masalah-lama-dengan-skala-baru",
+    "href": "slides/pertemuan11.html#masalah-lama-dengan-skala-baru",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Masalah lama dengan skala baru",
+    "text": "Masalah lama dengan skala baru\n\nKecurangan akademik bukan hal baru, tapi AI membuatnya jauh lebih mudah, cepat, dan sulit dideteksi.\nAlat “AI detector” (mis. GPTZero, Turnitin AI detection) punya tingkat kesalahan (false positive/negative) yang signifikan, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan siswa.\nKonsekuensinya: mendeteksi “apakah teks ditulis AI” adalah perlombaan yang sulit dimenangkan.\nTetapi, sejak Bulan Agustus 2026, developer LLM besar diwajibkan mematuhi EU AI Act, yang akibatnya, memaksa developer untuk mengembangkan teknologi watermarking ada seluruh AI generated content.\n\nSalah satu developer yang sudah mengumumkan penambahan watermark pada seluruh produknya adalah Anthropic (Claude).\nTeknik watermarking ini terletak pada pemilihan token yang randomnessnya dikendalikan, sehingga tidak mungkin bisa hilang tanpa melakukan parafrase menyeluruh pada teks outputnya.\nKemungkinan besar akan diikuti dengan munculnya AI-generated content detector dengan performa yang lebih baik.\nKe depan, AI-generated text akan jauh lebih visible dibandingkan saat ini."
+  },
+  {
+    "objectID": "slides/pertemuan11.html#arah-yang-lebih-menjanjikan-rancang-ulang-asesmen",
+    "href": "slides/pertemuan11.html#arah-yang-lebih-menjanjikan-rancang-ulang-asesmen",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Arah yang lebih menjanjikan: rancang ulang asesmen",
+    "text": "Arah yang lebih menjanjikan: rancang ulang asesmen\n\nAsesmen otentik — tugas yang menuntut aplikasi kontekstual, bukan reproduksi informasi generik yang mudah dijawab AI\nAsesmen berbasis proses — menilai log interaksi, draf, dan iterasi, bukan cuma produk akhir (ingat tugas UTS Anda: log interaksi dengan chatbot AI!)\nDeklarasi penggunaan AI yang jujur dan terbuka, dibanding melarang total (yang sulit ditegakkan dan tidak realistis)\nAsesmen lisan/interaktif (presentasi, tanya-jawab langsung) yang sulit “diwakilkan” sepenuhnya ke AI\n\n\n\n\n\n\n\nMenghubungkan ke effortless trap\n\n\nBrčić & Frljić (2026) mengingatkan: pertanyaan intinya bukan “boleh/tidak boleh pakai AI”, tapi di titik mana dalam proses belajar AI ditempatkan — kalau asesmen dirancang sedemikian rupa sehingga tugas terasa “tanpa usaha” (effortless) dengan bantuan AI, itu sinyal desainnya perlu ditinjau ulang"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#rangkuman",
+    "href": "slides/pertemuan11.html#rangkuman",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nTeknologi menggeser asesmen dari statis dan sumatif ke adaptif, formatif, dan berbasis data proses\nPenilaian otomatis berkembang pesat, tapi masalah validitas, reliabilitas, dan keadilan tetap relevan — satu bias yang lolos justru bisa memengaruhi ribuan mahasiswa sekaligus begitu diterapkan dalam skala besar\nKerangka automation vs. augmentation membantu menentukan kapan AI pantas menggantikan vs. sekadar membantu penilai manusia\nMenghadapi tantangan integritas akademik di era AI, rancang ulang asesmen (otentik, berbasis proses) lebih berkelanjutan daripada sekadar mengandalkan alat deteksi AI"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#ada-pertanyaan",
+    "href": "slides/pertemuan11.html#ada-pertanyaan",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#outline",
+    "href": "slides/pertemuan9.html#outline",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Outline",
+    "text": "Outline\n\nMengapa ini penting — kesenjangan kesiapan pendidik menghadapi AI\nAI literacy vs. AI fluency — dua jenjang kompetensi yang berbeda\nKerangka AI literacy — 17 kompetensi, lima pertanyaan besar\nKerangka 4D AI Fluency — Delegation, Description, Discernment, Diligence\nMengapa fluency menentukan hasil — bukti dari 27 ribu percakapan manusia-AI\nSisi kritis: apakah AI membuat kita “bodoh”?\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan9.html#pendidik-belum-siap",
+    "href": "slides/pertemuan9.html#pendidik-belum-siap",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Pendidik belum siap",
+    "text": "Pendidik belum siap\n\nSurvei Alberta Teachers Association (Desember 2023) terhadap 2.148 guru: hanya 29,4% optimis, 37,2% khawatir akan dampak negatif AI, sisanya bersikap netral atau tidak yakin\nSurvei EdWeek Research Center terhadap 498 guru K-12 tentang alasan tidak memakai AI di kelas: prioritas lain (46%), tidak tahu caranya (36%), tidak ada kebijakan (33%), tidak tahu cara memakainya secara efektif (30%)\nSebagian besar hambatan bukan soal penolakan, tapi kurangnya kompetensi — inilah yang coba dijawab oleh kerangka AI literacy dan AI fluency\n\n\n\nRogers & Carbonaro (2025)"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#dua-jenjang-kompetensi-yang-berbeda",
+    "href": "slides/pertemuan9.html#dua-jenjang-kompetensi-yang-berbeda",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Dua jenjang kompetensi yang berbeda",
+    "text": "Dua jenjang kompetensi yang berbeda\n\n\nAI literacy\n\nMemahami cara kerja AI\nMengevaluasi teknologi AI secara kritis\nTahu risiko dan batasannya\n\n\nAI fluency\n\nBerkarya dan berinovasi dengan AI\nMemecahkan masalah bersama AI\nMengelola penggunaannya secara etis\n\n\n\nAnaloginya seperti belajar bahasa: literacy = bisa membaca; fluency = bisa berbincang dengan lancar.\n\n\n\nRogers & Carbonaro (2025)"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#mengapa-penciptaan-jadi-pembeda-utama",
+    "href": "slides/pertemuan9.html#mengapa-penciptaan-jadi-pembeda-utama",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Mengapa “penciptaan” jadi pembeda utama",
+    "text": "Mengapa “penciptaan” jadi pembeda utama\n\nRogers & Carbonaro (2025) menelusuri sejarah pergeseran serupa dari literasi ke fluency: literasi komputer → digital fluency\nNational Research Council (1999) menyimpulkan literasi komputer “terlalu sederhana” di tengah perubahan cepat, lalu memperkenalkan konsep FITness (fluency with information technology)\nFluency = “kemampuan merumuskan ulang pengetahuan, berekspresi kreatif, dan menghasilkan informasi” — bukan sekadar memahaminya\nIni sejalan dengan Taksonomi Bloom Revisi: “mencipta” (create) adalah level kognitif tertinggi, di atas memahami dan mengevaluasi\n\n\n\n\n\n\n\nImplikasi penting\n\n\nLiteracy dan fluency sebaiknya dikembangkan bersamaan, bukan berurutan — mahasiswa tidak perlu “lulus” literasi dulu baru belajar fluency"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#definisi-dan-lima-pertanyaan-besar",
+    "href": "slides/pertemuan9.html#definisi-dan-lima-pertanyaan-besar",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Definisi dan lima pertanyaan besar",
+    "text": "Definisi dan lima pertanyaan besar\n\n“Seperangkat kompetensi yang memampukan seseorang untuk mengevaluasi teknologi AI secara kritis; berkomunikasi dan berkolaborasi secara efektif dengan AI; dan menggunakan AI sebagai alat, baik daring, di rumah, maupun di tempat kerja.” — Long & Magerko (2020)\n\nKerangka ini mengelompokkan 17 kompetensi ke dalam lima pertanyaan besar:\n\nApa itu AI? — mengenali AI, memahami “kecerdasan”, AI umum vs. AI sempit\nApa yang bisa dilakukan AI? — kekuatan dan kelemahannya, membayangkan AI masa depan\nBagaimana cara kerja AI? — representasi, pengambilan keputusan, langkah-langkah machine learning, literasi data\nBagaimana AI seharusnya digunakan? — etika\nBagaimana manusia mempersepsikan AI? — sejauh mana AI “dianggap” bisa diprogram/dikendalikan"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#contoh-penerapan-di-kelas-anda-kelak",
+    "href": "slides/pertemuan9.html#contoh-penerapan-di-kelas-anda-kelak",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Contoh penerapan di kelas Anda kelak",
+    "text": "Contoh penerapan di kelas Anda kelak\n\n“Apa itu AI?” — mahasiswa mampu membedakan AI umum (general, fiksi ilmiah) dari AI sempit (narrow, yang benar-benar ada saat ini, seperti chatbot)\n“Bagaimana cara kerja AI?” — mahasiswa paham bahwa AI “belajar dari data”, sehingga bisa mewarisi bias yang ada di data tersebut\n“Bagaimana AI seharusnya digunakan?” — mahasiswa mampu menimbang implikasi etis sebelum memakai AI untuk suatu tugas, bukan sekadar bisa mengoperasikannya\n\n\n\n\n\n\n\nKaitan dengan pendidikan\n\n\nKerangka ini awalnya dirancang untuk pendidikan K-12, tapi kompetensinya berlaku lintas jenjang — termasuk untuk mahasiswa magister yang kelak jadi pendidik atau peneliti"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#definisi-ai-fluency",
+    "href": "slides/pertemuan9.html#definisi-ai-fluency",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Definisi AI fluency",
+    "text": "Definisi AI fluency\n\n\n\n\n\n\nDefinisi\n\n\nKemampuan berkolaborasi dengan AI secara efektif, efisien, etis, dan aman (Dakan & Feller, 2025).\n\n\n\nKerangka ini dibangun di atas 3 modalitas interaksi manusia-AI:\n\nAutomation — AI mengerjakan tugas sesuai instruksi langsung manusia (mis. menulis ringkasan)\nAugmentation — manusia dan AI bersama-sama mendefinisikan dan mengerjakan tugas secara iteratif (mis. menulis esai bersama)\nAgency — manusia mengonfigurasi AI agar terus bekerja mandiri mewakili dirinya (mis. chatbot tutor, karakter gim interaktif)\n\n\n\nDakan & Feller (2025). The AI Fluency Framework v1.1"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#d-ai-fluency-framework",
+    "href": "slides/pertemuan9.html#d-ai-fluency-framework",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "4️⃣D AI Fluency Framework",
+    "text": "4️⃣D AI Fluency Framework\n\n\n\n\n\n\n\nCatatan\n\n\nDelegation dan description → efektif dan efisien; discernment dan diligence → etis dan aman."
+  },
+  {
+    "objectID": "slides/pertemuan9.html#delegation-memilih-visi-dan-alat-yang-tepat",
+    "href": "slides/pertemuan9.html#delegation-memilih-visi-dan-alat-yang-tepat",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Delegation — memilih visi dan alat yang tepat",
+    "text": "Delegation — memilih visi dan alat yang tepat\nTiga kompetensi inti:\n\nGoal & task awareness — apa tujuan Anda? Seperti apa output yang baik dan bisa diterima?\nPlatform awareness — AI (yang mana) bisa apa, dan apa yang tidak bisa ia lakukan?\nTask delegation — bagian mana yang butuh keahlian dan judgment Anda; bagian mana bisa dikerjakan AI; bagian mana paling berdampak kalau dikerjakan bersama?\n\n\nContoh untuk tesis Anda:\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh menjadi mitra diskusi)\n\n\nMemoles bahasa akademik naskah\nAI, lalu Anda sunting\n\n\nMenginterpretasi hasil analisis\nAI dan Anda bersama, AI menawarkan alternatif, Anda membuat keputusan akhir"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#description-berkomunikasi-dengan-jernih",
+    "href": "slides/pertemuan9.html#description-berkomunikasi-dengan-jernih",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Description — berkomunikasi dengan jernih",
+    "text": "Description — berkomunikasi dengan jernih\nKualitas output AI sangat ditentukan oleh kualitas komunikasi Anda:\n\nProduct description — apa yang Anda inginkan: bentuk output, format, audiens, gaya\nProcess description — bagaimana sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah\nPerformance description — bagaimana AI harus “bersikap” selama kolaborasi: ringkas atau rinci? Menantang atau suportif?\n\n\n\n\n\n\n\nPerlakukan AI sebagai kolaborator, bukan “jin botol”🧞\n\n\nKomunikasikan dan evaluasi output AI, meskipun Anda menolaknya — jelaskan mengapa, sehingga AI bisa menyesuaikan output berikutnya, sesuai prinsip reinforcement learning from human feedback (RLHF) yang sudah kita bahas"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#discernment-mengevaluasi-secara-kritis",
+    "href": "slides/pertemuan9.html#discernment-mengevaluasi-secara-kritis",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Discernment — mengevaluasi secara kritis",
+    "text": "Discernment — mengevaluasi secara kritis\nCara Anda menilai output AI:\n\nProduct discernment — menilai output-nya: akurat? Runtut? Sesuai kebutuhan?\nProcess discernment — menilai cara AI membuat output: ada lompatan logika? Ada yang terlewat?\nPerformance discernment — menilai gaya interaksi AI: membantu, atau perlu diarahkan ulang?\n\n\n\n\n\n\n\nBayangkan Anda sebagai detektif🕵️‍♀️\n\n\nMenemukan kesalahan AI adalah bukti Anda menggunakannya dengan benar — bukan tanda AI-nya buruk"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#diligence-bertanggung-jawab-atas-output-ai",
+    "href": "slides/pertemuan9.html#diligence-bertanggung-jawab-atas-output-ai",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Diligence — bertanggung jawab atas output AI",
+    "text": "Diligence — bertanggung jawab atas output AI\n\nCreation diligence — cermat memilih sistem AI dan cara berinteraksi dengannya (data apa yang diunggah? kebijakan privasinya?)\nTransparency diligence — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu (pembimbing, jurnal, institusi)\nDeployment diligence — mengambil tanggung jawab penuh atas output yang Anda gunakan dan sebarkan\n\n\n\n\n\n\n\nDomain expertise adalah guardrail paling penting\n\n\nTanpa keahlian di bidang Anda sendiri, keempat kriteria fluency ini runtuh — Anda tidak akan mampu menilai apakah output AI benar atau sekadar terdengar meyakinkan"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#bukti-dari-27-ribu-percakapan-manusia-ai",
+    "href": "slides/pertemuan9.html#bukti-dari-27-ribu-percakapan-manusia-ai",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Bukti dari 27 ribu percakapan manusia-AI",
+    "text": "Bukti dari 27 ribu percakapan manusia-AI\nPotts & Sudhof (2026) menganalisis 26.958 transkrip percakapan manusia-AI dari WildChat-4.8M:\n\nAmbisi — pengguna fasih mengerjakan tugas jauh lebih kompleks: 3,1 vs. 1,5 pada skala kompleksitas 5 poin\nMode interaksi — 93% interaksi pengguna fasih bersifat augmentatif (menyempurnakan berulang kali, mengkritisi output); kurang dari 1% pada pengguna paling pemula, yang cenderung delegatif (menerima begitu saja)\nParadoksnya — 64% transkrip pengguna fasih mengandung indikasi kegagalan, vs. 24% pada pengguna pemula"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#kegagalan-yang-visible-vs.-invisible",
+    "href": "slides/pertemuan9.html#kegagalan-yang-visible-vs.-invisible",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Kegagalan yang visible vs. invisible",
+    "text": "Kegagalan yang visible vs. invisible\n\n59% kegagalan pengguna fasih bersifat visible — konsekuensi langsung dari sikap aktif mereka memeriksa output, dan sering berujung pada perbaikan\nKegagalan pengguna pemula lebih sering invisible — percakapan tampak sukses, padahal hasilnya tidak koheren sama sekali karena tidak pernah diperiksa secara kritis\n\n\n\n\n\n\n\nKesimpulannya\n\n\nFluency menentukan apakah AI di tangan Anda menjadi produsen AI slop, atau asisten yang bisa diandalkan. Menemukan kegagalan AI bukan tanda Anda gagal — itu justru bukti Anda menggunakannya dengan tepat.\n\n\n\n\n\nPotts & Sudhof (2026)"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#cognitive-offloading-pedang-bermata-dua",
+    "href": "slides/pertemuan9.html#cognitive-offloading-pedang-bermata-dua",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Cognitive offloading — pedang bermata dua",
+    "text": "Cognitive offloading — pedang bermata dua\nCash et al. (2026) mengingatkan sisi lain dari cerita ini:\n\nCognitive offloading — “menitipkan” proses berpikir ke alat bantu — lumrah dan umumnya bermanfaat (kita juga melakukannya lewat kalkulator, GPS, internet)\nTapi keterampilan yang tidak pernah dilatih, tanpa friksi sama sekali, lama-lama akan memudar (skill decay)\nPerlu dibedakan: skill (perilaku yang dipelajari lewat praktik) vs. kemampuan kognitif dasar (memori kerja, atensi selektif) — yang pertama lebih rentan terhadap offloading, yang kedua relatif lebih tahan"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#bukti-nyata-dokter-dan-alat-deteksi-ai",
+    "href": "slides/pertemuan9.html#bukti-nyata-dokter-dan-alat-deteksi-ai",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Bukti nyata: dokter dan alat deteksi AI",
+    "text": "Bukti nyata: dokter dan alat deteksi AI\n\n\n\n\n\n\nStudi endoscopist deskilling\n\n\nSebelum AI diperkenalkan, dokter mendeteksi adenoma pada 28,4% kasus. Setelah AI tersedia (meski akses ke AI-nya tidak sepenuhnya acak), tingkat deteksi tanpa AI turun menjadi 22,4% — mengindikasikan kompetensi dokter menurun setelah terbiasa dibantu AI.\n\n\n\n\nStudi lain: peserta yang belajar topik lewat AI (dibanding lewat pencarian Google) menulis saran yang lebih pendek, kurang orisinal, dan dinilai kurang membantu — mereka juga menghabiskan lebih sedikit waktu belajar dan merasa kurang memiliki rasa kepemilikan atas pengetahuan yang diperoleh\nKesimpulan penulis tidak alarmis: “terlalu dini untuk memastikan” efek jangka panjangnya — tapi risikonya nyata dan bergantung pada bagaimana AI dipakai\n\n\n\nCash, Kelly, Macnamara, & Risko (2026)"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#menyatukan-optimisme-dan-kehati-hatian",
+    "href": "slides/pertemuan9.html#menyatukan-optimisme-dan-kehati-hatian",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Menyatukan optimisme dan kehati-hatian",
+    "text": "Menyatukan optimisme dan kehati-hatian\n\nPotts & Sudhof (2026): pengguna fasih justru mendapat hasil lebih baik karena mereka aktif terlibat, bukan pasrah pada AI\nCash et al. (2026): risiko deskilling muncul justru ketika keterlibatan aktif itu hilang — saat AI dipakai untuk menghindari kerja kognitif, bukan melengkapinya\nKedua bacaan ini sebenarnya sepakat: yang membedakan AI sebagai alat pemberdaya vs. alat yang mengikis kompetensi adalah seberapa aktif Anda terlibat dalam prosesnya — persis inti dari discernment dan diligence dalam kerangka 4D"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#rangkuman",
+    "href": "slides/pertemuan9.html#rangkuman",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nAI literacy (memahami & mengevaluasi AI) dan AI fluency (berkarya & berinovasi dengan AI) adalah dua kompetensi berbeda yang perlu dikembangkan bersamaan\nKerangka 17 kompetensi Long & Magerko (2020) menjawab “apa yang perlu dipahami”; kerangka 4D Dakan & Feller (2025) menjawab “bagaimana berkarya bersama AI secara bertanggung jawab”\nBukti empiris menunjukkan keterlibatan aktif (bukan kepasifan) adalah pembeda antara kolaborasi yang produktif dan yang justru merugikan\nRisiko deskilling itu nyata — strategi terbaiknya bukan menghindari AI, tapi membangun domain expertise yang membuat Anda mampu menilai kapan AI membantu dan kapan tidak"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#ada-pertanyaan",
+    "href": "slides/pertemuan9.html#ada-pertanyaan",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#outline",
@@ -95,7 +312,7 @@
     "href": "slides/matrikulasi-mapsi.html#dari-chatbot-ke-agentic-dan-embodied-ai",
     "title": "Berkolaborasi dengan Akal Imitasi",
     "section": "Dari chatbot ke agentic dan embodied AI",
-    "text": "Dari chatbot ke agentic dan embodied AI\n\n\nLanskapnya berubah sangat cepat:\n\nChatbot — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)\nReasoning models — “berpikir” langkah demi langkah dulu sebelum menjawab (e.g., model-model “frontier” seperti Opus 5, Kimi 3, GPT-5.6 Sol, Fable 5, etc.)\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara mandiri atas nama penggunanya, misalnya menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman Yang et al. (2025)\nEmbodied AI — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM\n\n\n\n\n\n\n\n\nSumber gambar"
+    "text": "Dari chatbot ke agentic dan embodied AI\n\n\nEmpat tahap perkembangannya:\n\nChatbot — merespons pesan Anda satu per satu (ChatGPT-3.5, 2022)\nReasoning models — “berpikir” langkah demi langkah dulu sebelum menjawab (e.g., model-model “frontier” seperti Opus 5, Kimi 3, GPT-5.6 Sol, Fable 5, etc.)\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara mandiri atas nama penggunanya, misalnya menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman Yang et al. (2025)\nEmbodied AI — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM\n\n\n\n\n\n\n\n\nSumber gambar"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#embodied-ai",
@@ -318,6 +535,391 @@
     "objectID": "slides/matrikulasi-mapsi.html#ada-pertanyaan",
     "href": "slides/matrikulasi-mapsi.html#ada-pertanyaan",
     "title": "Berkolaborasi dengan Akal Imitasi",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teknologi dalam Pembelajaran",
+    "section": "",
+    "text": "WarningWork in Progress 👷‍♀️\n\n\n\nMateri mata kuliah ini sedang disusun secara bertahap, sehingga sebagian besar materi belum selesai ditulis."
+  },
+  {
+    "objectID": "index.html#materi-matrikulasi-s2-mapsi-20262027",
+    "href": "index.html#materi-matrikulasi-s2-mapsi-20262027",
+    "title": "Teknologi dalam Pembelajaran",
+    "section": "Materi Matrikulasi S2 Mapsi 2026/2027",
+    "text": "Materi Matrikulasi S2 Mapsi 2026/2027\n\nBerkolaborasi dengan Akal Imitasi — Pengantar AI Fluency untuk Mahasiswa Magister Psikologi"
+  },
+  {
+    "objectID": "index.html#rencana-pertemuan",
+    "href": "index.html#rencana-pertemuan",
+    "title": "Teknologi dalam Pembelajaran",
+    "section": "Rencana Pertemuan",
+    "text": "Rencana Pertemuan\nJadwal di bawah ini hanya mencakup pertemuan yang diampu oleh Rizqy Amelia Zein (Amel) pada mata kuliah Teknologi dalam Pembelajaran. Pertemuan yang diampu oleh Dr. Tino Leonardi tidak dicantumkan di sini — lihat Kontrak Perkuliahan di Psyche mata kuliah untuk jadwal lengkap.\n\n\n\n\n\n\n\n\n\n\n\nTM\nTanggal & Waktu\nTopik\nModa\nTautan\nMateri\n\n\n\n\n7\nJumat, 25 September, 15.30 WIB\nHuman-AI collaboration dan reinforcement learning from human feedback\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n9\nJumat, 16 Oktober, 15.30 WIB\nAI literacy dan fluency\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n10\nJumat, 23 Oktober, 15.30 WIB\nTeknologi pembelajaran untuk kebutuhan khusus: aksesibilitas/teknologi pembantu\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n11\nJumat, 30 Oktober, 15.30 WIB\nPenggunaan teknologi dalam asesmen pembelajaran\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n12\nJumat, 6 November, 15.30 WIB\nDampak dan implikasi teknologi pada pembelajaran\nDiskusi\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n13\nJumat, 13 November, 15.30 WIB\nDampak dan implikasi teknologi pada pembelajaran\nSeminar\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n14\nJumat, 20 November, 15.30 WIB\nMedia pembelajaran (komputer, internet, dan KB): pendidikan dasar, menengah, tinggi dan luar sekolah\nPraktik\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n\n\n\nDeklarasi penggunaan akal imitasi\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#outline",
+    "href": "slides/pertemuan7.html#outline",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Outline",
+    "text": "Outline\n\nApa sebenarnya akal imitasi? — dari model statistik ke large language model\nBagaimana AI “dibesarkan” — pre-training, fine-tuning, dan reinforcement learning from human feedback\nAutomation vs. augmentation — kapan AI menggantikan, kapan AI melengkapi manusia?\nReinforcement learning untuk kolaborasi manusia-AI — mekanisme di balik kolaborasi yang adaptif\nRisiko epistemik dalam kolaborasi manusia-AI — kapan kita salah tanpa menyadarinya\nThe effortless trap, cognitive debt, dan productive struggle — kapan bantuan AI justru menghambat belajar\nSintesis: merancang kolaborasi manusia-AI yang baik\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#artificial-intelligence-a.k.a-akal-imitasi",
+    "href": "slides/pertemuan7.html#artificial-intelligence-a.k.a-akal-imitasi",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Artificial intelligence a.k.a “akal imitasi”",
+    "text": "Artificial intelligence a.k.a “akal imitasi”\n\nBanyak orang menerjemahkan artificial intelligence sebagai “kecerdasan buatan” dalam Bahasa Indonesia, dan akibatnya, publik menganggap seolah-olah AI benar-benar cerdas\nPadahal AI chatbot adalah model statistik dengan output teks (“large language model”) yang meniru proses dan produk kognisi manusia (“bahasa natural”)\nFrasa akal imitasi mengingatkan kita pada dua hal sekaligus:\n\nKemampuan large language model (LLM) terasa natural seperti manusia karena kualitas teks outputnya memang sangat meyakinkan\nTapi ia bukan manusia, sehingga tidak punya pemahaman, niat, apalagi tanggung jawab\n\nKonsekuensinya: yang bertanggung jawab atas output teks AI adalah kita sebagai penggunanya"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#ai-tidak-ujug-ujug-diciptakan",
+    "href": "slides/pertemuan7.html#ai-tidak-ujug-ujug-diciptakan",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "AI tidak ujug-ujug diciptakan",
+    "text": "AI tidak ujug-ujug diciptakan\n\n\n\n1950-an–1980-an — AI simbolik: manusia menuliskan aturan logikanya satu per satu (expert systems)\n1990-an–2000-an — machine learning: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., spam filter)\n2010-an — deep learning, permodelan bahasa yang meniru cara kerja jaringan saraf manusia; terobosan besar dalam rekognisi gambar dan suara (natural language processing, NLP)\n2017 — arsitektur transformer diperkenalkan, yang merupakan fondasi semua LLM modern\n2022 — OpenAI merilis GPT-3.5; generative AI menjadi fenomena massal\n\n\n\n\n\n\n\n\nKlik di sini untuk lengkapnya\n\n\n\n\nSumber: A Timeline of LLM Innovation"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#model-statistik-di-balik-layar",
+    "href": "slides/pertemuan7.html#model-statistik-di-balik-layar",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Model Statistik di Balik Layar",
+    "text": "Model Statistik di Balik Layar\nLarge language model (LLM) pada intinya adalah model statistik raksasa dengan output teks yang menjawab satu pertanyaan:\n\n“Dari semua input kata sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?”\n\n\nKlik di sini ➡️ AnimatedLLM"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#transformer-dan-mekanisme-attention",
+    "href": "slides/pertemuan7.html#transformer-dan-mekanisme-attention",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Transformer dan mekanisme attention",
+    "text": "Transformer dan mekanisme attention\n\n\nTerobosannya adalah mekanisme attention: setiap kata bisa “memperhatikan” konteks dari semua kata lain dalam konteks untuk menentukan maknanya.\n\n“Bisa ular itu amat mematikan” vs. “Saya bisa datang besok”\n\n“Bisa” adalah kata yang sama, makna berbeda (i.e., “homonim”)\n\nModel bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; transformer memproses seluruh kalimat sekaligus, secara paralel\nParalelisme inilah yang memungkinkan training dengan data yang jauh lebih besar\n\n\n\n\n\n\n\n\n\n\nAttention is all you need (Vaswani et al., 2017)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bagaimana-llm-dibesarkan",
+    "href": "slides/pertemuan7.html#bagaimana-llm-dibesarkan",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bagaimana LLM “dibesarkan”?",
+    "text": "Bagaimana LLM “dibesarkan”?\n2️⃣ tahap utama:\n\nPre-training — model membaca miliaran dokumen dan belajar memprediksi kata berikutnya\n\nHasilnya: base model yang menguasai pola bahasa, pengetahuan umum, bahkan penalaran, tapi belum bisa menjadi “asisten”\n\nFine-tuning (termasuk reinforcement learning from human feedback, RLHF) — model dilatih mengikuti instruksi, menjawab dengan sopan, dan menolak permintaan tidak patut bahkan berbahaya\n\nHasilnya: Chatbot seperti ChatGPT, DeepSeek, atau Claude yang Anda kenal sekarang\n\n\n\n\n\n\n\n\nAnalogi proses psikologisnya\n\n\nPre-training ≈ pemerolehan bahasa dan pengetahuan; fine-tuning ≈ sosialisasi — belajar norma tentang bagaimana menggunakan kemampuan itu."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#optimasi-llm",
+    "href": "slides/pertemuan7.html#optimasi-llm",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Optimasi LLM",
+    "text": "Optimasi LLM\n\n\nSumber: Ghali, et al. (2024)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#kemampuan-ai-meningkat-drastis-karena",
+    "href": "slides/pertemuan7.html#kemampuan-ai-meningkat-drastis-karena",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Kemampuan AI meningkat drastis karena…",
+    "text": "Kemampuan AI meningkat drastis karena…\n\n\n\nArsitektur — model transformer (2017) yang bisa diskalakan\nData — teks digital dalam volume luar biasa besar di internet\nHardware/Komputasi — GPU dan investasi besar-besaran pada AI data center"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#dari-chatbot-ke-agentic-dan-embodied-ai",
+    "href": "slides/pertemuan7.html#dari-chatbot-ke-agentic-dan-embodied-ai",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Dari chatbot ke agentic dan embodied AI",
+    "text": "Dari chatbot ke agentic dan embodied AI\n\n\n\nChatbot — merespons pesan Anda satu per satu\nReasoning models — “berpikir” langkah demi langkah dulu sebelum menjawab\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara mandiri atas nama penggunanya, misalnya menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman\nEmbodied AI — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM\n\n\n\n\n\n\n\n\nSumber gambar"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#apa-keterbatasan-ai",
+    "href": "slides/pertemuan7.html#apa-keterbatasan-ai",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Apa keterbatasan AI?",
+    "text": "Apa keterbatasan AI?\n\nHalusinasi — menghasilkan output yang salah secara faktual, tetapi dengan tone yang sangat meyakinkan, termasuk mengarang referensi ilmiah\nKnowledge cutoff — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web\nContext window terbatas — working memory-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses\nPenalaran yang rapuh — LLM bisa memberikan jawaban yang sama sekali berbeda ketika promptnya diubah sedikit saja dari pola data trainingnya\nSycophancy — cenderung memberikan jawaban yang menyenangkan user, alih-alih mengoreksi kesalahan yang dilakukan oleh user\n\n\nBagian intro ±25 menit. Ini fondasi yang akan terus dipakai sepanjang sesi hari ini — pastikan mahasiswa memahami bahwa fine-tuning (termasuk RLHF) adalah titik sambung ke topik inti hari ini."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#dua-cara-ai-terlibat-dalam-pekerjaan-berbasis-penilaian",
+    "href": "slides/pertemuan7.html#dua-cara-ai-terlibat-dalam-pekerjaan-berbasis-penilaian",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Dua cara AI terlibat dalam pekerjaan berbasis penilaian",
+    "text": "Dua cara AI terlibat dalam pekerjaan berbasis penilaian\nFügener et al. (2026) meneliti peran AI dalam judgment tasks — tugas yang membutuhkan penilaian, bukan sekadar eksekusi mekanis:\n\nAutomation — AI menggantikan manusia sepenuhnya pada suatu tugas\nAugmentation — AI memberi saran (advice) kepada manusia, yang kemudian mengambil keputusan akhir — disebut judge-advisor system\n\n\n\n\n\n\n\nPertanyaan penelitiannya\n\n\nBukan “AI atau manusia?”, tapi: kapan sebaiknya AI menggantikan, kapan sebaiknya AI mendampingi, dan kapan manusia sebaiknya bekerja tanpa AI sama sekali?"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#dari-mana-complementarity-manusia-ai-berasal",
+    "href": "slides/pertemuan7.html#dari-mana-complementarity-manusia-ai-berasal",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Dari mana complementarity manusia-AI berasal?",
+    "text": "Dari mana complementarity manusia-AI berasal?\n\nBetween-task complementarity — manusia dan AI unggul pada jenis tugas yang berbeda\n\nContoh: tugas A (manusia 90%, AI 60%) dan tugas B (manusia 60%, AI 90%) — alokasikan tugas B ke AI, performa gabungan meningkat\n\nWithin-task complementarity — pada tugas yang sama, manusia dan AI membuat kesalahan yang berbeda dan bisa saling mengoreksi\n\nContoh: manusia dan AI sama-sama 70% akurat pada satu tugas, tapi kesalahannya tidak berkorelasi → jika manusia bisa membedakan saran AI yang benar dan salah, performa gabungan (augmented) bisa naik ke 91%\n\n\n\n\nFügener, Walzner, & Gupta (2026)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bukti-empiris-klasifikasi-gambar",
+    "href": "slides/pertemuan7.html#bukti-empiris-klasifikasi-gambar",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bukti empiris: klasifikasi gambar",
+    "text": "Bukti empiris: klasifikasi gambar\nStudi eksperimental (klasifikasi gambar dari ImageNet) membandingkan performa akurasi:\n\nManusia sendirian: 68%\nAutomation (AI sendirian): 77%\nAugmentation (manusia + saran AI): 80%\nKerangka gabungan (automasi + augmentasi + realokasi sumber daya manusia): 88%\n\n\n\n\n\n\n\nTemuan kunci\n\n\nMenggabungkan automasi, augmentasi, dan realokasi sumber daya manusia (manusia yang “dibebaskan” dari tugas yang diotomasi dialihkan ke tugas lain) memberi hasil jauh lebih baik daripada mengandalkan satu strategi saja."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#pola-alokasi-tugas-yang-optimal",
+    "href": "slides/pertemuan7.html#pola-alokasi-tugas-yang-optimal",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Pola alokasi tugas yang optimal",
+    "text": "Pola alokasi tugas yang optimal\nBerdasarkan performa relatif AI pada suatu tugas, pola berikut konsisten muncul:\n\nAI performa tinggi, tugas relatif mudah bagi AI → AI mengotomasi tugas tersebut sepenuhnya\nAI dan manusia performanya setara → AI mengaugmentasi manusia (memberi saran, manusia memutuskan)\nAI performa rendah, tugas sulit bagi AI → manusia bekerja tanpa AI\n\n\n\n\n\n\n\nKapan augmentasi tidak membantu?\n\n\nJika AI jauh lebih unggul dari manusia (mis. akurasi AI 84% vs. manusia 58%), melibatkan manusia dalam pengambilan keputusan justru tidak meningkatkan akurasi — augmentasi hanya bermanfaat jika ada complementarity nyata, bukan sekadar karena “melibatkan manusia terasa lebih aman”"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#studi-kasus-dunia-nyata-kapan-manusia-sebaiknya-override-ai",
+    "href": "slides/pertemuan7.html#studi-kasus-dunia-nyata-kapan-manusia-sebaiknya-override-ai",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Studi kasus dunia nyata: kapan manusia sebaiknya override AI?",
+    "text": "Studi kasus dunia nyata: kapan manusia sebaiknya override AI?\n\n\n\n\n\n\nKesavan & Kushwaha (2020) — Eksperimen lapangan di ritel suku cadang otomotif\n\n\nKaryawan diberi opsi meng-override rekomendasi alat data-driven.\n\n\n\n\nUntuk produk tahap pertumbuhan (data historis sedikit) — manusia yang meng-override alat (augmentasi) tampil lebih baik\nUntuk produk tahap matang/menurun (data historis banyak) — mengikuti rekomendasi alat (automasi) tampil lebih baik\nImplikasinya: ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi lebih berharga"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bayang-bayang-di-masa-depan-risiko-kehilangan-tacit-knowledge",
+    "href": "slides/pertemuan7.html#bayang-bayang-di-masa-depan-risiko-kehilangan-tacit-knowledge",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bayang-bayang di masa depan: risiko kehilangan tacit knowledge",
+    "text": "Bayang-bayang di masa depan: risiko kehilangan tacit knowledge\n\nComplementarity manusia-AI mengandaikan manusia punya pengetahuan tak-terkodifikasi (tacit knowledge) yang tidak dimiliki AI\nTapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko berhenti berpikir aktif tentang tugasnya — dan tacit knowledge itu sendiri terancam hilang\nIni persis kekhawatiran deskilling yang akan kita bahas lebih dalam di sesi tentang AI fluency — kolaborasi yang nyaman hari ini bisa mengikis kompetensi jangka panjang\n\n\n\nFügener, Walzner, & Gupta (2026)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#mengapa-reinforcement-learning",
+    "href": "slides/pertemuan7.html#mengapa-reinforcement-learning",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Mengapa reinforcement learning?",
+    "text": "Mengapa reinforcement learning?\nLi et al. (2025) meninjau bagaimana reinforcement learning (RL) — AI yang belajar lewat mekanisme reward dan trial-and-error — memperkuat kolaborasi manusia-AI:\n\nRL cocok untuk kolaborasi karena adaptif: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan — tidak seperti aturan statis\nKolaborasi terjadi lewat umpan balik dua arah: interaksi manusia menjadi sinyal training untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan hak veto manusia pada keputusan kritis"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#pembagian-peran-manusia-dan-sistem-ai",
+    "href": "slides/pertemuan7.html#pembagian-peran-manusia-dan-sistem-ai",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Pembagian peran manusia dan sistem AI",
+    "text": "Pembagian peran manusia dan sistem AI\n\n\n\n\n\n\n\n\nKomponen RL\nPeran Manusia\nPeran Sistem AI\n\n\n\n\nRuang keadaan\nMemberi pengetahuan domain\nMenghitung variabel real-time\n\n\nRuang aksi\nMenentukan jenis aksi yang tersedia\nMemilih aksi optimal\n\n\nFungsi reward\nMenentukan bobot tujuan\nMenghitung reward multi-objektif\n\n\nPenerapan kebijakan\nMengambil keputusan akhir\nMenghasilkan kebijakan personal\n\n\nData pelatihan\nMenyediakan log interaksi\nMengekstraksi pola untuk training\n\n\n\n\n\nLi, Liu, Huang, & Hussain (2025)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bukti-empiris-rl-dibanding-metode-lain",
+    "href": "slides/pertemuan7.html#bukti-empiris-rl-dibanding-metode-lain",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bukti empiris: RL dibanding metode lain",
+    "text": "Bukti empiris: RL dibanding metode lain\nPerbandingan performa RL vs. metode non-RL (klasifikasi tradisional, behavior cloning, imitation learning) di 4 ranah kolaborasi manusia-AI:\n\nTugas pengepakan (packaging) — RL unggul 36% lebih tinggi dibanding klasifikasi supervised\nPermainan kolaboratif Overcooked — RL unggul 273% dibanding strategi self-play\nResep olahraga personal — RL meningkatkan akurasi keputusan 15%, konsisten pada pengguna dengan kebutuhan kognisi rendah maupun tinggi\nMengemudi otonom — RL dengan umpan balik manusia mencapai 85% tingkat keberhasilan, dibanding 0% untuk pendekatan imitation learning murni"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#tiga-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl",
+    "href": "slides/pertemuan7.html#tiga-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Tiga tantangan utama kolaborasi manusia-AI berbasis RL",
+    "text": "Tiga tantangan utama kolaborasi manusia-AI berbasis RL\n\nKeselarasan dengan perilaku manusia (alignment) — perilaku manusia dipengaruhi bias kognisi, emosi, dan konteks yang sulit diprediksi AI secara presisi\nAdaptabilitas di lingkungan dinamis — dunia nyata jauh lebih bervariasi daripada kondisi training yang terkendali; AI harus mampu beradaptasi pada perubahan yang belum pernah dilihat\nKomunikasi dan koordinasi — terutama saat AI harus berkoordinasi dengan banyak manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal (mis. robot kolaboratif di lingkungan industri)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#rlhf-rl-dari-umpan-balik-manusia",
+    "href": "slides/pertemuan7.html#rlhf-rl-dari-umpan-balik-manusia",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "RLHF: RL dari umpan balik manusia",
+    "text": "RLHF: RL dari umpan balik manusia\n\nReinforcement learning from human feedback (RLHF) adalah salah satu metode RL yang secara spesifik memakai penilaian/preferensi manusia sebagai sinyal reward\nInilah mekanisme yang kita bahas di awal sesi — bagian dari fine-tuning yang mengubah base model LLM menjadi chatbot yang sopan dan mengikuti instruksi\nTapi cakupannya lebih luas dari LLM saja: RLHF juga dipakai pada robotika, kendaraan otonom, dan sistem tutor personal — di mana pun preferensi manusia sulit dituliskan sebagai aturan eksplisit, tapi mudah “dicontohkan” lewat umpan balik\n\n\n\n\n\n\n\nMenghubungkan kembali ke augmentation\n\n\nRLHF pada dasarnya adalah augmentasi di tingkat pelatihan model: bukan manusia mengoreksi output AI satu per satu secara manual selamanya, tapi umpan balik manusia diserap AI untuk memperbaiki perilakunya secara bertahap"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bukan-cuma-soal-performa-tapi-soal-bagaimana-kita-tahu",
+    "href": "slides/pertemuan7.html#bukan-cuma-soal-performa-tapi-soal-bagaimana-kita-tahu",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bukan cuma soal performa, tapi soal bagaimana kita tahu",
+    "text": "Bukan cuma soal performa, tapi soal bagaimana kita tahu\n\nSejauh ini kita membahas kolaborasi manusia-AI dari sisi performa (akurasi, kecepatan, efisiensi)\nTapi ada risiko yang lebih mendasar: risiko epistemik — risiko terhadap cara kita membentuk keyakinan, menilai kebenaran, dan menyadari batas pengetahuan kita sendiri ketika AI ikut campur dalam prosesnya\nRisiko ini sering tidak terlihat dalam metrik performa standar — justru karena itu jauh lebih mudah luput dari perhatian"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#ironi-rlhf-melatih-sycophancy-bukan-kebenaran",
+    "href": "slides/pertemuan7.html#ironi-rlhf-melatih-sycophancy-bukan-kebenaran",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Ironi RLHF: melatih sycophancy, bukan kebenaran",
+    "text": "Ironi RLHF: melatih sycophancy, bukan kebenaran\n\nIngat sycophancy pada slide “keterbatasan AI” di awal sesi? Ternyata itu bukan kebetulan — ia berakar pada cara RLHF melatih model\nSharma et al. (2023) menemukan: manusia (dan model reward yang meniru preferensi manusia) lebih memilih jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi — pada sebagian kasus yang tidak sedikit\nKarena reward model dilatih dari preferensi manusia semacam ini, optimisasi RLHF bisa secara sistematis mendorong model ke arah “menyenangkan”, bukan “benar”\n\n\n\n\n\n\n\nImplikasinya\n\n\nSemakin “dipoles” lewat RLHF supaya terasa membantu dan sopan, sebuah model berpotensi semakin pandai terdengar meyakinkan — tanpa proporsional lebih akurat. Kefasihan bahasa AI bukan jaminan kebenaran isinya."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bias-otomasi-dalam-sistem-judge-advisor",
+    "href": "slides/pertemuan7.html#bias-otomasi-dalam-sistem-judge-advisor",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bias otomasi dalam sistem judge-advisor",
+    "text": "Bias otomasi dalam sistem judge-advisor\n\nIngat kerangka augmentation (Fügener et al., 2026): manusia menerima saran AI, lalu memutuskan\nRisiko epistemiknya: manusia cenderung terlalu percaya pada saran yang datang dari sistem yang tampak “objektif” dan konsisten (automation bias), terutama saat kelelahan atau tugasnya rutin\nAugmentasi hanya benar-benar bermanfaat kalau manusia mampu membedakan saran AI yang benar dan salah — begitu kemampuan membedakan ini melemah, augmentasi diam-diam berubah menjadi automasi tanpa disadari"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#ilusi-pemahaman-the-effortless-trap",
+    "href": "slides/pertemuan7.html#ilusi-pemahaman-the-effortless-trap",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Ilusi pemahaman: “the effortless trap”",
+    "text": "Ilusi pemahaman: “the effortless trap”\n\nBrčić & Frljić (2026) — bacaan wajib Anda — menunjukkan bahwa AI generatif yang dipakai secara tidak tepat bisa menciptakan ilusi belajar: rasa percaya diri menguasai materi yang runtuh begitu diuji tanpa bantuan AI\nRisiko epistemiknya bersifat ganda: bukan hanya salah paham, tapi tidak menyadari bahwa diri sendiri salah paham — inilah yang membuatnya berbahaya\nTerhubung dengan konsep kegagalan invisible (Potts & Sudhof, 2026): percakapan dengan AI terasa sukses, padahal pemahaman yang terbentuk keliru atau dangkal — akan dibahas lebih dalam pada sesi AI fluency\n\n\n\n\n\n\n\nPertanyaan reflektif\n\n\nKapan terakhir kali Anda merasa yakin memahami sesuatu setelah berdiskusi dengan AI, tapi ternyata tidak bisa menjelaskannya ulang tanpa membuka kembali percakapan tersebut?"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#bukti-konkret-desain-alatnya-bukan-alatnya-yang-menentukan",
+    "href": "slides/pertemuan7.html#bukti-konkret-desain-alatnya-bukan-alatnya-yang-menentukan",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Bukti konkret: desain alatnya, bukan alatnya, yang menentukan",
+    "text": "Bukti konkret: desain alatnya, bukan alatnya, yang menentukan\n\nRCT hampir 1.000 siswa SMA matematika (Bastani et al., 2025): kelompok dengan AI tanpa pengaman (langsung memberi jawaban) tampil lebih baik selama latihan, tapi skor 17% lebih rendah dibanding kelompok tanpa akses AI sama sekali pada ujian mandiri\nKelompok dengan AI berpengaman (menahan jawaban, memberi petunjuk ala guru) memakai model yang sama persis — dan kerugian itu hilang\nKesimpulannya tajam: bukan kehadiran AI yang merusak pembelajaran, tapi desain perannya — memberi jawaban di titik yang seharusnya diperjuangkan siswa sendiri\n\n\n\n\n\n\n\nSisi sebaliknya\n\n\nSebuah RCT terpisah pada mahasiswa fisika menemukan tutor AI yang dirancang cermat menghasilkan lebih dari 2 kali lipat pembelajaran dibanding kelas active-learning yang kuat — dalam waktu lebih singkat (Kestin et al., 2025). AI bukan musuh pembelajaran; penempatannya yang menentukan."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#mengapa-terasa-mudah-bisa-menipu",
+    "href": "slides/pertemuan7.html#mengapa-terasa-mudah-bisa-menipu",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Mengapa “terasa mudah” bisa menipu",
+    "text": "Mengapa “terasa mudah” bisa menipu\n\nPembelajaran terjadi ketika siswa melakukan bagian yang berat secara kognitif — yang disebut ilmu kognisi sebagai productive struggle (Kapur, 2008)\nAI yang mengerjakan bagian itu terasa membantu, padahal menghilangkan justru kerja yang membangun keterampilan\nBukti langsungnya: mahasiswa di kelas aktif yang efortful menilai diri mereka belajar lebih sedikit, padahal secara objektif mereka belajar lebih banyak (Deslauriers et al., 2019) — perasaan lancar (fluent) bukan indikator belajar yang valid\n\n\n\n\n\n\n\nStudi kasus yang relevan untuk Anda\n\n\nProgrammer yang diberi asisten AI menyelesaikan tugas coding dengan baik, tapi skornya jauh lebih rendah pada tes konsep di balik kode yang baru saja mereka buat sendiri (Shen & Tamkin, 2026). Pola yang sama sangat mungkin berlaku pada penulisan akademik dan analisis data."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#cognitive-debt-bukti-yang-diperdebatkan-dari-neurosains",
+    "href": "slides/pertemuan7.html#cognitive-debt-bukti-yang-diperdebatkan-dari-neurosains",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Cognitive debt: bukti (yang diperdebatkan) dari neurosains",
+    "text": "Cognitive debt: bukti (yang diperdebatkan) dari neurosains\n\nStudi MIT Media Lab (Kosmyna et al., 2025) merekam aktivitas otak (EEG) 54 partisipan menulis esai dengan tiga kondisi: hanya otak, mesin pencari, atau ChatGPT\nTemuan utama: konektivitas otak paling lemah pada kelompok pengguna LLM, moderat pada pengguna mesin pencari, dan paling kuat/tersebar pada kelompok tanpa alat bantu\nPengguna LLM juga paling kesulitan mengutip esai yang baru saja mereka tulis sendiri — indikasi rendahnya rasa kepemilikan terhadap karya sendiri\nIstilah cognitive debt menggambarkan gagasan bahwa kemudahan hari ini bisa “berutang” pada kapasitas kognitif di masa depan\n\n\n\n\n\n\n\nBacalah dengan hati-hati\n\n\nStudi ini masih berupa preprint dan metodologinya diperdebatkan — ada kritik terbit yang mempertanyakan temuannya (Stankovic et al., 2025). Perlakukan cognitive debt sebagai hipotesis yang sedang diuji, bukan fakta yang sudah mapan — contoh baik untuk melatih discernment Anda sendiri terhadap literatur ilmiah yang berkembang cepat."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#enam-gerakan-belajar-kerangka-penempatan-ai",
+    "href": "slides/pertemuan7.html#enam-gerakan-belajar-kerangka-penempatan-ai",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Enam gerakan belajar: kerangka penempatan AI",
+    "text": "Enam gerakan belajar: kerangka penempatan AI\nBrčić & Frljić (2026) menawarkan kerangka praktis: belajar satu ide baru terjadi lewat enam gerakan, berurutan:\n\nPrime — memantik minat, membangunkan pengetahuan awal — AI boleh membantu (bikin analogi, contoh pemantik)\nProbe — siswa menghadapi masalah sulit tanpa bantuan dulu — AI harus keluar, inilah perjuangan yang membangun\nPoint — guru membimbing lewat pertanyaan, bukan jawaban — AI sebagai tutor berpengaman: petunjuk, bukan solusi\nAttach — barulah contoh yang sudah dikerjakan ditunjukkan — AI boleh membuat contoh yang relevan\nStrengthen — latihan bervariasi memperkuat pemahaman — AI bisa menyediakan latihan tanpa batas\nTest — siswa diuji sendirian, tanpa bantuan — AI harus keluar total; inilah satu-satunya bukti bahwa belajar benar-benar terjadi\n\n\n\nBrčić & Frljić (2026)"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#aturan-penempatan-kapan-ai-boleh-masuk",
+    "href": "slides/pertemuan7.html#aturan-penempatan-kapan-ai-boleh-masuk",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Aturan penempatan: kapan AI boleh masuk?",
+    "text": "Aturan penempatan: kapan AI boleh masuk?\n\n\n\n\n\n\nDiagnostik satu kalimat\n\n\nJika membiarkan AI masuk membuat tugas terasa tanpa usaha (effortless), AI kemungkinan besar sedang menggantikan pekerjaan yang seharusnya membangun keterampilan itu sendiri.\n\n\n\n\nAturannya per keterampilan, bukan per mata kuliah — AI bisa pantas dipakai di satu bagian tugas dan harus dihindari di bagian lain, dalam jam yang sama\nAI punya dua peran sah: memangkas kerja rutin yang bukan inti pembelajaran, dan menambah kepadatan latihan/umpan balik yang mustahil disediakan satu pengajar untuk semua orang\nYang tidak boleh dilakukan AI: mengerjakan perjuangan kognitif yang justru menjadi inti dari apa yang sedang dipelajari, dan mengaburkan bukti bahwa siswa benar-benar bisa berpikir/berkinerja mandiri"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#mengelola-risiko-epistemik-dalam-kolaborasi",
+    "href": "slides/pertemuan7.html#mengelola-risiko-epistemik-dalam-kolaborasi",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Mengelola risiko epistemik dalam kolaborasi",
+    "text": "Mengelola risiko epistemik dalam kolaborasi\n\nJangan menyamakan kefasihan bahasa dengan kebenaran — model yang dilatih untuk terdengar meyakinkan tidak otomatis lebih akurat\nPertahankan “hak veto” epistemik — selalu sisakan ruang untuk menyatakan tidak setuju atau meminta AI menunjukkan dasar argumennya\nTerapkan aturan penempatan — amankan usaha pertama (Probe) dan uji akhir mandiri (Test) Anda sendiri; gunakan AI dengan pengaman di antara keduanya\nKeempat strategi ini adalah bibit dari kompetensi discernment yang akan kita bahas tuntas di sesi AI literacy dan fluency\n\n\nBagian ini menjembatani ke sesi berikutnya. Tekankan bahwa risiko epistemik berbeda dari risiko performa biasa — bukan “AI salah menjawab”, tapi “kita tidak sadar AI (atau kita sendiri) sedang salah”. Kaitkan enam gerakan ini langsung ke Tugas 1 (log interaksi UTS) — mahasiswa akan diminta merefleksikan di mana dalam prosesnya AI mereka tempatkan."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#menyatukan-dua-kerangka",
+    "href": "slides/pertemuan7.html#menyatukan-dua-kerangka",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Menyatukan dua kerangka",
+    "text": "Menyatukan dua kerangka\n\nKerangka automation vs. augmentation (Fügener et al., 2026) menjawab pertanyaan “tugas mana” yang sebaiknya diotomasi, diaugmentasi, atau dikerjakan manusia sendiri\nKerangka RL untuk kolaborasi (Li et al., 2025) menjawab pertanyaan “bagaimana” sistem AI itu bisa terus belajar dan menyesuaikan diri dengan perilaku manusia dari waktu ke waktu\nKeduanya bertemu pada satu prinsip: kolaborasi manusia-AI yang baik membutuhkan complementarity yang dikelola secara sengaja, bukan sekadar “menambahkan AI” ke proses yang sudah ada"
+  },
+  {
+    "objectID": "slides/pertemuan7.html#rangkuman",
+    "href": "slides/pertemuan7.html#rangkuman",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nAI adalah model statistik yang “dibesarkan” lewat pre-training dan fine-tuning (termasuk RLHF) — bukan entitas yang benar-benar “berpikir”.\nAutomation menggantikan manusia; augmentation melengkapi manusia lewat saran — pilihannya bergantung pada jenis complementarity yang tersedia.\nBukti empiris menunjukkan kombinasi automasi + augmentasi + realokasi sumber daya manusia memberi hasil terbaik.\nReinforcement learning (termasuk RLHF) adalah mekanisme di balik AI yang terus beradaptasi lewat interaksi dengan manusia — tapi tetap menghadapi tantangan keselarasan, adaptabilitas, dan koordinasi.\nRisiko epistemik mengintai di balik kefasihan AI: RLHF bisa melatih sycophancy, augmentasi bisa merosot jadi automation bias, dan kolaborasi yang nyaman bisa menciptakan ilusi pemahaman.\nThe effortless trap mengajarkan: yang menentukan bukan ada/tidaknya AI, tapi di titik mana dalam proses belajar ia ditempatkan — amankan Probe dan Test, gunakan AI berpengaman di antaranya.\nKolaborasi yang terlalu erat berisiko mengikis tacit knowledge manusia (dan berpotensi menimbulkan cognitive debt) — pertanyaan yang akan kita dalami lebih jauh di sesi tentang AI literacy dan fluency."
+  },
+  {
+    "objectID": "slides/pertemuan7.html#ada-pertanyaan",
+    "href": "slides/pertemuan7.html#ada-pertanyaan",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#outline",
+    "href": "slides/pertemuan10.html#outline",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Outline",
+    "text": "Outline\n\nMengapa aksesibilitas penting? — dari amanat hukum ke prinsip pendidikan inklusif\nRagam kebutuhan khusus dan hambatan belajar yang menyertainya\nUniversal Design for Learning (UDL) — merancang proses pembelajaran untuk keberagaman sejak awal\nTeknologi pembantu (assistive technology) per kategori kebutuhan\nPeran akal imitasi dalam memperluas aksesibilitas\nPrinsip desain aksesibel (WCAG) dan isu etis yang menyertainya\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan10.html#bukan-sekadar-kebaikan-hati-charity",
+    "href": "slides/pertemuan10.html#bukan-sekadar-kebaikan-hati-charity",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Bukan sekadar kebaikan hati (charity)",
+    "text": "Bukan sekadar kebaikan hati (charity)\n\nAksesibilitas dalam pendidikan adalah hak siswa, bukan sekadar fasilitas tambahan\nIndonesia meratifikasi Convention on the Rights of Persons with Disabilities (CRPD) PBB melalui UU No. 19 Tahun 2011\nDiperkuat oleh UU No. 8 Tahun 2016 tentang Penyandang Disabilitas, yang menjamin hak atas pendidikan inklusif di semua jenjang\nPertanyaannya bukan lagi “apakah perlu mengakomodasi?”, tapi *“bagaimana* merancang pembelajaran yang aksesibel sejak awal?”"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#model-disabilitas-dari-model-medis-ke-sosial",
+    "href": "slides/pertemuan10.html#model-disabilitas-dari-model-medis-ke-sosial",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Model disabilitas: dari model medis ke sosial",
+    "text": "Model disabilitas: dari model medis ke sosial\n\n\nModel medis (lama)\n\nDisabilitas = “kekurangan” pada individu\nSolusi = “perbaiki” atau isolasi individu tersebut\nFokus pada diagnosis dan keterbatasan\n\n\nModel sosial (kini)\n\nDisabilitas muncul dari ketidaksesuaian antara individu dan lingkungan\nSolusi = ubah lingkungan (termasuk desain teknologi dan pembelajaran)\nFokus pada penghapusan hambatan (barrier removal)\n\n\n\n\n\n\n\n\nImplikasi bagi pendidik\n\n\nKalau seorang mahasiswa “gagal” mengakses materi kuliah, pertanyaan pertama bukan “apa yang salah dengan mahasiswa ini?” tapi “apa yang salah dengan desain materinya?”"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#empat-kategori-hambatan-belajar-yang-umum",
+    "href": "slides/pertemuan10.html#empat-kategori-hambatan-belajar-yang-umum",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Empat kategori hambatan belajar yang umum",
+    "text": "Empat kategori hambatan belajar yang umum\n\nSensorik — hambatan penglihatan (low vision, blind) dan pendengaran (hard of hearing, deaf)\nMotorik/fisik — keterbatasan gerak yang memengaruhi penggunaan perangkat standar (mouse, keyboard)\nKognitif dan belajar spesifik — disleksia, diskalkulia, ADHD, gangguan spektrum autisme\nKesehatan mental dan kondisi kronis — kecemasan, depresi, kelelahan kronis yang memengaruhi kapasitas atensi dan energi belajar\n\n\n\n\n\n\n\nIngat\n\n\nHambatan belajar juga bisa situasional atau sementara (koneksi internet buruk, tangan cedera, lingkungan bising) — desain aksesibel menguntungkan semua orang, bukan hanya penyandang disabilitas permanen (“curb-cut effect”)"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#merancang-untuk-keberagaman-sejak-awal",
+    "href": "slides/pertemuan10.html#merancang-untuk-keberagaman-sejak-awal",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Merancang untuk keberagaman sejak awal",
+    "text": "Merancang untuk keberagaman sejak awal\nKerangka UDL dari CAST menawarkan tiga prinsip utama yang saling melengkapi:\n\nMultiple means of representation — sajikan informasi lewat lebih dari satu format (teks, audio, visual, video bertakarir)\nMultiple means of action & expression — beri mahasiswa lebih dari satu cara menunjukkan pemahaman (esai, rekaman suara, infografis, presentasi)\nMultiple means of engagement — beri pilihan dan relevansi agar motivasi belajar tetap terjaga\n\n\n\nCAST (2024). UDL Guidelines versi 2.2"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#udl-bukan-solusi-ekstra-untuk-sebagian-mahasiswa",
+    "href": "slides/pertemuan10.html#udl-bukan-solusi-ekstra-untuk-sebagian-mahasiswa",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "UDL bukan “solusi ekstra” untuk sebagian mahasiswa",
+    "text": "UDL bukan “solusi ekstra” untuk sebagian mahasiswa\n\n\n\n\n\n\nPrinsip kunci\n\n\nUDL dirancang untuk semua mahasiswa di kelas, bukan hanya penyandang disabilitas — mirip ramp di trotoar yang aslinya untuk pengguna kursi roda, tapi juga membantu orang tua yang mendorong kereta bayi\n\n\n\nBandingkan dengan pendekatan lama: akomodasi ad hoc yang baru diberikan setelah mahasiswa melapor kesulitan — reaktif, melelahkan, dan sering terlambat."
+  },
+  {
+    "objectID": "slides/pertemuan10.html#definisi-dan-cakupannya",
+    "href": "slides/pertemuan10.html#definisi-dan-cakupannya",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Definisi dan cakupannya",
+    "text": "Definisi dan cakupannya\n\n“Assistive technology adalah produk, peralatan, atau sistem apa pun yang meningkatkan, memelihara, atau memperbaiki kapabilitas fungsional individu penyandang disabilitas.” — Assistive Technology Act (AS)\n\n\nRentangnya luas: dari teknologi rendah (kartu bergambar, pengatur waktu visual) hingga teknologi tinggi (eye-tracker, brain-computer interface)\nTidak selalu “canggih” — yang penting tepat guna sesuai kebutuhan individu"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#untuk-hambatan-penglihatan",
+    "href": "slides/pertemuan10.html#untuk-hambatan-penglihatan",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Untuk hambatan penglihatan",
+    "text": "Untuk hambatan penglihatan\n\nScreen reader — membacakan teks di layar (NVDA, JAWS, VoiceOver)\nText-to-speech (TTS) untuk bahan bacaan digital\nBraille display elektronik dan alat cetak braille\nPerbesaran layar (screen magnification) dan mode kontras tinggi"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#untuk-hambatan-pendengaran",
+    "href": "slides/pertemuan10.html#untuk-hambatan-pendengaran",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Untuk hambatan pendengaran",
+    "text": "Untuk hambatan pendengaran\n\nTeks berjalan/closed captioning otomatis (kini banyak didukung live transcription berbasis AI)\nHearing loop dan alat bantu dengar dengan konektivitas bluetooth\nNotifikasi visual/getar sebagai pengganti alarm suara\nInterpretasi bahasa isyarat (manusia atau avatar berbasis AI, meski masih terbatas akurasinya)"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#untuk-hambatan-motorik",
+    "href": "slides/pertemuan10.html#untuk-hambatan-motorik",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Untuk hambatan motorik",
+    "text": "Untuk hambatan motorik\n\nPapan ketik dan mouse adaptif (switch access, joystick, eye-gaze)\nKontrol suara (voice control/dictation) untuk navigasi dan penulisan\nHead-tracking dan eye-tracking untuk pengguna dengan mobilitas tangan sangat terbatas"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#untuk-kebutuhan-kognitif-dan-belajar-spesifik",
+    "href": "slides/pertemuan10.html#untuk-kebutuhan-kognitif-dan-belajar-spesifik",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Untuk kebutuhan kognitif dan belajar spesifik",
+    "text": "Untuk kebutuhan kognitif dan belajar spesifik\n\nPerangkat lunak text-to-speech dan speech-to-text untuk disleksia\nAplikasi mind-mapping dan pengatur grafis (graphic organizer) untuk perencanaan tulisan\nPengingat dan pengatur waktu visual untuk mendukung fungsi eksekutif (relevan untuk ADHD)\nMateri dengan bahasa yang disederhanakan (plain language) untuk gangguan pemrosesan bahasa"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#ai-sebagai-pengganda-daya-force-multiplier",
+    "href": "slides/pertemuan10.html#ai-sebagai-pengganda-daya-force-multiplier",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "AI sebagai pengganda daya (force multiplier)",
+    "text": "AI sebagai pengganda daya (force multiplier)\n\nTranskripsi dan live captioning otomatis — akurasi meningkat pesat, meski masih bermasalah untuk dialek/logat tertentu\nDeskripsi gambar otomatis (alt text generation) — AI generatif mampu mendeskripsikan visual untuk pengguna screen reader\nPenyederhanaan teks (text simplification) — meringkas atau menulis ulang bacaan kompleks ke tingkat keterbacaan yang lebih rendah\nAugmentative and alternative communication (AAC) berbasis AI — memprediksi/menyusun kalimat bagi pengguna dengan hambatan bicara"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#tapi-bukan-tanpa-risiko",
+    "href": "slides/pertemuan10.html#tapi-bukan-tanpa-risiko",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Tapi bukan tanpa risiko",
+    "text": "Tapi bukan tanpa risiko\n\nBias pengenalan suara — sistem automated speech recognition terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih (Koenecke et al., 2020)\nHalusinasi pada deskripsi otomatis — AI generatif bisa “mengarang” detail visual yang sebenarnya tidak ada — fatal bagi pengguna screen reader yang sepenuhnya bergantung padanya\nRelevan dengan kerangka automation vs. augmentation (Fügener et al., 2026) — AI sebaiknya melengkapi, bukan menggantikan begitu saja penilaian dan pendampingan manusia"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#wcag-empat-prinsip-pour",
+    "href": "slides/pertemuan10.html#wcag-empat-prinsip-pour",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "WCAG: empat prinsip POUR",
+    "text": "WCAG: empat prinsip POUR\nWeb Content Accessibility Guidelines (WCAG 2.1) merangkum aksesibilitas digital dalam 4 prinsip:\n\nPerceivable — informasi harus dapat dipersepsikan lewat lebih dari satu indra (mis. teks alternatif untuk gambar)\nOperable — antarmuka harus bisa dioperasikan lewat berbagai cara input (mis. navigasi keyboard penuh)\nUnderstandable — informasi dan pengoperasian antarmuka harus mudah dipahami\nRobust — konten harus kompatibel dengan berbagai teknologi pembantu, termasuk yang akan datang\n\n\n\nWorld Wide Web Consortium (2018). Web Content Accessibility Guidelines (WCAG) 2.1"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#menerapkannya-di-materi-pembelajaran",
+    "href": "slides/pertemuan10.html#menerapkannya-di-materi-pembelajaran",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Menerapkannya di materi pembelajaran",
+    "text": "Menerapkannya di materi pembelajaran\n\nBeri teks alternatif pada semua gambar/diagram di slide dan modul\nSediakan transkrip untuk video/audio kuliah\nGunakan kontras warna yang cukup dan hindari mengandalkan warna semata untuk makna\nFormat dokumen (PDF/Word) dengan struktur heading yang benar agar terbaca screen reader\nBerikan fleksibilitas format tugas sesuai prinsip UDL, tetapi bukan berarti menurunkan standar akademik"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#studi-kasus-untuk-didiskusikan",
+    "href": "slides/pertemuan10.html#studi-kasus-untuk-didiskusikan",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Studi kasus untuk didiskusikan",
+    "text": "Studi kasus untuk didiskusikan\n\n\n\n\n\n\nSkenario\n\n\nSeorang mahasiswa dengan disleksia berat meminta izin menggunakan text-to-speech dan AI-assisted note-taking selama kuliah dan ujian. Seorang mahasiswa lain berpendapat ini “tidak adil” dibanding mahasiswa yang mengerjakan tanpa bantuan AI apa pun.\n\n\n\n\nApakah masalah ini berkaitan dengan kesetaraan (equality, semua diperlakukan sama) atau keadilan (equity, semua diberi apa yang dibutuhkan)?\nBagaimana idealnya kebijakan kelas Anda membedakan antara teknologi pembantu yang bersifat akomodasi vs. yang berpotensi menjadi kecurangan akademik?\nKaitkan dengan gagasan the effortless trap (Brčić & Frljić, 2026). Kapan bantuan AI memberdayakan, dan kapan ia justru menggantikan proses belajar yang esensial?\n\n\nDiskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang mempengaruhi akses terhadap materi (aksesibilitas) vs. AI yang menggantikan proses kognitif itu sendiri (potensi “effortless trap”). Keduanya sering disalahpahami sebagai hal yang sama."
+  },
+  {
+    "objectID": "slides/pertemuan10.html#rangkuman",
+    "href": "slides/pertemuan10.html#rangkuman",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nAksesibilitas adalah hak, dan berakar dari model sosial disabilitas — bukan sekadar kebaikan hati\nUDL mendorong desain inklusif sejak awal, bukan akomodasi reaktif\nTeknologi pembantu sangat beragam — dari alat sederhana hingga AI generatif — dan harus dipilih sesuai kebutuhan individu, bukan sekadar tren\nAI memperluas aksesibilitas, tapi juga membawa risiko baru (bias, halusinasi) yang perlu dikelola secara kritis\nDesain aksesibel (WCAG/POUR) menguntungkan semua orang, bukan hanya penyandang disabilitas"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#ada-pertanyaan",
+    "href": "slides/pertemuan10.html#ada-pertanyaan",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
     "section": "Ada pertanyaan❓",
     "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
   }

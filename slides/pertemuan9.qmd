@@ -1,0 +1,304 @@
+---
+title: "AI Literacy dan AI Fluency"
+subtitle: "Dari Memahami ke Berkarya Bersama Akal Imitasi"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* **Mengapa ini penting** — kesenjangan kesiapan pendidik menghadapi AI
+* ***AI literacy* vs. *AI fluency*** — dua jenjang kompetensi yang berbeda
+* **Kerangka *AI literacy*** — 17 kompetensi, lima pertanyaan besar
+* **Kerangka 4D *AI Fluency*** — *Delegation*, *Description*, *Discernment*, *Diligence*
+* **Mengapa *fluency* menentukan hasil** — bukti dari 27 ribu percakapan manusia-AI
+* **Sisi kritis**: apakah AI membuat kita "bodoh"?
+:::
+
+::: aside
+***Disclosure* penggunaan AI**
+
+Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# Mengapa Ini Penting? 📉 {background-color="#14497F"}
+
+## Pendidik belum siap
+
+::: {.incremental}
+* Survei *Alberta Teachers Association* (Desember 2023) terhadap **2.148 guru**: hanya **29,4%** optimis, **37,2%** khawatir akan dampak negatif AI, sisanya bersikap netral atau tidak yakin
+* Survei *EdWeek Research Center* terhadap 498 guru K-12 tentang alasan **tidak** memakai AI di kelas: prioritas lain (46%), tidak tahu caranya (36%), tidak ada kebijakan (33%), tidak tahu cara memakainya **secara efektif** (30%)
+* Sebagian besar hambatan bukan soal **penolakan**, tapi **kurangnya kompetensi** — inilah yang coba dijawab oleh kerangka *AI literacy* dan *AI fluency*
+:::
+
+::: aside
+[Rogers & Carbonaro (2025)](https://doi.org/10.22329/jtl.v19i4.9420)
+:::
+
+# *AI Literacy* vs. *AI Fluency* 🧭 {background-color="#14497F"}
+
+## Dua jenjang kompetensi yang berbeda
+
+::: {.columns}
+::: {.column width="50%"}
+***AI literacy***
+
+::: {.incremental}
+* **Memahami** cara kerja AI
+* **Mengevaluasi** teknologi AI secara kritis
+* Tahu risiko dan batasannya
+:::
+:::
+
+::: {.column width="50%"}
+***AI fluency***
+
+::: {.incremental}
+* **Berkarya dan berinovasi** dengan AI
+* Memecahkan masalah bersama AI
+* Mengelola penggunaannya secara etis
+:::
+:::
+:::
+
+::: {.fragment}
+Analoginya seperti belajar bahasa: *literacy* = bisa membaca; *fluency* = bisa berbincang dengan lancar.
+:::
+
+::: aside
+[Rogers & Carbonaro (2025)](https://doi.org/10.22329/jtl.v19i4.9420)
+:::
+
+## Mengapa "penciptaan" jadi pembeda utama
+
+::: {.incremental}
+* [Rogers & Carbonaro (2025)](https://doi.org/10.22329/jtl.v19i4.9420) menelusuri sejarah pergeseran serupa dari literasi ke *fluency*: literasi komputer → *digital fluency*
+* *National Research Council* (1999) menyimpulkan literasi komputer "terlalu sederhana" di tengah perubahan cepat, lalu memperkenalkan konsep **FITness** (*fluency with information technology*)
+* ***Fluency*** = "kemampuan merumuskan ulang pengetahuan, berekspresi kreatif, dan **menghasilkan** informasi" — bukan sekadar memahaminya
+* Ini sejalan dengan **Taksonomi Bloom Revisi**: "*mencipta*" (*create*) adalah level kognitif **tertinggi**, di atas memahami dan mengevaluasi
+:::
+
+::: {.callout-important}
+### Implikasi penting
+*Literacy* dan *fluency* sebaiknya dikembangkan **bersamaan**, bukan berurutan — mahasiswa tidak perlu "lulus" literasi dulu baru belajar *fluency*
+:::
+
+# Kerangka *AI Literacy* 📚 {background-color="#14497F"}
+
+## Definisi dan lima pertanyaan besar
+
+> **"Seperangkat kompetensi yang memampukan seseorang untuk mengevaluasi teknologi AI secara kritis; berkomunikasi dan berkolaborasi secara efektif dengan AI; dan menggunakan AI sebagai alat, baik daring, di rumah, maupun di tempat kerja."** — [Long & Magerko (2020)](https://doi.org/10.1145/3313831.3376727)
+
+Kerangka ini mengelompokkan **17 kompetensi** ke dalam lima pertanyaan besar:
+
+::: {.incremental}
+1. **Apa itu AI?** — mengenali AI, memahami "kecerdasan", AI umum vs. AI sempit
+2. **Apa yang bisa dilakukan AI?** — kekuatan dan kelemahannya, membayangkan AI masa depan
+3. **Bagaimana cara kerja AI?** — representasi, pengambilan keputusan, langkah-langkah *machine learning*, literasi data
+4. **Bagaimana AI seharusnya digunakan?** — etika
+5. **Bagaimana manusia mempersepsikan AI?** — sejauh mana AI "dianggap" bisa diprogram/dikendalikan
+:::
+
+## Contoh penerapan di kelas Anda kelak
+
+::: {.incremental}
+* **"Apa itu AI?"** — mahasiswa mampu membedakan AI umum (*general*, fiksi ilmiah) dari AI sempit (*narrow*, yang benar-benar ada saat ini, seperti *chatbot*)
+* **"Bagaimana cara kerja AI?"** — mahasiswa paham bahwa AI "belajar dari data", sehingga bisa **mewarisi bias** yang ada di data tersebut
+* **"Bagaimana AI seharusnya digunakan?"** — mahasiswa mampu menimbang implikasi etis sebelum memakai AI untuk suatu tugas, bukan sekadar bisa mengoperasikannya
+:::
+
+::: {.callout-note}
+### Kaitan dengan pendidikan
+Kerangka ini awalnya dirancang untuk pendidikan K-12, tapi kompetensinya berlaku lintas jenjang — termasuk untuk mahasiswa magister yang kelak jadi pendidik atau peneliti
+:::
+
+# Kerangka 4D *AI Fluency* 🧭 {background-color="#14497F"}
+
+## Definisi *AI fluency*
+
+::: {.callout-note}
+### Definisi
+Kemampuan berkolaborasi dengan AI secara **efektif, efisien, etis, dan aman** ([Dakan & Feller, 2025](https://aifluencyframework.org/)).
+:::
+
+Kerangka ini dibangun di atas **3 modalitas interaksi** manusia-AI:
+
+::: {.incremental}
+* ***Automation*** — AI mengerjakan tugas sesuai instruksi langsung manusia (mis. menulis ringkasan)
+* ***Augmentation*** — manusia dan AI **bersama-sama** mendefinisikan dan mengerjakan tugas secara iteratif (mis. menulis esai bersama)
+* ***Agency*** — manusia mengonfigurasi AI agar terus bekerja **mandiri** mewakili dirinya (mis. *chatbot* tutor, karakter gim interaktif)
+:::
+
+::: aside
+[Dakan & Feller (2025). *The AI Fluency Framework* v1.1](https://aifluencyframework.org/)
+:::
+
+## 4️⃣D AI *Fluency Framework*
+
+![](libs/4d.png){fig-align="center" width="90%"}
+
+::: {.callout-note}
+### *Catatan*
+*Delegation* dan *description* → **efektif dan efisien**; *discernment* dan *diligence* → **etis dan aman**.
+:::
+
+## *Delegation* — memilih visi dan alat yang tepat
+
+Tiga kompetensi inti:
+
+::: {.incremental}
+1. ***Goal & task awareness*** — apa tujuan Anda? Seperti apa *output* yang baik dan bisa diterima?
+2. ***Platform awareness*** — AI (yang mana) bisa apa, dan apa yang **tidak** bisa ia lakukan?
+3. ***Task delegation*** — bagian mana yang butuh keahlian dan *judgment* **Anda**; bagian mana bisa dikerjakan AI; bagian mana paling berdampak kalau dikerjakan **bersama**?
+:::
+
+::: {.fragment}
+Contoh untuk tesis Anda:
+
+| Tugas | Delegasi |
+|---|---|
+| Merumuskan pertanyaan penelitian | **Anda** (AI boleh menjadi mitra diskusi) |
+| Memoles bahasa akademik naskah | **AI**, lalu Anda sunting |
+| Menginterpretasi hasil analisis | **AI dan Anda bersama**, AI menawarkan alternatif, Anda membuat keputusan akhir |
+:::
+
+## *Description* — berkomunikasi dengan jernih
+
+Kualitas *output* AI sangat ditentukan oleh kualitas komunikasi Anda:
+
+::: {.incremental}
+* ***Product description*** — **apa** yang Anda inginkan: bentuk *output*, format, audiens, gaya
+* ***Process description*** — **bagaimana** sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah
+* ***Performance description*** — **bagaimana AI harus "bersikap"** selama kolaborasi: ringkas atau rinci? Menantang atau suportif?
+:::
+
+::: {.callout-caution}
+### Perlakukan AI sebagai kolaborator, bukan "jin botol"🧞
+Komunikasikan dan evaluasi *output* AI, meskipun Anda menolaknya — jelaskan mengapa, sehingga AI bisa menyesuaikan *output* berikutnya, sesuai prinsip *reinforcement learning from human feedback* (RLHF) yang sudah kita bahas
+:::
+
+## *Discernment* — mengevaluasi secara kritis
+
+Cara Anda **menilai** *output* AI:
+
+::: {.incremental}
+* ***Product discernment*** — menilai *output*-nya: akurat? Runtut? Sesuai kebutuhan?
+* ***Process discernment*** — menilai **cara** AI membuat *output*: ada lompatan logika? Ada yang terlewat?
+* ***Performance discernment*** — menilai **gaya interaksi** AI: membantu, atau perlu diarahkan ulang?
+:::
+
+::: {.callout-important}
+### Bayangkan Anda sebagai detektif🕵️‍♀️
+Menemukan kesalahan AI adalah **bukti Anda menggunakannya dengan benar** — bukan tanda AI-nya buruk
+:::
+
+## *Diligence* — bertanggung jawab atas *output* AI
+
+::: {.incremental}
+* ***Creation diligence*** — cermat memilih sistem AI dan cara berinteraksi dengannya (data apa yang diunggah? kebijakan privasinya?)
+* ***Transparency diligence*** — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu (pembimbing, jurnal, institusi)
+* ***Deployment diligence*** — mengambil tanggung jawab penuh atas *output* yang Anda gunakan dan sebarkan
+:::
+
+::: {.callout-important}
+### *Domain expertise* adalah *guardrail* paling penting
+Tanpa keahlian di bidang Anda sendiri, keempat kriteria *fluency* ini runtuh — Anda tidak akan mampu menilai apakah *output* AI benar atau sekadar terdengar meyakinkan
+:::
+
+# Mengapa *Fluency* Menentukan Hasil? 📊 {background-color="#14497F"}
+
+## Bukti dari 27 ribu percakapan manusia-AI
+
+[Potts & Sudhof (2026)](https://doi.org/10.48550/arXiv.2604.25905) menganalisis **26.958 transkrip** percakapan manusia-AI dari WildChat-4.8M:
+
+::: {.incremental}
+* **Ambisi** — pengguna fasih mengerjakan tugas jauh lebih kompleks: **3,1 vs. 1,5** pada skala kompleksitas 5 poin
+* **Mode interaksi** — **93%** interaksi pengguna fasih bersifat ***augmentatif*** (menyempurnakan berulang kali, mengkritisi *output*); **kurang dari 1%** pada pengguna paling pemula, yang cenderung ***delegatif*** (menerima begitu saja)
+* **Paradoksnya** — **64%** transkrip pengguna fasih mengandung indikasi kegagalan, vs. **24%** pada pengguna pemula
+:::
+
+## Kegagalan yang *visible* vs. *invisible*
+
+::: {.incremental}
+* **59%** kegagalan pengguna fasih bersifat ***visible*** — konsekuensi langsung dari sikap aktif mereka memeriksa *output*, dan sering berujung **pada perbaikan**
+* Kegagalan pengguna pemula lebih sering ***invisible*** — percakapan **tampak** sukses, padahal hasilnya tidak koheren sama sekali karena **tidak pernah diperiksa secara kritis**
+:::
+
+::: {.callout-important}
+### Kesimpulannya
+*Fluency* menentukan apakah AI di tangan Anda menjadi produsen AI *slop*, atau asisten yang bisa diandalkan. Menemukan kegagalan AI bukan tanda Anda gagal — itu justru **bukti** Anda menggunakannya dengan tepat.
+:::
+
+::: aside
+[Potts & Sudhof (2026)](https://doi.org/10.48550/arXiv.2604.25905)
+:::
+
+# Sisi Kritis: Apakah AI Membuat Kita "Bodoh"? 🧠 {background-color="#14497F"}
+
+## *Cognitive offloading* — pedang bermata dua
+
+[Cash et al. (2026)](https://doi.org/10.1016/j.tics.2026.06.004) mengingatkan sisi lain dari cerita ini:
+
+::: {.incremental}
+* ***Cognitive offloading*** — "menitipkan" proses berpikir ke alat bantu — lumrah dan umumnya bermanfaat (kita juga melakukannya lewat kalkulator, GPS, internet)
+* Tapi keterampilan yang **tidak pernah dilatih**, tanpa friksi sama sekali, lama-lama akan **memudar** (***skill decay***)
+* Perlu dibedakan: **skill** (perilaku yang dipelajari lewat praktik) vs. **kemampuan kognitif dasar** (memori kerja, atensi selektif) — yang pertama lebih rentan terhadap *offloading*, yang kedua relatif lebih tahan
+:::
+
+## Bukti nyata: dokter dan alat deteksi AI
+
+::: {.callout-note}
+### Studi *endoscopist deskilling*
+Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada **28,4%** kasus. Setelah AI tersedia (meski akses ke AI-nya tidak sepenuhnya acak), tingkat deteksi **tanpa AI** turun menjadi **22,4%** — mengindikasikan kompetensi dokter **menurun** setelah terbiasa dibantu AI.
+:::
+
+::: {.incremental}
+* Studi lain: peserta yang belajar topik lewat AI (dibanding lewat pencarian Google) menulis saran yang **lebih pendek, kurang orisinal, dan dinilai kurang membantu** — mereka juga menghabiskan **lebih sedikit waktu belajar** dan merasa **kurang memiliki rasa kepemilikan** atas pengetahuan yang diperoleh
+* Kesimpulan penulis **tidak alarmis**: *"terlalu dini untuk memastikan"* efek jangka panjangnya — tapi risikonya nyata dan bergantung pada **bagaimana** AI dipakai
+:::
+
+::: aside
+[Cash, Kelly, Macnamara, & Risko (2026)](https://doi.org/10.1016/j.tics.2026.06.004)
+:::
+
+## Menyatukan optimisme dan kehati-hatian
+
+::: {.incremental}
+* [Potts & Sudhof (2026)](https://doi.org/10.48550/arXiv.2604.25905): pengguna **fasih** justru mendapat hasil lebih baik karena mereka **aktif terlibat**, bukan pasrah pada AI
+* [Cash et al. (2026)](https://doi.org/10.1016/j.tics.2026.06.004): risiko *deskilling* muncul justru ketika keterlibatan aktif itu **hilang** — saat AI dipakai untuk menghindari kerja kognitif, bukan melengkapinya
+* **Kedua bacaan ini sebenarnya sepakat**: yang membedakan AI sebagai alat pemberdaya vs. alat yang mengikis kompetensi adalah **seberapa aktif** Anda terlibat dalam prosesnya — persis inti dari *discernment* dan *diligence* dalam kerangka 4D
+:::
+
+## Rangkuman
+
+::: {.incremental}
+* ***AI literacy*** (memahami & mengevaluasi AI) dan ***AI fluency*** (berkarya & berinovasi dengan AI) adalah dua kompetensi berbeda yang perlu dikembangkan **bersamaan**
+* Kerangka **17 kompetensi** [Long & Magerko (2020)](https://doi.org/10.1145/3313831.3376727) menjawab "apa yang perlu dipahami"; kerangka **4D** [Dakan & Feller (2025)](https://aifluencyframework.org/) menjawab "bagaimana berkarya bersama AI secara bertanggung jawab"
+* Bukti empiris menunjukkan **keterlibatan aktif** (bukan kepasifan) adalah pembeda antara kolaborasi yang produktif dan yang justru merugikan
+* Risiko ***deskilling*** itu nyata — strategi terbaiknya bukan menghindari AI, tapi membangun *domain expertise* yang membuat Anda mampu **menilai** kapan AI membantu dan kapan tidak
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::

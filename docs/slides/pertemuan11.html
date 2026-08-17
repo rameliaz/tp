@@ -6,12 +6,13 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-07-28">
-  <title>Peran Akal Imitasi dalam Proses Pembelajaran dan Penelitian – tp_pertemuan8</title>
+  <meta name="dcterms.date" content="2026-08-17">
+  <title>Teknologi dalam Pembelajaran – Penggunaan Teknologi dalam Asesmen Pembelajaran</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -21,10 +22,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -127,17 +131,274 @@
       margin-right: 0; 
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Penggunaan Teknologi dalam Asesmen Pembelajaran</h1>
+  <p class="subtitle">Dari Ujian <em>Paper-Based</em> ke Asesmen Berbantuan Akal Imitasi</p>
 
-<section class="slide level2">
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Rizqy Amelia Zein
+</div>
+        <p class="quarto-title-affiliation">
+            <a href="https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/"><em>Departemen Psikologi, Universitas Airlangga</em></a>
+          </p>
+    </div>
+</div>
 
+  <p class="date">2026-08-17</p>
+</section>
+<section id="outline" class="slide level2">
+<h2><em>Outline</em></h2>
+<ul>
+<li class="fragment"><strong>Mengapa asesmen bergeser</strong> ke ranah digital dan otomatis</li>
+<li class="fragment"><strong>Ragam asesmen berbasis teknologi</strong> — dari <em>computer-based testing</em> hingga <em>adaptive testing</em></li>
+<li class="fragment"><strong>Penilaian otomatis</strong> (<em>automated scoring</em>) — dari statistik klasik ke <em>large language model</em></li>
+<li class="fragment"><strong><em>Learning analytics</em></strong> — memanfaatkan jejak data belajar untuk asesmen formatif</li>
+<li class="fragment"><strong>Validitas, reliabilitas, dan keadilan</strong> asesmen berbasis AI</li>
+<li class="fragment"><strong>Integritas akademik</strong> di era AI generatif — dan arah <em>assessment redesign</em></li>
+</ul>
 
+<aside><div>
+<p><strong><em>Disclosure</em> penggunaan AI</strong></p>
+<p>Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat <em>outline</em> dan menyusun <em>slide deck</em>, mencari referensi, dan melakukan <em>troubleshooting</em> kode <code>quarto</code> dan <code>git</code>. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.</p>
+</div></aside></section>
+<section>
+<section id="mengapa-asesmen-bergeser" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Mengapa Asesmen Bergeser? 📊</h1>
 
 </section>
+<section id="dari-fungsi-tunggal-ke-ekosistem-data" class="slide level2">
+<h2>Dari fungsi tunggal ke ekosistem data</h2>
+<ul>
+<li class="fragment">Asesmen tradisional: ujian kertas, dinilai manual, hasilnya <strong>statis</strong> (satu angka, satu waktu)</li>
+<li class="fragment">Asesmen berbasis teknologi memungkinkan: <strong>skala</strong> (menilai ribuan jawaban serentak), <strong>kecepatan</strong> (umpan balik instan), dan <strong>granularitas data</strong> (jejak proses asesmen, tidak terbatas pada hasil akhir)</li>
+<li class="fragment">Pendorong utama: kebutuhan akan asesmen <strong>formatif</strong> yang berkelanjutan, bukan cuma sumatif di akhir semester</li>
+</ul>
+</section>
+<section id="asesmen-formatif-vs.-sumatif-sekilas-ulang" class="slide level2">
+<h2>Asesmen formatif vs.&nbsp;sumatif — sekilas ulang</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong><em>Formatif</em></strong></p>
+<ul>
+<li class="fragment">Berlangsung selama proses belajar</li>
+<li class="fragment">Tujuan: umpan balik untuk perbaikan</li>
+<li class="fragment">Risiko rendah (<em>low-stakes</em>)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong><em>Sumatif</em></strong></p>
+<ul>
+<li class="fragment">Dilakukan di akhir suatu periode belajar</li>
+<li class="fragment">Tujuan: mengukur capaian akhir</li>
+<li class="fragment">Risiko tinggi (<em>high-stakes</em>)</li>
+</ul>
+</div></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Mengapa ini penting untuk teknologi asesmen</strong></p>
+</div>
+<div class="callout-content">
+<p>Teknologi paling berdampak justru pada asesmen <strong>formatif</strong> — karena skala dan kecepatan umpan balik yang dibutuhkan sulit dicapai manusia sendirian</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="ragam-asesmen-berbasis-teknologi" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Ragam Asesmen Berbasis Teknologi 💻</h1>
+
+</section>
+<section id="computer-based-testing-cbt" class="slide level2">
+<h2><em>Computer-based testing</em> (CBT)</h2>
+<ul>
+<li class="fragment">Ujian yang diselenggarakan lewat perangkat digital, menggantikan kertas — mis. UTBK, TOEFL iBT</li>
+<li class="fragment">Keuntungan: penilaian objektif otomatis (pilihan ganda), distribusi dan administrasi lebih efisien</li>
+<li class="fragment">Keterbatasan: soal tetap <strong>statis</strong> — semua peserta mengerjakan set soal yang sama tanpa memandang kemampuan masing-masing</li>
+</ul>
+</section>
+<section id="computerized-adaptive-testing-cat" class="slide level2">
+<h2><em>Computerized adaptive testing</em> (CAT)</h2>
+<ul>
+<li class="fragment">Soal berikutnya disesuaikan <strong>secara <em>real-time</em></strong> dengan performa peserta pada soal sebelumnya, berbasis <em>item response theory</em></li>
+<li class="fragment">Jawaban benar → soal berikutnya lebih sulit; jawaban salah → soal lebih mudah</li>
+<li class="fragment">Hasilnya: estimasi kemampuan yang <strong>lebih presisi</strong> dengan <strong>jumlah soal lebih sedikit</strong></li>
+</ul>
+
+<aside><div>
+<p><a href="https://www.routledge.com/Computerized-Adaptive-Testing-A-Primer/Wainer-Dorans-Eignor-Flaugher-Green-Mislevy-Steinburg-Thissen/p/book/9781138866621">Wainer, H., Dorans, N. J., Eignor, D., Flaugher, R., Green, B. F., Mislevy, R. J., Steinberg, L., &amp; Thissen, D. (2000). <em>Computerized Adaptive Testing: A Primer</em> (2nd ed.). Routledge.</a></p>
+</div></aside></section></section>
+<section>
+<section id="penilaian-otomatis-automated-scoring" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Penilaian Otomatis (Automated Scoring) ✍️</h1>
+
+</section>
+<section id="dari-teknik-statistik-klasik-ke-large-language-model" class="slide level2">
+<h2>Dari teknik statistik klasik ke <em>large language model</em></h2>
+<ul>
+<li class="fragment"><strong><em>Automated essay scoring</em> (AES)</strong> pertama kali dikembangkan tahun <strong>1966</strong> oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, kosakata) untuk memprediksi skor manusia.</li>
+<li class="fragment">Generasi <em>machine learning</em> (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih “atomistik”, jadi belum benar-benar “memahami” makna esai.</li>
+<li class="fragment">Generasi <strong>LLM</strong> (2020-an–kini): model dapat mengevaluasi <strong>kualitas argumen</strong> dan memberi <strong>umpan balik berbentuk kalimat</strong>.</li>
+</ul>
+
+<aside><div>
+<p>Page, E. B. (1966). The imminence of grading essays by computer. <em>Phi Delta Kappan, 47</em>(5), 238–243.</p>
+</div></aside></section>
+<section id="automation-atau-augmentation" class="slide level2">
+<h2><em>Automation</em> atau <em>augmentation</em>?</h2>
+<p>Kerangka <a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener et al.&nbsp;(2026)</a> yang sudah kita bahas relevan di sini:</p>
+<ul>
+<li class="fragment"><strong><em>Automation</em></strong> — AI <strong>menggantikan</strong> penilai manusia sepenuhnya (mis. skor pilihan ganda otomatis)</li>
+<li class="fragment"><strong><em>Augmentation</em></strong> — AI <strong>membantu</strong> dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah — keputusan akhir tetap di tangan manusia</li>
+<li class="fragment">Untuk asesmen berisiko tinggi (nilai akhir, kelulusan), <strong>augmentation</strong> jauh lebih aman secara etis dan legal dibanding <em>automation</em> penuh</li>
+</ul>
+</section></section>
+<section>
+<section id="learning-analytics" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1><em>Learning Analytics</em> 📈</h1>
+
+</section>
+<section id="memanfaatkan-jejak-data-belajar" class="slide level2">
+<h2>Memanfaatkan jejak data belajar</h2>
+<ul>
+<li class="fragment"><strong><em>Learning analytics</em></strong> = pengumpulan dan analisis data interaksi mahasiswa (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar</li>
+<li class="fragment">Contoh aplikasi: <em>dashboard</em> kemajuan belajar, sistem peringatan dini (<em>early-warning system</em>) untuk mahasiswa berisiko <em>drop out</em>, rekomendasi materi yang dipersonalisasi</li>
+<li class="fragment">Bergeser dari <strong>mengukur hasil belajar</strong> ke <strong>memahami proses belajar</strong> secara <em>real-time</em></li>
+</ul>
+
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Isu privasi</strong></p>
+</div>
+<div class="callout-content">
+<p>Data jejak belajar sangat granular dan sensitif — siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen, harus jelas sejak awal (<em>informed consent</em>, bukan <em>surveillance</em> diam-diam)</p>
+</div>
+</div>
+</div>
+<aside><div>
+<p><a href="https://er.educause.edu/articles/2011/9/penetrating-the-fog-analytics-in-learning-and-education">Siemens, G., &amp; Long, P. (2011). Penetrating the fog: Analytics in learning and education. <em>EDUCAUSE Review, 46</em>(5), 30–40.</a></p>
+</div></aside></section></section>
+<section>
+<section id="validitas-reliabilitas-dan-keadilan" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Validitas, Reliabilitas, dan Keadilan ⚖️</h1>
+
+</section>
+<section id="pertanyaan-lama-konteks-baru" class="slide level2">
+<h2>Pertanyaan lama, konteks baru</h2>
+<ul>
+<li class="fragment"><strong><em>Validitas konstruk</em></strong> — apakah skor AI benar-benar mengukur kemampuan yang ingin diukur, atau justru <strong>fitur permukaan</strong> yang mudah “digoreng” (esai panjang cenderung dinilai tinggi meski isinya lemah)?</li>
+<li class="fragment"><strong><em>Reliabilitas</em></strong> — apakah model memberi skor yang konsisten untuk kualitas jawaban yang setara?</li>
+<li class="fragment"><strong><em>Keadilan</em> (<em>fairness</em>)</strong> — apakah model bias terhadap gaya menulis kelompok tertentu (penutur bahasa kedua, dialek non-standar)?</li>
+</ul>
+</section>
+<section id="bukti-bias-dalam-penilaian-otomatis" class="slide level2">
+<h2>Bukti bias dalam penilaian otomatis</h2>
+<ul>
+<li class="fragment">Sistem <em>automated speech recognition</em>, komponen kunci di balik banyak alat asesmen berbasis suara, terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih <a href="https://doi.org/10.1073/pnas.1915768117">(Koenecke et al., 2020)</a></li>
+<li class="fragment">Pola serupa berulang pada <em>automated essay scoring</em>: model cenderung “menghukum” gaya penulisan yang menyimpang dari norma dominan dalam data pelatihannya (mis. tulisan penutur bahasa kedua)</li>
+<li class="fragment">Prinsipnya sama dengan bias yang kita bahas pada <em>reinforcement learning from human feedback</em>: model mewarisi (dan bisa memperbesar) bias dari data <em>training</em>nya</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Implikasi praktis</strong></p>
+</div>
+<div class="callout-content">
+<p>AI <strong>tidak boleh menjadi satu-satunya penilai</strong> untuk asesmen berisiko tinggi. Perlu audit berkala dan manusia yang tetap terlibat dalam keputusan akhir (<em>human-in-the-loop</em>), termasuk jalur banding bagi mahasiswa yang merasa dirugikan</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="integritas-akademik-di-era-ai" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Integritas Akademik di Era AI 🎓</h1>
+
+</section>
+<section id="masalah-lama-dengan-skala-baru" class="slide level2">
+<h2>Masalah lama dengan skala baru</h2>
+<ul>
+<li class="fragment">Kecurangan akademik bukan hal baru, tapi AI membuatnya <strong>jauh lebih mudah, cepat, dan sulit dideteksi</strong>.</li>
+<li class="fragment">Alat “<em>AI detector</em>” (mis. GPTZero, Turnitin AI detection) punya tingkat <strong>kesalahan (<em>false positive/negative</em>) yang signifikan</strong>, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan siswa.</li>
+<li class="fragment">Konsekuensinya: mendeteksi “apakah teks ditulis AI” adalah <strong>perlombaan yang sulit dimenangkan</strong>.</li>
+<li class="fragment">Tetapi, sejak Bulan Agustus 2026, <em>developer</em> LLM besar diwajibkan mematuhi <a href="https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content">EU AI Act</a>, yang akibatnya, memaksa <em>developer</em> untuk mengembangkan teknologi <em>watermarking</em> ada seluruh AI <em>generated content</em>.
+<ul>
+<li class="fragment">Salah satu <em>developer</em> yang sudah mengumumkan penambahan <em>watermark</em> pada seluruh produknya adalah <a href="https://www.anthropic.com/news/claude-text-watermark">Anthropic (Claude)</a>.</li>
+<li class="fragment">Teknik <em>watermarking</em> ini terletak pada <em>pemilihan token</em> yang <em>randomness</em>nya dikendalikan, sehingga tidak mungkin bisa hilang tanpa melakukan parafrase menyeluruh pada teks <em>output</em>nya.</li>
+<li class="fragment">Kemungkinan besar akan diikuti dengan munculnya AI-<em>generated content detector</em> dengan performa yang lebih baik.</li>
+<li class="fragment">Ke depan, AI-<em>generated text</em> akan jauh lebih <em>visible</em> dibandingkan saat ini.</li>
+</ul></li>
+</ul>
+</section>
+<section id="arah-yang-lebih-menjanjikan-rancang-ulang-asesmen" class="slide level2">
+<h2>Arah yang lebih menjanjikan: rancang ulang asesmen</h2>
+<ul>
+<li class="fragment"><strong>Asesmen otentik</strong> — tugas yang menuntut aplikasi kontekstual, bukan reproduksi informasi generik yang mudah dijawab AI</li>
+<li class="fragment"><strong>Asesmen berbasis proses</strong> — menilai <em>log</em> interaksi, draf, dan iterasi, bukan cuma produk akhir (ingat tugas UTS Anda: log interaksi dengan <em>chatbot</em> AI!)</li>
+<li class="fragment"><strong>Deklarasi penggunaan AI</strong> yang jujur dan terbuka, dibanding melarang total (yang sulit ditegakkan dan tidak realistis)</li>
+<li class="fragment"><strong>Asesmen lisan/interaktif</strong> (presentasi, tanya-jawab langsung) yang sulit “diwakilkan” sepenuhnya ke AI</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Menghubungkan ke <em>effortless trap</em></strong></p>
+</div>
+<div class="callout-content">
+<p><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić &amp; Frljić (2026)</a> mengingatkan: pertanyaan intinya bukan “boleh/tidak boleh pakai AI”, tapi <strong><em>di titik mana</em> dalam proses belajar</strong> AI ditempatkan — kalau asesmen dirancang sedemikian rupa sehingga tugas terasa “tanpa usaha” (<em>effortless</em>) dengan bantuan AI, itu sinyal desainnya perlu ditinjau ulang</p>
+</div>
+</div>
+</div>
+</section>
+<section id="rangkuman" class="slide level2">
+<h2>Rangkuman</h2>
+<ul>
+<li class="fragment">Teknologi menggeser asesmen dari <strong>statis dan sumatif</strong> ke <strong>adaptif, formatif, dan berbasis data proses</strong></li>
+<li class="fragment"><strong>Penilaian otomatis</strong> berkembang pesat, tapi masalah <strong>validitas, reliabilitas, dan keadilan</strong> tetap relevan — satu bias yang lolos justru bisa memengaruhi ribuan mahasiswa sekaligus begitu diterapkan dalam skala besar</li>
+<li class="fragment">Kerangka <strong><em>automation</em> vs.&nbsp;<em>augmentation</em></strong> membantu menentukan kapan AI pantas menggantikan vs.&nbsp;sekadar membantu penilai manusia</li>
+<li class="fragment">Menghadapi tantangan integritas akademik di era AI, <strong>rancang ulang asesmen</strong> (otentik, berbasis proses) lebih berkelanjutan daripada sekadar mengandalkan alat deteksi AI</li>
+</ul>
+</section>
+<section id="ada-pertanyaan" class="slide level2">
+<h2>Ada pertanyaan❓</h2>
+
+<img data-src="libs/closing.JPG" class="quarto-figure quarto-figure-center r-stretch"><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Catatan</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Paparan disusun dengan menggunakan <i class="fa-brands fa-r-project" aria-label="r-project"></i> dan <a href="https://quarto.org"><strong>Quarto</strong></a> dengan <em>template</em> dari <a href="https://github.com/rameliaz/quarto-unair-theme">UNAIR Theme</a>.</li>
+<li>Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
