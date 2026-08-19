@@ -12,7 +12,7 @@
 
   <meta name="author" content="Rizqy Amelia Zein">
   <meta name="dcterms.date" content="2026-08-19">
-  <title>Teknologi dalam Pembelajaran – AI Literacy dan AI Fluency</title>
+  <title>Teknologi dalam Pembelajaran – Technology appropriation model</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -36,6 +36,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-14c7313e0bd1a6ac1391ac8d6dd3db46.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -131,6 +197,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="quarto-light">
@@ -138,7 +207,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">AI <em>Literacy</em> dan AI <em>Fluency</em></h1>
+  <h1 class="title"><em>Technology appropriation model</em></h1>
   <p class="subtitle">MK Teknologi dalam Pembelajaran</p>
 
 <div class="quarto-title-authors">
@@ -157,12 +226,12 @@ Rizqy Amelia Zein
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment"><strong>Mengapa ini penting</strong> — kesenjangan kesiapan pendidik menghadapi AI</li>
-<li class="fragment"><strong><em>AI literacy</em> vs.&nbsp;<em>AI fluency</em></strong> — dua jenjang kompetensi yang berbeda</li>
-<li class="fragment"><strong>Kerangka <em>AI literacy</em></strong> — 17 kompetensi, lima pertanyaan besar</li>
-<li class="fragment"><strong>Kerangka 4D <em>AI Fluency</em></strong> — <em>Delegation</em>, <em>Description</em>, <em>Discernment</em>, <em>Diligence</em></li>
-<li class="fragment"><strong>Mengapa <em>fluency</em> menentukan hasil</strong> — bukti dari 27 ribu percakapan manusia-AI</li>
-<li class="fragment"><strong>Sisi kritis</strong>: apakah AI membuat kita “bodoh”?</li>
+<li class="fragment"><strong>Kenapa “adopsi” tidak cukup</strong> — dari keputusan sekali jalan ke proses yang terus bergulir.</li>
+<li class="fragment"><strong>Model <em>technology appropriation</em></strong> — <em>technology-as-designed</em>, proses apropriasi, <em>technology-in-use</em>.</li>
+<li class="fragment"><strong><em>Non-appropriation</em>, <em>Appropriation</em>, <em>Disappropriation</em></strong> — tiga jalan, dan kenapa tidak ada yang final.</li>
+<li class="fragment"><strong>Bukti dari lapangan</strong>: identitas, kekuasaan, dan fragmentasi pada remaja pengguna ponsel.</li>
+<li class="fragment"><strong><em>Adhocracy</em></strong> — ketika teknologi mengubah cara hidup direncanakan.</li>
+<li class="fragment"><strong>Diskusi</strong>: melacak proses apropriasi teknologi Anda sendiri.</li>
 </ul>
 
 <aside><div>
@@ -170,352 +239,247 @@ Rizqy Amelia Zein
 <p>Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat <em>outline</em> dan menyusun <em>slide deck</em>, mencari referensi, dan melakukan <em>troubleshooting</em> kode <code>quarto</code> dan <code>git</code>. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.</p>
 </div></aside></section>
 <section>
-<section id="mengapa-ini-penting" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Mengapa Ini Penting? 📉</h1>
+<section id="dari-adopsi-ke-apropriasi" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Dari Adopsi ke Apropriasi 📲</h1>
 
 </section>
-<section id="pendidik-belum-siap" class="slide level2">
-<h2>Pendidik belum siap</h2>
+<section id="model-adopsi-klasik-keputusan-sekali-jalan" class="slide level2">
+<h2>Model adopsi klasik: keputusan sekali jalan</h2>
 <ul>
-<li class="fragment">Survei <em>Alberta Teachers Association</em> (Desember 2023) terhadap <strong>2.148 guru</strong>: hanya <strong>29,4%</strong> optimis, <strong>37,2%</strong> khawatir akan dampak negatif AI, sisanya bersikap netral atau tidak yakin</li>
-<li class="fragment">Survei <em>EdWeek Research Center</em> terhadap 498 guru K-12 tentang alasan <strong>tidak</strong> memakai AI di kelas: prioritas lain (46%), tidak tahu caranya (36%), tidak ada kebijakan (33%), tidak tahu cara memakainya <strong>secara efektif</strong> (30%)</li>
-<li class="fragment">Sebagian besar hambatan bukan soal <strong>penolakan</strong>, tapi <strong>kurangnya kompetensi</strong> — inilah yang coba dijawab oleh kerangka <em>AI literacy</em> dan <em>AI fluency</em></li>
+<li class="fragment">Teori difusi inovasi (Rogers, 1983) menggambarkan adopsi teknologi sebagai rangkaian tahap: pengetahuan → persuasi → keputusan → implementasi → konfirmasi (memakai terus, atau berhenti).</li>
+<li class="fragment">Model ini memperlakukan teknologi sebagai artefak <strong>tetap</strong> — begitu diadopsi, dipakai sesuai rancangan aslinya.</li>
+<li class="fragment">Masalahnya: model ini tidak menjelaskan apa yang sebenarnya terjadi <strong>setelah</strong> orang mulai memakai teknologi — orang jarang memakainya persis seperti niat perancangnya.</li>
+</ul>
+</section>
+<section id="apropriasi-teknologi-dibongkar-dan-disesuaikan" class="slide level2">
+<h2>Apropriasi: teknologi dibongkar dan disesuaikan</h2>
+<ul>
+<li class="fragment">Carroll, Howard, Vetere, Peck, &amp; Murphy (2001) mengusulkan istilah <strong><em>technology appropriation</em></strong> — bukan sekadar “menerima” teknologi, melainkan <strong>membongkar</strong> fungsi-fungsinya dan menyesuaikannya dengan kebutuhan sendiri.</li>
+<li class="fragment">Definisinya, mengutip Swan &amp; Clark (1992, h. 114): pengguna “telah mengubah bentuk dan cara pakai inovasi dari yang disediakan” — mulai dari modifikasi kecil sampai transformasi besar.</li>
+<li class="fragment">Bedanya dengan adopsi: apropriasi adalah proses yang <strong>berulang dan tidak pernah selesai</strong> — bukan keputusan sekali jalan yang lalu menetap.</li>
 </ul>
 
 <aside><div>
-<p><a href="https://doi.org/10.22329/jtl.v19i4.9420">Rogers &amp; Carbonaro (2025)</a></p>
+<p>Carroll, Howard, Vetere, Peck, &amp; Murphy (2001)</p>
 </div></aside></section></section>
 <section>
-<section id="ai-literacy-vs.-ai-fluency" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1><em>AI Literacy</em> vs.&nbsp;<em>AI Fluency</em> 🧭</h1>
+<section id="model-tiga-komponen" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Model Tiga Komponen 🔧</h1>
 
 </section>
-<section id="dua-jenjang-kompetensi-yang-berbeda" class="slide level2">
-<h2>Dua jenjang kompetensi yang berbeda</h2>
+<section id="technology-as-designed-proses-technology-in-use" class="slide level2">
+<h2><em>Technology-as-designed</em>, proses, <em>technology-in-use</em></h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ol type="1">
+<li class="fragment"><strong><em>Technology-as-designed</em></strong> (teknologi-sebagai-dirancang) — artefak yang disediakan, membawa asumsi perancang tentang siapa penggunanya dan bagaimana ia akan dipakai.</li>
+<li class="fragment"><strong>Proses apropriasi</strong> — pengguna mencoba, menilai, memilih fitur mana yang dipakai dan mana yang diabaikan.</li>
+<li class="fragment"><strong><em>Technology-in-use</em></strong> (teknologi-dalam-pemakaian) — hasil akhirnya: teknologi yang sudah dievaluasi, disesuaikan, dan tertanam dalam rutinitas sehari-hari.</li>
+</ol>
+</div><div class="column" style="width:45%;">
+<div class="cell" data-reveal="true" data-fig-width="4" data-layout-align="default">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource default number-lines code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a aria-label="1"></a>flowchart TD</span>
+<span id="cb1-2"><a aria-label="2"></a>    A[Technology-&lt;br&gt;as-designed] --&gt; B[Proses&lt;br&gt;apropriasi]</span>
+<span id="cb1-3"><a aria-label="3"></a>    B --&gt; C[Technology-&lt;br&gt;in-use]</span>
+<span id="cb1-4"><a aria-label="4"></a>    C -.-&gt;|bisa dievaluasi ulang&lt;br&gt;kapan saja| B</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Yang penting dari model ini</strong></p>
+</div>
+<div class="callout-content">
+<p>Kelompok berbeda bisa menghasilkan <strong><em>technology-in-use</em></strong> yang sangat berbeda dari satu <strong><em>technology-as-designed</em></strong> yang sama persis.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="tiga-jalan-dalam-proses-apropriasi" class="slide level2">
+<h2>Tiga jalan dalam proses apropriasi</h2>
+<ul>
+<li class="fragment"><strong><em>Non-appropriation</em></strong> — pengguna tidak tahu atau tidak tertarik pada teknologi/fiturnya; tidak pernah masuk ke proses sama sekali.</li>
+<li class="fragment"><strong><em>Appropriation</em></strong> — pengguna mencoba, menilai, memilih dan menyesuaikan atribut tertentu, mengambil alih kemampuannya untuk memenuhi kebutuhan sendiri.</li>
+<li class="fragment"><strong><em>Disappropriation</em></strong> — pengguna memilih <strong>berhenti</strong> memakai; bisa terjadi di awal, di akhir, bahkan <strong>setelah</strong> periode pemakaian rutin sekalipun.</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Yang sering diabaikan model-model lain</strong></p>
+</div>
+<div class="callout-content">
+<p>Apropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap tetap bisa ditinggalkan — inilah yang membedakan model ini dari teori adopsi yang berhenti begitu “keputusan” diambil.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="penarik-dan-penolak-proses-apropriasi" class="slide level2">
+<h2>Penarik dan penolak proses apropriasi</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong><em>AI literacy</em></strong></p>
+<h3 id="penarik-attractors">Penarik (<em>attractors</em>)</h3>
 <ul>
-<li class="fragment"><strong>Memahami</strong> cara kerja AI</li>
-<li class="fragment"><strong>Mengevaluasi</strong> teknologi AI secara kritis</li>
-<li class="fragment">Tahu risiko dan batasannya</li>
+<li class="fragment">Kepraktisan.</li>
+<li class="fragment">Kegunaan yang jelas.</li>
+<li class="fragment">Faktor gaya — ukuran, bobot, kemudahan pakai.</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong><em>AI fluency</em></strong></p>
+<h3 id="penolak-repellents">Penolak (<em>repellents</em>)</h3>
 <ul>
-<li class="fragment"><strong>Berkarya dan berinovasi</strong> dengan AI</li>
-<li class="fragment">Memecahkan masalah bersama AI</li>
-<li class="fragment">Mengelola penggunaannya secara etis</li>
+<li class="fragment">Biaya, terutama untuk pengguna usia sekolah.</li>
+<li class="fragment">Fitur yang sulit dipelajari.</li>
+<li class="fragment">Kekhawatiran (mis. kesehatan), meski tak selalu mengubah perilaku.</li>
+<li class="fragment">Konten tak diinginkan (spam, materi tak pantas).</li>
 </ul>
 </div></div>
-<div class="fragment">
-<p>Analoginya seperti belajar bahasa: <em>literacy</em> = bisa membaca; <em>fluency</em> = bisa berbincang dengan lancar.</p>
-</div>
-
-<aside><div>
-<p><a href="https://doi.org/10.22329/jtl.v19i4.9420">Rogers &amp; Carbonaro (2025)</a></p>
-</div></aside></section>
-<section id="mengapa-penciptaan-jadi-pembeda-utama" class="slide level2">
-<h2>Mengapa “penciptaan” jadi pembeda utama</h2>
-<ul>
-<li class="fragment"><a href="https://doi.org/10.22329/jtl.v19i4.9420">Rogers &amp; Carbonaro (2025)</a> menelusuri sejarah pergeseran serupa dari literasi ke <em>fluency</em>: literasi komputer → <em>digital fluency</em></li>
-<li class="fragment"><em>National Research Council</em> (1999) menyimpulkan literasi komputer “terlalu sederhana” di tengah perubahan cepat, lalu memperkenalkan konsep <strong>FITness</strong> (<em>fluency with information technology</em>)</li>
-<li class="fragment"><strong><em>Fluency</em></strong> = “kemampuan merumuskan ulang pengetahuan, berekspresi kreatif, dan <strong>menghasilkan</strong> informasi” — bukan sekadar memahaminya</li>
-<li class="fragment">Ini sejalan dengan <strong>Taksonomi Bloom Revisi</strong>: “<em>mencipta</em>” (<em>create</em>) adalah level kognitif <strong>tertinggi</strong>, di atas memahami dan mengevaluasi</li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Implikasi penting</strong></p>
-</div>
-<div class="callout-content">
-<p><em>Literacy</em> dan <em>fluency</em> sebaiknya dikembangkan <strong>bersamaan</strong>, bukan berurutan — mahasiswa tidak perlu “lulus” literasi dulu baru belajar <em>fluency</em></p>
-</div>
-</div>
-</div>
 </section></section>
 <section>
-<section id="kerangka-ai-literacy" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Kerangka <em>AI Literacy</em> 📚</h1>
+<section id="bukti-dari-lapangan-remaja-dan-ponsel" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Bukti dari Lapangan: Remaja dan Ponsel 📱</h1>
 
 </section>
-<section id="definisi-dan-lima-pertanyaan-besar" class="slide level2">
-<h2>Definisi dan lima pertanyaan besar</h2>
-<blockquote>
-<p><strong>“Seperangkat kompetensi yang memampukan seseorang untuk mengevaluasi teknologi AI secara kritis; berkomunikasi dan berkolaborasi secara efektif dengan AI; dan menggunakan AI sebagai alat, baik daring, di rumah, maupun di tempat kerja.”</strong> — <a href="https://doi.org/10.1145/3313831.3376727">Long &amp; Magerko (2020)</a></p>
-</blockquote>
-<p>Kerangka ini mengelompokkan <strong>17 kompetensi</strong> ke dalam lima pertanyaan besar:</p>
-<ol type="1">
-<li class="fragment"><strong>Apa itu AI?</strong> — mengenali AI, memahami “kecerdasan”, AI umum vs.&nbsp;AI sempit</li>
-<li class="fragment"><strong>Apa yang bisa dilakukan AI?</strong> — kekuatan dan kelemahannya, membayangkan AI masa depan</li>
-<li class="fragment"><strong>Bagaimana cara kerja AI?</strong> — representasi, pengambilan keputusan, langkah-langkah <em>machine learning</em>, literasi data</li>
-<li class="fragment"><strong>Bagaimana AI seharusnya digunakan?</strong> — etika</li>
-<li class="fragment"><strong>Bagaimana manusia mempersepsikan AI?</strong> — sejauh mana AI “dianggap” bisa diprogram/dikendalikan</li>
-</ol>
-</section>
-<section id="contoh-penerapan-di-kelas-anda-kelak" class="slide level2">
-<h2>Contoh penerapan di kelas Anda kelak</h2>
-<ul>
-<li class="fragment"><strong>“Apa itu AI?”</strong> — mahasiswa mampu membedakan AI umum (<em>general</em>, fiksi ilmiah) dari AI sempit (<em>narrow</em>, yang benar-benar ada saat ini, seperti <em>chatbot</em>)</li>
-<li class="fragment"><strong>“Bagaimana cara kerja AI?”</strong> — mahasiswa paham bahwa AI “belajar dari data”, sehingga bisa <strong>mewarisi bias</strong> yang ada di data tersebut</li>
-<li class="fragment"><strong>“Bagaimana AI seharusnya digunakan?”</strong> — mahasiswa mampu menimbang implikasi etis sebelum memakai AI untuk suatu tugas, bukan sekadar bisa mengoperasikannya</li>
-</ul>
+<section id="desain-penelitian" class="slide level2">
+<h2>Desain penelitian</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kaitan dengan pendidikan</strong></p>
+<p><strong>Carroll et al.&nbsp;(2001) — metode gabungan</strong></p>
 </div>
 <div class="callout-content">
-<p>Kerangka ini awalnya dirancang untuk pendidikan K-12, tapi kompetensinya berlaku lintas jenjang — termasuk untuk mahasiswa magister yang kelak jadi pendidik atau peneliti</p>
+<p>4 kelompok fokus (Melbourne dan Sydney, usia 16–22), dilanjutkan observasi 6 partisipan dalam aktivitas sehari-hari, plus catatan harian daring selama 3 minggu.</p>
 </div>
 </div>
 </div>
-</section></section>
-<section>
-<section id="kerangka-4d-ai-fluency" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Kerangka 4D <em>AI Fluency</em> 🧭</h1>
-
+<p>Temuannya berputar pada tiga tema yang saling menguatkan: <strong>identitas</strong>, <strong>kekuasaan</strong>, dan <strong>fragmentasi</strong>.</p>
 </section>
-<section id="definisi-ai-fluency" class="slide level2">
-<h2>Definisi <em>AI fluency</em></h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Definisi</strong></p>
-</div>
-<div class="callout-content">
-<p>Kemampuan berkolaborasi dengan AI secara <strong>efektif, efisien, etis, dan aman</strong> (<a href="https://aifluencyframework.org/">Dakan &amp; Feller, 2025</a>).</p>
-</div>
-</div>
-</div>
-<p>Kerangka ini dibangun di atas <strong>3 modalitas interaksi</strong> manusia-AI:</p>
+<section id="identitas-ponsel-sebagai-penanda-diri" class="slide level2">
+<h2>Identitas: ponsel sebagai penanda diri</h2>
 <ul>
-<li class="fragment"><strong><em>Automation</em></strong> — AI mengerjakan tugas sesuai instruksi langsung manusia (mis. menulis ringkasan)</li>
-<li class="fragment"><strong><em>Augmentation</em></strong> — manusia dan AI <strong>bersama-sama</strong> mendefinisikan dan mengerjakan tugas secara iteratif (mis. menulis esai bersama)</li>
-<li class="fragment"><strong><em>Agency</em></strong> — manusia mengonfigurasi AI agar terus bekerja <strong>mandiri</strong> mewakili dirinya (mis. <em>chatbot</em> tutor, karakter gim interaktif)</li>
+<li class="fragment">“<em>It gives you an identity: this is who I am, this is my number</em>” — salah satu partisipan.</li>
+<li class="fragment">SMS memperkuat identitas meski secara teknis sederhana; sebuah survei Eropa yang dikutip penulis menemukan lebih dari separuh responden <strong>kecewa</strong> kalau sehari tanpa pesan teks.</li>
+<li class="fragment">Ponsel bahkan disebut sebagai prasyarat untuk punya kehidupan sosial — remaja tanpa ponsel kesulitan menjaga hubungan.</li>
+<li class="fragment">Ada hierarki keintiman per media: SMS/ponsel (paling intim) → surel (keluarga/teman di luar kota) → <em>chat</em> (paling berjarak, “teman <em>chat</em>”).</li>
+</ul>
+</section>
+<section id="kekuasaan-menavigasi-otoritas-orang-tua-dan-sekolah" class="slide level2">
+<h2>Kekuasaan: menavigasi otoritas orang tua dan sekolah</h2>
+<ul>
+<li class="fragment">Remaja memakai fitur ponsel untuk mengelola siapa yang bisa menjangkau mereka, kapan — penyaringan panggilan lewat <em>caller ID</em>, nada dering personal, kotak suara.</li>
+<li class="fragment">“<em>Mum calls when I’m out drinking. Let it go and SMS her</em>” — SMS dipakai untuk menghindar dari percakapan langsung yang tidak diinginkan.</li>
+<li class="fragment">SMS dipakai diam-diam di ruang kelas dan kuliah; sebagian remaja perempuan membuat grup <em>chat</em> sendiri untuk mengendalikan siapa yang boleh ikut.</li>
+</ul>
+</section>
+<section id="fragmentasi-menjaga-kohesi-lintas-jarak" class="slide level2">
+<h2>Fragmentasi: menjaga kohesi lintas jarak</h2>
+<ul>
+<li class="fragment">ICT membantu menjaga hubungan yang tersebar secara geografis atau sosial — keluarga campuran (<em>blended families</em>), mahasiswa rantau, teman yang pindah sekolah.</li>
+<li class="fragment">Contoh dari studi: seorang remaja tetap menjaga pertemanan lama lewat ponsel setelah pindah sekolah; mahasiswa di kampus berbeda tetap kontak harian lewat ponsel.</li>
 </ul>
 
 <aside><div>
-<p><a href="https://aifluencyframework.org/">Dakan &amp; Feller (2025). <em>The AI Fluency Framework</em> v1.1</a></p>
-</div></aside></section>
-<section id="d-ai-fluency-framework" class="slide level2">
-<h2>4️⃣D AI <em>Fluency Framework</em></h2>
-
-<img data-src="libs/4d.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"><div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><em>Catatan</em></strong></p>
-</div>
-<div class="callout-content">
-<p><em>Delegation</em> dan <em>description</em> → <strong>efektif dan efisien</strong>; <em>discernment</em> dan <em>diligence</em> → <strong>etis dan aman</strong>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="delegation-memilih-visi-dan-alat-yang-tepat" class="slide level2">
-<h2><em>Delegation</em> — memilih visi dan alat yang tepat</h2>
-<p>Tiga kompetensi inti:</p>
-<ol type="1">
-<li class="fragment"><strong><em>Goal &amp; task awareness</em></strong> — apa tujuan Anda? Seperti apa <em>output</em> yang baik dan bisa diterima?</li>
-<li class="fragment"><strong><em>Platform awareness</em></strong> — AI (yang mana) bisa apa, dan apa yang <strong>tidak</strong> bisa ia lakukan?</li>
-<li class="fragment"><strong><em>Task delegation</em></strong> — bagian mana yang butuh keahlian dan <em>judgment</em> <strong>Anda</strong>; bagian mana bisa dikerjakan AI; bagian mana paling berdampak kalau dikerjakan <strong>bersama</strong>?</li>
-</ol>
-<div class="fragment">
-<p>Contoh untuk tesis Anda:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tugas</th>
-<th>Delegasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Merumuskan pertanyaan penelitian</td>
-<td><strong>Anda</strong> (AI boleh menjadi mitra diskusi)</td>
-</tr>
-<tr class="even">
-<td>Memoles bahasa akademik naskah</td>
-<td><strong>AI</strong>, lalu Anda sunting</td>
-</tr>
-<tr class="odd">
-<td>Menginterpretasi hasil analisis</td>
-<td><strong>AI dan Anda bersama</strong>, AI menawarkan alternatif, Anda membuat keputusan akhir</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="description-berkomunikasi-dengan-jernih" class="slide level2">
-<h2><em>Description</em> — berkomunikasi dengan jernih</h2>
-<p>Kualitas <em>output</em> AI sangat ditentukan oleh kualitas komunikasi Anda:</p>
-<ul>
-<li class="fragment"><strong><em>Product description</em></strong> — <strong>apa</strong> yang Anda inginkan: bentuk <em>output</em>, format, audiens, gaya</li>
-<li class="fragment"><strong><em>Process description</em></strong> — <strong>bagaimana</strong> sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah</li>
-<li class="fragment"><strong><em>Performance description</em></strong> — <strong>bagaimana AI harus “bersikap”</strong> selama kolaborasi: ringkas atau rinci? Menantang atau suportif?</li>
-</ul>
-<div class="callout callout-caution callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Perlakukan AI sebagai kolaborator, bukan “jin botol”🧞</strong></p>
-</div>
-<div class="callout-content">
-<p>Komunikasikan dan evaluasi <em>output</em> AI, meskipun Anda menolaknya — jelaskan mengapa, sehingga AI bisa menyesuaikan <em>output</em> berikutnya, sesuai prinsip <em>reinforcement learning from human feedback</em> (RLHF) yang sudah kita bahas</p>
-</div>
-</div>
-</div>
-</section>
-<section id="discernment-mengevaluasi-secara-kritis" class="slide level2">
-<h2><em>Discernment</em> — mengevaluasi secara kritis</h2>
-<p>Cara Anda <strong>menilai</strong> <em>output</em> AI:</p>
-<ul>
-<li class="fragment"><strong><em>Product discernment</em></strong> — menilai <em>output</em>-nya: akurat? Runtut? Sesuai kebutuhan?</li>
-<li class="fragment"><strong><em>Process discernment</em></strong> — menilai <strong>cara</strong> AI membuat <em>output</em>: ada lompatan logika? Ada yang terlewat?</li>
-<li class="fragment"><strong><em>Performance discernment</em></strong> — menilai <strong>gaya interaksi</strong> AI: membantu, atau perlu diarahkan ulang?</li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Bayangkan Anda sebagai detektif🕵️‍♀️</strong></p>
-</div>
-<div class="callout-content">
-<p>Menemukan kesalahan AI adalah <strong>bukti Anda menggunakannya dengan benar</strong> — bukan tanda AI-nya buruk</p>
-</div>
-</div>
-</div>
-</section>
-<section id="diligence-bertanggung-jawab-atas-output-ai" class="slide level2">
-<h2><em>Diligence</em> — bertanggung jawab atas <em>output</em> AI</h2>
-<ul>
-<li class="fragment"><strong><em>Creation diligence</em></strong> — cermat memilih sistem AI dan cara berinteraksi dengannya (data apa yang diunggah? kebijakan privasinya?)</li>
-<li class="fragment"><strong><em>Transparency diligence</em></strong> — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu (pembimbing, jurnal, institusi)</li>
-<li class="fragment"><strong><em>Deployment diligence</em></strong> — mengambil tanggung jawab penuh atas <em>output</em> yang Anda gunakan dan sebarkan</li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><em>Domain expertise</em> adalah <em>guardrail</em> paling penting</strong></p>
-</div>
-<div class="callout-content">
-<p>Tanpa keahlian di bidang Anda sendiri, keempat kriteria <em>fluency</em> ini runtuh — Anda tidak akan mampu menilai apakah <em>output</em> AI benar atau sekadar terdengar meyakinkan</p>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="mengapa-fluency-menentukan-hasil" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Mengapa <em>Fluency</em> Menentukan Hasil? 📊</h1>
-
-</section>
-<section id="bukti-dari-27-ribu-percakapan-manusia-ai" class="slide level2">
-<h2>Bukti dari 27 ribu percakapan manusia-AI</h2>
-<p><a href="https://doi.org/10.48550/arXiv.2604.25905">Potts &amp; Sudhof (2026)</a> menganalisis <strong>26.958 transkrip</strong> percakapan manusia-AI dari WildChat-4.8M:</p>
-<ul>
-<li class="fragment"><strong>Ambisi</strong> — pengguna fasih mengerjakan tugas jauh lebih kompleks: <strong>3,1 vs.&nbsp;1,5</strong> pada skala kompleksitas 5 poin</li>
-<li class="fragment"><strong>Mode interaksi</strong> — <strong>93%</strong> interaksi pengguna fasih bersifat <strong><em>augmentatif</em></strong> (menyempurnakan berulang kali, mengkritisi <em>output</em>); <strong>kurang dari 1%</strong> pada pengguna paling pemula, yang cenderung <strong><em>delegatif</em></strong> (menerima begitu saja)</li>
-<li class="fragment"><strong>Paradoksnya</strong> — <strong>64%</strong> transkrip pengguna fasih mengandung indikasi kegagalan, vs.&nbsp;<strong>24%</strong> pada pengguna pemula</li>
-</ul>
-</section>
-<section id="kegagalan-yang-visible-vs.-invisible" class="slide level2">
-<h2>Kegagalan yang <em>visible</em> vs.&nbsp;<em>invisible</em></h2>
-<ul>
-<li class="fragment"><strong>59%</strong> kegagalan pengguna fasih bersifat <strong><em>visible</em></strong> — konsekuensi langsung dari sikap aktif mereka memeriksa <em>output</em>, dan sering berujung <strong>pada perbaikan</strong></li>
-<li class="fragment">Kegagalan pengguna pemula lebih sering <strong><em>invisible</em></strong> — percakapan <strong>tampak</strong> sukses, padahal hasilnya tidak koheren sama sekali karena <strong>tidak pernah diperiksa secara kritis</strong></li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kesimpulannya</strong></p>
-</div>
-<div class="callout-content">
-<p><em>Fluency</em> menentukan apakah AI di tangan Anda menjadi produsen AI <em>slop</em>, atau asisten yang bisa diandalkan. Menemukan kegagalan AI bukan tanda Anda gagal — itu justru <strong>bukti</strong> Anda menggunakannya dengan tepat.</p>
-</div>
-</div>
-</div>
-
-<aside><div>
-<p><a href="https://doi.org/10.48550/arXiv.2604.25905">Potts &amp; Sudhof (2026)</a></p>
+<p>Carroll, Howard, Vetere, Peck, &amp; Murphy (2001)</p>
 </div></aside></section></section>
 <section>
-<section id="sisi-kritis-apakah-ai-membuat-kita-bodoh" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Sisi Kritis: Apakah AI Membuat Kita “Bodoh”? 🧠</h1>
+<section id="adhocracy-hidup-tanpa-rencana-pasti" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1><em>Adhocracy</em>: Hidup Tanpa Rencana Pasti 🎲</h1>
 
 </section>
-<section id="cognitive-offloading-pedang-bermata-dua" class="slide level2">
-<h2><em>Cognitive offloading</em> — pedang bermata dua</h2>
-<p><a href="https://doi.org/10.1016/j.tics.2026.06.004">Cash et al.&nbsp;(2026)</a> mengingatkan sisi lain dari cerita ini:</p>
+<section id="ketika-teknologi-mengubah-cara-hidup-direncanakan" class="slide level2">
+<h2>Ketika teknologi mengubah cara hidup direncanakan</h2>
 <ul>
-<li class="fragment"><strong><em>Cognitive offloading</em></strong> — “menitipkan” proses berpikir ke alat bantu — lumrah dan umumnya bermanfaat (kita juga melakukannya lewat kalkulator, GPS, internet)</li>
-<li class="fragment">Tapi keterampilan yang <strong>tidak pernah dilatih</strong>, tanpa friksi sama sekali, lama-lama akan <strong>memudar</strong> (<strong><em>skill decay</em></strong>)</li>
-<li class="fragment">Perlu dibedakan: <strong>skill</strong> (perilaku yang dipelajari lewat praktik) vs.&nbsp;<strong>kemampuan kognitif dasar</strong> (memori kerja, atensi selektif) — yang pertama lebih rentan terhadap <em>offloading</em>, yang kedua relatif lebih tahan</li>
+<li class="fragment">Salah satu temuan paling mencolok: hidup remaja jadi ditandai oleh <strong><em>adhocracy</em></strong> — improvisasi janji sosial dari menit ke menit, bukan rencana yang disusun jauh-jauh hari.</li>
+<li class="fragment">“<em>It’s taken the strict plan out of your social life altogether, once you’ve got a mobile phone</em>” — partisipan menggambarkan hidupnya jadi lebih cepat, kurang terorganisasi, lebih terburu-buru sejak punya ponsel.</li>
+<li class="fragment">Ini bukan efek samping kecil — ia mengubah norma sosial tentang berjanji dan menepati janji, bukan cuma cara berkomunikasi.</li>
 </ul>
 </section>
-<section id="bukti-nyata-dokter-dan-alat-deteksi-ai" class="slide level2">
-<h2>Bukti nyata: dokter dan alat deteksi AI</h2>
+<section id="menghubungkan-balik-ke-pertemuan-sebelumnya" class="slide level2">
+<h2>Menghubungkan balik ke pertemuan sebelumnya</h2>
+<ul>
+<li class="fragment">Minggu lalu kita membahas <em>affordance</em> dan <em>mental model</em> — bagaimana desain antarmuka membentuk ekspektasi pengguna.</li>
+<li class="fragment">Model apropriasi menambahkan lapisan berikutnya: desain yang sama bisa berujung pada <strong><em>technology-in-use</em></strong> yang sangat berbeda, tergantung siapa yang memakainya dan kebutuhan apa yang mereka bawa.</li>
+<li class="fragment">Yang menentukan penggunaan bukan cuma seberapa baik antarmukanya dirancang, tapi juga faktor identitas, kekuasaan, dan konteks sosial yang tidak selalu terlihat dari desainnya sendiri.</li>
+</ul>
+<aside class="notes">
+<p>Bagian ceramah ±50 menit. Tekankan bahwa penelitian Carroll et al.&nbsp;tentang ponsel awal 2000-an masih relevan sebagai kerangka, meski perangkatnya sudah sangat berbeda — pola perilakunya (identitas, kekuasaan, fragmentasi) berulang di media sosial dan aplikasi belajar saat ini.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="diskusi-refleksi" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Diskusi &amp; Refleksi 💬</h1>
+
+</section>
+<section id="praktik-lacak-proses-apropriasi-anda-sendiri" class="slide level2">
+<h2>Praktik: lacak proses apropriasi Anda sendiri</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Studi <em>endoscopist deskilling</em></strong></p>
+<p><strong>Instruksi (kerja kelompok, ±40 menit)</strong></p>
 </div>
 <div class="callout-content">
-<p>Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada <strong>28,4%</strong> kasus. Setelah AI tersedia (meski akses ke AI-nya tidak sepenuhnya acak), tingkat deteksi <strong>tanpa AI</strong> turun menjadi <strong>22,4%</strong> — mengindikasikan kompetensi dokter <strong>menurun</strong> setelah terbiasa dibantu AI.</p>
+<p>Pilih satu teknologi yang rutin Anda pakai untuk belajar atau bekerja (aplikasi catatan, <em>cloud storage</em>, <em>chatbot</em> AI, dsb).</p>
 </div>
 </div>
 </div>
 <ul>
-<li class="fragment">Studi lain: peserta yang belajar topik lewat AI (dibanding lewat pencarian Google) menulis saran yang <strong>lebih pendek, kurang orisinal, dan dinilai kurang membantu</strong> — mereka juga menghabiskan <strong>lebih sedikit waktu belajar</strong> dan merasa <strong>kurang memiliki rasa kepemilikan</strong> atas pengetahuan yang diperoleh</li>
-<li class="fragment">Kesimpulan penulis <strong>tidak alarmis</strong>: <em>“terlalu dini untuk memastikan”</em> efek jangka panjangnya — tapi risikonya nyata dan bergantung pada <strong>bagaimana</strong> AI dipakai</li>
+<li class="fragment">Ceritakan lintasan apropriasinya: bagaimana pertama kali Anda mencobanya, fitur apa yang Anda pakai berbeda dari niat perancangnya?</li>
+<li class="fragment">Adakah fitur yang pernah Anda pakai rutin, lalu Anda tinggalkan (<em>disappropriation</em>) setelah sekian lama?</li>
+<li class="fragment">Identifikasi satu penarik dan satu penolak yang memengaruhi keputusan Anda memakai atau tidak memakai teknologi tersebut.</li>
 </ul>
-
-<aside><div>
-<p><a href="https://doi.org/10.1016/j.tics.2026.06.004">Cash, Kelly, Macnamara, &amp; Risko (2026)</a></p>
-</div></aside></section>
-<section id="menyatukan-optimisme-dan-kehati-hatian" class="slide level2">
-<h2>Menyatukan optimisme dan kehati-hatian</h2>
-<ul>
-<li class="fragment"><a href="https://doi.org/10.48550/arXiv.2604.25905">Potts &amp; Sudhof (2026)</a>: pengguna <strong>fasih</strong> justru mendapat hasil lebih baik karena mereka <strong>aktif terlibat</strong>, bukan pasrah pada AI</li>
-<li class="fragment"><a href="https://doi.org/10.1016/j.tics.2026.06.004">Cash et al.&nbsp;(2026)</a>: risiko <em>deskilling</em> muncul justru ketika keterlibatan aktif itu <strong>hilang</strong> — saat AI dipakai untuk menghindari kerja kognitif, bukan melengkapinya</li>
-<li class="fragment"><strong>Kedua bacaan ini sebenarnya sepakat</strong>: yang membedakan AI sebagai alat pemberdaya vs.&nbsp;alat yang mengikis kompetensi adalah <strong>seberapa aktif</strong> Anda terlibat dalam prosesnya — persis inti dari <em>discernment</em> dan <em>diligence</em> dalam kerangka 4D</li>
-</ul>
+<div style="text-align: center">
+<p>±10 menit berbagi temuan ke kelas.</p>
+</div>
+<aside class="notes">
+<p>Sesi diskusi ±50 menit termasuk berbagi. Arahkan mahasiswa untuk melihat apropriasi sebagai proses yang sedang berjalan, bukan keputusan yang sudah selesai — termasuk kemungkinan mereka akan meninggalkan sebagian fitur di masa depan.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="rangkuman" class="slide level2">
 <h2>Rangkuman</h2>
 <ul>
-<li class="fragment"><strong><em>AI literacy</em></strong> (memahami &amp; mengevaluasi AI) dan <strong><em>AI fluency</em></strong> (berkarya &amp; berinovasi dengan AI) adalah dua kompetensi berbeda yang perlu dikembangkan <strong>bersamaan</strong></li>
-<li class="fragment">Kerangka <strong>17 kompetensi</strong> <a href="https://doi.org/10.1145/3313831.3376727">Long &amp; Magerko (2020)</a> menjawab “apa yang perlu dipahami”; kerangka <strong>4D</strong> <a href="https://aifluencyframework.org/">Dakan &amp; Feller (2025)</a> menjawab “bagaimana berkarya bersama AI secara bertanggung jawab”</li>
-<li class="fragment">Bukti empiris menunjukkan <strong>keterlibatan aktif</strong> (bukan kepasifan) adalah pembeda antara kolaborasi yang produktif dan yang justru merugikan</li>
-<li class="fragment">Risiko <strong><em>deskilling</em></strong> itu nyata — strategi terbaiknya bukan menghindari AI, tapi membangun <em>domain expertise</em> yang membuat Anda mampu <strong>menilai</strong> kapan AI membantu dan kapan tidak</li>
+<li class="fragment"><strong><em>Technology appropriation</em></strong> melampaui model adopsi klasik: bukan keputusan sekali jalan, tapi proses berulang membongkar dan menyesuaikan teknologi dengan kebutuhan sendiri.</li>
+<li class="fragment">Tiga komponen model: <strong><em>technology-as-designed</em></strong>, <strong>proses apropriasi</strong>, <strong><em>technology-in-use</em></strong> — dengan tiga kemungkinan jalan (<em>non-appropriation</em>, <em>appropriation</em>, <em>disappropriation</em>) yang bisa terjadi kapan saja, bahkan setelah pemakaian rutin bertahun-tahun.</li>
+<li class="fragment">Studi Carroll et al.&nbsp;(2001) menunjukkan apropriasi ponsel pada remaja berputar di sekitar <strong>identitas</strong>, <strong>kekuasaan</strong>, dan <strong>fragmentasi</strong> — dan melahirkan pola hidup <strong><em>adhocracy</em></strong>.</li>
+<li class="fragment">Desain yang identik bisa menghasilkan pemakaian yang sangat berbeda — faktor sosial dan personal ikut menentukan, bukan cuma kualitas desainnya.</li>
 </ul>
 </section>
 <section id="ada-pertanyaan" class="slide level2">
@@ -541,11 +505,9 @@ Rizqy Amelia Zein
 <section id="rujukan" class="slide level2 scrollable smaller">
 <h2>Rujukan</h2>
 <ul>
-<li>Cash, T. N., Kelly, M. O., Macnamara, B. N., &amp; Risko, E. F. (2026). Is AI making us stupid? <em>Trends in Cognitive Sciences, 30</em>(8), 673–675. <a href="https://doi.org/10.1016/j.tics.2026.06.004" class="uri">https://doi.org/10.1016/j.tics.2026.06.004</a></li>
-<li>Dakan, R., &amp; Feller, J. (2025). <em>The AI fluency framework: A descriptive and normative model of human-AI interaction for higher education</em> (Version 1.1). Higher Education Authority. <a href="https://aifluencyframework.org/" class="uri">https://aifluencyframework.org/</a></li>
-<li>Long, D., &amp; Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In <em>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</em> (pp.&nbsp;1–16). ACM. <a href="https://doi.org/10.1145/3313831.3376727" class="uri">https://doi.org/10.1145/3313831.3376727</a></li>
-<li>Potts, C., &amp; Sudhof, M. (2026). <em>A paradox of AI fluency</em>. arXiv. <a href="https://doi.org/10.48550/arXiv.2604.25905" class="uri">https://doi.org/10.48550/arXiv.2604.25905</a></li>
-<li>Rogers, T., &amp; Carbonaro, M. (2025). From understanding to creating: Bridging AI literacy and AI fluency in K-12 education. <em>Journal of Teaching and Learning, 19</em>(4), 20–38. <a href="https://doi.org/10.22329/jtl.v19i4.9420" class="uri">https://doi.org/10.22329/jtl.v19i4.9420</a></li>
+<li>Carroll, J., Howard, S., Vetere, F., Peck, J., &amp; Murphy, J. (2001). Identity, power and fragmentation in cyberspace: Technology appropriation by young people. In <em>Proceedings of the 12th Australasian Conference on Information Systems</em> (ACIS 2001), Paper 6.</li>
+<li>Rogers, E. M. (1983). <em>Diffusion of innovations</em> (3rd ed.). Free Press.</li>
+<li>Swan, J., &amp; Clark, P. (1992). Organisational decision-making in the appropriation of technological innovation: Cognitive and political dimensions. <em>European Work and Organizational Psychologist, 2</em>(2), 103–127.</li>
 </ul>
 
 

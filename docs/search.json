@@ -1,5 +1,285 @@
 [
   {
+    "objectID": "slides/pertemuan5.html#outline",
+    "href": "slides/pertemuan5.html#outline",
+    "title": "Mediated learning dan learning environment",
+    "section": "Outline",
+    "text": "Outline\n\nMediated learning — bukan sekadar “belajar pakai teknologi” — akarnya di psikologi perkembangan.\nMediasi ala Vygotsky: alat, tanda, dan zone of proximal development.\nMediated Learning Experience ala Feuerstein: tiga kriteria interaksi yang benar-benar memediasi.\nDari mediator manusia ke mediator teknologi — apa yang berubah, apa yang tetap.\nLingkungan pembelajaran digital: literasi sebagai praktik sosial, bukan bakat generasi.\nDiskusi (60 menit): menguji apakah chatbot AI bisa jadi “mediator” dalam pengertian Feuerstein.\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#bukan-sekadar-belajar-pakai-teknologi",
+    "href": "slides/pertemuan5.html#bukan-sekadar-belajar-pakai-teknologi",
+    "title": "Mediated learning dan learning environment",
+    "section": "Bukan sekadar “belajar pakai teknologi”",
+    "text": "Bukan sekadar “belajar pakai teknologi”\n\nIstilah “mediated learning” sering dipakai longgar untuk “belajar lewat perantaraan teknologi” — LMS, video, aplikasi.\nTapi dalam psikologi perkembangan, mediated learning punya arti yang jauh lebih spesifik: klaim tentang bagaimana kognisi manusia terbentuk, bukan sekadar tentang alat apa yang dipakai.\nDua tokoh membangun tradisi ini: Vygotsky (mediasi lewat alat dan tanda) dan Feuerstein (kualitas interaksi yang memediasi). Keduanya yang jadi fokus utama sesi ini."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#vygotsky-kognisi-dimediasi-alat-dan-tanda",
+    "href": "slides/pertemuan5.html#vygotsky-kognisi-dimediasi-alat-dan-tanda",
+    "title": "Mediated learning dan learning environment",
+    "section": "Vygotsky: kognisi dimediasi alat dan tanda",
+    "text": "Vygotsky: kognisi dimediasi alat dan tanda\n\nBagi Vygotsky, perkembangan kognitif tidak terjadi langsung antara individu dan lingkungannya — selalu ada perantara (mediation): alat fisik atau tanda simbolik, dengan bahasa sebagai yang paling penting.\nKlaim intinya: belajar terjadi secara sosial dulu, baru kemudian diinternalisasi jadi kemampuan individual — bukan sebaliknya.\nZone of proximal development (ZPD) — jarak antara apa yang bisa dikerjakan siswa sendirian, dan apa yang bisa ia kerjakan dengan bimbingan orang yang lebih mampu (more knowledgeable other)."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#tiga-zona-kemampuan",
+    "href": "slides/pertemuan5.html#tiga-zona-kemampuan",
+    "title": "Mediated learning dan learning environment",
+    "section": "Tiga zona kemampuan",
+    "text": "Tiga zona kemampuan\n\nflowchart LR\n    A[\"Bisa dikerjakan\\nsendiri\"] --&gt; B[\"Zone of proximal\\ndevelopment\\n(bisa dengan bantuan)\"]\n    B --&gt; C[\"Belum bisa dikerjakan\\nsekalipun dibantu\"]\n\n\n\n\n\n\n\n\n\n\n\nPembelajaran paling efektif terjadi di zona tengah — terlalu mudah tidak mengembangkan apa-apa, terlalu sulit tidak bisa dijembatani meski dibantu.\nPeran more knowledgeable other (guru, orang tua, teman yang lebih paham) adalah menyediakan scaffolding (penopang sementara) yang lambat laun dilepas seiring kemampuan siswa bertambah.\n\n\n\nVygotsky (1978)"
+  },
+  {
+    "objectID": "slides/pertemuan5.html#bukan-soal-alatnya-tapi-kualitas-interaksinya",
+    "href": "slides/pertemuan5.html#bukan-soal-alatnya-tapi-kualitas-interaksinya",
+    "title": "Mediated learning dan learning environment",
+    "section": "Bukan soal alatnya, tapi kualitas interaksinya",
+    "text": "Bukan soal alatnya, tapi kualitas interaksinya\n\nReuven Feuerstein mengembangkan gagasan ini lebih jauh: bukan sekadar “ada mediasi atau tidak”, tapi kualitas interaksi antara mediator (guru/orang tua) dan pembelajar yang menentukan apakah kognisi benar-benar berkembang.\nIa mengusulkan hingga 12 kriteria interaksi yang memediasi, tapi hanya tiga yang dianggap perlu dan cukup secara universal — sisanya tergantung konteks budaya."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#tiga-kriteria-universal",
+    "href": "slides/pertemuan5.html#tiga-kriteria-universal",
+    "title": "Mediated learning dan learning environment",
+    "section": "Tiga kriteria universal",
+    "text": "Tiga kriteria universal\n\nIntentionality and reciprocity — mediator secara sengaja mengarahkan interaksi ke suatu tujuan, dan pembelajar merespons secara aktif, bukan pasif menerima.\nTranscendence — interaksi melampaui tugas yang sedang dikerjakan, dihubungkan ke prinsip yang lebih luas atau situasi di masa depan.\nMediation of meaning — mediator menyampaikan kenapa sesuatu penting, bukan cuma bagaimana cara mengerjakannya.\n\n\n\n\n\n\n\nKenapa tiga kriteria ini yang dipilih\n\n\nTanpa ketiganya, sebuah interaksi mungkin tetap mengajarkan sesuatu — tapi Feuerstein berargumen ia gagal membentuk cognitive modifiability (modifikabilitas kognitif) yang bertahan lama: kemampuan berpikir yang bisa dipakai ulang di situasi baru, bukan sekadar hafalan prosedur.\n\n\n\n\n\nFeuerstein & Feuerstein (1991)"
+  },
+  {
+    "objectID": "slides/pertemuan5.html#dari-mediator-manusia-ke-mediator-teknologi",
+    "href": "slides/pertemuan5.html#dari-mediator-manusia-ke-mediator-teknologi",
+    "title": "Mediated learning dan learning environment",
+    "section": "Dari mediator manusia ke mediator teknologi",
+    "text": "Dari mediator manusia ke mediator teknologi\n\nPertanyaan yang relevan untuk mata kuliah ini: bisakah teknologi memenuhi tiga kriteria itu, atau mediasi selalu membutuhkan manusia?\nIntentionality bisa “diwariskan” lewat desain — perancang sistem menanamkan tujuan pedagogis ke dalam alur interaksinya.\nTranscendence dan mediation of meaning jauh lebih sulit diwariskan ke sistem otomatis — keduanya menuntut sensitivitas terhadap konteks spesifik pembelajar, sesuatu yang sistem berbasis aturan (dan bahkan AI generatif) belum tentu punya secara konsisten.\nIni bukan pertanyaan yang bisa dijawab “ya/tidak” secara umum — jawabannya bergantung pada bagaimana teknologi tersebut dirancang dan dipakai, persis tema yang akan terus muncul di sesi-sesi berikutnya.\n\n\nBagian ceramah ±30 menit, lebih ringkas dari minggu-minggu sebelumnya karena porsi diskusi jauh lebih besar hari ini. Cukup pastikan mahasiswa memegang definisi ZPD dan tiga kriteria Feuerstein dengan kuat sebelum masuk diskusi kelompok."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#mengkritik-narasi-generasi-digital-native",
+    "href": "slides/pertemuan5.html#mengkritik-narasi-generasi-digital-native",
+    "title": "Mediated learning dan learning environment",
+    "section": "Mengkritik narasi “generasi digital native”",
+    "text": "Mengkritik narasi “generasi digital native”\n\nGoodfellow & Lea (2013) mempertemukan dua bidang yang jarang beririsan: kajian literasi/pembelajaran, dan kajian teknologi pembelajaran.\nArgumen utamanya: literasi digital bukan bakat bawaan suatu generasi (“mahasiswa sekarang pasti jago teknologi karena lahir di era digital”), melainkan praktik sosial yang dibentuk oleh konteks disiplin ilmu dan institusi tempatnya dipelajari.\nKlaim ini selaras dengan Vygotsky: kemampuan memakai teknologi untuk belajar juga dimediasi secara sosial, bukan muncul otomatis dari paparan sejak kecil."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#desain-lingkungan-belajar-dari-sistematis-ke-design-thinking",
+    "href": "slides/pertemuan5.html#desain-lingkungan-belajar-dari-sistematis-ke-design-thinking",
+    "title": "Mediated learning dan learning environment",
+    "section": "Desain lingkungan belajar: dari sistematis ke design thinking",
+    "text": "Desain lingkungan belajar: dari sistematis ke design thinking\n\nHokanson & Gibbons (2014) mengusulkan mengimpor pola pikir design thinking — biasa dipakai di bisnis, pemerintahan, kedokteran — ke dalam praktik desain instruksional.\nAlternatif dari model sistematis yang lebih kaku (mis. ADDIE): pendekatan design studio, di mana rancangan diuji, dikritik, dan direvisi berulang kali sebelum dianggap selesai.\nMenghubungkan ke Pertemuan 1: siklus ini persis empat aktivitas interaction design yang sudah kita bahas — identifikasi kebutuhan, rancang, purwarupa, evaluasi.\n\n\n\nGoodfellow & Lea (2013); Hokanson & Gibbons (2014)"
+  },
+  {
+    "objectID": "slides/pertemuan5.html#praktik-bisakah-chatbot-ai-menjadi-mediator",
+    "href": "slides/pertemuan5.html#praktik-bisakah-chatbot-ai-menjadi-mediator",
+    "title": "Mediated learning dan learning environment",
+    "section": "Praktik: bisakah chatbot AI menjadi “mediator”?",
+    "text": "Praktik: bisakah chatbot AI menjadi “mediator”?\n\n\n\n\n\n\nSkenario (kerja kelompok, ±60 menit)\n\n\nSeorang mahasiswa memakai chatbot AI sebagai “tutor” untuk memahami materi statistik yang sulit — bertanya-jawab bolak-balik sampai merasa paham.\n\n\n\n\nNilai interaksi ini terhadap tiga kriteria Feuerstein: apakah ada intentionality and reciprocity, transcendence, dan mediation of meaning? Beri alasan konkret untuk masing-masing.\nBandingkan dengan interaksi yang sama bersama tutor manusia — kriteria mana yang lebih mudah dipenuhi manusia, kriteria mana yang bisa (atau tidak bisa) ditiru sistem AI?\nRancang satu perubahan desain pada chatbot tersebut yang bisa memperkuat salah satu kriteria yang paling lemah.\n\n\n±10 menit berbagi temuan ke kelas.\n\n\nSesi diskusi ±60 menit termasuk berbagi, sesuai porsi RPP minggu ini (30 ceramah, 60 diskusi, 10 berbagi). Dorong mahasiswa berargumen dari kriteria Feuerstein secara spesifik, bukan sekadar menyimpulkan “AI tidak bisa menggantikan guru” tanpa alasan yang jelas."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#rangkuman",
+    "href": "slides/pertemuan5.html#rangkuman",
+    "title": "Mediated learning dan learning environment",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nMediated learning dalam psikologi punya arti spesifik: kognisi terbentuk lewat perantaraan alat, tanda, dan interaksi sosial — bukan sekadar “belajar pakai teknologi”.\nVygotsky: pembelajaran sosial dulu, individual kemudian; ZPD menandai zona di mana bimbingan paling berguna.\nFeuerstein: kualitas interaksi menentukan — intentionality and reciprocity, transcendence, dan mediation of meaning adalah tiga syarat yang perlu dan cukup.\nLiterasi digital adalah praktik sosial yang dimediasi, bukan bakat generasi — dan desain lingkungan belajar yang baik meniru siklus iteratif yang sama seperti interaction design."
+  },
+  {
+    "objectID": "slides/pertemuan5.html#ada-pertanyaan",
+    "href": "slides/pertemuan5.html#ada-pertanyaan",
+    "title": "Mediated learning dan learning environment",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan5.html#rujukan",
+    "href": "slides/pertemuan5.html#rujukan",
+    "title": "Mediated learning dan learning environment",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nFeuerstein, R., & Feuerstein, S. (1991). Mediated learning experience: A theoretical review. In R. Feuerstein, P. S. Klein, & A. J. Tannenbaum (Eds.), Mediated learning experience (MLE): Theoretical, psychosocial and learning implications (pp. 3–51). Freund Publishing House.\nGoodfellow, R., & Lea, M. R. (2013). Literacy in the digital university: Critical perspectives on learning, scholarship, and technology. Routledge.\nHokanson, B., & Gibbons, A. (Eds.). (2014). Design in educational technology: Design thinking, design process, and the design studio. Springer.\nVygotsky, L. S. (1978). Mind in society: The development of higher psychological processes. Harvard University Press."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#outline",
+    "href": "slides/pertemuan3.html#outline",
+    "title": "Technology acceptance model",
+    "section": "Outline",
+    "text": "Outline\n\nDari teori perilaku umum ke teori khusus teknologi — akar TAM pada theory of reasoned action.\nDua keyakinan inti: perceived usefulness dan perceived ease of use.\nAlur model: dari keyakinan ke sikap, niat, dan pemakaian sungguhan.\nUji empiris Davis (1989) — bagaimana model ini pertama kali divalidasi.\nPerluasan ke TAM2 — mengapa TAM versi awal perlu diekspansi.\nDiskusi: menguji TAM pada teknologi yang Anda tolak atau abaikan.\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#dari-teori-perilaku-umum-ke-konteks-teknologi",
+    "href": "slides/pertemuan3.html#dari-teori-perilaku-umum-ke-konteks-teknologi",
+    "title": "Technology acceptance model",
+    "section": "Dari teori perilaku umum ke konteks teknologi",
+    "text": "Dari teori perilaku umum ke konteks teknologi\n\nTheory of reasoned action (Fishbein & Ajzen, 1975, 1980) — teori umum psikologi sosial: keyakinan membentuk sikap, sikap membentuk niat, niat memprediksi perilaku.\nTRA punya satu determinan tambahan: subjective norm — persepsi tentang apa yang dianggap orang lain penting terhadap perilaku kita.\nDavis (1989) mengadaptasi TRA khusus untuk konteks teknologi, dan dengan sengaja menyederhanakannya: subjective norm dibuang, diganti dua keyakinan yang menurutnya lebih relevan untuk memprediksi pemakaian sistem informasi."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#kenapa-disederhanakan",
+    "href": "slides/pertemuan3.html#kenapa-disederhanakan",
+    "title": "Technology acceptance model",
+    "section": "Kenapa disederhanakan?",
+    "text": "Kenapa disederhanakan?\n\nDavis berargumen: dalam konteks teknologi, dua keyakinan spesifik ini yang paling menentukan.\nModel yang lebih ramping juga lebih mudah diuji dan diterapkan di organisasi yang ingin memprediksi penerimaan sistem/teknologi baru sebelum diluncurkan.\nKonsekuensinya, TAM jadi salah satu model paling banyak dipakai (dan diuji ulang) dalam riset HCI."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#perceived-usefulness-dan-perceived-ease-of-use",
+    "href": "slides/pertemuan3.html#perceived-usefulness-dan-perceived-ease-of-use",
+    "title": "Technology acceptance model",
+    "section": "Perceived usefulness dan perceived ease of use",
+    "text": "Perceived usefulness dan perceived ease of use\n\n\n\n\n\n\n\n\nPerceived usefulness (PU)\n\n\nSejauh mana seseorang percaya bahwa memakai suatu sistem akan meningkatkan kinerjanya.\n\n\n\n\n\n\n\n\n\n\nPerceived ease of use (PEOU)\n\n\nSejauh mana seseorang percaya bahwa memakai suatu sistem akan bebas dari usaha.\n\n\n\n\n\nKeduanya adalah keyakinan (belief), bukan fakta objektif tentang sistemnya, sehingga dua orang bisa punya PU/PEOU berbeda untuk sistem yang identik.\nIntinya: orang tidak menolak teknologi karena teknologinya buruk secara objektif, tapi karena persepsinya terhadap manfaat dan kemudahannya.\n\n\n\nDavis (1989)"
+  },
+  {
+    "objectID": "slides/pertemuan3.html#alur-model-dari-keyakinan-ke-pemakaian-sungguhan",
+    "href": "slides/pertemuan3.html#alur-model-dari-keyakinan-ke-pemakaian-sungguhan",
+    "title": "Technology acceptance model",
+    "section": "Alur model: dari keyakinan ke pemakaian sungguhan",
+    "text": "Alur model: dari keyakinan ke pemakaian sungguhan\n\nflowchart LR\n    PEOU[Perceived&lt;br&gt;ease of use] --&gt; PU[Perceived&lt;br&gt;usefulness]\n    PEOU --&gt; ATT[Sikap terhadap&lt;br&gt;pemakaian]\n    PU --&gt; ATT\n    ATT --&gt; BI[Niat&lt;br&gt;perilaku]\n    BI --&gt; USE[Pemakaian&lt;br&gt;sungguhan]\n\n\n\n\n\n\n\n\n\n\n\nJalur PEOU → PU adalah temuan penting: kemudahan pakai memengaruhi persepsi kegunaan, bukan cuma jalur paralel yang terpisah.\nSikap memediasi hubungan keyakinan dengan niat — orang yang berkeyakinan positif belum tentu langsung berniat memakai, kecuali keyakinan itu terlebih dulu membentuk sikap positif."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#bagaimana-model-ini-divalidasi-pertama-kali",
+    "href": "slides/pertemuan3.html#bagaimana-model-ini-divalidasi-pertama-kali",
+    "title": "Technology acceptance model",
+    "section": "Bagaimana model ini divalidasi pertama kali",
+    "text": "Bagaimana model ini divalidasi pertama kali\n\n\n\n\n\n\nDesain studi\n\n\nDua studi dengan total 152 pengguna, menilai empat program aplikasi kantor yang berbeda. Davis mengembangkan dan menguji dua skala pengukuran baru: PU dan PEOU, masing-masing 6 aitem.\n\n\n\n\nReliabilitas skala tinggi: .98 untuk usefulness, .94 untuk ease of use.\nPU berkorelasi dengan pemakaian saat itu r = .63, dan dengan prediksi pemakaian di masa depan r = .85.\nPEOU berkorelasi lebih lemah: r = .45 (pemakaian saat itu) dan r = .59 (prediksi masa depan).\n\n\n\n\n\n\n\nTemuan yang paling sering dikutip ulang\n\n\nPU konsisten lebih kuat memprediksi pemakaian dibanding PEOU. Analisis regresi Davis juga menunjukkan PEOU cenderung bekerja lewat PU. Artinya, kemudahan memakai sistem/alat penting terutama karena ia membentuk persepsi kegunaan, bukan karena ia langsung menentukan niat untuk menggunakan."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#implikasi-praktis-dari-temuan-ini",
+    "href": "slides/pertemuan3.html#implikasi-praktis-dari-temuan-ini",
+    "title": "Technology acceptance model",
+    "section": "Implikasi praktis dari temuan ini",
+    "text": "Implikasi praktis dari temuan ini\n\nKalau PU adalah penentu utama, maka menjual teknologi lewat “mudah dipakai” saja tidak cukup — pengguna tetap perlu diyakinkan bahwa teknologi itu berguna untuk pekerjaan/tujuannya.\nUntuk teknologi pembelajaran: LMS yang antarmukanya rumit tapi jelas membantu nilai UTS mahasiswa mungkin tetap dipakai; aplikasi yang mudah tapi dianggap tidak relevan justru diabaikan.\nIni pelengkap penting bagi kerangka apropriasi minggu lalu — TAM menjelaskan keyakinan yang mendahului keputusan mencoba, apropriasi menjelaskan apa yang terjadi setelah dicoba."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#kenapa-satu-model-saja-tidak-pernah-cukup",
+    "href": "slides/pertemuan3.html#kenapa-satu-model-saja-tidak-pernah-cukup",
+    "title": "Technology acceptance model",
+    "section": "Kenapa satu model saja tidak pernah cukup",
+    "text": "Kenapa satu model saja tidak pernah cukup\n\nTAM asli tidak menjelaskan dari mana PU dan PEOU itu sendiri berasal — ia berhenti di “keyakinan menentukan sikap”, tapi tidak menjelaskan pembentukan keyakinannya.\nVenkatesh & Davis (2000) menambahkan dua kelompok determinan PU:\n\nProses pengaruh sosial — subjective norm (yang tadinya dibuang dari TAM) dan image (status sosial yang didapat dari memakai teknologi tersebut).\nProses kognitif instrumental — relevansi kerja (job relevance), kualitas output, dan result demonstrability (seberapa terlihat hasil kerjanya).\n\nDimoderasi oleh pengalaman dan sifat sukarela/wajib pemakaian sistemnya.\n\n\n\n\n\n\n\nPerforma model\n\n\nTAM2 diuji longitudinal di 4 organisasi (konteks sukarela dan wajib), menjelaskan 40–60% varians persepsi kegunaan dan 34–52% varians niat pemakaian.\n\n\n\n\nBagian ceramah ±50 menit. TAM2 adalah jembatan langsung ke UTAUT minggu depan — tekankan bahwa arah perkembangannya konsisten: setiap generasi model menambah determinan baru dari luar dua keyakinan inti Davis."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#praktik-uji-tam-pada-teknologi-yang-anda-tolak",
+    "href": "slides/pertemuan3.html#praktik-uji-tam-pada-teknologi-yang-anda-tolak",
+    "title": "Technology acceptance model",
+    "section": "Praktik: uji TAM pada teknologi yang Anda tolak",
+    "text": "Praktik: uji TAM pada teknologi yang Anda tolak\n\n\n\n\n\n\nInstruksi (kerja kelompok, ±40 menit)\n\n\nPikirkan satu teknologi pembelajaran yang pernah Anda coba, lalu tinggalkan atau tidak pernah Anda pakai serius meski tersedia gratis.\n\n\n\n\nJelaskan PU dan PEOU Anda terhadap teknologi tersebut saat pertama kali mencoba — mana yang rendah?\nApakah PEOU rendah Anda ikut menurunkan persepsi PU (sesuai jalur PEOU→PU), atau keduanya independen dalam kasus Anda?\nBandingkan dengan satu teknologi yang berhasil Anda pakai rutin — keyakinan apa yang berbeda?\n\n\n±10 menit berbagi temuan ke kelas.\n\n\nSesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan PU rendah (teknologinya tidak relevan) dari PEOU rendah (teknologinya relevan tapi merepotkan) — perbedaan ini punya implikasi desain yang berbeda."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#rangkuman",
+    "href": "slides/pertemuan3.html#rangkuman",
+    "title": "Technology acceptance model",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nTAM mengadaptasi theory of reasoned action khusus untuk konteks teknologi, dengan dua keyakinan inti: perceived usefulness dan perceived ease of use.\nAlurnya: keyakinan → sikap → niat perilaku → pemakaian sungguhan, dengan PEOU juga memengaruhi PU secara langsung.\nUji empiris Davis (1989) menunjukkan PU konsisten lebih kuat memprediksi pemakaian dibanding PEOU.\nTAM2 (Venkatesh & Davis, 2000) menambahkan determinan sosial dan kognitif yang menjelaskan dari mana PU itu terbentuk — jembatan langsung ke UTAUT yang akan kita bahas minggu depan."
+  },
+  {
+    "objectID": "slides/pertemuan3.html#ada-pertanyaan",
+    "href": "slides/pertemuan3.html#ada-pertanyaan",
+    "title": "Technology acceptance model",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan3.html#rujukan",
+    "href": "slides/pertemuan3.html#rujukan",
+    "title": "Technology acceptance model",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nDavis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. MIS Quarterly, 13(3), 319–340. https://doi.org/10.2307/249008\nFishbein, M., & Ajzen, I. (1975). Belief, attitude, intention, and behavior: An introduction to theory and research. Addison-Wesley.\nVenkatesh, V., & Davis, F. D. (2000). A theoretical extension of the technology acceptance model: Four longitudinal field studies. Management Science, 46(2), 186–204. https://doi.org/10.1287/mnsc.46.2.186.11926"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#outline",
+    "href": "slides/pertemuan6.html#outline",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Outline",
+    "text": "Outline\n\nKenapa “literasi informasi” bukan satu skill tunggal — tiga tradisi teoretis yang berbeda.\nFenomenografi: literasi informasi sebagai variasi pengalaman — Tujuh Wajah Bruce.\nTeori sosiokultural: literasi sebagai penguasaan alat mediasi dalam praktik sosial.\nAnalisis wacana: bagaimana “buta informasi” sendiri adalah konstruksi kekuasaan.\nComputer literacy — titik awal historis, sebelum istilah “digital” ada.\nLiterasi digital vs. literasi informasi — dua konstruk berdekatan, tidak identik.\nDiskusi (60 menit): menguji praktik pencarian informasi Anda lewat tiga lensa berbeda.\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#masalah-pendekatan-daftar-cek",
+    "href": "slides/pertemuan6.html#masalah-pendekatan-daftar-cek",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Masalah pendekatan daftar cek",
+    "text": "Masalah pendekatan daftar cek\n\nPendekatan paling umum memperlakukan literasi informasi sebagai daftar cek keterampilan generik: mencari, mengevaluasi, memakai informasi — bisa diajarkan sekali, berlaku di mana saja.\nLimberg, Sundin, & Talja (2012) menunjukkan riset literasi informasi sebenarnya berjalan dari tiga tradisi teoretis berbeda, dan tak satupun mereduksinya jadi daftar cek sederhana."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#tiga-tradisi-tiga-cara-memahami",
+    "href": "slides/pertemuan6.html#tiga-tradisi-tiga-cara-memahami",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Tiga tradisi, tiga cara memahami",
+    "text": "Tiga tradisi, tiga cara memahami\n\n\n\n\n\n\n\n\n\n\nFenomenografi (phenomenography)\nSosiokultural (sociocultural)\nAnalisis wacana (discourse analysis)\n\n\n\n\nAkar\nMarton dkk., 1970-an\nVygotsky (via Säljö)\nFoucault (1969)\n\n\nFokus\nPola variasi pengalaman\nAlat mediasi dalam praktik\nWacana historis\n\n\nLiterasi informasi sebagai\nPola variasi pengalaman memakai informasi untuk belajar\nBelajar berkomunikasi dalam praktik tertentu\nSesuatu yang dikonstruksi berbeda-beda tergantung konteks\n\n\n\n\n\nLimberg, Sundin, & Talja (2012)"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#bukan-mengukur-skill-tapi-memetakan-pengalaman",
+    "href": "slides/pertemuan6.html#bukan-mengukur-skill-tapi-memetakan-pengalaman",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Bukan mengukur skill, tapi memetakan pengalaman",
+    "text": "Bukan mengukur skill, tapi memetakan pengalaman\n\nFenomenografi (phenomenography) berakar dari riset Marton dan koleganya di Gothenburg — meneliti variasi cara orang mengalami dan memahami suatu fenomena, bukan mengukur level kemahiran mereka.\nTujuannya bukan menilai “siapa lebih melek informasi”, tapi memetakan ragam pengalaman yang ada di suatu populasi."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#tujuh-wajah-literasi-informasi-bruce-1997",
+    "href": "slides/pertemuan6.html#tujuh-wajah-literasi-informasi-bruce-1997",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Tujuh Wajah Literasi Informasi (Bruce, 1997)",
+    "text": "Tujuh Wajah Literasi Informasi (Bruce, 1997)\n\nMemakai teknologi informasi untuk mencari dan berkomunikasi.\nMenemukan sumber informasi.\nMenjalankan sebuah proses pencarian.\nMengendalikan informasi (menyimpan, mengelola).\nMembangun pengetahuan pribadi dari bidang baru.\nMemperluas pengetahuan lewat wawasan baru.\nMemakai informasi secara bijaksana untuk kepentingan orang lain.\n\n\n\n\n\n\n\nBukan tangga linear yang harus dilalui berurutan\n\n\nKetujuh wajah ini adalah kategori variasi pengalaman yang ditemukan lewat riset, bukan kurikulum. Wajah 7 (“kebijaksanaan”) tidak otomatis lebih “benar” — ia sekadar pengalaman yang lebih kompleks dan jarang.\n\n\n\n\n\nBruce (1997), dikutip dalam Limberg, Sundin, & Talja (2012)"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#belajar-berkomunikasi-dalam-suatu-praktik",
+    "href": "slides/pertemuan6.html#belajar-berkomunikasi-dalam-suatu-praktik",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Belajar berkomunikasi dalam suatu praktik",
+    "text": "Belajar berkomunikasi dalam suatu praktik\n\nTradisi sosiokultural (sociocultural perspective) ini berakar dari Vygotsky, dikembangkan Roger Säljö: literasi informasi adalah “penguasaan alat komunikatif dan teknis yang menjadi sarana mediasi dalam praktik sosial”.\nAlat di sini mencakup bahasa/konsep suatu disiplin ilmu, maupun artefak fisik/teknis — basis data, jurnal, mesin pencari.\nPoin pentingnya: alat tidak pernah netral. Algoritma perangkingan mesin pencari, misalnya, membentuk apa yang bisa ditemukan penggunanya — sering kali tanpa disadari.\n\n\n\n\n\n\n\nMenghubungkan ke pertemuan sebelumnya\n\n\nIni akar teoretis yang sama persis dengan mediated learning Vygotsky yang kita bahas minggu lalu — literasi informasi, dalam pandangan ini, adalah bentuk lain dari kognisi yang dimediasi alat dan tanda.\n\n\n\n\n\nSäljö, dikutip dalam Limberg, Sundin, & Talja (2012)"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#foucault-pengetahuan-dibentuk-secara-historis",
+    "href": "slides/pertemuan6.html#foucault-pengetahuan-dibentuk-secara-historis",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Foucault: pengetahuan dibentuk secara historis",
+    "text": "Foucault: pengetahuan dibentuk secara historis\n\nTradisi analisis wacana (discourse analysis) ini berakar dari Foucault: menganalisis literasi informasi sebagai sesuatu yang dibentuk oleh wacana — sistem pernyataan yang secara sistematis membentuk objek yang dibicarakannya, bukan realitas objektif yang berdiri sendiri.\nContoh yang dipakai Limberg et al.: analisis Haider & Bawden (2007) menunjukkan kategori “orang yang miskin informasi” (information poor) diproduksi oleh wacana kepustakawanan/ilmu informasi itu sendiri, bukan kondisi objektif yang ada sebelum wacana itu.\nBerbicara tentang “kemiskinan informasi” secara implisit memposisikan si pembicara sebagai bagian dari kelompok yang berkecukupan — kekuasaan di sini bekerja lewat bentuk pengetahuan yang melembaga, bukan lewat individu yang sengaja menindas.\n\n\n\nFoucault (1969); Haider & Bawden (2007), dikutip dalam Limberg, Sundin, & Talja (2012)"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#kesimpulan-limberg-sundin-talja-2012",
+    "href": "slides/pertemuan6.html#kesimpulan-limberg-sundin-talja-2012",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Kesimpulan Limberg, Sundin, & Talja (2012)",
+    "text": "Kesimpulan Limberg, Sundin, & Talja (2012)\n\nKetiga perspektif sepakat menolak gagasan bahwa literasi informasi adalah skill generik tunggal yang bisa ditransfer ke konteks manapun.\nPenulis mengusulkan berbicara tentang “literasi-literasi informasi” (jamak) — maknanya selalu dibentuk oleh konteks budaya, material, dan historis tempat ia diterapkan.\nImplikasinya untuk pengajaran: pendidikan literasi informasi sebaiknya berangkat dari praktik spesifik tempat kemampuan itu akan dipakai, bukan kurikulum generik yang sama untuk semua bidang."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#istilah-yang-lahir-lebih-dulu",
+    "href": "slides/pertemuan6.html#istilah-yang-lahir-lebih-dulu",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Istilah yang lahir lebih dulu",
+    "text": "Istilah yang lahir lebih dulu\n\nSebelum “literasi informasi” atau “literasi digital” jadi istilah umum, dunia pendidikan Amerika Serikat sudah lebih dulu memakai istilah computer literacy — sejak akhir 1970-an.\nAndrew Molnar, waktu itu direktur di National Science Foundation, mempopulerkan istilah ini lewat tulisannya “The Next Great Crisis in American Education: Computer Literacy” (Molnar, 1979): argumennya, masyarakat informasi butuh populasi yang melek komputer, sama pentingnya seperti energi bagi masyarakat industri.\nSebagian sejarawan pendidikan menelusuri akarnya lebih jauh, ke ceramah fisikawan Arthur Luehrmann di awal 1970-an, yang mendorong siswa jadi “penguasa” komputer, bukan sekadar objek yang diajar olehnya — ia memakai istilah yang mirip, computing literacy."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#konstruknya-sempit-keterampilan-teknis-operasional",
+    "href": "slides/pertemuan6.html#konstruknya-sempit-keterampilan-teknis-operasional",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Konstruknya sempit: keterampilan teknis-operasional",
+    "text": "Konstruknya sempit: keterampilan teknis-operasional\n\nComputer literacy pada masanya berarti kemampuan teknis-operasional: mengoperasikan perangkat keras, menulis program sederhana (umumnya bahasa BASIC), memakai pengolah kata dan spreadsheet.\nKonstruk ini tidak menyentuh soal mengevaluasi kredibilitas sumber, memahami konteks sosial pemakaian teknologi, atau berpikir kritis terhadap informasi — hal-hal yang baru masuk belakangan lewat literasi informasi dan literasi digital.\n\n\n\n\n\n\n\nKritik yang mendorong perluasan konsep\n\n\nPaul Gilster, penulis buku Digital Literacy (1997), secara eksplisit membedakan istilahnya dari literasi komputer: literasi digital “is about mastering ideas, not keystrokes” — bukan sekadar penguasaan teknis atas perangkat, tapi kemampuan memahami, mengevaluasi, dan mengintegrasikan informasi dalam berbagai format yang disajikan lewat komputer.\n\n\n\n\nPola ini akan berulang sepanjang sesi hari ini: setiap konstruk baru dianggap pendahulunya terlalu sempit, lalu memperluas cakupannya — literasi komputer (teknis) → literasi informasi (kognitif, sosial) → literasi digital (norma, etika) → literasi AI (evaluasi kritis terhadap sistem AI, akan kita bahas lebih rinci pada sesi mendatang).\n\n\n\nMolnar (1979); Gilster (1997)"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#dua-konstruk-berdekatan-tidak-identik",
+    "href": "slides/pertemuan6.html#dua-konstruk-berdekatan-tidak-identik",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Dua konstruk berdekatan, tidak identik",
+    "text": "Dua konstruk berdekatan, tidak identik\n\nMeyers, Erickson, & Small (2013) mendefinisikan literasi digital lebih luas daripada literasi informasi: bukan cuma kemampuan teknis memakai alat, tapi juga pengetahuan tentang norma pemakaian yang pantas — otoritas kognitif (menilai kredibilitas sumber), keamanan dan privasi, serta penggunaan media digital secara etis dan kreatif.\nBedanya dengan literasi informasi (Limberg et al.): literasi informasi lebih spesifik soal praktik mencari, mengevaluasi, dan memaknai informasi; literasi digital mencakup norma dan perilaku yang lebih luas dalam memakai media digital.\nKerangka literasi juga terus diperluas ke domain baru — misalnya AI literacy (Long & Magerko, 2020), yang menerapkan logika kompetensi kritis serupa khusus untuk memahami dan mengevaluasi sistem AI, yang akan kita bahas lebih rinci pada sesi mendatang.\n\n\nBagian ceramah ±30 menit, lebih ringkas karena porsi diskusi jauh lebih besar hari ini. Pastikan mahasiswa memegang perbedaan tiga perspektif Limberg et al. dengan cukup jelas untuk dipakai menganalisis pengalaman mereka sendiri di sesi diskusi."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#praktik-uji-praktik-pencarian-informasi-anda-sendiri",
+    "href": "slides/pertemuan6.html#praktik-uji-praktik-pencarian-informasi-anda-sendiri",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Praktik: uji praktik pencarian informasi Anda sendiri",
+    "text": "Praktik: uji praktik pencarian informasi Anda sendiri\n\n\n\n\n\n\nInstruksi (kerja kelompok, ±60 menit)\n\n\nPilih satu pengalaman pencarian informasi yang cukup penting bagi Anda baru-baru ini (mencari referensi tesis, riset untuk tugas, dsb).\n\n\n\n\nLensa fenomenografi: pengalaman Anda paling dekat dengan wajah keberapa dari Tujuh Wajah Bruce? Kenapa?\nLensa sosiokultural: alat/perangkat apa yang memediasi pencarian Anda (mesin pencari, basis data kampus, AI)? Bagaimana alat itu membentuk apa yang akhirnya Anda temukan — dan apa yang tidak Anda temukan?\nLensa analisis wacana: adakah asumsi implisit tentang siapa yang dianggap “melek informasi” dan siapa yang tidak, dalam konteks tempat Anda mencari informasi (jurusan, kampus, atau lingkup profesional Anda)?\n\n\n±10 menit berbagi temuan ke kelas.\n\n\nSesi diskusi ±60 menit termasuk berbagi, sesuai porsi RPP minggu ini (30 ceramah, 60 diskusi, 10 berbagi). Dorong mahasiswa memakai ketiga lensa untuk pengalaman yang sama, bukan memilih satu lensa favorit saja — tujuannya menunjukkan bahwa ketiganya menyoroti aspek yang berbeda dari peristiwa yang sama."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#rangkuman",
+    "href": "slides/pertemuan6.html#rangkuman",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nLiterasi informasi bukan skill tunggal — Limberg, Sundin, & Talja (2012) mengidentifikasi tiga tradisi teoretis yang berbeda: fenomenografi, sosiokultural, dan analisis wacana.\nFenomenografi memetakan variasi pengalaman (Tujuh Wajah Bruce); sosiokultural menyoroti alat sebagai mediasi yang tidak netral; analisis wacana menunjukkan kategori seperti “buta informasi” adalah konstruksi kekuasaan, bukan fakta objektif.\nLiterasi digital (Meyers, Erickson, & Small, 2013) lebih luas dari literasi informasi — mencakup norma pemakaian media digital, bukan cuma praktik mencari dan mengevaluasi informasi.\nKesimpulan praktisnya: pendidikan literasi sebaiknya dimulai dari praktik dan konteks spesifik, bukan kurikulum generik yang dianggap berlaku di mana saja."
+  },
+  {
+    "objectID": "slides/pertemuan6.html#ada-pertanyaan",
+    "href": "slides/pertemuan6.html#ada-pertanyaan",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan6.html#rujukan",
+    "href": "slides/pertemuan6.html#rujukan",
+    "title": "Literasi informasi, digital, dan komputer",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nBruce, C. S. (1997). The seven faces of information literacy. Auslib Press.\nFoucault, M. (1972). The archaeology of knowledge (A. M. Sheridan Smith, Trans.). Pantheon Books. (Original work published 1969)\nGilster, P. (1997). Digital literacy. John Wiley & Sons.\nHaider, J., & Bawden, D. (2007). Conceptions of “information poverty” in LIS: A discourse analysis. Journal of Documentation, 63(4), 534–557. https://doi.org/10.1108/00220410710759002\nLimberg, L., Sundin, O., & Talja, S. (2012). Three theoretical perspectives on information literacy. Human IT, 11(2), 93–130.\nLong, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–16). ACM. https://doi.org/10.1145/3313831.3376727\nMeyers, E. M., Erickson, I., & Small, R. V. (2013). Digital literacy and informal learning environments: An introduction. Learning, Media and Technology, 38(4), 355–367. https://doi.org/10.1080/17439884.2013.783597\nMolnar, A. R. (1979). The next great crisis in American education: Computer literacy. Journal of Educational Technology Systems, 7(3), 275–285. https://doi.org/10.2190/TM2Q-LLGE-AFJ8-UYBP"
+  },
+  {
     "objectID": "slides/pertemuan11.html#outline",
     "href": "slides/pertemuan11.html#outline",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
@@ -96,6 +376,13 @@
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Ada pertanyaan❓",
     "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan11.html#rujukan",
+    "href": "slides/pertemuan11.html#rujukan",
+    "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nBrčić, M., & Frljić, S. (2026). The effortless trap: Productive struggle, AI, and the illusion of learning. arXiv. https://doi.org/10.48550/arXiv.2606.26181\nFügener, A., Walzner, D. D., & Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. Management Science, 72(1), 538–557. https://doi.org/10.1287/mnsc.2024.05684\nKoenecke, A., Nam, A., Lake, E., Nudell, J., Quartey, M., Mengesha, Z., Toups, C., Rickford, J. R., Jurafsky, D., & Goel, S. (2020). Racial disparities in automated speech recognition. Proceedings of the National Academy of Sciences, 117(14), 7684–7689. https://doi.org/10.1073/pnas.1915768117\nPage, E. B. (1966). The imminence of grading essays by computer. Phi Delta Kappan, 47(5), 238–243.\nSiemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. EDUCAUSE Review, 46(5), 30–40. https://er.educause.edu/articles/2011/9/penetrating-the-fog-analytics-in-learning-and-education\nWainer, H., Dorans, N. J., Eignor, D., Flaugher, R., Green, B. F., Mislevy, R. J., Steinberg, L., & Thissen, D. (2000). Computerized adaptive testing: A primer (2nd ed.). Routledge."
   },
   {
     "objectID": "slides/pertemuan9.html#outline",
@@ -229,6 +516,13 @@
     "title": "AI Literacy dan AI Fluency",
     "section": "Ada pertanyaan❓",
     "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan9.html#rujukan",
+    "href": "slides/pertemuan9.html#rujukan",
+    "title": "AI Literacy dan AI Fluency",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nCash, T. N., Kelly, M. O., Macnamara, B. N., & Risko, E. F. (2026). Is AI making us stupid? Trends in Cognitive Sciences, 30(8), 673–675. https://doi.org/10.1016/j.tics.2026.06.004\nDakan, R., & Feller, J. (2025). The AI fluency framework: A descriptive and normative model of human-AI interaction for higher education (Version 1.1). Higher Education Authority. https://aifluencyframework.org/\nLong, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–16). ACM. https://doi.org/10.1145/3313831.3376727\nPotts, C., & Sudhof, M. (2026). A paradox of AI fluency. arXiv. https://doi.org/10.48550/arXiv.2604.25905\nRogers, T., & Carbonaro, M. (2025). From understanding to creating: Bridging AI literacy and AI fluency in K-12 education. Journal of Teaching and Learning, 19(4), 20–38. https://doi.org/10.22329/jtl.v19i4.9420"
   },
   {
     "objectID": "slides/matrikulasi-mapsi.html#outline",
@@ -553,11 +847,11 @@
     "text": "Materi Matrikulasi S2 Mapsi 2026/2027\n\nBerkolaborasi dengan Akal Imitasi — Pengantar AI Fluency untuk Mahasiswa Magister Psikologi"
   },
   {
-    "objectID": "index.html#rencana-pertemuan",
-    "href": "index.html#rencana-pertemuan",
+    "objectID": "index.html#rencana-pertemuan-mk-teknologi-dalam-pembelajaran-fps25801105",
+    "href": "index.html#rencana-pertemuan-mk-teknologi-dalam-pembelajaran-fps25801105",
     "title": "Teknologi dalam Pembelajaran",
-    "section": "Rencana Pertemuan",
-    "text": "Rencana Pertemuan\nJadwal di bawah ini hanya mencakup pertemuan yang diampu oleh Rizqy Amelia Zein (Amel) pada mata kuliah Teknologi dalam Pembelajaran. Pertemuan yang diampu oleh Dr. Tino Leonardi tidak dicantumkan di sini — lihat Kontrak Perkuliahan di Psyche mata kuliah untuk jadwal lengkap.\n\n\n\n\n\n\n\n\n\n\n\nTM\nTanggal & Waktu\nTopik\nModa\nTautan\nMateri\n\n\n\n\n7\nJumat, 25 September, 15.30 WIB\nHuman-AI collaboration dan reinforcement learning from human feedback\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n9\nJumat, 16 Oktober, 15.30 WIB\nAI literacy dan fluency\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n10\nJumat, 23 Oktober, 15.30 WIB\nTeknologi pembelajaran untuk kebutuhan khusus: aksesibilitas/teknologi pembantu\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n11\nJumat, 30 Oktober, 15.30 WIB\nPenggunaan teknologi dalam asesmen pembelajaran\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n12\nJumat, 6 November, 15.30 WIB\nDampak dan implikasi teknologi pada pembelajaran\nDiskusi\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n13\nJumat, 13 November, 15.30 WIB\nDampak dan implikasi teknologi pada pembelajaran\nSeminar\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n14\nJumat, 20 November, 15.30 WIB\nMedia pembelajaran (komputer, internet, dan KB): pendidikan dasar, menengah, tinggi dan luar sekolah\nPraktik\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n\n\n\nDeklarasi penggunaan akal imitasi\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+    "section": "Rencana Pertemuan MK Teknologi dalam Pembelajaran (FPS25801105)",
+    "text": "Rencana Pertemuan MK Teknologi dalam Pembelajaran (FPS25801105)\nJadwal di bawah ini hanya mencakup pertemuan yang diampu oleh Rizqy Amelia Zein (Amel) pada mata kuliah Teknologi dalam Pembelajaran. Pertemuan yang diampu oleh Dr. Tino Leonardi tidak dicantumkan di sini — lihat Kontrak Perkuliahan di Psyche mata kuliah untuk jadwalnya secara lengkap.\n\n\n\n\n\n\n\n\n\n\n\nTM\nTanggal & Waktu\nTopik\nModa\nTautan\nMateri\n\n\n\n\n7\nJumat, 25 September, 15.30 WIB\nHuman-AI collaboration dan reinforcement learning from human feedback\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n9\nJumat, 16 Oktober, 15.30 WIB\nAI literacy dan fluency\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n10\nJumat, 23 Oktober, 15.30 WIB\nTeknologi pembelajaran untuk kebutuhan khusus: aksesibilitas/teknologi pembantu\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n11\nJumat, 30 Oktober, 15.30 WIB\nPenggunaan teknologi dalam asesmen pembelajaran\nKuliah\nKlik di sini untuk bergabung ke MS Teams\nSlide\n\n\n12\nJumat, 6 November, 15.30 WIB\nDampak dan implikasi teknologi pada pembelajaran\nDiskusi\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n13\nJumat, 13 November, 15.30 WIB\nDampak dan implikasi teknologi pada pembelajaran\nSeminar\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n14\nJumat, 20 November, 15.30 WIB\nMedia pembelajaran (komputer, internet, dan KB): pendidikan dasar, menengah, tinggi dan luar sekolah\nPraktik\nKlik di sini untuk bergabung ke MS Teams\nbelum tersedia\n\n\n\n\n\n\n\n\n\nNoteCatatan tentang perkuliahan daring\n\n\n\nMahasiswa tidak harus memiliki akun Microsoft Teams untuk mengikuti kuliah, dan dapat bergabung langsung lewat browser tanpa memasang aplikasinya.\nNamun, untuk mengakses percakapan (chat) atau berkomunikasi dengan dosen lewat tautan MS Teams yang sama, mahasiswa perlu masuk menggunakan akun Microsoft Teams UNAIR (email berdomain @drive.unair.ac.id). Lihat Panduan Penggunaan OneDrive dan MS Teams dari Direktorat Sistem Informasi (DSI) Universitas Airlangga.\n\n\n\n\n\n\n\n\nTipPetunjuk mengunduh slide 🖨️\n\n\n\nKlik icon ☰ yang ada di pojok kiri bawah slide → klik Tools di pojok kiri atas → pilih PDF Export Mode → tekan tombol ctrl + p hingga keluar pop-up window untuk mencetak slide, kemudian print sebagai file PDF.\nAlternatifnya, Anda bisa menekan tombol e sebagai shortcut, lalu mencetak slide sebagai file PDF.\n‼️Saya akan selalu memperbarui konten dalam slide deck di atas. Oleh karena itu, sebaiknya perlakukan slide ini sebagai dokumen hidup (living document). Apabila Anda menyimpan versi PDF yang sifatnya statis, maka perubahan dan pembaruan yang saya lakukan setelah Anda menyimpan versi statisnya, tidak akan terlihat dalam file yang Anda unduh.\n\n\n\n\nDeklarasi penggunaan akal imitasi\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
   },
   {
     "objectID": "slides/pertemuan7.html#outline",
@@ -798,6 +1092,13 @@
     "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
   },
   {
+    "objectID": "slides/pertemuan7.html#rujukan",
+    "href": "slides/pertemuan7.html#rujukan",
+    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nBastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), Article e2422633122. https://doi.org/10.1073/pnas.2422633122\nBrčić, M., & Frljić, S. (2026). The effortless trap: Productive struggle, AI, and the illusion of learning. arXiv. https://doi.org/10.48550/arXiv.2606.26181\nDeslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. Proceedings of the National Academy of Sciences, 116(39), 19251–19257. https://doi.org/10.1073/pnas.1821936116\nFügener, A., Walzner, D. D., & Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. Management Science, 72(1), 538–557. https://doi.org/10.1287/mnsc.2024.05684\nGhali, M.-K., Farrag, A., Sakai, H., El Baz, H., Jin, Y., & Lam, S. (2024). GAMedX: Generative AI-based medical entity data extractor using large language models. arXiv. https://arxiv.org/abs/2405.20585\nKapur, M. (2008). Productive failure. Cognition and Instruction, 26(3), 379–424. https://doi.org/10.1080/07370000802212669\nKesavan, S., & Kushwaha, T. (2020). Field experiment on the profit implications of merchants’ discretionary power to override data-driven decision-making tools. Management Science, 66(11), 5182–5190. https://doi.org/10.1287/mnsc.2020.3743\nKestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports, 15, Article 17458. https://doi.org/10.1038/s41598-025-97652-6\nKosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X.-H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task. arXiv. https://arxiv.org/abs/2506.08872\nLi, W., Liu, H., Huang, K., & Hussain, A. (2025). Reinforcement learning for human-AI collaboration: Challenges, mechanisms, and methods. Cognitive Computation, 17, Article 146. https://doi.org/10.1007/s12559-025-10500-7\nPotts, C., & Sudhof, M. (2026). A paradox of AI fluency. arXiv. https://doi.org/10.48550/arXiv.2604.25905\nSharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2023). Towards understanding sycophancy in language models. arXiv. https://arxiv.org/abs/2310.13548\nShen, J. H., & Tamkin, A. (2026). How AI impacts skill formation. arXiv. https://arxiv.org/abs/2601.20245\nStankovic, M., Hirche, E., Kollatzsch, S., & Doetsch, J. N. (2025). Comment on: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing tasks. arXiv. https://arxiv.org/abs/2601.00856\nVaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998–6008."
+  },
+  {
     "objectID": "slides/pertemuan10.html#outline",
     "href": "slides/pertemuan10.html#outline",
     "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
@@ -922,5 +1223,299 @@
     "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
     "section": "Ada pertanyaan❓",
     "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan10.html#rujukan",
+    "href": "slides/pertemuan10.html#rujukan",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nBrčić, M., & Frljić, S. (2026). The effortless trap: Productive struggle, AI, and the illusion of learning. arXiv. https://doi.org/10.48550/arXiv.2606.26181\nCAST. (2024). Universal Design for Learning guidelines (Version 2.2). https://udlguidelines.cast.org/\nFügener, A., Walzner, D. D., & Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. Management Science, 72(1), 538–557. https://doi.org/10.1287/mnsc.2024.05684\nKoenecke, A., Nam, A., Lake, E., Nudell, J., Quartey, M., Mengesha, Z., Toups, C., Rickford, J. R., Jurafsky, D., & Goel, S. (2020). Racial disparities in automated speech recognition. Proceedings of the National Academy of Sciences, 117(14), 7684–7689. https://doi.org/10.1073/pnas.1915768117\nU.S. Assistive Technology Act of 1998, 29 U.S.C. § 3002. https://www.law.cornell.edu/uscode/text/29/3002\nWorld Wide Web Consortium. (2018). Web Content Accessibility Guidelines (WCAG) 2.1. https://www.w3.org/TR/WCAG21/"
+  },
+  {
+    "objectID": "slides/pertemuan1.html#outline",
+    "href": "slides/pertemuan1.html#outline",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Outline",
+    "text": "Outline\n\nApa itu interaction design? — dari HCI ke desain produk interaktif apa pun.\nSiklus desain iteratif — memahami kebutuhan, merancang, membangun purwarupa, mengevaluasi.\nUsability goals vs. UX goals — dua standar berbeda untuk menilai teknologi yang baik.\nModel mental dan affordance — kenapa sebagian teknologi terasa intuitif, sebagian lagi membingungkan.\nGulf of execution dan gulf of evaluation — dua celah di balik frustrasi pengguna.\nDiskusi: membedah antarmuka aplikasi belajar yang Anda pakai sehari-hari.\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#bukan-sekadar-desain-komputer",
+    "href": "slides/pertemuan1.html#bukan-sekadar-desain-komputer",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Bukan sekadar “desain komputer”",
+    "text": "Bukan sekadar “desain komputer”\n\nHuman-computer interaction (HCI) awalnya fokusnya sempit: bagaimana manusia berinteraksi dengan komputer desktop.\nInteraction design (ID) memperluas cakupan itu — merancang produk dan layanan interaktif apa pun yang mendukung cara manusia berkomunikasi dan bekerja: aplikasi ponsel, situs web, learning management system, bahkan mesin ATM.\nSharp, Rogers, & Preece (2019) mendefinisikannya sebagai merancang produk interaktif untuk mendukung cara manusia berkomunikasi dalam kehidupan sehari-hari maupun pekerjaan mereka.\nRelevan untuk mata kuliah ini karena teknologi pembelajaran adalah produk interaktif — LMS, aplikasi kuis, chatbot tutor, semuanya bisa dinilai dengan kacamata yang sama."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#empat-aktivitas-inti-yang-sifatnya-iteratif",
+    "href": "slides/pertemuan1.html#empat-aktivitas-inti-yang-sifatnya-iteratif",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Empat aktivitas inti yang sifatnya iteratif",
+    "text": "Empat aktivitas inti yang sifatnya iteratif\n\n\n\nMengidentifikasi kebutuhan — memahami siapa penggunanya dan apa yang ingin mereka capai.\nMerancang alternatif — menghasilkan beberapa opsi desain, bukan langsung satu solusi.\nMembangun purwarupa (prototype) — versi yang bisa dicoba dan dinilai, sebelum dibangun penuh.\nMengevaluasi — diuji ke pengguna nyata, sepanjang proses, bukan cuma di akhir.\n\n\n\nflowchart TD\n    A[Identifikasi&lt;br&gt;kebutuhan] --&gt; B[Rancang&lt;br&gt;alternatif]\n    B --&gt; C[Bangun&lt;br&gt;purwarupa]\n    C --&gt; D[Evaluasi]\n    D --&gt; A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYang membedakan ID dari sekadar “membuat aplikasi”\n\n\nSiklusnya iteratif, bukan linear. Pengguna dilibatkan sepanjang proses, bukan sekadar diminta memberi masukan di akhir ketika aplikasinya selesai dikembangkan."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#dua-standar-untuk-menilai-desain-yang-baik",
+    "href": "slides/pertemuan1.html#dua-standar-untuk-menilai-desain-yang-baik",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Dua standar untuk menilai desain yang baik",
+    "text": "Dua standar untuk menilai desain yang baik\nKualitas produk interaktif diukur lewat dua kelompok tujuan yang sifatnya berbeda:\n\n\nUsability goals — terukur\n\nEfektif dipakai.\nEfisien dipakai.\nAman dipakai.\nPunya utility (fungsi) yang jelas.\nMudah dipelajari.\nMudah diingat cara pakainya.\n\n\nUX goals — dirasakan\n\nMemuaskan, menyenangkan.\nMembantu, memotivasi.\nEstetis, mendukung kreativitas.\nMenstimulasi pengguna secara kognitif.\nMenantang, kadang memberi efek kejut pada pengguna.\n\n\n\n\nSharp, Rogers, & Preece (2019)"
+  },
+  {
+    "objectID": "slides/pertemuan1.html#kenapa-dua-standar-ini-sering-mengalami-tradeoff",
+    "href": "slides/pertemuan1.html#kenapa-dua-standar-ini-sering-mengalami-tradeoff",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Kenapa dua standar ini sering mengalami tradeoff",
+    "text": "Kenapa dua standar ini sering mengalami tradeoff\n\nSebuah LMS bisa efisien (masuk cepat, navigasi jelas) tapi terasa membosankan — memenuhi usability goals, gagal di UX goals.\nAplikasi belajar berbasis gim bisa sebaliknya: menyenangkan, tapi seringkali tidak efisien untuk mahasiswa yang sekadar ingin cepat menyelesaikan kuis.\nDesain yang baik jarang memaksimalkan keduanya sekaligus — ia memilih prioritas sesuai kebutuhan penggunanya.\n\n\n\n\n\n\n\nPertanyaan reflektif\n\n\nAplikasi belajar mana yang pernah Anda pakai yang efisien tapi tidak menyenangkan, atau sebaliknya?"
+  },
+  {
+    "objectID": "slides/pertemuan1.html#kenapa-sebagian-teknologi-terasa-sangat-intuitif",
+    "href": "slides/pertemuan1.html#kenapa-sebagian-teknologi-terasa-sangat-intuitif",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Kenapa sebagian teknologi terasa sangat intuitif",
+    "text": "Kenapa sebagian teknologi terasa sangat intuitif\n\nDua konsep ini datang dari Donald Norman dan menjadi fondasi standar dalam HCI.\nAffordance — properti suatu objek yang menunjukkan cara memakainya; gagang pintu “mengundang” ditarik, tombol “mengundang” ditekan.\nMental model — pemahaman internal pengguna tentang cara kerja sebuah sistem, dibangun dari pengalamannya dengan sistem-sistem serupa sebelumnya.\nKetika affordance sebuah antarmuka cocok dengan mental model penggunanya, interaksi terasa alami, tanpa perlu usaha ekstra untuk memahami cara kerjanya.\n\n\n\nNorman (2013)"
+  },
+  {
+    "objectID": "slides/pertemuan1.html#dua-celah-di-balik-perasaan-frustrasi-pengguna",
+    "href": "slides/pertemuan1.html#dua-celah-di-balik-perasaan-frustrasi-pengguna",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Dua celah di balik perasaan frustrasi pengguna",
+    "text": "Dua celah di balik perasaan frustrasi pengguna\n\n\n\n\n\n\n\n\nGulf of execution\n\n\nJarak antara niat pengguna dan aksi yang tersedia di sistem untuk mewujudkannya.\nContoh: Anda ingin mengunggah tugas, tapi tombolnya tersembunyi di menu yang berlapis-lapis.\n\n\n\n\n\n\n\n\n\n\nGulf of evaluation\n\n\nJarak antara tampilan sistem dan kemampuan pengguna memahami apakah tujuannya tercapai.\nContoh: tugas terunggah, tapi tidak ada notifikasi konfirmasi, sehingga Anda tidak yakin apakah tugasnya berhasil diunggah atau tidak.\n\n\n\n\nDesain yang baik mempersempit kedua celah ini: aksi yang jelas terlihat, umpan balik yang diterima segera oleh pengguna."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#menghubungkan-ke-relasi-manusia-komputer",
+    "href": "slides/pertemuan1.html#menghubungkan-ke-relasi-manusia-komputer",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Menghubungkan ke relasi manusia-komputer",
+    "text": "Menghubungkan ke relasi manusia-komputer\n\nSub-capaian pertemuan ini: memahami relasi manusia dan komputer untuk menyelesaikan tugas.\nKerangka ID menjelaskan kenapa sebuah alat bantu tugas terasa membantu atau justru menghambat, yang ditentukan oleh kesesuaian antara desain dan model mental penggunanya.\nSetiap teori penerimaan teknologi yang akan kita bahas sepanjang semester ini — technology appropriation, TAM, UTAUT — pada dasarnya menjawab versi yang lebih spesifik dari pertanyaan yang sama: kapan manusia mau, dan kapan mampu, memakai suatu teknologi?\n\n\nBagian ceramah ±50 menit. Tekankan bahwa kerangka evaluasi (usability/UX, affordance, gulf) akan dipakai berulang sepanjang semester sebagai alat bedah, bukan istilah sekali pakai untuk pertemuan ini saja."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#praktik-bedah-antarmuka-aplikasi-belajar-anda",
+    "href": "slides/pertemuan1.html#praktik-bedah-antarmuka-aplikasi-belajar-anda",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Praktik: bedah antarmuka aplikasi belajar Anda",
+    "text": "Praktik: bedah antarmuka aplikasi belajar Anda\n\n\n\n\n\n\nInstruksi (kerja kelompok, ±40 menit)\n\n\nPilih satu aplikasi atau platform belajar yang rutin Anda pakai — LMS kampus (Psyche atau HEBAT), aplikasi bahasa, aplikasi catatan, atau lainnya.\n\n\n\n\nNilai aplikasi tersebut terhadap tiga usability goals dan dua UX goals — mana yang terpenuhi, mana yang tidak?\nTemukan satu contoh gulf of execution (aksi yang sulit ditemukan atau dilakukan) dan satu gulf of evaluation (umpan balik yang tidak jelas) dalam aplikasi tersebut.\nBagaimana mental model Anda tentang aplikasi serupa membentuk ekspektasi Anda terhadap aplikasi ini?\n\n\n±10 menit berbagi temuan ke kelas.\n\n\nSesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa memakai istilah teknis (affordance, gulf) secara tepat saat presentasi temuan, bukan sekadar menilai “aplikasinya jelek/bagus”."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#rangkuman",
+    "href": "slides/pertemuan1.html#rangkuman",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nInteraction design memperluas HCI ke semua produk interaktif, dievaluasi lewat siklus iteratif: identifikasi kebutuhan, rancang, purwarupa, evaluasi.\nUsability goals (terukur) dan UX goals (dirasakan) adalah dua standar berbeda — desain yang baik memilih prioritas sesuai konteks penggunanya, bukan memaksimalkan keduanya sekaligus.\nAffordance dan mental model menjelaskan kenapa sebagian antarmuka terasa intuitif; gulf of execution/evaluation menjelaskan sumber frustrasi pengguna.\nKerangka ini adalah alat bedah yang akan terus kita pakai, termasuk untuk memahami teori-teori penerimaan teknologi di pertemuan-pertemuan berikutnya."
+  },
+  {
+    "objectID": "slides/pertemuan1.html#ada-pertanyaan",
+    "href": "slides/pertemuan1.html#ada-pertanyaan",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan1.html#rujukan",
+    "href": "slides/pertemuan1.html#rujukan",
+    "title": "Interaksi Manusia dengan Teknologi",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nNorman, D. A. (2013). The design of everyday things (Rev. ed.). Basic Books.\nSharp, H., Rogers, Y., & Preece, J. (2019). Interaction design: Beyond human-computer interaction (5th ed.). John Wiley & Sons."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#outline",
+    "href": "slides/pertemuan2.html#outline",
+    "title": "Technology appropriation model",
+    "section": "Outline",
+    "text": "Outline\n\nKenapa “adopsi” tidak cukup — dari keputusan sekali jalan ke proses yang terus bergulir.\nModel technology appropriation — technology-as-designed, proses apropriasi, technology-in-use.\nNon-appropriation, Appropriation, Disappropriation — tiga jalan, dan kenapa tidak ada yang final.\nBukti dari lapangan: identitas, kekuasaan, dan fragmentasi pada remaja pengguna ponsel.\nAdhocracy — ketika teknologi mengubah cara hidup direncanakan.\nDiskusi: melacak proses apropriasi teknologi Anda sendiri.\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#model-adopsi-klasik-keputusan-sekali-jalan",
+    "href": "slides/pertemuan2.html#model-adopsi-klasik-keputusan-sekali-jalan",
+    "title": "Technology appropriation model",
+    "section": "Model adopsi klasik: keputusan sekali jalan",
+    "text": "Model adopsi klasik: keputusan sekali jalan\n\nTeori difusi inovasi (Rogers, 1983) menggambarkan adopsi teknologi sebagai rangkaian tahap: pengetahuan → persuasi → keputusan → implementasi → konfirmasi (memakai terus, atau berhenti).\nModel ini memperlakukan teknologi sebagai artefak tetap — begitu diadopsi, dipakai sesuai rancangan aslinya.\nMasalahnya: model ini tidak menjelaskan apa yang sebenarnya terjadi setelah orang mulai memakai teknologi — orang jarang memakainya persis seperti niat perancangnya."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#apropriasi-teknologi-dibongkar-dan-disesuaikan",
+    "href": "slides/pertemuan2.html#apropriasi-teknologi-dibongkar-dan-disesuaikan",
+    "title": "Technology appropriation model",
+    "section": "Apropriasi: teknologi dibongkar dan disesuaikan",
+    "text": "Apropriasi: teknologi dibongkar dan disesuaikan\n\nCarroll, Howard, Vetere, Peck, & Murphy (2001) mengusulkan istilah technology appropriation — bukan sekadar “menerima” teknologi, melainkan membongkar fungsi-fungsinya dan menyesuaikannya dengan kebutuhan sendiri.\nDefinisinya, mengutip Swan & Clark (1992, h. 114): pengguna “telah mengubah bentuk dan cara pakai inovasi dari yang disediakan” — mulai dari modifikasi kecil sampai transformasi besar.\nBedanya dengan adopsi: apropriasi adalah proses yang berulang dan tidak pernah selesai — bukan keputusan sekali jalan yang lalu menetap.\n\n\n\nCarroll, Howard, Vetere, Peck, & Murphy (2001)"
+  },
+  {
+    "objectID": "slides/pertemuan2.html#technology-as-designed-proses-technology-in-use",
+    "href": "slides/pertemuan2.html#technology-as-designed-proses-technology-in-use",
+    "title": "Technology appropriation model",
+    "section": "Technology-as-designed, proses, technology-in-use",
+    "text": "Technology-as-designed, proses, technology-in-use\n\n\n\nTechnology-as-designed (teknologi-sebagai-dirancang) — artefak yang disediakan, membawa asumsi perancang tentang siapa penggunanya dan bagaimana ia akan dipakai.\nProses apropriasi — pengguna mencoba, menilai, memilih fitur mana yang dipakai dan mana yang diabaikan.\nTechnology-in-use (teknologi-dalam-pemakaian) — hasil akhirnya: teknologi yang sudah dievaluasi, disesuaikan, dan tertanam dalam rutinitas sehari-hari.\n\n\n\nflowchart TD\n    A[Technology-&lt;br&gt;as-designed] --&gt; B[Proses&lt;br&gt;apropriasi]\n    B --&gt; C[Technology-&lt;br&gt;in-use]\n    C -.-&gt;|bisa dievaluasi ulang&lt;br&gt;kapan saja| B\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYang penting dari model ini\n\n\nKelompok berbeda bisa menghasilkan technology-in-use yang sangat berbeda dari satu technology-as-designed yang sama persis."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#tiga-jalan-dalam-proses-apropriasi",
+    "href": "slides/pertemuan2.html#tiga-jalan-dalam-proses-apropriasi",
+    "title": "Technology appropriation model",
+    "section": "Tiga jalan dalam proses apropriasi",
+    "text": "Tiga jalan dalam proses apropriasi\n\nNon-appropriation — pengguna tidak tahu atau tidak tertarik pada teknologi/fiturnya; tidak pernah masuk ke proses sama sekali.\nAppropriation — pengguna mencoba, menilai, memilih dan menyesuaikan atribut tertentu, mengambil alih kemampuannya untuk memenuhi kebutuhan sendiri.\nDisappropriation — pengguna memilih berhenti memakai; bisa terjadi di awal, di akhir, bahkan setelah periode pemakaian rutin sekalipun.\n\n\n\n\n\n\n\nYang sering diabaikan model-model lain\n\n\nApropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap tetap bisa ditinggalkan — inilah yang membedakan model ini dari teori adopsi yang berhenti begitu “keputusan” diambil."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#penarik-dan-penolak-proses-apropriasi",
+    "href": "slides/pertemuan2.html#penarik-dan-penolak-proses-apropriasi",
+    "title": "Technology appropriation model",
+    "section": "Penarik dan penolak proses apropriasi",
+    "text": "Penarik dan penolak proses apropriasi\n\n\nPenarik (attractors)\n\nKepraktisan.\nKegunaan yang jelas.\nFaktor gaya — ukuran, bobot, kemudahan pakai.\n\n\nPenolak (repellents)\n\nBiaya, terutama untuk pengguna usia sekolah.\nFitur yang sulit dipelajari.\nKekhawatiran (mis. kesehatan), meski tak selalu mengubah perilaku.\nKonten tak diinginkan (spam, materi tak pantas)."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#desain-penelitian",
+    "href": "slides/pertemuan2.html#desain-penelitian",
+    "title": "Technology appropriation model",
+    "section": "Desain penelitian",
+    "text": "Desain penelitian\n\n\n\n\n\n\nCarroll et al. (2001) — metode gabungan\n\n\n4 kelompok fokus (Melbourne dan Sydney, usia 16–22), dilanjutkan observasi 6 partisipan dalam aktivitas sehari-hari, plus catatan harian daring selama 3 minggu.\n\n\n\nTemuannya berputar pada tiga tema yang saling menguatkan: identitas, kekuasaan, dan fragmentasi."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#identitas-ponsel-sebagai-penanda-diri",
+    "href": "slides/pertemuan2.html#identitas-ponsel-sebagai-penanda-diri",
+    "title": "Technology appropriation model",
+    "section": "Identitas: ponsel sebagai penanda diri",
+    "text": "Identitas: ponsel sebagai penanda diri\n\n“It gives you an identity: this is who I am, this is my number” — salah satu partisipan.\nSMS memperkuat identitas meski secara teknis sederhana; sebuah survei Eropa yang dikutip penulis menemukan lebih dari separuh responden kecewa kalau sehari tanpa pesan teks.\nPonsel bahkan disebut sebagai prasyarat untuk punya kehidupan sosial — remaja tanpa ponsel kesulitan menjaga hubungan.\nAda hierarki keintiman per media: SMS/ponsel (paling intim) → surel (keluarga/teman di luar kota) → chat (paling berjarak, “teman chat”)."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#kekuasaan-menavigasi-otoritas-orang-tua-dan-sekolah",
+    "href": "slides/pertemuan2.html#kekuasaan-menavigasi-otoritas-orang-tua-dan-sekolah",
+    "title": "Technology appropriation model",
+    "section": "Kekuasaan: menavigasi otoritas orang tua dan sekolah",
+    "text": "Kekuasaan: menavigasi otoritas orang tua dan sekolah\n\nRemaja memakai fitur ponsel untuk mengelola siapa yang bisa menjangkau mereka, kapan — penyaringan panggilan lewat caller ID, nada dering personal, kotak suara.\n“Mum calls when I’m out drinking. Let it go and SMS her” — SMS dipakai untuk menghindar dari percakapan langsung yang tidak diinginkan.\nSMS dipakai diam-diam di ruang kelas dan kuliah; sebagian remaja perempuan membuat grup chat sendiri untuk mengendalikan siapa yang boleh ikut."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#fragmentasi-menjaga-kohesi-lintas-jarak",
+    "href": "slides/pertemuan2.html#fragmentasi-menjaga-kohesi-lintas-jarak",
+    "title": "Technology appropriation model",
+    "section": "Fragmentasi: menjaga kohesi lintas jarak",
+    "text": "Fragmentasi: menjaga kohesi lintas jarak\n\nICT membantu menjaga hubungan yang tersebar secara geografis atau sosial — keluarga campuran (blended families), mahasiswa rantau, teman yang pindah sekolah.\nContoh dari studi: seorang remaja tetap menjaga pertemanan lama lewat ponsel setelah pindah sekolah; mahasiswa di kampus berbeda tetap kontak harian lewat ponsel.\n\n\n\nCarroll, Howard, Vetere, Peck, & Murphy (2001)"
+  },
+  {
+    "objectID": "slides/pertemuan2.html#ketika-teknologi-mengubah-cara-hidup-direncanakan",
+    "href": "slides/pertemuan2.html#ketika-teknologi-mengubah-cara-hidup-direncanakan",
+    "title": "Technology appropriation model",
+    "section": "Ketika teknologi mengubah cara hidup direncanakan",
+    "text": "Ketika teknologi mengubah cara hidup direncanakan\n\nSalah satu temuan paling mencolok: hidup remaja jadi ditandai oleh adhocracy — improvisasi janji sosial dari menit ke menit, bukan rencana yang disusun jauh-jauh hari.\n“It’s taken the strict plan out of your social life altogether, once you’ve got a mobile phone” — partisipan menggambarkan hidupnya jadi lebih cepat, kurang terorganisasi, lebih terburu-buru sejak punya ponsel.\nIni bukan efek samping kecil — ia mengubah norma sosial tentang berjanji dan menepati janji, bukan cuma cara berkomunikasi."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#menghubungkan-balik-ke-pertemuan-sebelumnya",
+    "href": "slides/pertemuan2.html#menghubungkan-balik-ke-pertemuan-sebelumnya",
+    "title": "Technology appropriation model",
+    "section": "Menghubungkan balik ke pertemuan sebelumnya",
+    "text": "Menghubungkan balik ke pertemuan sebelumnya\n\nMinggu lalu kita membahas affordance dan mental model — bagaimana desain antarmuka membentuk ekspektasi pengguna.\nModel apropriasi menambahkan lapisan berikutnya: desain yang sama bisa berujung pada technology-in-use yang sangat berbeda, tergantung siapa yang memakainya dan kebutuhan apa yang mereka bawa.\nYang menentukan penggunaan bukan cuma seberapa baik antarmukanya dirancang, tapi juga faktor identitas, kekuasaan, dan konteks sosial yang tidak selalu terlihat dari desainnya sendiri.\n\n\nBagian ceramah ±50 menit. Tekankan bahwa penelitian Carroll et al. tentang ponsel awal 2000-an masih relevan sebagai kerangka, meski perangkatnya sudah sangat berbeda — pola perilakunya (identitas, kekuasaan, fragmentasi) berulang di media sosial dan aplikasi belajar saat ini."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#praktik-lacak-proses-apropriasi-anda-sendiri",
+    "href": "slides/pertemuan2.html#praktik-lacak-proses-apropriasi-anda-sendiri",
+    "title": "Technology appropriation model",
+    "section": "Praktik: lacak proses apropriasi Anda sendiri",
+    "text": "Praktik: lacak proses apropriasi Anda sendiri\n\n\n\n\n\n\nInstruksi (kerja kelompok, ±40 menit)\n\n\nPilih satu teknologi yang rutin Anda pakai untuk belajar atau bekerja (aplikasi catatan, cloud storage, chatbot AI, dsb).\n\n\n\n\nCeritakan lintasan apropriasinya: bagaimana pertama kali Anda mencobanya, fitur apa yang Anda pakai berbeda dari niat perancangnya?\nAdakah fitur yang pernah Anda pakai rutin, lalu Anda tinggalkan (disappropriation) setelah sekian lama?\nIdentifikasi satu penarik dan satu penolak yang memengaruhi keputusan Anda memakai atau tidak memakai teknologi tersebut.\n\n\n±10 menit berbagi temuan ke kelas.\n\n\nSesi diskusi ±50 menit termasuk berbagi. Arahkan mahasiswa untuk melihat apropriasi sebagai proses yang sedang berjalan, bukan keputusan yang sudah selesai — termasuk kemungkinan mereka akan meninggalkan sebagian fitur di masa depan."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#rangkuman",
+    "href": "slides/pertemuan2.html#rangkuman",
+    "title": "Technology appropriation model",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nTechnology appropriation melampaui model adopsi klasik: bukan keputusan sekali jalan, tapi proses berulang membongkar dan menyesuaikan teknologi dengan kebutuhan sendiri.\nTiga komponen model: technology-as-designed, proses apropriasi, technology-in-use — dengan tiga kemungkinan jalan (non-appropriation, appropriation, disappropriation) yang bisa terjadi kapan saja, bahkan setelah pemakaian rutin bertahun-tahun.\nStudi Carroll et al. (2001) menunjukkan apropriasi ponsel pada remaja berputar di sekitar identitas, kekuasaan, dan fragmentasi — dan melahirkan pola hidup adhocracy.\nDesain yang identik bisa menghasilkan pemakaian yang sangat berbeda — faktor sosial dan personal ikut menentukan, bukan cuma kualitas desainnya."
+  },
+  {
+    "objectID": "slides/pertemuan2.html#ada-pertanyaan",
+    "href": "slides/pertemuan2.html#ada-pertanyaan",
+    "title": "Technology appropriation model",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan2.html#rujukan",
+    "href": "slides/pertemuan2.html#rujukan",
+    "title": "Technology appropriation model",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nCarroll, J., Howard, S., Vetere, F., Peck, J., & Murphy, J. (2001). Identity, power and fragmentation in cyberspace: Technology appropriation by young people. In Proceedings of the 12th Australasian Conference on Information Systems (ACIS 2001), Paper 6.\nRogers, E. M. (1983). Diffusion of innovations (3rd ed.). Free Press.\nSwan, J., & Clark, P. (1992). Organisational decision-making in the appropriation of technological innovation: Cognitive and political dimensions. European Work and Organizational Psychologist, 2(2), 103–127."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#outline",
+    "href": "slides/pertemuan4.html#outline",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Outline",
+    "text": "Outline\n\nTerlalu banyak model — kenapa Venkatesh dan rekan-rekannya menyatukan delapan teori sekaligus.\nEmpat determinan inti UTAUT — performance expectancy, effort expectancy, social influence, facilitating conditions.\nEmpat moderator — kenapa determinan yang sama berpengaruh beda di tiap orang.\nDari organisasi ke konsumen: UTAUT2 dan tiga konstruk barunya.\nDiskusi: memetakan penerimaan aplikasi belajar Anda ke UTAUT2.\n\n\n\nDisclosure penggunaan AI\nSaya menggunakan Claude Code (Model Sonnet 5) untuk membuat outline dan menyusun slide deck, mencari referensi, dan melakukan troubleshooting kode quarto dan git. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#satu-fenomena-yang-dijelaskan-delapan-teori-berbeda",
+    "href": "slides/pertemuan4.html#satu-fenomena-yang-dijelaskan-delapan-teori-berbeda",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Satu fenomena yang dijelaskan delapan teori berbeda",
+    "text": "Satu fenomena yang dijelaskan delapan teori berbeda\n\nMenjelang awal 2000-an, riset penerimaan teknologi sudah punya banyak model bersaing: TRA, TAM, motivational model, theory of planned behavior, model gabungan TAM-TPB, model of PC utilization, diffusion of innovations, dan social cognitive theory.\nTiap model punya determinan sendiri, istilah sendiri, dan hasil validasi yang tidak selalu sebanding satu sama lain.\nVenkatesh, Morris, Davis, & Davis (2003) membandingkan kedelapannya secara langsung di organisasi yang sama, lalu menyatukan elemen-elemen yang tumpang tindih menjadi satu model: unified theory of acceptance and use of technology (UTAUT)."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#hasilnya-daya-prediksi-yang-jauh-lebih-baik",
+    "href": "slides/pertemuan4.html#hasilnya-daya-prediksi-yang-jauh-lebih-baik",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Hasilnya: daya prediksi yang jauh lebih baik",
+    "text": "Hasilnya: daya prediksi yang jauh lebih baik\n\nKedelapan model individual sebelumnya menjelaskan 17–53% varians niat perilaku.\nUTAUT gabungan menjelaskan sekitar 70% — lompatan besar dibanding model manapun yang berdiri sendiri.\nIni bukan model baru dari nol, melainkan sintesis: unsur-unsur yang secara empiris terbukti relevan dari delapan model dipertahankan, yang tumpang tindih digabungkan.\n\n\n\nVenkatesh, Morris, Davis, & Davis (2003)"
+  },
+  {
+    "objectID": "slides/pertemuan4.html#apa-yang-menentukan-niat-memakai-teknologi",
+    "href": "slides/pertemuan4.html#apa-yang-menentukan-niat-memakai-teknologi",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Apa yang menentukan niat memakai teknologi",
+    "text": "Apa yang menentukan niat memakai teknologi\n\nPerformance expectancy — keyakinan bahwa memakai sistem akan membantu mencapai kinerja yang lebih baik (posisinya setara dengan perceived usefulness di TAM).\nEffort expectancy — tingkat kemudahan yang diasosiasikan dengan pemakaian sistem (setara perceived ease of use).\nSocial influence — sejauh mana seseorang merasa orang-orang penting baginya percaya ia sebaiknya memakai sistem tersebut.\nFacilitating conditions — keyakinan bahwa infrastruktur organisasi dan teknis sudah tersedia untuk mendukung pemakaian sistem.\n\n\n\n\n\n\n\nKaitan dengan minggu lalu\n\n\nDua determinan pertama pada dasarnya PU dan PEOU dari TAM, diberi nama ulang. UTAUT tidak membuang TAM — ia menambahkan dua determinan baru (social influence, facilitating conditions) yang sebelumnya tersebar di model-model lain."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#kenapa-determinan-yang-sama-berpengaruh-beda-di-tiap-orang",
+    "href": "slides/pertemuan4.html#kenapa-determinan-yang-sama-berpengaruh-beda-di-tiap-orang",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Kenapa determinan yang sama berpengaruh beda di tiap orang",
+    "text": "Kenapa determinan yang sama berpengaruh beda di tiap orang\n\nJenis kelamin, usia, pengalaman, dan sifat sukarela/wajib pemakaian memoderasi kekuatan hubungan keempat determinan terhadap niat dan pemakaian — bukan menjadi determinan tersendiri.\nContoh: pengaruh social influence terhadap niat pakai cenderung lebih kuat pada perempuan, pengguna yang lebih tua, dan pada tahap awal pengalaman memakai sistem.\nPengaruh performance expectancy cenderung lebih kuat pada laki-laki dan pengguna yang lebih muda.\n\n\n\n\n\n\n\nImplikasi untuk desain intervensi\n\n\nKampanye penerimaan teknologi yang sama tidak akan sama efektifnya untuk semua orang — kelompok yang lebih dipengaruhi norma sosial butuh pendekatan berbeda dari kelompok yang lebih dipengaruhi ekspektasi kinerja."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#konteks-yang-berbeda-kebutuhan-model-yang-berbeda",
+    "href": "slides/pertemuan4.html#konteks-yang-berbeda-kebutuhan-model-yang-berbeda",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Konteks yang berbeda, kebutuhan model yang berbeda",
+    "text": "Konteks yang berbeda, kebutuhan model yang berbeda\n\nUTAUT dibangun dan divalidasi di konteks organisasi, di mana pemakaian teknologi sering wajib (ditugaskan perusahaan) — karyawan tidak benar-benar memilih apakah memakai sistem penggajian baru.\nVenkatesh, Thong, & Xu (2012) memperluasnya ke konteks konsumen: pemakaian teknologi yang sepenuhnya sukarela, dan biayanya ditanggung sendiri oleh pengguna, bukan organisasi.\nKonteks yang berbeda ini melahirkan tiga determinan baru yang tidak relevan di tempat kerja, tapi penting bagi konsumen."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#tiga-konstruk-baru-utaut2",
+    "href": "slides/pertemuan4.html#tiga-konstruk-baru-utaut2",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Tiga konstruk baru UTAUT2",
+    "text": "Tiga konstruk baru UTAUT2\n\n\n\n\n\n\n\n\nHedonic motivation\n\n\nKesenangan atau kenikmatan yang didapat dari memakai suatu teknologi.\n\n\n\n\n\n\n\n\n\n\nPrice value\n\n\nPertimbangan kognitif konsumen antara manfaat yang dirasakan dan biaya yang dikeluarkan.\n\n\n\n\n\n\n\n\n\n\nHabit\n\n\nSejauh mana seseorang cenderung melakukan suatu perilaku secara otomatis karena sudah terbiasa.\n\n\n\n\n\nModerator berkurang dari empat jadi tiga — sifat sukarela/wajib dihapus, karena pemakaian konsumen memang selalu sukarela.\n\n\n\nVenkatesh, Thong, & Xu (2012)"
+  },
+  {
+    "objectID": "slides/pertemuan4.html#performa-utaut2",
+    "href": "slides/pertemuan4.html#performa-utaut2",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Performa UTAUT2",
+    "text": "Performa UTAUT2\n\n\n\n\n\n\nStudi validasi\n\n\nSurvei daring dua tahap terhadap 1.512 konsumen pengguna internet ponsel.\n\n\n\n\nVarians niat perilaku yang terjelaskan naik dari 56% (UTAUT tanpa tiga konstruk baru) menjadi 74% (UTAUT2 lengkap).\nVarians pemakaian teknologi naik dari 40% menjadi 52%.\nHedonic motivation dan habit terbukti sebagai penambah daya prediksi yang paling besar — konsisten dengan intuisi bahwa orang memakai aplikasi hiburan bukan karena “kinerjanya lebih baik”, tapi karena menyenangkan dan sudah jadi kebiasaan."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#menghubungkan-ke-teknologi-pembelajaran",
+    "href": "slides/pertemuan4.html#menghubungkan-ke-teknologi-pembelajaran",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Menghubungkan ke teknologi pembelajaran",
+    "text": "Menghubungkan ke teknologi pembelajaran\n\nSebagian besar teknologi pembelajaran berada di antara dua konteks ini: LMS kampus terasa “wajib” seperti konteks organisasi UTAUT, tapi aplikasi belajar mandiri (mis. aplikasi bahasa, chatbot AI) lebih dekat ke konteks konsumen UTAUT2.\nHedonic motivation dan habit jarang dipertimbangkan desainer LMS kampus, padahal keduanya terbukti kuat memprediksi pemakaian ketika teknologi itu sifatnya sukarela — poin yang relevan untuk merancang materi tambahan yang tidak wajib diakses mahasiswa.\n\n\nBagian ceramah ±50 menit. Ini melengkapi trilogi TAM–TAM2–UTAUT/UTAUT2 yang sudah dibahas tiga minggu terakhir. Tekankan bahwa perkembangan model ini bukan sekadar menambah variabel demi kompleksitas, tapi merespons konteks pemakaian yang benar-benar berbeda (organisasi vs. konsumen)."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#praktik-petakan-aplikasi-belajar-anda-ke-utaut2",
+    "href": "slides/pertemuan4.html#praktik-petakan-aplikasi-belajar-anda-ke-utaut2",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Praktik: petakan aplikasi belajar Anda ke UTAUT2",
+    "text": "Praktik: petakan aplikasi belajar Anda ke UTAUT2\n\n\n\n\n\n\nInstruksi (kerja kelompok, ±40 menit)\n\n\nPilih satu aplikasi belajar yang Anda pakai secara sukarela (bukan LMS yang diwajibkan kampus, i.e., Psyche).\n\n\n\n\nNilai ketujuh determinan UTAUT2 untuk aplikasi tersebut — mana yang paling tinggi, mana yang paling rendah?\nApakah habit sudah terbentuk? Sejak kapan pemakaiannya terasa otomatis, tidak lagi memerlukan keputusan sadar?\nBandingkan dengan LMS yang diwajibkan oleh kampus: determinan mana yang relevan di LMS tapi tidak relevan di aplikasi yang Anda pakai secara sukarela, atau sebaliknya?\n\n\n±10 menit berbagi temuan ke kelas.\n\n\nSesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan determinan yang sifatnya universal (performance/effort expectancy) dari yang kontekstual (hedonic motivation, price value) sesuai sukarela/wajibnya pemakaian."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#rangkuman",
+    "href": "slides/pertemuan4.html#rangkuman",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Rangkuman",
+    "text": "Rangkuman\n\nUTAUT menyatukan delapan model penerimaan teknologi sebelumnya menjadi empat determinan inti: performance expectancy, effort expectancy, social influence, facilitating conditions dan menjelaskan varians niat jauh lebih baik daripada model manapun secara terpisah.\nEmpat moderator (jenis kelamin, usia, pengalaman, sifat sukarela/wajib) menjelaskan kenapa determinan yang sama berpengaruh beda pada orang berbeda.\nUTAUT2 memperluas model ke konteks konsumen, menambah hedonic motivation, price value, dan habit.\n\nTiga faktor inisebenarnya tidak relevan di konteks/situasi kerja yang mewajibkan penggunaan teknologi, tapi penting saat pemakaian bersifat sukarela.\n\nSebagian besar teknologi pembelajaran berada di antara dua konteks ini, dan model mana yang lebih relevan bergantung pada seberapa sukarela pemakaiannya."
+  },
+  {
+    "objectID": "slides/pertemuan4.html#ada-pertanyaan",
+    "href": "slides/pertemuan4.html#ada-pertanyaan",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Ada pertanyaan❓",
+    "text": "Ada pertanyaan❓\n\n\n\n\n\n\n\nCatatan\n\n\n\nPaparan disusun dengan menggunakan  dan Quarto dengan template dari UNAIR Theme.\nKontak saya via  amelia.zein@psikologi.unair.ac.id"
+  },
+  {
+    "objectID": "slides/pertemuan4.html#rujukan",
+    "href": "slides/pertemuan4.html#rujukan",
+    "title": "Unified theory of acceptance and use of technology",
+    "section": "Rujukan",
+    "text": "Rujukan\n\nVenkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User acceptance of information technology: Toward a unified view. MIS Quarterly, 27(3), 425–478. https://doi.org/10.2307/30036540\nVenkatesh, V., Thong, J. Y. L., & Xu, X. (2012). Consumer acceptance and use of information technology: Extending the unified theory of acceptance and use of technology. MIS Quarterly, 36(1), 157–178. https://doi.org/10.2307/41410412"
   }
 ]

@@ -1,0 +1,204 @@
+---
+title: "*Unified theory of acceptance and use of technology*"
+subtitle: "MK Teknologi dalam Pembelajaran"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* **Terlalu banyak model** — kenapa Venkatesh dan rekan-rekannya menyatukan delapan teori sekaligus.
+* **Empat determinan inti UTAUT** — *performance expectancy*, *effort expectancy*, *social influence*, *facilitating conditions*.
+* **Empat moderator** — kenapa determinan yang sama berpengaruh beda di tiap orang.
+* **Dari organisasi ke konsumen**: UTAUT2 dan tiga konstruk barunya.
+* **Diskusi**: memetakan penerimaan aplikasi belajar Anda ke UTAUT2.
+:::
+
+::: aside
+***Disclosure* penggunaan AI**
+
+Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# Terlalu Banyak Model 🧩 {background-color="#14497F"}
+
+## Satu fenomena yang dijelaskan delapan teori berbeda
+
+::: {.incremental}
+* Menjelang awal 2000-an, riset penerimaan teknologi sudah punya banyak model bersaing: TRA, TAM, *motivational model*, *theory of planned behavior*, model gabungan TAM-TPB, *model of PC utilization*, *diffusion of innovations*, dan *social cognitive theory*.
+* Tiap model punya determinan sendiri, istilah sendiri, dan hasil validasi yang tidak selalu sebanding satu sama lain.
+* Venkatesh, Morris, Davis, & Davis (2003) membandingkan kedelapannya secara langsung di organisasi yang sama, lalu menyatukan elemen-elemen yang tumpang tindih menjadi satu model: ***unified theory of acceptance and use of technology* (UTAUT)**.
+:::
+
+## Hasilnya: daya prediksi yang jauh lebih baik
+
+::: {.incremental}
+* Kedelapan model individual sebelumnya menjelaskan **17–53%** varians niat perilaku.
+* UTAUT gabungan menjelaskan sekitar **70%** — lompatan besar dibanding model manapun yang berdiri sendiri.
+* Ini bukan model baru dari nol, melainkan **sintesis**: unsur-unsur yang secara empiris terbukti relevan dari delapan model dipertahankan, yang tumpang tindih digabungkan.
+:::
+
+::: aside
+Venkatesh, Morris, Davis, & Davis (2003)
+:::
+
+# Empat Determinan Inti UTAUT 🎯 {background-color="#14497F"}
+
+## Apa yang menentukan niat memakai teknologi
+
+::: {.incremental}
+* ***Performance expectancy*** — keyakinan bahwa memakai sistem akan membantu mencapai kinerja yang lebih baik (posisinya setara dengan *perceived usefulness* di TAM).
+* ***Effort expectancy*** — tingkat kemudahan yang diasosiasikan dengan pemakaian sistem (setara *perceived ease of use*).
+* ***Social influence*** — sejauh mana seseorang merasa orang-orang penting baginya percaya ia sebaiknya memakai sistem tersebut.
+* ***Facilitating conditions*** — keyakinan bahwa infrastruktur organisasi dan teknis sudah tersedia untuk mendukung pemakaian sistem.
+:::
+
+::: {.callout-note}
+### Kaitan dengan minggu lalu
+Dua determinan pertama pada dasarnya **PU dan PEOU dari TAM**, diberi nama ulang. UTAUT tidak membuang TAM — ia menambahkan dua determinan baru (*social influence*, *facilitating conditions*) yang sebelumnya tersebar di model-model lain.
+:::
+
+# Empat Moderator 🎚️ {background-color="#14497F"}
+
+## Kenapa determinan yang sama berpengaruh beda di tiap orang
+
+::: {.incremental}
+* Jenis kelamin, usia, pengalaman, dan sifat sukarela/wajib pemakaian **memoderasi** kekuatan hubungan keempat determinan terhadap niat dan pemakaian — bukan menjadi determinan tersendiri.
+* Contoh: pengaruh *social influence* terhadap niat pakai cenderung **lebih kuat** pada perempuan, pengguna yang lebih tua, dan pada tahap awal pengalaman memakai sistem.
+* Pengaruh *performance expectancy* cenderung **lebih kuat** pada laki-laki dan pengguna yang lebih muda.
+:::
+
+::: {.callout-tip}
+### Implikasi untuk desain intervensi
+Kampanye penerimaan teknologi yang sama tidak akan sama efektifnya untuk semua orang — kelompok yang lebih dipengaruhi norma sosial butuh pendekatan berbeda dari kelompok yang lebih dipengaruhi ekspektasi kinerja.
+:::
+
+# Dari Organisasi ke Konsumen: UTAUT2 🛍️ {background-color="#14497F"}
+
+## Konteks yang berbeda, kebutuhan model yang berbeda
+
+::: {.incremental}
+* UTAUT dibangun dan divalidasi di konteks **organisasi**, di mana pemakaian teknologi sering **wajib** (ditugaskan perusahaan) — karyawan tidak benar-benar memilih apakah memakai sistem penggajian baru.
+* Venkatesh, Thong, & Xu (2012) memperluasnya ke konteks **konsumen**: pemakaian teknologi yang sepenuhnya sukarela, dan biayanya ditanggung sendiri oleh pengguna, bukan organisasi.
+* Konteks yang berbeda ini melahirkan tiga determinan baru yang tidak relevan di tempat kerja, tapi penting bagi konsumen.
+:::
+
+## Tiga konstruk baru UTAUT2
+
+::: {.columns}
+::: {.column width="33%"}
+::: {.callout-important}
+### *Hedonic motivation*
+Kesenangan atau kenikmatan yang didapat dari memakai suatu teknologi.
+:::
+:::
+
+::: {.column width="33%"}
+::: {.callout-important}
+### *Price value*
+Pertimbangan kognitif konsumen antara manfaat yang dirasakan dan biaya yang dikeluarkan.
+:::
+:::
+
+::: {.column width="33%"}
+::: {.callout-important}
+### *Habit*
+Sejauh mana seseorang cenderung melakukan suatu perilaku secara otomatis karena sudah terbiasa.
+:::
+:::
+:::
+
+::: {.incremental}
+* Moderator berkurang dari empat jadi tiga — **sifat sukarela/wajib dihapus**, karena pemakaian konsumen memang selalu sukarela.
+:::
+
+::: aside
+Venkatesh, Thong, & Xu (2012)
+:::
+
+## Performa UTAUT2
+
+::: {.callout-note}
+### Studi validasi
+Survei daring dua tahap terhadap 1.512 konsumen pengguna internet ponsel.
+:::
+
+::: {.incremental}
+* Varians niat perilaku yang terjelaskan naik dari **56%** (UTAUT tanpa tiga konstruk baru) menjadi **74%** (UTAUT2 lengkap).
+* Varians pemakaian teknologi naik dari **40%** menjadi **52%**.
+* *Hedonic motivation* dan *habit* terbukti sebagai penambah daya prediksi yang paling besar — konsisten dengan intuisi bahwa orang memakai aplikasi hiburan bukan karena "kinerjanya lebih baik", tapi karena menyenangkan dan sudah jadi kebiasaan.
+:::
+
+## Menghubungkan ke teknologi pembelajaran
+
+::: {.incremental}
+* Sebagian besar teknologi pembelajaran berada di **antara** dua konteks ini: LMS kampus terasa "wajib" seperti konteks organisasi UTAUT, tapi aplikasi belajar mandiri (mis. aplikasi bahasa, *chatbot* AI) lebih dekat ke konteks konsumen UTAUT2.
+* *Hedonic motivation* dan *habit* jarang dipertimbangkan desainer LMS kampus, padahal keduanya terbukti kuat memprediksi pemakaian ketika teknologi itu sifatnya sukarela — poin yang relevan untuk merancang materi tambahan yang **tidak wajib** diakses mahasiswa.
+:::
+
+::: notes
+Bagian ceramah ±50 menit. Ini melengkapi trilogi TAM–TAM2–UTAUT/UTAUT2 yang sudah dibahas tiga minggu terakhir. Tekankan bahwa perkembangan model ini bukan sekadar menambah variabel demi kompleksitas, tapi merespons konteks pemakaian yang benar-benar berbeda (organisasi vs. konsumen).
+:::
+
+# Diskusi & Refleksi 💬 {background-color="#14497F"}
+
+## Praktik: petakan aplikasi belajar Anda ke UTAUT2
+
+::: {.callout-note}
+### Instruksi (kerja kelompok, ±40 menit)
+Pilih satu aplikasi belajar yang Anda pakai secara sukarela (bukan LMS yang diwajibkan kampus, i.e., Psyche).
+:::
+
+::: {.incremental}
+* Nilai ketujuh determinan UTAUT2 untuk aplikasi tersebut — mana yang paling tinggi, mana yang paling rendah?
+* Apakah *habit* sudah terbentuk? Sejak kapan pemakaiannya terasa otomatis, tidak lagi memerlukan keputusan sadar?
+* Bandingkan dengan LMS yang diwajibkan oleh kampus: determinan mana yang relevan di LMS tapi tidak relevan di aplikasi yang Anda pakai secara sukarela, atau sebaliknya?
+:::
+
+::: {style="text-align: center"}
+±10 menit berbagi temuan ke kelas.
+:::
+
+::: notes
+Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan determinan yang sifatnya universal (performance/effort expectancy) dari yang kontekstual (hedonic motivation, price value) sesuai sukarela/wajibnya pemakaian.
+:::
+
+## Rangkuman
+
+::: {.incremental}
+* UTAUT menyatukan delapan model penerimaan teknologi sebelumnya menjadi empat determinan inti: **performance expectancy**, **effort expectancy**, **social influence**, **facilitating conditions** dan menjelaskan varians niat jauh lebih baik daripada model manapun secara terpisah.
+* Empat moderator (jenis kelamin, usia, pengalaman, sifat sukarela/wajib) menjelaskan **kenapa** determinan yang sama berpengaruh beda pada orang berbeda.
+* UTAUT2 memperluas model ke konteks konsumen, menambah **hedonic motivation**, **price value**, dan **habit**. 
+  + Tiga faktor inisebenarnya tidak relevan di konteks/situasi kerja yang mewajibkan penggunaan teknologi, tapi penting saat pemakaian bersifat sukarela.
+* Sebagian besar teknologi pembelajaran berada di antara dua konteks ini, dan model mana yang lebih relevan bergantung pada seberapa sukarela pemakaiannya.
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## Rujukan {.scrollable .smaller}
+
+* Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User acceptance of information technology: Toward a unified view. *MIS Quarterly, 27*(3), 425–478. <https://doi.org/10.2307/30036540>
+* Venkatesh, V., Thong, J. Y. L., & Xu, X. (2012). Consumer acceptance and use of information technology: Extending the unified theory of acceptance and use of technology. *MIS Quarterly, 36*(1), 157–178. <https://doi.org/10.2307/41410412>

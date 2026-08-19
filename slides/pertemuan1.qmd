@@ -1,0 +1,226 @@
+---
+title: "Interaksi Manusia dengan Teknologi"
+subtitle: "MK Teknologi dalam Pembelajaran"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* **Apa itu *interaction design*?** — dari HCI ke desain produk interaktif apa pun.
+* **Siklus desain iteratif** — memahami kebutuhan, merancang, membangun purwarupa, mengevaluasi.
+* ***Usability goals* vs. *UX goals*** — dua standar berbeda untuk menilai teknologi yang baik.
+* **Model mental dan *affordance*** — kenapa sebagian teknologi terasa intuitif, sebagian lagi membingungkan.
+* ***Gulf of execution* dan *gulf of evaluation*** — dua celah di balik frustrasi pengguna.
+* **Diskusi**: membedah antarmuka aplikasi belajar yang Anda pakai sehari-hari.
+:::
+
+::: aside
+***Disclosure* penggunaan AI**
+
+Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# Apa Itu *Interaction Design*? 🖥️ {background-color="#14497F"}
+
+## Bukan sekadar "desain komputer"
+
+::: {.incremental}
+* *Human-computer interaction* (HCI) awalnya fokusnya sempit: bagaimana manusia berinteraksi dengan komputer *desktop*.
+* ***Interaction design* (ID)** memperluas cakupan itu — merancang produk dan layanan interaktif apa pun yang mendukung cara manusia berkomunikasi dan bekerja: aplikasi ponsel, situs web, *learning management system*, bahkan mesin ATM.
+* [Sharp, Rogers, & Preece (2019)](https://www.wiley.com/en-us/Interaction+Design%3A+Beyond+Human+Computer+Interaction%2C+5th+Edition-p-9781119547259) mendefinisikannya sebagai merancang produk interaktif untuk mendukung cara manusia berkomunikasi dalam kehidupan sehari-hari maupun pekerjaan mereka.
+* Relevan untuk mata kuliah ini karena **teknologi pembelajaran adalah produk interaktif** — LMS, aplikasi kuis, *chatbot* tutor, semuanya bisa dinilai dengan kacamata yang sama.
+:::
+
+## Empat aktivitas inti yang sifatnya iteratif
+
+::: {.columns}
+::: {.column width="55%"}
+
+::: {.incremental}
+1. **Mengidentifikasi kebutuhan** — memahami siapa penggunanya dan apa yang ingin mereka capai.
+2. **Merancang alternatif** — menghasilkan beberapa opsi desain, bukan langsung satu solusi.
+3. **Membangun purwarupa** (*prototype*) — versi yang bisa dicoba dan dinilai, sebelum dibangun penuh.
+4. **Mengevaluasi** — diuji ke pengguna nyata, sepanjang proses, bukan cuma di akhir.
+:::
+:::
+
+::: {.column width="45%"}
+
+```{mermaid}
+%%| fig-width: 4
+flowchart TD
+    A[Identifikasi<br>kebutuhan] --> B[Rancang<br>alternatif]
+    B --> C[Bangun<br>purwarupa]
+    C --> D[Evaluasi]
+    D --> A
+```
+
+:::
+:::
+
+::: {.callout-note}
+### Yang membedakan ID dari sekadar "membuat aplikasi"
+Siklusnya **iteratif**, bukan linear. Pengguna dilibatkan sepanjang proses, bukan sekadar diminta memberi masukan di akhir ketika aplikasinya selesai dikembangkan.
+:::
+
+## Dua standar untuk menilai desain yang baik
+
+Kualitas produk interaktif diukur lewat dua kelompok tujuan yang sifatnya berbeda:
+
+::: {.columns}
+::: {.column width="50%"}
+### *Usability goals* — terukur
+
+::: {.incremental}
+* Efektif dipakai.
+* Efisien dipakai.
+* Aman dipakai.
+* Punya *utility* (fungsi) yang jelas.
+* Mudah dipelajari.
+* Mudah diingat cara pakainya.
+:::
+:::
+
+::: {.column width="50%"}
+### *UX goals* — dirasakan
+
+::: {.incremental}
+* Memuaskan, menyenangkan.
+* Membantu, memotivasi.
+* Estetis, mendukung kreativitas.
+* Menstimulasi pengguna secara kognitif.
+* Menantang, kadang memberi efek kejut pada pengguna.
+:::
+:::
+:::
+
+::: aside
+Sharp, Rogers, & Preece (2019)
+:::
+
+## Kenapa dua standar ini sering mengalami *tradeoff*
+
+::: {.incremental}
+* Sebuah LMS bisa **efisien** (masuk cepat, navigasi jelas) tapi terasa **membosankan** — memenuhi *usability goals*, gagal di *UX goals*.
+* Aplikasi belajar berbasis gim bisa sebaliknya: **menyenangkan**, tapi seringkali **tidak efisien** untuk mahasiswa yang sekadar ingin cepat menyelesaikan kuis.
+* Desain yang baik jarang memaksimalkan keduanya sekaligus — ia memilih prioritas sesuai kebutuhan penggunanya.
+:::
+
+::: {.callout-tip}
+### Pertanyaan reflektif
+Aplikasi belajar mana yang pernah Anda pakai yang efisien tapi tidak menyenangkan, atau sebaliknya?
+:::
+
+# *Mental Model* dan *Affordance* 🧠 {background-color="#14497F"}
+
+## Kenapa sebagian teknologi terasa sangat intuitif
+
+::: {.incremental}
+* Dua konsep ini datang dari Donald Norman dan menjadi fondasi standar dalam HCI.
+* ***Affordance*** — properti suatu objek yang menunjukkan cara memakainya; gagang pintu "mengundang" ditarik, tombol "mengundang" ditekan.
+* ***Mental model*** — pemahaman internal pengguna tentang cara kerja sebuah sistem, dibangun dari pengalamannya dengan sistem-sistem serupa sebelumnya.
+* Ketika *affordance* sebuah antarmuka cocok dengan *mental model* penggunanya, interaksi terasa alami, tanpa perlu usaha ekstra untuk memahami cara kerjanya.
+:::
+
+::: aside
+Norman (2013)
+:::
+
+## Dua celah di balik perasaan frustrasi pengguna
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-important}
+### *Gulf of execution*
+Jarak antara **niat** pengguna dan **aksi** yang tersedia di sistem untuk mewujudkannya.
+
+Contoh: Anda ingin mengunggah tugas, tapi tombolnya tersembunyi di menu yang berlapis-lapis.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-important}
+### *Gulf of evaluation*
+Jarak antara **tampilan** sistem dan kemampuan pengguna memahami apakah tujuannya tercapai.
+
+Contoh: tugas terunggah, tapi tidak ada notifikasi konfirmasi, sehingga Anda tidak yakin apakah tugasnya berhasil diunggah atau tidak.
+:::
+:::
+:::
+
+Desain yang baik mempersempit kedua celah ini: aksi yang jelas terlihat, umpan balik yang diterima segera oleh pengguna.
+
+## Menghubungkan ke relasi manusia-komputer
+
+::: {.incremental}
+* Sub-capaian pertemuan ini: memahami relasi manusia dan komputer untuk **menyelesaikan tugas**.
+* Kerangka ID menjelaskan kenapa sebuah alat bantu tugas terasa membantu atau justru menghambat, yang ditentukan oleh kesesuaian antara desain dan model mental penggunanya.
+* Setiap teori penerimaan teknologi yang akan kita bahas sepanjang semester ini — *technology appropriation*, TAM, UTAUT — pada dasarnya menjawab versi yang lebih spesifik dari pertanyaan yang sama: **kapan manusia mau, dan kapan mampu, memakai suatu teknologi?**
+:::
+
+::: notes
+Bagian ceramah ±50 menit. Tekankan bahwa kerangka evaluasi (usability/UX, affordance, gulf) akan dipakai berulang sepanjang semester sebagai alat bedah, bukan istilah sekali pakai untuk pertemuan ini saja.
+:::
+
+# Diskusi & Refleksi 💬 {background-color="#14497F"}
+
+## Praktik: bedah antarmuka aplikasi belajar Anda
+
+::: {.callout-note}
+### Instruksi (kerja kelompok, ±40 menit)
+Pilih satu aplikasi atau *platform* belajar yang rutin Anda pakai — LMS kampus (Psyche atau HEBAT), aplikasi bahasa, aplikasi catatan, atau lainnya.
+:::
+
+::: {.incremental}
+* Nilai aplikasi tersebut terhadap tiga *usability goals* dan dua *UX goals* — mana yang terpenuhi, mana yang tidak?
+* Temukan satu contoh *gulf of execution* (aksi yang sulit ditemukan atau dilakukan) dan satu *gulf of evaluation* (umpan balik yang tidak jelas) dalam aplikasi tersebut.
+* Bagaimana *mental model* Anda tentang aplikasi serupa membentuk ekspektasi Anda terhadap aplikasi ini?
+:::
+
+::: {style="text-align: center"}
+±10 menit berbagi temuan ke kelas.
+:::
+
+::: notes
+Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa memakai istilah teknis (affordance, gulf) secara tepat saat presentasi temuan, bukan sekadar menilai "aplikasinya jelek/bagus".
+:::
+
+## Rangkuman
+
+::: {.incremental}
+* ***Interaction design*** memperluas HCI ke semua produk interaktif, dievaluasi lewat siklus iteratif: identifikasi kebutuhan, rancang, purwarupa, evaluasi.
+* *Usability goals* (terukur) dan **UX goals** (dirasakan) adalah dua standar berbeda — desain yang baik memilih prioritas sesuai konteks penggunanya, bukan memaksimalkan keduanya sekaligus.
+* ***Affordance*** dan ***mental model*** menjelaskan kenapa sebagian antarmuka terasa intuitif; ***gulf of execution/evaluation*** menjelaskan sumber frustrasi pengguna.
+* Kerangka ini adalah alat bedah yang akan terus kita pakai, termasuk untuk memahami teori-teori penerimaan teknologi di pertemuan-pertemuan berikutnya.
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## Rujukan {.scrollable .smaller}
+
+* Norman, D. A. (2013). *The design of everyday things* (Rev. ed.). Basic Books.
+* Sharp, H., Rogers, Y., & Preece, J. (2019). *Interaction design: Beyond human-computer interaction* (5th ed.). John Wiley & Sons.

@@ -1,6 +1,6 @@
 ---
 title: "Teknologi Pembelajaran untuk Kebutuhan Khusus"
-subtitle: "Aksesibilitas dan *Assistive Technology* dalam Proses Belajar"
+subtitle: "MK Teknologi dalam Pembelajaran"
 author: "Rizqy Amelia Zein"
 institute:
   - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
@@ -248,3 +248,12 @@ Diskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang mempengaruhi *a
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 * Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
+
+## Rujukan {.scrollable .smaller}
+
+* Brčić, M., & Frljić, S. (2026). *The effortless trap: Productive struggle, AI, and the illusion of learning*. arXiv. <https://doi.org/10.48550/arXiv.2606.26181>
+* CAST. (2024). *Universal Design for Learning guidelines* (Version 2.2). <https://udlguidelines.cast.org/>
+* Fügener, A., Walzner, D. D., & Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. *Management Science, 72*(1), 538–557. <https://doi.org/10.1287/mnsc.2024.05684>
+* Koenecke, A., Nam, A., Lake, E., Nudell, J., Quartey, M., Mengesha, Z., Toups, C., Rickford, J. R., Jurafsky, D., & Goel, S. (2020). Racial disparities in automated speech recognition. *Proceedings of the National Academy of Sciences, 117*(14), 7684–7689. <https://doi.org/10.1073/pnas.1915768117>
+* U.S. Assistive Technology Act of 1998, 29 U.S.C. § 3002. <https://www.law.cornell.edu/uscode/text/29/3002>
+* World Wide Web Consortium. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. <https://www.w3.org/TR/WCAG21/>

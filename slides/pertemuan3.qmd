@@ -1,0 +1,198 @@
+---
+title: "*Technology acceptance model*"
+subtitle: "MK Teknologi dalam Pembelajaran"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* **Dari teori perilaku umum ke teori khusus teknologi** — akar TAM pada *theory of reasoned action*.
+* **Dua keyakinan inti**: *perceived usefulness* dan *perceived ease of use*.
+* **Alur model**: dari keyakinan ke sikap, niat, dan pemakaian sungguhan.
+* **Uji empiris Davis (1989)** — bagaimana model ini pertama kali divalidasi.
+* **Perluasan ke TAM2** — mengapa TAM versi awal perlu diekspansi.
+* **Diskusi**: menguji TAM pada teknologi yang Anda tolak atau abaikan.
+:::
+
+::: aside
+***Disclosure* penggunaan AI**
+
+Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# Akar Teoretis TAM 🌱 {background-color="#14497F"}
+
+## Dari teori perilaku umum ke konteks teknologi
+
+::: {.incremental}
+* *Theory of reasoned action* (Fishbein & Ajzen, 1975, 1980) — teori umum psikologi sosial: keyakinan membentuk sikap, sikap membentuk niat, niat memprediksi perilaku.
+* TRA punya satu determinan tambahan: *subjective norm* — persepsi tentang apa yang dianggap orang lain penting terhadap perilaku kita.
+* Davis (1989) mengadaptasi TRA khusus untuk konteks teknologi, dan dengan sengaja **menyederhanakannya**: *subjective norm* dibuang, diganti dua keyakinan yang menurutnya lebih relevan untuk memprediksi pemakaian sistem informasi.
+:::
+
+## Kenapa disederhanakan?
+
+::: {.incremental}
+* Davis berargumen: dalam konteks teknologi, dua keyakinan spesifik ini yang paling menentukan.
+* Model yang lebih ramping juga lebih mudah diuji dan diterapkan di organisasi yang ingin memprediksi penerimaan sistem/teknologi baru sebelum diluncurkan.
+* Konsekuensinya, TAM jadi salah satu model paling banyak dipakai (dan diuji ulang) dalam riset HCI.
+:::
+
+# Dua Keyakinan Inti 🎯 {background-color="#14497F"}
+
+## *Perceived usefulness* dan *perceived ease of use*
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-important}
+### *Perceived usefulness* (PU)
+Sejauh mana seseorang percaya bahwa memakai suatu sistem akan **meningkatkan kinerjanya**.
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-important}
+### *Perceived ease of use* (PEOU)
+Sejauh mana seseorang percaya bahwa memakai suatu sistem akan **bebas dari usaha**.
+:::
+:::
+:::
+
+::: {.incremental}
+* Keduanya adalah **keyakinan** (*belief*), bukan fakta objektif tentang sistemnya, sehingga dua orang bisa punya PU/PEOU berbeda untuk sistem yang identik.
+* Intinya: orang tidak menolak teknologi karena teknologinya buruk secara objektif, tapi karena **persepsinya** terhadap manfaat dan kemudahannya.
+:::
+
+::: aside
+Davis (1989)
+:::
+
+## Alur model: dari keyakinan ke pemakaian sungguhan
+
+```{mermaid}
+%%| fig-width: 9
+flowchart LR
+    PEOU[Perceived<br>ease of use] --> PU[Perceived<br>usefulness]
+    PEOU --> ATT[Sikap terhadap<br>pemakaian]
+    PU --> ATT
+    ATT --> BI[Niat<br>perilaku]
+    BI --> USE[Pemakaian<br>sungguhan]
+```
+
+::: {.incremental}
+* Jalur PEOU → PU adalah temuan penting: kemudahan pakai **memengaruhi** persepsi kegunaan, bukan cuma jalur paralel yang terpisah.
+* Sikap memediasi hubungan keyakinan dengan niat — orang yang berkeyakinan positif belum tentu langsung berniat memakai, kecuali keyakinan itu terlebih dulu membentuk sikap positif.
+:::
+
+# Uji Empiris Davis (1989) 🔬 {background-color="#14497F"}
+
+## Bagaimana model ini divalidasi pertama kali
+
+::: {.callout-note}
+### Desain studi
+Dua studi dengan total 152 pengguna, menilai empat program aplikasi kantor yang berbeda. Davis mengembangkan dan menguji dua skala pengukuran baru: PU dan PEOU, masing-masing 6 aitem.
+:::
+
+::: {.incremental}
+* Reliabilitas skala tinggi: **.98** untuk *usefulness*, **.94** untuk *ease of use*.
+* PU berkorelasi dengan pemakaian saat itu **r = .63**, dan dengan prediksi pemakaian di masa depan **r = .85**.
+* PEOU berkorelasi lebih lemah: **r = .45** (pemakaian saat itu) dan **r = .59** (prediksi masa depan).
+:::
+
+::: {.callout-tip}
+### Temuan yang paling sering dikutip ulang
+PU **konsisten lebih kuat** memprediksi pemakaian dibanding PEOU. Analisis regresi Davis juga menunjukkan PEOU cenderung bekerja lewat PU. Artinya, kemudahan memakai sistem/alat penting terutama karena ia **membentuk** persepsi kegunaan, bukan karena ia langsung menentukan niat untuk menggunakan.
+:::
+
+## Implikasi praktis dari temuan ini
+
+::: {.incremental}
+* Kalau PU adalah penentu utama, maka menjual teknologi lewat "mudah dipakai" saja **tidak cukup** — pengguna tetap perlu diyakinkan bahwa teknologi itu berguna untuk pekerjaan/tujuannya.
+* Untuk teknologi pembelajaran: LMS yang antarmukanya rumit tapi jelas membantu nilai UTS mahasiswa mungkin tetap dipakai; aplikasi yang mudah tapi dianggap tidak relevan justru diabaikan.
+* Ini pelengkap penting bagi kerangka apropriasi minggu lalu — TAM menjelaskan **keyakinan yang mendahului** keputusan mencoba, apropriasi menjelaskan apa yang terjadi **setelah** dicoba.
+:::
+
+# Perluasan ke TAM2 🔄 {background-color="#14497F"}
+
+## Kenapa satu model saja tidak pernah cukup
+
+::: {.incremental}
+* TAM asli tidak menjelaskan **dari mana** PU dan PEOU itu sendiri berasal — ia berhenti di "keyakinan menentukan sikap", tapi tidak menjelaskan pembentukan keyakinannya.
+* Venkatesh & Davis (2000) menambahkan dua kelompok determinan PU:
+  + **Proses pengaruh sosial** — *subjective norm* (yang tadinya dibuang dari TAM) dan *image* (status sosial yang didapat dari memakai teknologi tersebut).
+  + **Proses kognitif instrumental** — relevansi kerja (*job relevance*), kualitas *output*, dan *result demonstrability* (seberapa terlihat hasil kerjanya).
+* Dimoderasi oleh pengalaman dan sifat sukarela/wajib pemakaian sistemnya.
+:::
+
+::: {.callout-note}
+### Performa model
+TAM2 diuji longitudinal di 4 organisasi (konteks sukarela dan wajib), menjelaskan **40–60%** varians persepsi kegunaan dan **34–52%** varians niat pemakaian.
+:::
+
+::: notes
+Bagian ceramah ±50 menit. TAM2 adalah jembatan langsung ke UTAUT minggu depan — tekankan bahwa arah perkembangannya konsisten: setiap generasi model menambah determinan baru dari luar dua keyakinan inti Davis.
+:::
+
+# Diskusi & Refleksi 💬 {background-color="#14497F"}
+
+## Praktik: uji TAM pada teknologi yang Anda tolak
+
+::: {.callout-note}
+### Instruksi (kerja kelompok, ±40 menit)
+Pikirkan satu teknologi pembelajaran yang **pernah Anda coba, lalu tinggalkan** atau tidak pernah Anda pakai serius meski tersedia gratis.
+:::
+
+::: {.incremental}
+* Jelaskan PU dan PEOU Anda terhadap teknologi tersebut saat pertama kali mencoba — mana yang rendah?
+* Apakah PEOU rendah Anda ikut menurunkan persepsi PU (sesuai jalur PEOU→PU), atau keduanya independen dalam kasus Anda?
+* Bandingkan dengan satu teknologi yang **berhasil** Anda pakai rutin — keyakinan apa yang berbeda?
+:::
+
+::: {style="text-align: center"}
+±10 menit berbagi temuan ke kelas.
+:::
+
+::: notes
+Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan PU rendah (teknologinya tidak relevan) dari PEOU rendah (teknologinya relevan tapi merepotkan) — perbedaan ini punya implikasi desain yang berbeda.
+:::
+
+## Rangkuman
+
+::: {.incremental}
+* TAM mengadaptasi *theory of reasoned action* khusus untuk konteks teknologi, dengan dua keyakinan inti: **perceived usefulness** dan **perceived ease of use**.
+* Alurnya: keyakinan → sikap → niat perilaku → pemakaian sungguhan, dengan PEOU juga memengaruhi PU secara langsung.
+* Uji empiris Davis (1989) menunjukkan PU **konsisten lebih kuat** memprediksi pemakaian dibanding PEOU.
+* TAM2 (Venkatesh & Davis, 2000) menambahkan determinan sosial dan kognitif yang menjelaskan **dari mana** PU itu terbentuk — jembatan langsung ke UTAUT yang akan kita bahas minggu depan.
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## Rujukan {.scrollable .smaller}
+
+* Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. *MIS Quarterly, 13*(3), 319–340. <https://doi.org/10.2307/249008>
+* Fishbein, M., & Ajzen, I. (1975). *Belief, attitude, intention, and behavior: An introduction to theory and research*. Addison-Wesley.
+* Venkatesh, V., & Davis, F. D. (2000). A theoretical extension of the technology acceptance model: Four longitudinal field studies. *Management Science, 46*(2), 186–204. <https://doi.org/10.1287/mnsc.46.2.186.11926>

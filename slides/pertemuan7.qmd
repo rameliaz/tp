@@ -1,6 +1,6 @@
 ---
-title: "Human-AI Collaboration dan *Reinforcement Learning from Human Feedback*"
-subtitle: "Bagaimana Manusia dan AI Saling Melengkapi dalam Bekerja dan Belajar"
+title: "*Human-AI Collaboration* dan *Reinforcement Learning from Human Feedback*"
+subtitle: "MK Teknologi dalam Pembelajaran"
 author: "Rizqy Amelia Zein"
 institute:
   - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
@@ -494,3 +494,21 @@ Bagian ini menjembatani ke sesi berikutnya. Tekankan bahwa risiko epistemik berb
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 * Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
+
+## Rujukan {.scrollable .smaller}
+
+* Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), Article e2422633122. <https://doi.org/10.1073/pnas.2422633122>
+* Brčić, M., & Frljić, S. (2026). *The effortless trap: Productive struggle, AI, and the illusion of learning*. arXiv. <https://doi.org/10.48550/arXiv.2606.26181>
+* Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. *Proceedings of the National Academy of Sciences, 116*(39), 19251–19257. <https://doi.org/10.1073/pnas.1821936116>
+* Fügener, A., Walzner, D. D., & Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. *Management Science, 72*(1), 538–557. <https://doi.org/10.1287/mnsc.2024.05684>
+* Ghali, M.-K., Farrag, A., Sakai, H., El Baz, H., Jin, Y., & Lam, S. (2024). *GAMedX: Generative AI-based medical entity data extractor using large language models*. arXiv. <https://arxiv.org/abs/2405.20585>
+* Kapur, M. (2008). Productive failure. *Cognition and Instruction, 26*(3), 379–424. <https://doi.org/10.1080/07370000802212669>
+* Kesavan, S., & Kushwaha, T. (2020). Field experiment on the profit implications of merchants' discretionary power to override data-driven decision-making tools. *Management Science, 66*(11), 5182–5190. <https://doi.org/10.1287/mnsc.2020.3743>
+* Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, Article 17458. <https://doi.org/10.1038/s41598-025-97652-6>
+* Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X.-H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). *Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task*. arXiv. <https://arxiv.org/abs/2506.08872>
+* Li, W., Liu, H., Huang, K., & Hussain, A. (2025). Reinforcement learning for human-AI collaboration: Challenges, mechanisms, and methods. *Cognitive Computation, 17*, Article 146. <https://doi.org/10.1007/s12559-025-10500-7>
+* Potts, C., & Sudhof, M. (2026). *A paradox of AI fluency*. arXiv. <https://doi.org/10.48550/arXiv.2604.25905>
+* Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2023). *Towards understanding sycophancy in language models*. arXiv. <https://arxiv.org/abs/2310.13548>
+* Shen, J. H., & Tamkin, A. (2026). *How AI impacts skill formation*. arXiv. <https://arxiv.org/abs/2601.20245>
+* Stankovic, M., Hirche, E., Kollatzsch, S., & Doetsch, J. N. (2025). *Comment on: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing tasks*. arXiv. <https://arxiv.org/abs/2601.00856>
+* Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008.

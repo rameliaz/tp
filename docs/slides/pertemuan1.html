@@ -12,7 +12,7 @@
 
   <meta name="author" content="Rizqy Amelia Zein">
   <meta name="dcterms.date" content="2026-08-19">
-  <title>Teknologi dalam Pembelajaran – AI Literacy dan AI Fluency</title>
+  <title>Teknologi dalam Pembelajaran – Interaksi Manusia dengan Teknologi</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -36,6 +36,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-14c7313e0bd1a6ac1391ac8d6dd3db46.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -131,6 +197,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="quarto-light">
@@ -138,7 +207,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">AI <em>Literacy</em> dan AI <em>Fluency</em></h1>
+  <h1 class="title">Interaksi Manusia dengan Teknologi</h1>
   <p class="subtitle">MK Teknologi dalam Pembelajaran</p>
 
 <div class="quarto-title-authors">
@@ -157,12 +226,12 @@ Rizqy Amelia Zein
 <section id="outline" class="slide level2">
 <h2><em>Outline</em></h2>
 <ul>
-<li class="fragment"><strong>Mengapa ini penting</strong> — kesenjangan kesiapan pendidik menghadapi AI</li>
-<li class="fragment"><strong><em>AI literacy</em> vs.&nbsp;<em>AI fluency</em></strong> — dua jenjang kompetensi yang berbeda</li>
-<li class="fragment"><strong>Kerangka <em>AI literacy</em></strong> — 17 kompetensi, lima pertanyaan besar</li>
-<li class="fragment"><strong>Kerangka 4D <em>AI Fluency</em></strong> — <em>Delegation</em>, <em>Description</em>, <em>Discernment</em>, <em>Diligence</em></li>
-<li class="fragment"><strong>Mengapa <em>fluency</em> menentukan hasil</strong> — bukti dari 27 ribu percakapan manusia-AI</li>
-<li class="fragment"><strong>Sisi kritis</strong>: apakah AI membuat kita “bodoh”?</li>
+<li class="fragment"><strong>Apa itu <em>interaction design</em>?</strong> — dari HCI ke desain produk interaktif apa pun.</li>
+<li class="fragment"><strong>Siklus desain iteratif</strong> — memahami kebutuhan, merancang, membangun purwarupa, mengevaluasi.</li>
+<li class="fragment"><strong><em>Usability goals</em> vs.&nbsp;<em>UX goals</em></strong> — dua standar berbeda untuk menilai teknologi yang baik.</li>
+<li class="fragment"><strong>Model mental dan <em>affordance</em></strong> — kenapa sebagian teknologi terasa intuitif, sebagian lagi membingungkan.</li>
+<li class="fragment"><strong><em>Gulf of execution</em> dan <em>gulf of evaluation</em></strong> — dua celah di balik frustrasi pengguna.</li>
+<li class="fragment"><strong>Diskusi</strong>: membedah antarmuka aplikasi belajar yang Anda pakai sehari-hari.</li>
 </ul>
 
 <aside><div>
@@ -170,352 +239,233 @@ Rizqy Amelia Zein
 <p>Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat <em>outline</em> dan menyusun <em>slide deck</em>, mencari referensi, dan melakukan <em>troubleshooting</em> kode <code>quarto</code> dan <code>git</code>. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.</p>
 </div></aside></section>
 <section>
-<section id="mengapa-ini-penting" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Mengapa Ini Penting? 📉</h1>
+<section id="apa-itu-interaction-design" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Apa Itu <em>Interaction Design</em>? 🖥️</h1>
 
 </section>
-<section id="pendidik-belum-siap" class="slide level2">
-<h2>Pendidik belum siap</h2>
+<section id="bukan-sekadar-desain-komputer" class="slide level2">
+<h2>Bukan sekadar “desain komputer”</h2>
 <ul>
-<li class="fragment">Survei <em>Alberta Teachers Association</em> (Desember 2023) terhadap <strong>2.148 guru</strong>: hanya <strong>29,4%</strong> optimis, <strong>37,2%</strong> khawatir akan dampak negatif AI, sisanya bersikap netral atau tidak yakin</li>
-<li class="fragment">Survei <em>EdWeek Research Center</em> terhadap 498 guru K-12 tentang alasan <strong>tidak</strong> memakai AI di kelas: prioritas lain (46%), tidak tahu caranya (36%), tidak ada kebijakan (33%), tidak tahu cara memakainya <strong>secara efektif</strong> (30%)</li>
-<li class="fragment">Sebagian besar hambatan bukan soal <strong>penolakan</strong>, tapi <strong>kurangnya kompetensi</strong> — inilah yang coba dijawab oleh kerangka <em>AI literacy</em> dan <em>AI fluency</em></li>
+<li class="fragment"><em>Human-computer interaction</em> (HCI) awalnya fokusnya sempit: bagaimana manusia berinteraksi dengan komputer <em>desktop</em>.</li>
+<li class="fragment"><strong><em>Interaction design</em> (ID)</strong> memperluas cakupan itu — merancang produk dan layanan interaktif apa pun yang mendukung cara manusia berkomunikasi dan bekerja: aplikasi ponsel, situs web, <em>learning management system</em>, bahkan mesin ATM.</li>
+<li class="fragment"><a href="https://www.wiley.com/en-us/Interaction+Design%3A+Beyond+Human+Computer+Interaction%2C+5th+Edition-p-9781119547259">Sharp, Rogers, &amp; Preece (2019)</a> mendefinisikannya sebagai merancang produk interaktif untuk mendukung cara manusia berkomunikasi dalam kehidupan sehari-hari maupun pekerjaan mereka.</li>
+<li class="fragment">Relevan untuk mata kuliah ini karena <strong>teknologi pembelajaran adalah produk interaktif</strong> — LMS, aplikasi kuis, <em>chatbot</em> tutor, semuanya bisa dinilai dengan kacamata yang sama.</li>
 </ul>
-
-<aside><div>
-<p><a href="https://doi.org/10.22329/jtl.v19i4.9420">Rogers &amp; Carbonaro (2025)</a></p>
-</div></aside></section></section>
-<section>
-<section id="ai-literacy-vs.-ai-fluency" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1><em>AI Literacy</em> vs.&nbsp;<em>AI Fluency</em> 🧭</h1>
-
 </section>
-<section id="dua-jenjang-kompetensi-yang-berbeda" class="slide level2">
-<h2>Dua jenjang kompetensi yang berbeda</h2>
+<section id="empat-aktivitas-inti-yang-sifatnya-iteratif" class="slide level2">
+<h2>Empat aktivitas inti yang sifatnya iteratif</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ol type="1">
+<li class="fragment"><strong>Mengidentifikasi kebutuhan</strong> — memahami siapa penggunanya dan apa yang ingin mereka capai.</li>
+<li class="fragment"><strong>Merancang alternatif</strong> — menghasilkan beberapa opsi desain, bukan langsung satu solusi.</li>
+<li class="fragment"><strong>Membangun purwarupa</strong> (<em>prototype</em>) — versi yang bisa dicoba dan dinilai, sebelum dibangun penuh.</li>
+<li class="fragment"><strong>Mengevaluasi</strong> — diuji ke pengguna nyata, sepanjang proses, bukan cuma di akhir.</li>
+</ol>
+</div><div class="column" style="width:45%;">
+<div class="cell" data-reveal="true" data-fig-width="4" data-layout-align="default">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource default number-lines code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a aria-label="1"></a>flowchart TD</span>
+<span id="cb1-2"><a aria-label="2"></a>    A[Identifikasi&lt;br&gt;kebutuhan] --&gt; B[Rancang&lt;br&gt;alternatif]</span>
+<span id="cb1-3"><a aria-label="3"></a>    B --&gt; C[Bangun&lt;br&gt;purwarupa]</span>
+<span id="cb1-4"><a aria-label="4"></a>    C --&gt; D[Evaluasi]</span>
+<span id="cb1-5"><a aria-label="5"></a>    D --&gt; A</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Yang membedakan ID dari sekadar “membuat aplikasi”</strong></p>
+</div>
+<div class="callout-content">
+<p>Siklusnya <strong>iteratif</strong>, bukan linear. Pengguna dilibatkan sepanjang proses, bukan sekadar diminta memberi masukan di akhir ketika aplikasinya selesai dikembangkan.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="dua-standar-untuk-menilai-desain-yang-baik" class="slide level2">
+<h2>Dua standar untuk menilai desain yang baik</h2>
+<p>Kualitas produk interaktif diukur lewat dua kelompok tujuan yang sifatnya berbeda:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong><em>AI literacy</em></strong></p>
+<h3 id="usability-goals-terukur"><em>Usability goals</em> — terukur</h3>
 <ul>
-<li class="fragment"><strong>Memahami</strong> cara kerja AI</li>
-<li class="fragment"><strong>Mengevaluasi</strong> teknologi AI secara kritis</li>
-<li class="fragment">Tahu risiko dan batasannya</li>
+<li class="fragment">Efektif dipakai.</li>
+<li class="fragment">Efisien dipakai.</li>
+<li class="fragment">Aman dipakai.</li>
+<li class="fragment">Punya <em>utility</em> (fungsi) yang jelas.</li>
+<li class="fragment">Mudah dipelajari.</li>
+<li class="fragment">Mudah diingat cara pakainya.</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong><em>AI fluency</em></strong></p>
+<h3 id="ux-goals-dirasakan"><em>UX goals</em> — dirasakan</h3>
 <ul>
-<li class="fragment"><strong>Berkarya dan berinovasi</strong> dengan AI</li>
-<li class="fragment">Memecahkan masalah bersama AI</li>
-<li class="fragment">Mengelola penggunaannya secara etis</li>
+<li class="fragment">Memuaskan, menyenangkan.</li>
+<li class="fragment">Membantu, memotivasi.</li>
+<li class="fragment">Estetis, mendukung kreativitas.</li>
+<li class="fragment">Menstimulasi pengguna secara kognitif.</li>
+<li class="fragment">Menantang, kadang memberi efek kejut pada pengguna.</li>
 </ul>
 </div></div>
-<div class="fragment">
-<p>Analoginya seperti belajar bahasa: <em>literacy</em> = bisa membaca; <em>fluency</em> = bisa berbincang dengan lancar.</p>
-</div>
 
 <aside><div>
-<p><a href="https://doi.org/10.22329/jtl.v19i4.9420">Rogers &amp; Carbonaro (2025)</a></p>
+<p>Sharp, Rogers, &amp; Preece (2019)</p>
 </div></aside></section>
-<section id="mengapa-penciptaan-jadi-pembeda-utama" class="slide level2">
-<h2>Mengapa “penciptaan” jadi pembeda utama</h2>
+<section id="kenapa-dua-standar-ini-sering-mengalami-tradeoff" class="slide level2">
+<h2>Kenapa dua standar ini sering mengalami <em>tradeoff</em></h2>
 <ul>
-<li class="fragment"><a href="https://doi.org/10.22329/jtl.v19i4.9420">Rogers &amp; Carbonaro (2025)</a> menelusuri sejarah pergeseran serupa dari literasi ke <em>fluency</em>: literasi komputer → <em>digital fluency</em></li>
-<li class="fragment"><em>National Research Council</em> (1999) menyimpulkan literasi komputer “terlalu sederhana” di tengah perubahan cepat, lalu memperkenalkan konsep <strong>FITness</strong> (<em>fluency with information technology</em>)</li>
-<li class="fragment"><strong><em>Fluency</em></strong> = “kemampuan merumuskan ulang pengetahuan, berekspresi kreatif, dan <strong>menghasilkan</strong> informasi” — bukan sekadar memahaminya</li>
-<li class="fragment">Ini sejalan dengan <strong>Taksonomi Bloom Revisi</strong>: “<em>mencipta</em>” (<em>create</em>) adalah level kognitif <strong>tertinggi</strong>, di atas memahami dan mengevaluasi</li>
+<li class="fragment">Sebuah LMS bisa <strong>efisien</strong> (masuk cepat, navigasi jelas) tapi terasa <strong>membosankan</strong> — memenuhi <em>usability goals</em>, gagal di <em>UX goals</em>.</li>
+<li class="fragment">Aplikasi belajar berbasis gim bisa sebaliknya: <strong>menyenangkan</strong>, tapi seringkali <strong>tidak efisien</strong> untuk mahasiswa yang sekadar ingin cepat menyelesaikan kuis.</li>
+<li class="fragment">Desain yang baik jarang memaksimalkan keduanya sekaligus — ia memilih prioritas sesuai kebutuhan penggunanya.</li>
 </ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Pertanyaan reflektif</strong></p>
+</div>
+<div class="callout-content">
+<p>Aplikasi belajar mana yang pernah Anda pakai yang efisien tapi tidak menyenangkan, atau sebaliknya?</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="mental-model-dan-affordance" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1><em>Mental Model</em> dan <em>Affordance</em> 🧠</h1>
+
+</section>
+<section id="kenapa-sebagian-teknologi-terasa-sangat-intuitif" class="slide level2">
+<h2>Kenapa sebagian teknologi terasa sangat intuitif</h2>
+<ul>
+<li class="fragment">Dua konsep ini datang dari Donald Norman dan menjadi fondasi standar dalam HCI.</li>
+<li class="fragment"><strong><em>Affordance</em></strong> — properti suatu objek yang menunjukkan cara memakainya; gagang pintu “mengundang” ditarik, tombol “mengundang” ditekan.</li>
+<li class="fragment"><strong><em>Mental model</em></strong> — pemahaman internal pengguna tentang cara kerja sebuah sistem, dibangun dari pengalamannya dengan sistem-sistem serupa sebelumnya.</li>
+<li class="fragment">Ketika <em>affordance</em> sebuah antarmuka cocok dengan <em>mental model</em> penggunanya, interaksi terasa alami, tanpa perlu usaha ekstra untuk memahami cara kerjanya.</li>
+</ul>
+
+<aside><div>
+<p>Norman (2013)</p>
+</div></aside></section>
+<section id="dua-celah-di-balik-perasaan-frustrasi-pengguna" class="slide level2">
+<h2>Dua celah di balik perasaan frustrasi pengguna</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Implikasi penting</strong></p>
+<p><strong><em>Gulf of execution</em></strong></p>
 </div>
 <div class="callout-content">
-<p><em>Literacy</em> dan <em>fluency</em> sebaiknya dikembangkan <strong>bersamaan</strong>, bukan berurutan — mahasiswa tidak perlu “lulus” literasi dulu baru belajar <em>fluency</em></p>
+<p>Jarak antara <strong>niat</strong> pengguna dan <strong>aksi</strong> yang tersedia di sistem untuk mewujudkannya.</p>
+<p>Contoh: Anda ingin mengunggah tugas, tapi tombolnya tersembunyi di menu yang berlapis-lapis.</p>
 </div>
 </div>
 </div>
+</div><div class="column" style="width:50%;">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><em>Gulf of evaluation</em></strong></p>
+</div>
+<div class="callout-content">
+<p>Jarak antara <strong>tampilan</strong> sistem dan kemampuan pengguna memahami apakah tujuannya tercapai.</p>
+<p>Contoh: tugas terunggah, tapi tidak ada notifikasi konfirmasi, sehingga Anda tidak yakin apakah tugasnya berhasil diunggah atau tidak.</p>
+</div>
+</div>
+</div>
+</div></div>
+<p>Desain yang baik mempersempit kedua celah ini: aksi yang jelas terlihat, umpan balik yang diterima segera oleh pengguna.</p>
+</section>
+<section id="menghubungkan-ke-relasi-manusia-komputer" class="slide level2">
+<h2>Menghubungkan ke relasi manusia-komputer</h2>
+<ul>
+<li class="fragment">Sub-capaian pertemuan ini: memahami relasi manusia dan komputer untuk <strong>menyelesaikan tugas</strong>.</li>
+<li class="fragment">Kerangka ID menjelaskan kenapa sebuah alat bantu tugas terasa membantu atau justru menghambat, yang ditentukan oleh kesesuaian antara desain dan model mental penggunanya.</li>
+<li class="fragment">Setiap teori penerimaan teknologi yang akan kita bahas sepanjang semester ini — <em>technology appropriation</em>, TAM, UTAUT — pada dasarnya menjawab versi yang lebih spesifik dari pertanyaan yang sama: <strong>kapan manusia mau, dan kapan mampu, memakai suatu teknologi?</strong></li>
+</ul>
+<aside class="notes">
+<p>Bagian ceramah ±50 menit. Tekankan bahwa kerangka evaluasi (usability/UX, affordance, gulf) akan dipakai berulang sepanjang semester sebagai alat bedah, bukan istilah sekali pakai untuk pertemuan ini saja.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="kerangka-ai-literacy" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Kerangka <em>AI Literacy</em> 📚</h1>
+<section id="diskusi-refleksi" class="title-slide slide level1 center" data-background-color="#14497F">
+<h1>Diskusi &amp; Refleksi 💬</h1>
 
 </section>
-<section id="definisi-dan-lima-pertanyaan-besar" class="slide level2">
-<h2>Definisi dan lima pertanyaan besar</h2>
-<blockquote>
-<p><strong>“Seperangkat kompetensi yang memampukan seseorang untuk mengevaluasi teknologi AI secara kritis; berkomunikasi dan berkolaborasi secara efektif dengan AI; dan menggunakan AI sebagai alat, baik daring, di rumah, maupun di tempat kerja.”</strong> — <a href="https://doi.org/10.1145/3313831.3376727">Long &amp; Magerko (2020)</a></p>
-</blockquote>
-<p>Kerangka ini mengelompokkan <strong>17 kompetensi</strong> ke dalam lima pertanyaan besar:</p>
-<ol type="1">
-<li class="fragment"><strong>Apa itu AI?</strong> — mengenali AI, memahami “kecerdasan”, AI umum vs.&nbsp;AI sempit</li>
-<li class="fragment"><strong>Apa yang bisa dilakukan AI?</strong> — kekuatan dan kelemahannya, membayangkan AI masa depan</li>
-<li class="fragment"><strong>Bagaimana cara kerja AI?</strong> — representasi, pengambilan keputusan, langkah-langkah <em>machine learning</em>, literasi data</li>
-<li class="fragment"><strong>Bagaimana AI seharusnya digunakan?</strong> — etika</li>
-<li class="fragment"><strong>Bagaimana manusia mempersepsikan AI?</strong> — sejauh mana AI “dianggap” bisa diprogram/dikendalikan</li>
-</ol>
-</section>
-<section id="contoh-penerapan-di-kelas-anda-kelak" class="slide level2">
-<h2>Contoh penerapan di kelas Anda kelak</h2>
-<ul>
-<li class="fragment"><strong>“Apa itu AI?”</strong> — mahasiswa mampu membedakan AI umum (<em>general</em>, fiksi ilmiah) dari AI sempit (<em>narrow</em>, yang benar-benar ada saat ini, seperti <em>chatbot</em>)</li>
-<li class="fragment"><strong>“Bagaimana cara kerja AI?”</strong> — mahasiswa paham bahwa AI “belajar dari data”, sehingga bisa <strong>mewarisi bias</strong> yang ada di data tersebut</li>
-<li class="fragment"><strong>“Bagaimana AI seharusnya digunakan?”</strong> — mahasiswa mampu menimbang implikasi etis sebelum memakai AI untuk suatu tugas, bukan sekadar bisa mengoperasikannya</li>
-</ul>
+<section id="praktik-bedah-antarmuka-aplikasi-belajar-anda" class="slide level2">
+<h2>Praktik: bedah antarmuka aplikasi belajar Anda</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kaitan dengan pendidikan</strong></p>
+<p><strong>Instruksi (kerja kelompok, ±40 menit)</strong></p>
 </div>
 <div class="callout-content">
-<p>Kerangka ini awalnya dirancang untuk pendidikan K-12, tapi kompetensinya berlaku lintas jenjang — termasuk untuk mahasiswa magister yang kelak jadi pendidik atau peneliti</p>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="kerangka-4d-ai-fluency" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Kerangka 4D <em>AI Fluency</em> 🧭</h1>
-
-</section>
-<section id="definisi-ai-fluency" class="slide level2">
-<h2>Definisi <em>AI fluency</em></h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Definisi</strong></p>
-</div>
-<div class="callout-content">
-<p>Kemampuan berkolaborasi dengan AI secara <strong>efektif, efisien, etis, dan aman</strong> (<a href="https://aifluencyframework.org/">Dakan &amp; Feller, 2025</a>).</p>
-</div>
-</div>
-</div>
-<p>Kerangka ini dibangun di atas <strong>3 modalitas interaksi</strong> manusia-AI:</p>
-<ul>
-<li class="fragment"><strong><em>Automation</em></strong> — AI mengerjakan tugas sesuai instruksi langsung manusia (mis. menulis ringkasan)</li>
-<li class="fragment"><strong><em>Augmentation</em></strong> — manusia dan AI <strong>bersama-sama</strong> mendefinisikan dan mengerjakan tugas secara iteratif (mis. menulis esai bersama)</li>
-<li class="fragment"><strong><em>Agency</em></strong> — manusia mengonfigurasi AI agar terus bekerja <strong>mandiri</strong> mewakili dirinya (mis. <em>chatbot</em> tutor, karakter gim interaktif)</li>
-</ul>
-
-<aside><div>
-<p><a href="https://aifluencyframework.org/">Dakan &amp; Feller (2025). <em>The AI Fluency Framework</em> v1.1</a></p>
-</div></aside></section>
-<section id="d-ai-fluency-framework" class="slide level2">
-<h2>4️⃣D AI <em>Fluency Framework</em></h2>
-
-<img data-src="libs/4d.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"><div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><em>Catatan</em></strong></p>
-</div>
-<div class="callout-content">
-<p><em>Delegation</em> dan <em>description</em> → <strong>efektif dan efisien</strong>; <em>discernment</em> dan <em>diligence</em> → <strong>etis dan aman</strong>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="delegation-memilih-visi-dan-alat-yang-tepat" class="slide level2">
-<h2><em>Delegation</em> — memilih visi dan alat yang tepat</h2>
-<p>Tiga kompetensi inti:</p>
-<ol type="1">
-<li class="fragment"><strong><em>Goal &amp; task awareness</em></strong> — apa tujuan Anda? Seperti apa <em>output</em> yang baik dan bisa diterima?</li>
-<li class="fragment"><strong><em>Platform awareness</em></strong> — AI (yang mana) bisa apa, dan apa yang <strong>tidak</strong> bisa ia lakukan?</li>
-<li class="fragment"><strong><em>Task delegation</em></strong> — bagian mana yang butuh keahlian dan <em>judgment</em> <strong>Anda</strong>; bagian mana bisa dikerjakan AI; bagian mana paling berdampak kalau dikerjakan <strong>bersama</strong>?</li>
-</ol>
-<div class="fragment">
-<p>Contoh untuk tesis Anda:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Tugas</th>
-<th>Delegasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Merumuskan pertanyaan penelitian</td>
-<td><strong>Anda</strong> (AI boleh menjadi mitra diskusi)</td>
-</tr>
-<tr class="even">
-<td>Memoles bahasa akademik naskah</td>
-<td><strong>AI</strong>, lalu Anda sunting</td>
-</tr>
-<tr class="odd">
-<td>Menginterpretasi hasil analisis</td>
-<td><strong>AI dan Anda bersama</strong>, AI menawarkan alternatif, Anda membuat keputusan akhir</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="description-berkomunikasi-dengan-jernih" class="slide level2">
-<h2><em>Description</em> — berkomunikasi dengan jernih</h2>
-<p>Kualitas <em>output</em> AI sangat ditentukan oleh kualitas komunikasi Anda:</p>
-<ul>
-<li class="fragment"><strong><em>Product description</em></strong> — <strong>apa</strong> yang Anda inginkan: bentuk <em>output</em>, format, audiens, gaya</li>
-<li class="fragment"><strong><em>Process description</em></strong> — <strong>bagaimana</strong> sebaiknya AI mengerjakannya: metode, kerangka, urutan langkah</li>
-<li class="fragment"><strong><em>Performance description</em></strong> — <strong>bagaimana AI harus “bersikap”</strong> selama kolaborasi: ringkas atau rinci? Menantang atau suportif?</li>
-</ul>
-<div class="callout callout-caution callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Perlakukan AI sebagai kolaborator, bukan “jin botol”🧞</strong></p>
-</div>
-<div class="callout-content">
-<p>Komunikasikan dan evaluasi <em>output</em> AI, meskipun Anda menolaknya — jelaskan mengapa, sehingga AI bisa menyesuaikan <em>output</em> berikutnya, sesuai prinsip <em>reinforcement learning from human feedback</em> (RLHF) yang sudah kita bahas</p>
-</div>
-</div>
-</div>
-</section>
-<section id="discernment-mengevaluasi-secara-kritis" class="slide level2">
-<h2><em>Discernment</em> — mengevaluasi secara kritis</h2>
-<p>Cara Anda <strong>menilai</strong> <em>output</em> AI:</p>
-<ul>
-<li class="fragment"><strong><em>Product discernment</em></strong> — menilai <em>output</em>-nya: akurat? Runtut? Sesuai kebutuhan?</li>
-<li class="fragment"><strong><em>Process discernment</em></strong> — menilai <strong>cara</strong> AI membuat <em>output</em>: ada lompatan logika? Ada yang terlewat?</li>
-<li class="fragment"><strong><em>Performance discernment</em></strong> — menilai <strong>gaya interaksi</strong> AI: membantu, atau perlu diarahkan ulang?</li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Bayangkan Anda sebagai detektif🕵️‍♀️</strong></p>
-</div>
-<div class="callout-content">
-<p>Menemukan kesalahan AI adalah <strong>bukti Anda menggunakannya dengan benar</strong> — bukan tanda AI-nya buruk</p>
-</div>
-</div>
-</div>
-</section>
-<section id="diligence-bertanggung-jawab-atas-output-ai" class="slide level2">
-<h2><em>Diligence</em> — bertanggung jawab atas <em>output</em> AI</h2>
-<ul>
-<li class="fragment"><strong><em>Creation diligence</em></strong> — cermat memilih sistem AI dan cara berinteraksi dengannya (data apa yang diunggah? kebijakan privasinya?)</li>
-<li class="fragment"><strong><em>Transparency diligence</em></strong> — terbuka soal peran AI dalam karya Anda kepada semua pihak yang perlu tahu (pembimbing, jurnal, institusi)</li>
-<li class="fragment"><strong><em>Deployment diligence</em></strong> — mengambil tanggung jawab penuh atas <em>output</em> yang Anda gunakan dan sebarkan</li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><em>Domain expertise</em> adalah <em>guardrail</em> paling penting</strong></p>
-</div>
-<div class="callout-content">
-<p>Tanpa keahlian di bidang Anda sendiri, keempat kriteria <em>fluency</em> ini runtuh — Anda tidak akan mampu menilai apakah <em>output</em> AI benar atau sekadar terdengar meyakinkan</p>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="mengapa-fluency-menentukan-hasil" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Mengapa <em>Fluency</em> Menentukan Hasil? 📊</h1>
-
-</section>
-<section id="bukti-dari-27-ribu-percakapan-manusia-ai" class="slide level2">
-<h2>Bukti dari 27 ribu percakapan manusia-AI</h2>
-<p><a href="https://doi.org/10.48550/arXiv.2604.25905">Potts &amp; Sudhof (2026)</a> menganalisis <strong>26.958 transkrip</strong> percakapan manusia-AI dari WildChat-4.8M:</p>
-<ul>
-<li class="fragment"><strong>Ambisi</strong> — pengguna fasih mengerjakan tugas jauh lebih kompleks: <strong>3,1 vs.&nbsp;1,5</strong> pada skala kompleksitas 5 poin</li>
-<li class="fragment"><strong>Mode interaksi</strong> — <strong>93%</strong> interaksi pengguna fasih bersifat <strong><em>augmentatif</em></strong> (menyempurnakan berulang kali, mengkritisi <em>output</em>); <strong>kurang dari 1%</strong> pada pengguna paling pemula, yang cenderung <strong><em>delegatif</em></strong> (menerima begitu saja)</li>
-<li class="fragment"><strong>Paradoksnya</strong> — <strong>64%</strong> transkrip pengguna fasih mengandung indikasi kegagalan, vs.&nbsp;<strong>24%</strong> pada pengguna pemula</li>
-</ul>
-</section>
-<section id="kegagalan-yang-visible-vs.-invisible" class="slide level2">
-<h2>Kegagalan yang <em>visible</em> vs.&nbsp;<em>invisible</em></h2>
-<ul>
-<li class="fragment"><strong>59%</strong> kegagalan pengguna fasih bersifat <strong><em>visible</em></strong> — konsekuensi langsung dari sikap aktif mereka memeriksa <em>output</em>, dan sering berujung <strong>pada perbaikan</strong></li>
-<li class="fragment">Kegagalan pengguna pemula lebih sering <strong><em>invisible</em></strong> — percakapan <strong>tampak</strong> sukses, padahal hasilnya tidak koheren sama sekali karena <strong>tidak pernah diperiksa secara kritis</strong></li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kesimpulannya</strong></p>
-</div>
-<div class="callout-content">
-<p><em>Fluency</em> menentukan apakah AI di tangan Anda menjadi produsen AI <em>slop</em>, atau asisten yang bisa diandalkan. Menemukan kegagalan AI bukan tanda Anda gagal — itu justru <strong>bukti</strong> Anda menggunakannya dengan tepat.</p>
-</div>
-</div>
-</div>
-
-<aside><div>
-<p><a href="https://doi.org/10.48550/arXiv.2604.25905">Potts &amp; Sudhof (2026)</a></p>
-</div></aside></section></section>
-<section>
-<section id="sisi-kritis-apakah-ai-membuat-kita-bodoh" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Sisi Kritis: Apakah AI Membuat Kita “Bodoh”? 🧠</h1>
-
-</section>
-<section id="cognitive-offloading-pedang-bermata-dua" class="slide level2">
-<h2><em>Cognitive offloading</em> — pedang bermata dua</h2>
-<p><a href="https://doi.org/10.1016/j.tics.2026.06.004">Cash et al.&nbsp;(2026)</a> mengingatkan sisi lain dari cerita ini:</p>
-<ul>
-<li class="fragment"><strong><em>Cognitive offloading</em></strong> — “menitipkan” proses berpikir ke alat bantu — lumrah dan umumnya bermanfaat (kita juga melakukannya lewat kalkulator, GPS, internet)</li>
-<li class="fragment">Tapi keterampilan yang <strong>tidak pernah dilatih</strong>, tanpa friksi sama sekali, lama-lama akan <strong>memudar</strong> (<strong><em>skill decay</em></strong>)</li>
-<li class="fragment">Perlu dibedakan: <strong>skill</strong> (perilaku yang dipelajari lewat praktik) vs.&nbsp;<strong>kemampuan kognitif dasar</strong> (memori kerja, atensi selektif) — yang pertama lebih rentan terhadap <em>offloading</em>, yang kedua relatif lebih tahan</li>
-</ul>
-</section>
-<section id="bukti-nyata-dokter-dan-alat-deteksi-ai" class="slide level2">
-<h2>Bukti nyata: dokter dan alat deteksi AI</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Studi <em>endoscopist deskilling</em></strong></p>
-</div>
-<div class="callout-content">
-<p>Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada <strong>28,4%</strong> kasus. Setelah AI tersedia (meski akses ke AI-nya tidak sepenuhnya acak), tingkat deteksi <strong>tanpa AI</strong> turun menjadi <strong>22,4%</strong> — mengindikasikan kompetensi dokter <strong>menurun</strong> setelah terbiasa dibantu AI.</p>
+<p>Pilih satu aplikasi atau <em>platform</em> belajar yang rutin Anda pakai — LMS kampus (Psyche atau HEBAT), aplikasi bahasa, aplikasi catatan, atau lainnya.</p>
 </div>
 </div>
 </div>
 <ul>
-<li class="fragment">Studi lain: peserta yang belajar topik lewat AI (dibanding lewat pencarian Google) menulis saran yang <strong>lebih pendek, kurang orisinal, dan dinilai kurang membantu</strong> — mereka juga menghabiskan <strong>lebih sedikit waktu belajar</strong> dan merasa <strong>kurang memiliki rasa kepemilikan</strong> atas pengetahuan yang diperoleh</li>
-<li class="fragment">Kesimpulan penulis <strong>tidak alarmis</strong>: <em>“terlalu dini untuk memastikan”</em> efek jangka panjangnya — tapi risikonya nyata dan bergantung pada <strong>bagaimana</strong> AI dipakai</li>
+<li class="fragment">Nilai aplikasi tersebut terhadap tiga <em>usability goals</em> dan dua <em>UX goals</em> — mana yang terpenuhi, mana yang tidak?</li>
+<li class="fragment">Temukan satu contoh <em>gulf of execution</em> (aksi yang sulit ditemukan atau dilakukan) dan satu <em>gulf of evaluation</em> (umpan balik yang tidak jelas) dalam aplikasi tersebut.</li>
+<li class="fragment">Bagaimana <em>mental model</em> Anda tentang aplikasi serupa membentuk ekspektasi Anda terhadap aplikasi ini?</li>
 </ul>
-
-<aside><div>
-<p><a href="https://doi.org/10.1016/j.tics.2026.06.004">Cash, Kelly, Macnamara, &amp; Risko (2026)</a></p>
-</div></aside></section>
-<section id="menyatukan-optimisme-dan-kehati-hatian" class="slide level2">
-<h2>Menyatukan optimisme dan kehati-hatian</h2>
-<ul>
-<li class="fragment"><a href="https://doi.org/10.48550/arXiv.2604.25905">Potts &amp; Sudhof (2026)</a>: pengguna <strong>fasih</strong> justru mendapat hasil lebih baik karena mereka <strong>aktif terlibat</strong>, bukan pasrah pada AI</li>
-<li class="fragment"><a href="https://doi.org/10.1016/j.tics.2026.06.004">Cash et al.&nbsp;(2026)</a>: risiko <em>deskilling</em> muncul justru ketika keterlibatan aktif itu <strong>hilang</strong> — saat AI dipakai untuk menghindari kerja kognitif, bukan melengkapinya</li>
-<li class="fragment"><strong>Kedua bacaan ini sebenarnya sepakat</strong>: yang membedakan AI sebagai alat pemberdaya vs.&nbsp;alat yang mengikis kompetensi adalah <strong>seberapa aktif</strong> Anda terlibat dalam prosesnya — persis inti dari <em>discernment</em> dan <em>diligence</em> dalam kerangka 4D</li>
-</ul>
+<div style="text-align: center">
+<p>±10 menit berbagi temuan ke kelas.</p>
+</div>
+<aside class="notes">
+<p>Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa memakai istilah teknis (affordance, gulf) secara tepat saat presentasi temuan, bukan sekadar menilai “aplikasinya jelek/bagus”.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="rangkuman" class="slide level2">
 <h2>Rangkuman</h2>
 <ul>
-<li class="fragment"><strong><em>AI literacy</em></strong> (memahami &amp; mengevaluasi AI) dan <strong><em>AI fluency</em></strong> (berkarya &amp; berinovasi dengan AI) adalah dua kompetensi berbeda yang perlu dikembangkan <strong>bersamaan</strong></li>
-<li class="fragment">Kerangka <strong>17 kompetensi</strong> <a href="https://doi.org/10.1145/3313831.3376727">Long &amp; Magerko (2020)</a> menjawab “apa yang perlu dipahami”; kerangka <strong>4D</strong> <a href="https://aifluencyframework.org/">Dakan &amp; Feller (2025)</a> menjawab “bagaimana berkarya bersama AI secara bertanggung jawab”</li>
-<li class="fragment">Bukti empiris menunjukkan <strong>keterlibatan aktif</strong> (bukan kepasifan) adalah pembeda antara kolaborasi yang produktif dan yang justru merugikan</li>
-<li class="fragment">Risiko <strong><em>deskilling</em></strong> itu nyata — strategi terbaiknya bukan menghindari AI, tapi membangun <em>domain expertise</em> yang membuat Anda mampu <strong>menilai</strong> kapan AI membantu dan kapan tidak</li>
+<li class="fragment"><strong><em>Interaction design</em></strong> memperluas HCI ke semua produk interaktif, dievaluasi lewat siklus iteratif: identifikasi kebutuhan, rancang, purwarupa, evaluasi.</li>
+<li class="fragment"><em>Usability goals</em> (terukur) dan <strong>UX goals</strong> (dirasakan) adalah dua standar berbeda — desain yang baik memilih prioritas sesuai konteks penggunanya, bukan memaksimalkan keduanya sekaligus.</li>
+<li class="fragment"><strong><em>Affordance</em></strong> dan <strong><em>mental model</em></strong> menjelaskan kenapa sebagian antarmuka terasa intuitif; <strong><em>gulf of execution/evaluation</em></strong> menjelaskan sumber frustrasi pengguna.</li>
+<li class="fragment">Kerangka ini adalah alat bedah yang akan terus kita pakai, termasuk untuk memahami teori-teori penerimaan teknologi di pertemuan-pertemuan berikutnya.</li>
 </ul>
 </section>
 <section id="ada-pertanyaan" class="slide level2">
@@ -541,11 +491,8 @@ Rizqy Amelia Zein
 <section id="rujukan" class="slide level2 scrollable smaller">
 <h2>Rujukan</h2>
 <ul>
-<li>Cash, T. N., Kelly, M. O., Macnamara, B. N., &amp; Risko, E. F. (2026). Is AI making us stupid? <em>Trends in Cognitive Sciences, 30</em>(8), 673–675. <a href="https://doi.org/10.1016/j.tics.2026.06.004" class="uri">https://doi.org/10.1016/j.tics.2026.06.004</a></li>
-<li>Dakan, R., &amp; Feller, J. (2025). <em>The AI fluency framework: A descriptive and normative model of human-AI interaction for higher education</em> (Version 1.1). Higher Education Authority. <a href="https://aifluencyframework.org/" class="uri">https://aifluencyframework.org/</a></li>
-<li>Long, D., &amp; Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In <em>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</em> (pp.&nbsp;1–16). ACM. <a href="https://doi.org/10.1145/3313831.3376727" class="uri">https://doi.org/10.1145/3313831.3376727</a></li>
-<li>Potts, C., &amp; Sudhof, M. (2026). <em>A paradox of AI fluency</em>. arXiv. <a href="https://doi.org/10.48550/arXiv.2604.25905" class="uri">https://doi.org/10.48550/arXiv.2604.25905</a></li>
-<li>Rogers, T., &amp; Carbonaro, M. (2025). From understanding to creating: Bridging AI literacy and AI fluency in K-12 education. <em>Journal of Teaching and Learning, 19</em>(4), 20–38. <a href="https://doi.org/10.22329/jtl.v19i4.9420" class="uri">https://doi.org/10.22329/jtl.v19i4.9420</a></li>
+<li>Norman, D. A. (2013). <em>The design of everyday things</em> (Rev.&nbsp;ed.). Basic Books.</li>
+<li>Sharp, H., Rogers, Y., &amp; Preece, J. (2019). <em>Interaction design: Beyond human-computer interaction</em> (5th ed.). John Wiley &amp; Sons.</li>
 </ul>
 
 

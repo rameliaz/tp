@@ -1,0 +1,183 @@
+---
+title: "*Mediated learning* dan *learning environment*"
+subtitle: "MK Teknologi dalam Pembelajaran"
+author: "Rizqy Amelia Zein"
+institute:
+  - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
+date: today
+format:
+  unair-revealjs:
+    slide-number: true
+    progress: true
+    transition: slide
+    center: false
+    chalkboard: true
+execute:
+  eval: false
+  echo: true
+---
+
+## _Outline_
+
+::: {.incremental}
+* ***Mediated learning* — bukan sekadar "belajar pakai teknologi"** — akarnya di psikologi perkembangan.
+* **Mediasi ala Vygotsky**: alat, tanda, dan *zone of proximal development*.
+* ***Mediated Learning Experience* ala Feuerstein**: tiga kriteria interaksi yang benar-benar memediasi.
+* **Dari mediator manusia ke mediator teknologi** — apa yang berubah, apa yang tetap.
+* **Lingkungan pembelajaran digital**: literasi sebagai praktik sosial, bukan bakat generasi.
+* **Diskusi (60 menit)**: menguji apakah *chatbot* AI bisa jadi "mediator" dalam pengertian Feuerstein.
+:::
+
+::: aside
+***Disclosure* penggunaan AI**
+
+Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+
+:::
+
+# *Mediated Learning*: Dua Makna yang Sering Tertukar 🧠 {background-color="#14497F"}
+
+## Bukan sekadar "belajar pakai teknologi"
+
+::: {.incremental}
+* Istilah "*mediated learning*" sering dipakai longgar untuk "belajar lewat perantaraan teknologi" — LMS, video, aplikasi.
+* Tapi dalam psikologi perkembangan, ***mediated learning*** punya arti yang jauh lebih spesifik: klaim tentang **bagaimana kognisi manusia terbentuk**, bukan sekadar tentang alat apa yang dipakai.
+* Dua tokoh membangun tradisi ini: **Vygotsky** (mediasi lewat alat dan tanda) dan **Feuerstein** (kualitas interaksi yang memediasi). Keduanya yang jadi fokus utama sesi ini.
+:::
+
+## Vygotsky: kognisi dimediasi alat dan tanda
+
+::: {.incremental}
+* Bagi Vygotsky, perkembangan kognitif tidak terjadi langsung antara individu dan lingkungannya — selalu ada **perantara** (*mediation*): alat fisik atau tanda simbolik, dengan bahasa sebagai yang paling penting.
+* Klaim intinya: **belajar terjadi secara sosial dulu**, baru kemudian diinternalisasi jadi kemampuan individual — bukan sebaliknya.
+* ***Zone of proximal development* (ZPD)** — jarak antara apa yang bisa dikerjakan siswa sendirian, dan apa yang bisa ia kerjakan dengan bimbingan orang yang lebih mampu (*more knowledgeable other*).
+:::
+
+## Tiga zona kemampuan
+
+```{mermaid}
+%%| fig-width: 9
+flowchart LR
+    A["Bisa dikerjakan\nsendiri"] --> B["Zone of proximal\ndevelopment\n(bisa dengan bantuan)"]
+    B --> C["Belum bisa dikerjakan\nsekalipun dibantu"]
+```
+
+::: {.incremental}
+* Pembelajaran paling efektif terjadi di **zona tengah** — terlalu mudah tidak mengembangkan apa-apa, terlalu sulit tidak bisa dijembatani meski dibantu.
+* Peran *more knowledgeable other* (guru, orang tua, teman yang lebih paham) adalah menyediakan ***scaffolding*** (penopang sementara) yang lambat laun dilepas seiring kemampuan siswa bertambah.
+:::
+
+::: aside
+Vygotsky (1978)
+:::
+
+# *Mediated Learning Experience* ala Feuerstein 🎓 {background-color="#14497F"}
+
+## Bukan soal alatnya, tapi kualitas interaksinya
+
+::: {.incremental}
+* Reuven Feuerstein mengembangkan gagasan ini lebih jauh: bukan sekadar "ada mediasi atau tidak", tapi **kualitas** interaksi antara mediator (guru/orang tua) dan pembelajar yang menentukan apakah kognisi benar-benar berkembang.
+* Ia mengusulkan hingga 12 kriteria interaksi yang memediasi, tapi hanya **tiga** yang dianggap perlu dan cukup secara universal — sisanya tergantung konteks budaya.
+:::
+
+## Tiga kriteria universal
+
+::: {.incremental}
+1. **Intentionality and reciprocity** — mediator secara sengaja mengarahkan interaksi ke suatu tujuan, dan pembelajar merespons secara aktif, bukan pasif menerima.
+2. **Transcendence** — interaksi melampaui tugas yang sedang dikerjakan, dihubungkan ke prinsip yang lebih luas atau situasi di masa depan.
+3. **Mediation of meaning** — mediator menyampaikan **kenapa** sesuatu penting, bukan cuma bagaimana cara mengerjakannya.
+:::
+
+::: {.callout-note}
+### Kenapa tiga kriteria ini yang dipilih
+Tanpa ketiganya, sebuah interaksi mungkin tetap mengajarkan sesuatu — tapi Feuerstein berargumen ia gagal membentuk ***cognitive modifiability*** (modifikabilitas kognitif) yang bertahan lama: kemampuan berpikir yang bisa dipakai ulang di situasi baru, bukan sekadar hafalan prosedur.
+:::
+
+::: aside
+Feuerstein & Feuerstein (1991)
+:::
+
+## Dari mediator manusia ke mediator teknologi
+
+::: {.incremental}
+* Pertanyaan yang relevan untuk mata kuliah ini: bisakah teknologi memenuhi tiga kriteria itu, atau mediasi selalu membutuhkan manusia?
+* *Intentionality* bisa "diwariskan" lewat desain — perancang sistem menanamkan tujuan pedagogis ke dalam alur interaksinya.
+* *Transcendence* dan *mediation of meaning* jauh lebih sulit diwariskan ke sistem otomatis — keduanya menuntut sensitivitas terhadap konteks spesifik pembelajar, sesuatu yang sistem berbasis aturan (dan bahkan AI generatif) belum tentu punya secara konsisten.
+* Ini bukan pertanyaan yang bisa dijawab "ya/tidak" secara umum — jawabannya bergantung pada **bagaimana** teknologi tersebut dirancang dan dipakai, persis tema yang akan terus muncul di sesi-sesi berikutnya.
+:::
+
+::: notes
+Bagian ceramah ±30 menit, lebih ringkas dari minggu-minggu sebelumnya karena porsi diskusi jauh lebih besar hari ini. Cukup pastikan mahasiswa memegang definisi ZPD dan tiga kriteria Feuerstein dengan kuat sebelum masuk diskusi kelompok.
+:::
+
+# Lingkungan Pembelajaran Digital: Literasi sebagai Praktik Sosial 🏛️ {background-color="#14497F"}
+
+## Mengkritik narasi "generasi digital native"
+
+::: {.incremental}
+* Goodfellow & Lea (2013) mempertemukan dua bidang yang jarang beririsan: kajian literasi/pembelajaran, dan kajian teknologi pembelajaran.
+* Argumen utamanya: literasi digital bukan bakat bawaan suatu generasi ("mahasiswa sekarang pasti jago teknologi karena lahir di era digital"), melainkan **praktik sosial** yang dibentuk oleh konteks disiplin ilmu dan institusi tempatnya dipelajari.
+* Klaim ini selaras dengan Vygotsky: kemampuan memakai teknologi untuk belajar juga **dimediasi** secara sosial, bukan muncul otomatis dari paparan sejak kecil.
+:::
+
+## Desain lingkungan belajar: dari sistematis ke *design thinking*
+
+::: {.incremental}
+* Hokanson & Gibbons (2014) mengusulkan mengimpor pola pikir *design thinking* — biasa dipakai di bisnis, pemerintahan, kedokteran — ke dalam praktik desain instruksional.
+* Alternatif dari model sistematis yang lebih kaku (mis. ADDIE): pendekatan *design studio*, di mana rancangan diuji, dikritik, dan direvisi berulang kali sebelum dianggap selesai.
+* Menghubungkan ke Pertemuan 1: siklus ini persis empat aktivitas *interaction design* yang sudah kita bahas — identifikasi kebutuhan, rancang, purwarupa, evaluasi.
+:::
+
+::: aside
+Goodfellow & Lea (2013); Hokanson & Gibbons (2014)
+:::
+
+# Diskusi & Refleksi 💬 {background-color="#14497F"}
+
+## Praktik: bisakah *chatbot* AI menjadi "mediator"?
+
+::: {.callout-note}
+### Skenario (kerja kelompok, ±60 menit)
+Seorang mahasiswa memakai *chatbot* AI sebagai "tutor" untuk memahami materi statistik yang sulit — bertanya-jawab bolak-balik sampai merasa paham.
+:::
+
+::: {.incremental}
+* Nilai interaksi ini terhadap tiga kriteria Feuerstein: apakah ada *intentionality and reciprocity*, *transcendence*, dan *mediation of meaning*? Beri alasan konkret untuk masing-masing.
+* Bandingkan dengan interaksi yang sama bersama tutor manusia — kriteria mana yang lebih mudah dipenuhi manusia, kriteria mana yang bisa (atau tidak bisa) ditiru sistem AI?
+* Rancang **satu perubahan desain** pada *chatbot* tersebut yang bisa memperkuat salah satu kriteria yang paling lemah.
+:::
+
+::: {style="text-align: center"}
+±10 menit berbagi temuan ke kelas.
+:::
+
+::: notes
+Sesi diskusi ±60 menit termasuk berbagi, sesuai porsi RPP minggu ini (30 ceramah, 60 diskusi, 10 berbagi). Dorong mahasiswa berargumen dari kriteria Feuerstein secara spesifik, bukan sekadar menyimpulkan "AI tidak bisa menggantikan guru" tanpa alasan yang jelas.
+:::
+
+## Rangkuman
+
+::: {.incremental}
+* ***Mediated learning*** dalam psikologi punya arti spesifik: kognisi terbentuk lewat perantaraan alat, tanda, dan interaksi sosial — bukan sekadar "belajar pakai teknologi".
+* **Vygotsky**: pembelajaran sosial dulu, individual kemudian; ZPD menandai zona di mana bimbingan paling berguna.
+* **Feuerstein**: kualitas interaksi menentukan — *intentionality and reciprocity*, *transcendence*, dan *mediation of meaning* adalah tiga syarat yang perlu dan cukup.
+* Literasi digital adalah **praktik sosial** yang dimediasi, bukan bakat generasi — dan desain lingkungan belajar yang baik meniru siklus iteratif yang sama seperti *interaction design*.
+:::
+
+## Ada pertanyaan❓
+
+![](libs/closing.JPG){fig-align="center"}
+
+::: {.callout-note}
+### Catatan
+
+* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
+* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+:::
+
+## Rujukan {.scrollable .smaller}
+
+* Feuerstein, R., & Feuerstein, S. (1991). Mediated learning experience: A theoretical review. In R. Feuerstein, P. S. Klein, & A. J. Tannenbaum (Eds.), *Mediated learning experience (MLE): Theoretical, psychosocial and learning implications* (pp. 3–51). Freund Publishing House.
+* Goodfellow, R., & Lea, M. R. (2013). *Literacy in the digital university: Critical perspectives on learning, scholarship, and technology*. Routledge.
+* Hokanson, B., & Gibbons, A. (Eds.). (2014). *Design in educational technology: Design thinking, design process, and the design studio*. Springer.
+* Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes*. Harvard University Press.

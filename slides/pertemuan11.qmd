@@ -1,6 +1,6 @@
 ---
 title: "Penggunaan Teknologi dalam Asesmen Pembelajaran"
-subtitle: "Dari Ujian *Paper-Based* ke Asesmen Berbantuan Akal Imitasi"
+subtitle: "MK Teknologi dalam Pembelajaran"
 author: "Rizqy Amelia Zein"
 institute:
   - "[_Departemen Psikologi, Universitas Airlangga_](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)"
@@ -210,3 +210,12 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 * Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 * Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
 :::
+
+## Rujukan {.scrollable .smaller}
+
+* Brčić, M., & Frljić, S. (2026). *The effortless trap: Productive struggle, AI, and the illusion of learning*. arXiv. <https://doi.org/10.48550/arXiv.2606.26181>
+* Fügener, A., Walzner, D. D., & Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. *Management Science, 72*(1), 538–557. <https://doi.org/10.1287/mnsc.2024.05684>
+* Koenecke, A., Nam, A., Lake, E., Nudell, J., Quartey, M., Mengesha, Z., Toups, C., Rickford, J. R., Jurafsky, D., & Goel, S. (2020). Racial disparities in automated speech recognition. *Proceedings of the National Academy of Sciences, 117*(14), 7684–7689. <https://doi.org/10.1073/pnas.1915768117>
+* Page, E. B. (1966). The imminence of grading essays by computer. *Phi Delta Kappan, 47*(5), 238–243.
+* Siemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. *EDUCAUSE Review, 46*(5), 30–40. <https://er.educause.edu/articles/2011/9/penetrating-the-fog-analytics-in-learning-and-education>
+* Wainer, H., Dorans, N. J., Eignor, D., Flaugher, R., Green, B. F., Mislevy, R. J., Steinberg, L., & Thissen, D. (2000). *Computerized adaptive testing: A primer* (2nd ed.). Routledge.
