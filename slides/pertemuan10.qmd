@@ -37,10 +37,10 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyus
 
 # Mengapa Aksesibilitas Penting? ⚖️ {background-color="#14497F"}
 
-## Bukan sekadar kebaikan hati (*charity*)
+## Lebih dari sekadar berempati
 
 ::: {.incremental}
-* Aksesibilitas dalam pendidikan adalah **hak** siswa, bukan sekadar **fasilitas tambahan**
+* Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi, bukan sekadar **fasilitas tambahan**
 * Indonesia meratifikasi *Convention on the Rights of Persons with Disabilities* (CRPD) PBB melalui **UU No. 19 Tahun 2011**
 * Diperkuat oleh **UU No. 8 Tahun 2016 tentang Penyandang Disabilitas**, yang menjamin hak atas pendidikan inklusif di semua jenjang
 * Pertanyaannya bukan lagi *"apakah perlu mengakomodasi?"*, tapi ***"bagaimana* merancang pembelajaran yang aksesibel sejak awal?"**
@@ -72,7 +72,7 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyus
 
 ::: {.callout-note}
 ### Implikasi bagi pendidik
-Kalau seorang mahasiswa "gagal" mengakses materi kuliah, pertanyaan pertama bukan "apa yang salah dengan mahasiswa ini?" tapi **"apa yang salah dengan desain materinya?"**
+Kalau seorang peserta didik "gagal" mengakses materi, pertanyaan pertama bukan "apa yang salah dengan peserta didik ini?" tapi **"apa yang salah dengan desain materinya?"**
 :::
 
 # Ragam Kebutuhan Khusus 🧩 {background-color="#14497F"}
@@ -88,7 +88,7 @@ Kalau seorang mahasiswa "gagal" mengakses materi kuliah, pertanyaan pertama buka
 
 ::: {.callout-tip}
 ### Ingat
-Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet buruk, tangan cedera, lingkungan bising) — desain aksesibel menguntungkan **semua orang**, bukan hanya penyandang disabilitas permanen (*"curb-cut effect"*)
+Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet buruk, tangan cedera, lingkungan bising), sehingga desain yang aksesibel menguntungkan **semua orang**, bukan hanya penyandang disabilitas permanen (*"curb-cut effect"*)
 :::
 
 # *Universal Design for Learning* 🎨 {background-color="#14497F"}

@@ -76,6 +76,7 @@ Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *s
 | Kejelasan dan struktur penulisan | Esai terorganisir, alur logis, menggunakan gaya bahasa akademik | 15 |
 | Ketepatan format dan sitasi | Mengikuti gaya sitasi APA edisi ke-7 | 5 |
 | **Total** | | **100** |
+: {tbl-colwidths="[30,55,15]"}
 :::
 
 ::: {.callout-tip collapse="true"}

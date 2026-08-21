@@ -125,8 +125,8 @@ Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang 
 ## Memanfaatkan jejak data belajar
 
 ::: {.incremental}
-* ***Learning analytics*** = pengumpulan dan analisis data interaksi mahasiswa (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar
-* Contoh aplikasi: *dashboard* kemajuan belajar, sistem peringatan dini (*early-warning system*) untuk mahasiswa berisiko *drop out*, rekomendasi materi yang dipersonalisasi
+* ***Learning analytics*** = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar
+* Contoh aplikasi: *dashboard* kemajuan belajar, sistem peringatan dini (*early-warning system*) untuk peserta didik berisiko *drop out*, rekomendasi materi yang dipersonalisasi
 * Bergeser dari **mengukur hasil belajar** ke **memahami proses belajar** secara *real-time*
 :::
 
@@ -159,7 +159,7 @@ Data jejak belajar sangat granular dan sensitif — siapa yang punya akses, bera
 
 ::: {.callout-note}
 ### Implikasi praktis
-AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. Perlu audit berkala dan manusia yang tetap terlibat dalam keputusan akhir (*human-in-the-loop*), termasuk jalur banding bagi mahasiswa yang merasa dirugikan
+AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. Perlu audit berkala dan manusia yang tetap terlibat dalam keputusan akhir (*human-in-the-loop*), termasuk jalur banding bagi peserta didik yang merasa dirugikan
 :::
 
 # Integritas Akademik di Era AI 🎓 {background-color="#14497F"}
@@ -168,7 +168,7 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 
 ::: {.incremental}
 * Kecurangan akademik bukan hal baru, tapi AI membuatnya **jauh lebih mudah, cepat, dan sulit dideteksi**.
-* Alat "*AI detector*" (mis. GPTZero, Turnitin AI detection) punya tingkat **kesalahan (*false positive/negative*) yang signifikan**, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan siswa.
+* Alat "*AI detector*" (mis. GPTZero, Turnitin AI detection) punya tingkat **kesalahan (*false positive/negative*) yang signifikan**, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan peserta didik.
 * Konsekuensinya: mendeteksi "apakah teks ditulis AI" adalah **perlombaan yang sulit dimenangkan**.
 * Tetapi, sejak Bulan Agustus 2026, *developer* LLM besar diwajibkan mematuhi [EU AI Act](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content), yang akibatnya, memaksa *developer* untuk mengembangkan teknologi *watermarking* ada seluruh AI *generated content*.
   + Salah satu *developer* yang sudah mengumumkan penambahan *watermark* pada seluruh produknya adalah [Anthropic (Claude)](https://www.anthropic.com/news/claude-text-watermark).
@@ -195,7 +195,7 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 
 ::: {.incremental}
 * Teknologi menggeser asesmen dari **statis dan sumatif** ke **adaptif, formatif, dan berbasis data proses**
-* **Penilaian otomatis** berkembang pesat, tapi masalah **validitas, reliabilitas, dan keadilan** tetap relevan — satu bias yang lolos justru bisa memengaruhi ribuan mahasiswa sekaligus begitu diterapkan dalam skala besar
+* **Penilaian otomatis** berkembang pesat, tapi masalah **validitas, reliabilitas, dan keadilan** tetap relevan. Satu potensi bias yang dibiarkan justru bisa berdampak negatif pada ribuan peserta didik sekaligus begitu diterapkan dalam skala besar
 * Kerangka ***automation* vs. *augmentation*** membantu menentukan kapan AI pantas menggantikan vs. sekadar membantu penilai manusia
 * Menghadapi tantangan integritas akademik di era AI, **rancang ulang asesmen** (otentik, berbasis proses) lebih berkelanjutan daripada sekadar mengandalkan alat deteksi AI
 :::
