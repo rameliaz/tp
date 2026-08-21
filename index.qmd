@@ -51,7 +51,7 @@ Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *s
 | Tugas 2 — Diskusi Kelompok & Presentasi Studi Kasus | 12 | Kelompok (3–4 orang) | Analisis dan presentasi studi kasus dampak/implikasi teknologi pada pembelajaran | 30% |
 | Tugas 3 — Proyek Menulis *Book Chapter* (UAS) | 13–16 | Individu | Naskah *book chapter* (4000–6000 kata) bertema "Kolaborasi Manusia dan Teknologi dalam Konteks Pembelajaran" | 40% |
 
-: Rekapitulasi tugas, mengacu pada RTM (Rancangan Tugas Mahasiswa) {.striped .hover}
+: Rekapitulasi tugas, mengacu pada RTM (Rancangan Tugas Mahasiswa) {.striped .hover tbl-colwidths="[25,8,15,42,10]"}
 
 ::: {.callout-tip collapse="true"}
 ### Rincian Tugas 1 — Log Refleksi Kolaborasi Manusia-AI (Minggu ke-10, UTS)

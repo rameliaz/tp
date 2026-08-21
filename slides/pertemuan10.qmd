@@ -42,11 +42,10 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyus
 ::: {.incremental}
 * Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi, bukan sekadar **fasilitas tambahan**
 * Indonesia meratifikasi *Convention on the Rights of Persons with Disabilities* (CRPD) PBB melalui **UU No. 19 Tahun 2011**
-* Diperkuat oleh **UU No. 8 Tahun 2016 tentang Penyandang Disabilitas**, yang menjamin hak atas pendidikan inklusif di semua jenjang
-* Pertanyaannya bukan lagi *"apakah perlu mengakomodasi?"*, tapi ***"bagaimana* merancang pembelajaran yang aksesibel sejak awal?"**
+* Diperkuat oleh [**UU No. 8 Tahun 2016 tentang Penyandang Disabilitas**](https://peraturan.bpk.go.id/Details/37251/uu-no-8-), yang menjamin hak atas pendidikan inklusif di semua jenjang
 :::
 
-## Model disabilitas: dari model medis ke sosial
+## Model disabilitas: Model medis vs. sosial
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -60,7 +59,7 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyus
 :::
 
 ::: {.column width="50%"}
-**Model sosial** (kini)
+**Model sosial** (modern)
 
 ::: {.incremental}
 * Disabilitas muncul dari **ketidaksesuaian** antara individu dan lingkungan
@@ -88,10 +87,10 @@ Kalau seorang peserta didik "gagal" mengakses materi, pertanyaan pertama bukan "
 
 ::: {.callout-tip}
 ### Ingat
-Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet buruk, tangan cedera, lingkungan bising), sehingga desain yang aksesibel menguntungkan **semua orang**, bukan hanya penyandang disabilitas permanen (*"curb-cut effect"*)
+Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet buruk, tangan cedera, lingkungan bising), sehingga desain yang aksesibel menguntungkan **semua orang**, bukan hanya penyandang disabilitas permanen ([*"curb-cut effect"*](https://en.wikipedia.org/wiki/Curb_cut_effect))
 :::
 
-# *Universal Design for Learning* 🎨 {background-color="#14497F"}
+# Universal Design for Learning 🎨 {background-color="#14497F"}
 
 ## Merancang untuk keberagaman sejak awal
 
@@ -99,7 +98,7 @@ Kerangka **UDL** dari [CAST](https://udlguidelines.cast.org/) menawarkan tiga pr
 
 ::: {.incremental}
 1. ***Multiple means of representation*** — sajikan informasi lewat lebih dari satu format (teks, audio, visual, video bertakarir)
-2. ***Multiple means of action & expression*** — beri mahasiswa lebih dari satu cara menunjukkan pemahaman (esai, rekaman suara, infografis, presentasi)
+2. ***Multiple means of action & expression*** — beri peserta didik lebih dari satu cara menunjukkan pemahaman (esai, rekaman suara, infografis, presentasi)
 3. ***Multiple means of engagement*** — beri pilihan dan relevansi agar motivasi belajar tetap terjaga
 :::
 
@@ -107,16 +106,16 @@ Kerangka **UDL** dari [CAST](https://udlguidelines.cast.org/) menawarkan tiga pr
 [CAST (2024). *UDL Guidelines* versi 2.2](https://udlguidelines.cast.org/)
 :::
 
-## UDL bukan "solusi ekstra" untuk sebagian mahasiswa
+## UDL bukan "solusi ekstra" untuk sebagian peserta didik
 
 ::: {.callout-important}
 ### Prinsip kunci
-UDL dirancang **untuk semua mahasiswa di kelas**, bukan hanya penyandang disabilitas — mirip *ramp* di trotoar yang aslinya untuk pengguna kursi roda, tapi juga membantu orang tua yang mendorong kereta bayi
+UDL dirancang **untuk semua peserta didik di kelas**, bukan hanya penyandang disabilitas — mirip *ramp* di trotoar yang aslinya untuk pengguna kursi roda, tapi juga membantu orang tua yang mendorong kereta bayi
 :::
 
-Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **setelah** mahasiswa melapor kesulitan — reaktif, melelahkan, dan sering terlambat.
+Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **setelah** peserta didik melapor kesulitan. Ini respon reaktif, melelahkan, dan sering terlambat.
 
-# Teknologi Pembantu (*Assistive Technology*) 🛠️ {background-color="#14497F"}
+# Teknologi Pembantu (Assistive Technology) 🛠️ {background-color="#14497F"}
 
 ## Definisi dan cakupannya
 
@@ -215,7 +214,7 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 ::: {.callout-note}
 ### Skenario
 
-Seorang mahasiswa dengan disleksia berat meminta izin menggunakan *text-to-speech* dan *AI-assisted note-taking* selama kuliah dan ujian. Seorang mahasiswa lain berpendapat ini "tidak adil" dibanding mahasiswa yang mengerjakan tanpa bantuan AI apa pun.
+Seorang peserta didik dengan disleksia berat meminta izin menggunakan *text-to-speech* dan *AI-assisted note-taking* selama pembelajaran dan ujian. Seorang peserta didik lain berpendapat ini "tidak adil" dibanding peserta didik yang mengerjakan tanpa bantuan AI apa pun.
 :::
 
 ::: {.incremental}
@@ -231,9 +230,9 @@ Diskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang mempengaruhi *a
 ## Rangkuman
 
 ::: {.incremental}
-* Aksesibilitas adalah **hak**, dan berakar dari **model sosial disabilitas** — bukan sekadar kebaikan hati
+* Aksesibilitas adalah **hak**, dan berakar dari **model sosial disabilitas** — lebih dari sekadar empati dan kebaikan hati
 * **UDL** mendorong desain inklusif sejak awal, bukan akomodasi reaktif
-* **Teknologi pembantu** sangat beragam — dari alat sederhana hingga AI generatif — dan harus dipilih sesuai kebutuhan individu, bukan sekadar tren
+* **Teknologi pembantu** sangat beragam — dari alat sederhana hingga AI generatif dan harus dipilih sesuai kebutuhan individu, bukan sekadar tren
 * AI memperluas aksesibilitas, tapi juga membawa risiko baru (bias, halusinasi) yang perlu dikelola secara kritis
 * Desain aksesibel (**WCAG/POUR**) menguntungkan **semua orang**, bukan hanya penyandang disabilitas
 :::
