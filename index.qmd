@@ -43,6 +43,92 @@ Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *s
 ‼️**Saya akan selalu memperbarui konten dalam *slide deck* di atas**. Oleh karena itu, sebaiknya perlakukan *slide* ini sebagai dokumen hidup (*living document*). Apabila Anda menyimpan versi `PDF` yang sifatnya statis, maka perubahan dan pembaruan yang saya lakukan setelah Anda menyimpan versi statisnya, tidak akan terlihat dalam *file* yang Anda unduh.
 :::
 
+## Tugas dan Penilaian
+
+| Tugas | Minggu ke- | Bentuk | Objek Garapan | Bobot |
+|:--|:--:|:--|:--|--:|
+| Tugas 1 — Log Refleksi Kolaborasi Manusia-AI (UTS) | 10 | Individu | Log interaksi dengan AI generatif + esai reflektif-analitis (1500–2000 kata) | 30% |
+| Tugas 2 — Diskusi Kelompok & Presentasi Studi Kasus | 12 | Kelompok (3–4 orang) | Analisis dan presentasi studi kasus dampak/implikasi teknologi pada pembelajaran | 30% |
+| Tugas 3 — Proyek Menulis *Book Chapter* (UAS) | 13–16 | Individu | Naskah *book chapter* (4000–6000 kata) bertema "Kolaborasi Manusia dan Teknologi dalam Konteks Pembelajaran" | 40% |
+
+: Rekapitulasi tugas, mengacu pada RTM (Rancangan Tugas Mahasiswa) {.striped .hover}
+
+::: {.callout-tip collapse="true"}
+### Rincian Tugas 1 — Log Refleksi Kolaborasi Manusia-AI (Minggu ke-10, UTS)
+
+**Tujuan:** mahasiswa mampu mengaplikasikan kerangka teoretis tentang penerimaan dan kolaborasi manusia dengan teknologi (*technology acceptance*/*appropriation*, UTAUT, *human-AI collaboration*, *reinforcement learning from human feedback*, *AI fluency*) untuk menganalisis secara kritis pengalaman kolaborasinya sendiri dengan sebuah alat akal imitasi generatif dalam menyelesaikan tugas belajar.
+
+**Objek garapan:** log interaksi (rangkaian *prompt* dan respons) antara mahasiswa dengan satu alat AI generatif yang dipilih sendiri (mis. ChatGPT, Claude, Gemini, Copilot, dsb.) untuk menyelesaikan satu tugas belajar konkret, dilampiri esai reflektif-analitis individual sepanjang 1500–2000 kata.
+
+**Ketentuan:**
+
+- Memilih satu tugas belajar yang spesifik dan konkret (terkait bidang psikologi pendidikan atau minat pribadi), mis. meringkas artikel, menyusun *outline*, *brainstorming* ide, atau menganalisis data sederhana.
+- Mendokumentasikan seluruh proses interaksi (*prompt* dan respons AI) sebagai lampiran log, minimal 3 putaran interaksi yang bermakna — termasuk kegagalan/iterasi yang di-*follow up* dengan memberi *feedback* ke *chatbot* mengenai alasan *output* dianggap gagal/tidak diterima.
+- Esai reflektif mengacu pada minimal dua kerangka teoretis dari materi Minggu 1–7, dan membahas: (a) proses kolaborasi, (b) sejauh mana AI berperan sebagai *automation* atau *augmentation*, (c) keterbatasan/risiko epistemik (mis. *overreliance*, "*the effortless trap*"), dan (d) implikasi bagi pembelajaran mandiri.
+- Dikerjakan individual dan mandiri (*take-home*); log interaksi AI wajib dilampirkan secara utuh, bukan hanya hasil akhirnya; penggunaan AI harus dideklarasikan secara jelas dan terbuka.
+- Dikumpulkan individual dalam format `.pdf` melalui Psyche pada Minggu ke-10.
+
+| Kriteria | Indikator | Nilai Maksimum |
+|:--|:--|--:|
+| Ketepatan aplikasi kerangka teoretis | Kesesuaian dan kedalaman penggunaan minimal dua konsep/teori dari Minggu 1–7 | 30 |
+| Kualitas refleksi kritis | Kemampuan mengevaluasi secara kritis peran AI (*automation*/*augmentation*), risiko, dan batasannya | 30 |
+| Kelengkapan dan kejujuran log interaksi | Log mencerminkan proses nyata secara utuh, termasuk kegagalan/iterasi | 20 |
+| Kejelasan dan struktur penulisan | Esai terorganisir, alur logis, menggunakan gaya bahasa akademik | 15 |
+| Ketepatan format dan sitasi | Mengikuti gaya sitasi APA edisi ke-7 | 5 |
+| **Total** | | **100** |
+:::
+
+::: {.callout-tip collapse="true"}
+### Rincian Tugas 2 — Diskusi Kelompok & Presentasi Studi Kasus (Minggu ke-12)
+
+**Tujuan:** mahasiswa mampu mengidentifikasi dan menganalisis secara kritis dampak serta implikasi penggunaan teknologi (termasuk AI) pada proses pembelajaran di berbagai jenjang pendidikan melalui diskusi kelompok atas studi kasus nyata, serta mengomunikasikan hasil analisis dalam presentasi ilmiah.
+
+**Objek garapan:** diskusi dan presentasi kelompok yang menganalisis satu studi kasus mengenai dampak/implikasi teknologi pada pembelajaran, dilengkapi sesi diskusi dengan kelas.
+
+**Ketentuan:**
+
+- Dikerjakan berkelompok (3–4 mahasiswa); setiap kelompok mendapatkan satu studi kasus berbeda dari daftar: (1) adopsi tutor AI/*adaptive learning* di sekolah menengah dan dampaknya pada motivasi serta kemandirian belajar; (2) penilaian otomatis berbasis algoritma (*automated essay scoring*) dan implikasinya pada validitas serta keadilan asesmen; (3) "*the effortless trap*" — penggunaan AI generatif untuk mengerjakan tugas dan risikonya terhadap *productive struggle* serta ilusi belajar; (4) teknologi asistif/aksesibilitas bagi peserta didik berkebutuhan khusus dan kesenjangan implementasinya; (5) kesenjangan digital dalam pembelajaran daring di sekolah dengan sumber daya terbatas; (6) *human-AI collaboration* di lingkungan kerja/organisasi belajar dan pelajarannya bagi dunia pendidikan.
+- Setiap kelompok mendapat 10 menit untuk: (a) memaparkan ringkasan kasus, (b) menganalisis dampak dan implikasinya menggunakan minimal satu teori/konsep dari perkuliahan, (c) mengajukan minimal dua pertanyaan diskusi untuk memantik diskusi kelas, dan (d) memimpin sesi tanya-jawab.
+- Apabila kelompok menggunakan bantuan akal imitasi dalam riset atau penyusunan bahan presentasi, penggunaannya harus dideklarasikan secara jelas dan terbuka pada *slide* penutup.
+
+| Kriteria | Indikator | Nilai Maksimum |
+|:--|:--|--:|
+| Ketepatan dan kedalaman analisis kasus | Analisis menggunakan kerangka teori yang relevan dan tepat | 30 |
+| Keterampilan berpikir kritis | Mengaitkan kasus dengan implikasi lebih luas serta mengidentifikasi asumsi/keterbatasan | 25 |
+| Kualitas fasilitasi diskusi | Pertanyaan pemantik relevan; kelompok mampu memandu dan merespons diskusi kelas | 20 |
+| Kualitas presentasi | Kejelasan penyampaian, bahan tayang, keterlibatan audiens, manajemen waktu | 15 |
+| Kerja sama tim | Kontribusi merata antaranggota kelompok | 10 |
+| **Total** | | **100** |
+:::
+
+::: {.callout-tip collapse="true"}
+### Rincian Tugas 3 — Proyek Menulis *Book Chapter* (Minggu ke-13–16, UAS)
+
+**Tujuan:** mahasiswa mampu mensintesiskan pemahaman teoretis dan reflektif yang dibangun sepanjang perkuliahan mengenai kolaborasi manusia dan teknologi dalam pembelajaran ke dalam sebuah tulisan ilmiah setingkat *book chapter*, sebagai kontribusi individual untuk sebuah volume bunga rampai (*edited volume*).
+
+**Objek garapan:** naskah *book chapter* individual (4000–6000 kata di luar daftar pustaka) bertema umum "Kolaborasi Manusia dan Teknologi dalam Konteks Pembelajaran", mengikuti pedoman dan sitasi APA edisi ke-7.
+
+**Ketentuan:**
+
+- Memilih sendiri sub-topik spesifik di bawah tema besar volume (mis. penerimaan teknologi, lingkungan belajar termediasi, literasi digital/AI, kolaborasi manusia-AI, aksesibilitas, asesmen berbasis teknologi, atau dampak dan implikasi teknologi pada pembelajaran), dikonsultasikan pada Minggu 13 agar tidak tumpang tindih signifikan dengan sub-topik mahasiswa lain.
+- *Chapter* memuat minimal: (a) pendahuluan yang memosisikan isu dalam wacana lebih luas, (b) tinjauan konseptual/teoretis, (c) pembahasan/analisis (dapat memanfaatkan studi kasus, data, atau contoh aplikatif), dan (d) penutup berisi simpulan serta implikasi praktis/rekomendasi.
+- Proses ditempuh bertahap: konsultasi topik dan *outline* (Minggu 13–14) → draf dan presentasi kemajuan (Minggu 15) → naskah final dikumpulkan pada Minggu 16 (UAS).
+- Naskah final harus lolos pengecekan plagiarisme/*similarity* sesuai ambang batas yang ditetapkan program studi apabila disepakati akan diterbitkan menjadi buku cetak.
+- Dikerjakan secara individual; penggunaan akal imitasi (bila ada) harus dideklarasikan secara jelas dan terbuka.
+
+| Kriteria | Indikator | Nilai Maksimum |
+|:--|:--|--:|
+| Orisinalitas dan kedalaman sub-topik | Sub-topik relevan, spesifik, dan digarap mendalam | 25 |
+| Penguasaan dan integrasi materi kuliah | Sintesis konsep/teori dari perkuliahan secara koheren | 25 |
+| Kualitas argumentasi dan analisis kritis | Argumen didukung bukti dan mempertimbangkan perspektif berbeda | 35 |
+| Ketepatan sitasi dan kelengkapan daftar pustaka | Mengikuti gaya sitasi APA edisi ke-7 | 15 |
+| **Total** | | **100** |
+:::
+
+::: {.callout-tip appearance="simple"}
+Halaman ini merupakan ringkasan **RPP** dan **RTM** (Rancangan Tugas Mahasiswa); versi lengkapnya dapat diakses di Psyche.
+:::
+
 ---
 
 ::: {.callout-info}
