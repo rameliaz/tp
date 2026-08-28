@@ -13,6 +13,9 @@ project:
 
 website:
   title: "Teknologi dalam Pembelajaran"
+  repo-url: https://github.com/rameliaz/tp
+  repo-actions: [edit, source, issue]  
+  repo-branch: master    
   navbar:
     left:
       - href: https://rameliaz.github.io/
