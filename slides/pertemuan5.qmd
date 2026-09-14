@@ -17,23 +17,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* ***Mediated learning* — bukan sekadar "belajar pakai teknologi"** — akarnya di psikologi perkembangan.
-* **Mediasi ala Vygotsky**: alat, tanda, dan *zone of proximal development*.
-* ***Mediated Learning Experience* ala Feuerstein**: tiga kriteria interaksi yang benar-benar memediasi.
-* **Dari mediator manusia ke mediator teknologi** — apa yang berubah, apa yang tetap.
-* **Lingkungan pembelajaran digital**: literasi sebagai praktik sosial, bukan bakat generasi.
-* **Diskusi (60 menit)**: menguji apakah *chatbot* AI bisa jadi "mediator" dalam pengertian Feuerstein.
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. ***Mediated learning*: bukan sekadar "belajar pakai teknologi"**
+2. **Mediasi ala Vygotsky**: alat, tanda, dan *zone of proximal development*.
+3. ***Mediated Learning Experience* ala Feuerstein**
+4. **Mediator manusia vs. mediator teknologi**
+5. **Lingkungan pembelajaran digital**
+6. **Diskusi**
 
 # *Mediated Learning*: Dua Makna yang Sering Tertukar 🧠 {background-color="#14497F"}
 
@@ -73,7 +64,7 @@ Vygotsky (1978)
 
 # *Mediated Learning Experience* ala Feuerstein 🎓 {background-color="#14497F"}
 
-## Bukan soal alatnya, tapi kualitas interaksinya
+## Kualitas interaksi yang menentukan
 
 ::: {.incremental}
 * Reuven Feuerstein mengembangkan gagasan ini lebih jauh: bukan sekadar "ada mediasi atau tidak", tapi **kualitas** interaksi antara mediator (guru/orang tua) dan pembelajar yang menentukan apakah kognisi benar-benar berkembang.
@@ -97,13 +88,13 @@ Tanpa ketiganya, sebuah interaksi mungkin tetap mengajarkan sesuatu — tapi Feu
 Feuerstein & Feuerstein (1991)
 :::
 
-## Dari mediator manusia ke mediator teknologi
+## Mediator manusia vs. mediator teknologi
 
 ::: {.incremental}
 * Pertanyaan yang relevan untuk mata kuliah ini: bisakah teknologi memenuhi tiga kriteria itu, atau mediasi selalu membutuhkan manusia?
 * *Intentionality* bisa "diwariskan" lewat desain — perancang sistem menanamkan tujuan pedagogis ke dalam alur interaksinya.
 * *Transcendence* dan *mediation of meaning* jauh lebih sulit diwariskan ke sistem otomatis — keduanya menuntut sensitivitas terhadap konteks spesifik pembelajar, sesuatu yang sistem berbasis aturan (dan bahkan AI generatif) belum tentu punya secara konsisten.
-* Ini bukan pertanyaan yang bisa dijawab "ya/tidak" secara umum — jawabannya bergantung pada **bagaimana** teknologi tersebut dirancang dan dipakai, persis tema yang akan terus muncul di sesi-sesi berikutnya.
+* Jawabannya bergantung pada **bagaimana** teknologi tersebut dirancang dan dipakai — tema yang akan terus muncul di sesi-sesi berikutnya.
 :::
 
 ::: notes
@@ -120,7 +111,7 @@ Bagian ceramah ±30 menit, lebih ringkas dari minggu-minggu sebelumnya karena po
 * Klaim ini selaras dengan Vygotsky: kemampuan memakai teknologi untuk belajar juga **dimediasi** secara sosial, bukan muncul otomatis dari paparan sejak kecil.
 :::
 
-## Desain lingkungan belajar: dari sistematis ke *design thinking*
+## Desain lingkungan belajar: pendekatan *design thinking*
 
 ::: {.incremental}
 * Hokanson & Gibbons (2014) mengusulkan mengimpor pola pikir *design thinking* — biasa dipakai di bisnis, pemerintahan, kedokteran — ke dalam praktik desain instruksional.
@@ -161,18 +152,25 @@ Sesi diskusi ±60 menit termasuk berbagi, sesuai porsi RPP minggu ini (30 cerama
 * ***Mediated learning*** dalam psikologi punya arti spesifik: kognisi terbentuk lewat perantaraan alat, tanda, dan interaksi sosial — bukan sekadar "belajar pakai teknologi".
 * **Vygotsky**: pembelajaran sosial dulu, individual kemudian; ZPD menandai zona di mana bimbingan paling berguna.
 * **Feuerstein**: kualitas interaksi menentukan — *intentionality and reciprocity*, *transcendence*, dan *mediation of meaning* adalah tiga syarat yang perlu dan cukup.
-* Literasi digital adalah **praktik sosial** yang dimediasi, bukan bakat generasi — dan desain lingkungan belajar yang baik meniru siklus iteratif yang sama seperti *interaction design*.
+* Literasi digital: **praktik sosial** yang dimediasi, bukan bakat generasi turun-temurun — desain lingkungan belajar yang baik meniru siklus iteratif yang sama seperti *interaction design*.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

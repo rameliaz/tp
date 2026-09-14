@@ -17,27 +17,18 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Dari teori perilaku umum ke teori khusus teknologi** — akar TAM pada *theory of reasoned action*.
-* **Dua keyakinan inti**: *perceived usefulness* dan *perceived ease of use*.
-* **Alur model**: dari keyakinan ke sikap, niat, dan pemakaian sungguhan.
-* **Uji empiris Davis (1989)** — bagaimana model ini pertama kali divalidasi.
-* **Perluasan ke TAM2** — mengapa TAM versi awal perlu diekspansi.
-* **Diskusi**: menguji TAM pada teknologi yang Anda tolak atau abaikan.
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. **Akar TAM pada teori perilaku umum**
+2. **Dua keyakinan inti**: *perceived usefulness* dan *perceived ease of use*.
+3. **Alur model**: keyakinan → sikap → niat → pemakaian sungguhan.
+4. **Uji empiris Davis (1989)**
+5. **Perluasan ke TAM2**
+6. **Diskusi**
 
 # Akar Teoretis TAM 🌱 {background-color="#14497F"}
 
-## Dari teori perilaku umum ke konteks teknologi
+## Akar TAM pada teori perilaku umum
 
 ::: {.incremental}
 * *Theory of reasoned action* (Fishbein & Ajzen, 1975, 1980) — teori umum psikologi sosial: keyakinan membentuk sikap, sikap membentuk niat, niat memprediksi perilaku.
@@ -75,14 +66,14 @@ Sejauh mana seseorang percaya bahwa memakai suatu sistem akan **bebas dari usaha
 
 ::: {.incremental}
 * Keduanya adalah **keyakinan** (*belief*), bukan fakta objektif tentang sistemnya, sehingga dua orang bisa punya PU/PEOU berbeda untuk sistem yang identik.
-* Intinya: orang tidak menolak teknologi karena teknologinya buruk secara objektif, tapi karena **persepsinya** terhadap manfaat dan kemudahannya.
+* Orang tidak menolak teknologi karena teknologinya buruk secara objektif, tapi karena **persepsinya** terhadap manfaat dan kemudahannya.
 :::
 
 ::: aside
 Davis (1989)
 :::
 
-## Alur model: dari keyakinan ke pemakaian sungguhan
+## Alur model: keyakinan → sikap → niat → pemakaian
 
 ```{mermaid}
 %%| fig-width: 9
@@ -180,15 +171,22 @@ Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan PU rendah 
 * TAM2 (Venkatesh & Davis, 2000) menambahkan determinan sosial dan kognitif yang menjelaskan **dari mana** PU itu terbentuk — jembatan langsung ke UTAUT yang akan kita bahas minggu depan.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

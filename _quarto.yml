@@ -7,6 +7,8 @@ project:
     - materials/
     - articles/
     - slides/libs/
+    - _extensions/
+    - .nojekyll
   render:
     - index.qmd
     - slides/
@@ -30,6 +32,8 @@ website:
         menu:
           - text: "Matrikulasi MaPsi — Berkolaborasi dengan Akal Imitasi"
             href: slides/matrikulasi-mapsi.html
+          - text: "Mini-Workshop Persiapan Tesis"
+            href: slides/mini-workshop.html  
           - text: "TM 7 — Human-AI Collaboration & RLHF"
             href: slides/pertemuan7.html
           - text: "TM 9 — AI Literacy dan Fluency"

@@ -17,23 +17,14 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Apa itu *interaction design*?** — dari HCI ke desain produk interaktif apa pun.
-* **Siklus desain iteratif** — memahami kebutuhan, merancang, membangun purwarupa, mengevaluasi.
-* ***Usability goals* vs. *UX goals*** — dua standar berbeda untuk menilai teknologi yang baik.
-* **Model mental dan *affordance*** — kenapa sebagian teknologi terasa intuitif, sebagian lagi membingungkan.
-* ***Gulf of execution* dan *gulf of evaluation*** — dua celah di balik frustrasi pengguna.
-* **Diskusi**: membedah antarmuka aplikasi belajar yang Anda pakai sehari-hari.
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. **Apa itu *interaction design*?**
+2. **Siklus desain iteratif**
+3. ***Usability goals* vs. *UX goals***
+4. **Model mental dan *affordance***
+5. ***Gulf of execution* dan *gulf of evaluation***
+6. **Diskusi**
 
 # Apa Itu *Interaction Design*? 🖥️ {background-color="#14497F"}
 
@@ -209,15 +200,22 @@ Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa memakai istilah tekni
 * Kerangka ini adalah alat bedah yang akan terus kita pakai, termasuk untuk memahami teori-teori penerimaan teknologi di pertemuan-pertemuan berikutnya.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

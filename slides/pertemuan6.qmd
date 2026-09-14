@@ -17,24 +17,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Kenapa "literasi informasi" bukan satu *skill* tunggal** — tiga tradisi teoretis yang berbeda.
-* **Fenomenografi**: literasi informasi sebagai variasi pengalaman — Tujuh Wajah Bruce.
-* **Teori sosiokultural**: literasi sebagai penguasaan alat mediasi dalam praktik sosial.
-* **Analisis wacana**: bagaimana "buta informasi" sendiri adalah konstruksi kekuasaan.
-* ***Computer literacy*** — titik awal historis, sebelum istilah "digital" ada.
-* **Literasi digital vs. literasi informasi** — dua konstruk berdekatan, tidak identik.
-* **Diskusi (60 menit)**: menguji praktik pencarian informasi Anda lewat tiga lensa berbeda.
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. **Kenapa "literasi informasi" bukan satu *skill* tunggal**
+2. **Fenomenografi**
+3. **Teori sosiokultural**
+4. **Analisis wacana**
+5. ***Computer literacy***
+6. **Literasi digital vs. literasi informasi**
+7. **Diskusi**
 
 # Kenapa "Literasi Informasi" Bukan *Skill* Tunggal 📚 {background-color="#14497F"}
 
@@ -80,7 +71,7 @@ Limberg, Sundin, & Talja (2012)
 
 ::: {.callout-note}
 ### Bukan tangga linear yang harus dilalui berurutan
-Ketujuh wajah ini adalah kategori variasi pengalaman yang ditemukan lewat riset, bukan kurikulum. Wajah 7 ("kebijaksanaan") tidak otomatis lebih "benar" — ia sekadar pengalaman yang lebih kompleks dan jarang.
+Ketujuh wajah ini kategori variasi pengalaman yang ditemukan lewat riset, bukan kurikulum. Wajah 7 ("kebijaksanaan") tidak otomatis lebih "benar" — ia sekadar pengalaman yang lebih kompleks dan jarang.
 :::
 
 ::: aside
@@ -163,7 +154,7 @@ Molnar (1979); Gilster (1997)
 ## Dua konstruk berdekatan, tidak identik
 
 ::: {.incremental}
-* Meyers, Erickson, & Small (2013) mendefinisikan literasi digital lebih luas daripada literasi informasi: bukan cuma kemampuan teknis memakai alat, tapi juga pengetahuan tentang norma pemakaian yang pantas — otoritas kognitif (menilai kredibilitas sumber), keamanan dan privasi, serta penggunaan media digital secara etis dan kreatif.
+* Meyers, Erickson, & Small (2013) mendefinisikan literasi digital lebih luas daripada literasi informasi: mencakup pengetahuan tentang norma pemakaian yang pantas, di samping kemampuan teknis memakai alat — otoritas kognitif (menilai kredibilitas sumber), keamanan dan privasi, serta penggunaan media digital secara etis dan kreatif.
 * Bedanya dengan literasi informasi (Limberg et al.): literasi informasi lebih spesifik soal praktik **mencari, mengevaluasi, dan memaknai** informasi; literasi digital mencakup **norma dan perilaku** yang lebih luas dalam memakai media digital.
 * Kerangka literasi juga terus diperluas ke domain baru — misalnya *AI literacy* (Long & Magerko, 2020), yang menerapkan logika kompetensi kritis serupa khusus untuk memahami dan mengevaluasi sistem AI, yang akan kita bahas lebih rinci pada sesi mendatang.
 :::
@@ -199,20 +190,27 @@ Sesi diskusi ±60 menit termasuk berbagi, sesuai porsi RPP minggu ini (30 cerama
 
 ::: {.incremental}
 * Literasi informasi bukan *skill* tunggal — Limberg, Sundin, & Talja (2012) mengidentifikasi tiga tradisi teoretis yang berbeda: **fenomenografi**, **sosiokultural**, dan **analisis wacana**.
-* Fenomenografi memetakan **variasi pengalaman** (Tujuh Wajah Bruce); sosiokultural menyoroti alat sebagai **mediasi yang tidak netral**; analisis wacana menunjukkan kategori seperti "buta informasi" adalah **konstruksi kekuasaan**, bukan fakta objektif.
+* Fenomenografi memetakan **variasi pengalaman** (Tujuh Wajah Bruce); sosiokultural menyoroti alat sebagai **mediasi yang tidak netral**; analisis wacana menunjukkan kategori seperti "buta informasi" sebagai **konstruksi kekuasaan**, bukan fakta objektif.
 * Literasi digital (Meyers, Erickson, & Small, 2013) lebih luas dari literasi informasi — mencakup norma pemakaian media digital, bukan cuma praktik mencari dan mengevaluasi informasi.
 * Kesimpulan praktisnya: pendidikan literasi sebaiknya dimulai dari **praktik dan konteks spesifik**, bukan kurikulum generik yang dianggap berlaku di mana saja.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

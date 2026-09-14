@@ -17,25 +17,16 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Kenapa "adopsi" tidak cukup** — dari keputusan sekali jalan ke proses yang terus bergulir.
-* **Model *technology appropriation*** — *technology-as-designed*, proses apropriasi, *technology-in-use*.
-* ***Non-appropriation*, *Appropriation*, *Disappropriation*** — tiga jalan, dan kenapa tidak ada yang final.
-* **Bukti dari lapangan**: identitas, kekuasaan, dan fragmentasi pada remaja pengguna ponsel.
-* ***Adhocracy*** — ketika teknologi mengubah cara hidup direncanakan.
-* **Diskusi**: melacak proses apropriasi teknologi Anda sendiri.
-:::
+1. **Kenapa "adopsi" tidak cukup**
+2. **Model *technology appropriation***
+3. ***Non-appropriation*, *Appropriation*, *Disappropriation***
+4. **Bukti dari lapangan**
+5. ***Adhocracy***
+6. **Diskusi**
 
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
-
-# Dari Adopsi ke Apropriasi 📲 {background-color="#14497F"}
+# Apropriasi Teknologi 📲 {background-color="#14497F"}
 
 ## Model adopsi klasik: keputusan sekali jalan
 
@@ -50,7 +41,7 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyus
 ::: {.incremental}
 * Carroll, Howard, Vetere, Peck, & Murphy (2001) mengusulkan istilah ***technology appropriation*** — bukan sekadar "menerima" teknologi, melainkan **membongkar** fungsi-fungsinya dan menyesuaikannya dengan kebutuhan sendiri.
 * Definisinya, mengutip Swan & Clark (1992, h. 114): pengguna "telah mengubah bentuk dan cara pakai inovasi dari yang disediakan" — mulai dari modifikasi kecil sampai transformasi besar.
-* Bedanya dengan adopsi: apropriasi adalah proses yang **berulang dan tidak pernah selesai** — bukan keputusan sekali jalan yang lalu menetap.
+* Bedanya dengan adopsi: apropriasi **berulang dan tidak pernah selesai**, terus dievaluasi ulang meski sudah lama dipakai.
 :::
 
 ::: aside
@@ -172,8 +163,8 @@ Carroll, Howard, Vetere, Peck, & Murphy (2001)
 
 ::: {.incremental}
 * Salah satu temuan paling mencolok: hidup remaja jadi ditandai oleh ***adhocracy*** — improvisasi janji sosial dari menit ke menit, bukan rencana yang disusun jauh-jauh hari.
-* "*It's taken the strict plan out of your social life altogether, once you've got a mobile phone*" — partisipan menggambarkan hidupnya jadi lebih cepat, kurang terorganisasi, lebih terburu-buru sejak punya ponsel.
-* Ini bukan efek samping kecil — ia mengubah norma sosial tentang berjanji dan menepati janji, bukan cuma cara berkomunikasi.
+* "*It's taken the strict plan out of your social life altogether, once you've got a mobile phone*" — partisipan menggambarkan hidupnya jadi lebih cepat dan kurang terorganisasi sejak punya ponsel.
+* Dampaknya sampai ke norma sosial soal berjanji dan menepati janji, bukan cuma cara berkomunikasi.
 :::
 
 ## Menghubungkan balik ke pertemuan sebelumnya
@@ -181,7 +172,7 @@ Carroll, Howard, Vetere, Peck, & Murphy (2001)
 ::: {.incremental}
 * Minggu lalu kita membahas *affordance* dan *mental model* — bagaimana desain antarmuka membentuk ekspektasi pengguna.
 * Model apropriasi menambahkan lapisan berikutnya: desain yang sama bisa berujung pada ***technology-in-use*** yang sangat berbeda, tergantung siapa yang memakainya dan kebutuhan apa yang mereka bawa.
-* Yang menentukan penggunaan bukan cuma seberapa baik antarmukanya dirancang, tapi juga faktor identitas, kekuasaan, dan konteks sosial yang tidak selalu terlihat dari desainnya sendiri.
+* Faktor identitas, kekuasaan, dan konteks sosial ikut menentukan penggunaan — tidak selalu terlihat dari seberapa baik antarmukanya dirancang.
 :::
 
 ::: notes
@@ -214,21 +205,28 @@ Sesi diskusi ±50 menit termasuk berbagi. Arahkan mahasiswa untuk melihat apropr
 ## Rangkuman
 
 ::: {.incremental}
-* ***Technology appropriation*** melampaui model adopsi klasik: bukan keputusan sekali jalan, tapi proses berulang membongkar dan menyesuaikan teknologi dengan kebutuhan sendiri.
+* ***Technology appropriation*** melampaui model adopsi klasik: proses berulang membongkar dan menyesuaikan teknologi dengan kebutuhan sendiri.
 * Tiga komponen model: ***technology-as-designed***, **proses apropriasi**, ***technology-in-use*** — dengan tiga kemungkinan jalan (*non-appropriation*, *appropriation*, *disappropriation*) yang bisa terjadi kapan saja, bahkan setelah pemakaian rutin bertahun-tahun.
 * Studi Carroll et al. (2001) menunjukkan apropriasi ponsel pada remaja berputar di sekitar **identitas**, **kekuasaan**, dan **fragmentasi** — dan melahirkan pola hidup ***adhocracy***.
-* Desain yang identik bisa menghasilkan pemakaian yang sangat berbeda — faktor sosial dan personal ikut menentukan, bukan cuma kualitas desainnya.
+* Desain yang identik bisa menghasilkan pemakaian yang sangat berbeda, karena faktor sosial dan personal ikut menentukan.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

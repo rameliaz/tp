@@ -17,22 +17,13 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Terlalu banyak model** — kenapa Venkatesh dan rekan-rekannya menyatukan delapan teori sekaligus.
-* **Empat determinan inti UTAUT** — *performance expectancy*, *effort expectancy*, *social influence*, *facilitating conditions*.
-* **Empat moderator** — kenapa determinan yang sama berpengaruh beda di tiap orang.
-* **Dari organisasi ke konsumen**: UTAUT2 dan tiga konstruk barunya.
-* **Diskusi**: memetakan penerimaan aplikasi belajar Anda ke UTAUT2.
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. **Terlalu banyak model**
+2. **Empat determinan inti UTAUT**
+3. **Empat moderator**
+4. **UTAUT2, konteks konsumen**
+5. **Diskusi**
 
 # Terlalu Banyak Model 🧩 {background-color="#14497F"}
 
@@ -49,7 +40,7 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyus
 ::: {.incremental}
 * Kedelapan model individual sebelumnya menjelaskan **17–53%** varians niat perilaku.
 * UTAUT gabungan menjelaskan sekitar **70%** — lompatan besar dibanding model manapun yang berdiri sendiri.
-* Ini bukan model baru dari nol, melainkan **sintesis**: unsur-unsur yang secara empiris terbukti relevan dari delapan model dipertahankan, yang tumpang tindih digabungkan.
+* UTAUT adalah **sintesis** delapan model: unsur yang secara empiris terbukti relevan dipertahankan, yang tumpang tindih digabungkan.
 :::
 
 ::: aside
@@ -69,7 +60,7 @@ Venkatesh, Morris, Davis, & Davis (2003)
 
 ::: {.callout-note}
 ### Kaitan dengan minggu lalu
-Dua determinan pertama pada dasarnya **PU dan PEOU dari TAM**, diberi nama ulang. UTAUT tidak membuang TAM — ia menambahkan dua determinan baru (*social influence*, *facilitating conditions*) yang sebelumnya tersebar di model-model lain.
+Dua determinan pertama pada dasarnya **PU dan PEOU dari TAM**, diberi nama ulang. UTAUT mempertahankan TAM, dan menambahkan dua determinan baru (*social influence*, *facilitating conditions*) yang sebelumnya tersebar di model-model lain.
 :::
 
 # Empat Moderator 🎚️ {background-color="#14497F"}
@@ -87,7 +78,7 @@ Dua determinan pertama pada dasarnya **PU dan PEOU dari TAM**, diberi nama ulang
 Kampanye penerimaan teknologi yang sama tidak akan sama efektifnya untuk semua orang — kelompok yang lebih dipengaruhi norma sosial butuh pendekatan berbeda dari kelompok yang lebih dipengaruhi ekspektasi kinerja.
 :::
 
-# Dari Organisasi ke Konsumen: UTAUT2 🛍️ {background-color="#14497F"}
+# UTAUT2: Konteks Konsumen 🛍️ {background-color="#14497F"}
 
 ## Konteks yang berbeda, kebutuhan model yang berbeda
 
@@ -151,7 +142,7 @@ Survei daring dua tahap terhadap 1.512 konsumen pengguna internet ponsel.
 :::
 
 ::: notes
-Bagian ceramah ±50 menit. Ini melengkapi trilogi TAM–TAM2–UTAUT/UTAUT2 yang sudah dibahas tiga minggu terakhir. Tekankan bahwa perkembangan model ini bukan sekadar menambah variabel demi kompleksitas, tapi merespons konteks pemakaian yang benar-benar berbeda (organisasi vs. konsumen).
+Bagian ceramah ±50 menit. Ini melengkapi trilogi TAM–TAM2–UTAUT/UTAUT2 yang sudah dibahas tiga minggu terakhir. Tekankan bahwa perkembangan model ini merespons konteks pemakaian yang benar-benar berbeda (organisasi vs. konsumen).
 :::
 
 # Diskusi & Refleksi 💬 {background-color="#14497F"}
@@ -183,19 +174,26 @@ Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan determinan
 * UTAUT menyatukan delapan model penerimaan teknologi sebelumnya menjadi empat determinan inti: **performance expectancy**, **effort expectancy**, **social influence**, **facilitating conditions** dan menjelaskan varians niat jauh lebih baik daripada model manapun secara terpisah.
 * Empat moderator (jenis kelamin, usia, pengalaman, sifat sukarela/wajib) menjelaskan **kenapa** determinan yang sama berpengaruh beda pada orang berbeda.
 * UTAUT2 memperluas model ke konteks konsumen, menambah **hedonic motivation**, **price value**, dan **habit**. 
-  + Tiga faktor inisebenarnya tidak relevan di konteks/situasi kerja yang mewajibkan penggunaan teknologi, tapi penting saat pemakaian bersifat sukarela.
+  + Tiga faktor ini sebenarnya tidak relevan di konteks/situasi kerja yang mewajibkan penggunaan teknologi, tapi penting saat pemakaian bersifat sukarela.
 * Sebagian besar teknologi pembelajaran berada di antara dua konteks ini, dan model mana yang lebih relevan bergantung pada seberapa sukarela pemakaiannya.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

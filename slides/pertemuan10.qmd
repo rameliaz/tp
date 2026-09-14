@@ -17,30 +17,21 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Mengapa aksesibilitas penting?** — dari amanat hukum ke prinsip pendidikan inklusif
-* **Ragam kebutuhan khusus** dan hambatan belajar yang menyertainya
-* ***Universal Design for Learning* (UDL)** — merancang proses pembelajaran untuk keberagaman sejak awal
-* **Teknologi pembantu** (*assistive technology*) per kategori kebutuhan
-* **Peran akal imitasi** dalam memperluas aksesibilitas
-* **Prinsip desain aksesibel** (WCAG) dan isu etis yang menyertainya
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. **Mengapa aksesibilitas penting?**
+2. **Ragam kebutuhan khusus** dan hambatan belajar yang menyertainya
+3. ***Universal Design for Learning* (UDL)**
+4. **Teknologi pembantu** (*assistive technology*) per kategori kebutuhan
+5. **Peran akal imitasi** dalam memperluas aksesibilitas
+6. **Prinsip desain aksesibel** (WCAG) dan isu etis yang menyertainya
 
 # Mengapa Aksesibilitas Penting? ⚖️ {background-color="#14497F"}
 
 ## Lebih dari sekadar berempati
 
 ::: {.incremental}
-* Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi, bukan sekadar **fasilitas tambahan**
+* Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi
 * Indonesia meratifikasi *Convention on the Rights of Persons with Disabilities* (CRPD) PBB melalui **UU No. 19 Tahun 2011**
 * Diperkuat oleh [**UU No. 8 Tahun 2016 tentang Penyandang Disabilitas**](https://peraturan.bpk.go.id/Details/37251/uu-no-8-), yang menjamin hak atas pendidikan inklusif di semua jenjang
 :::
@@ -176,7 +167,7 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 
 ::: {.incremental}
 * **Bias pengenalan suara** — sistem *automated speech recognition* terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih [(Koenecke et al., 2020)](https://doi.org/10.1073/pnas.1915768117)
-* **Halusinasi pada deskripsi otomatis** — AI generatif bisa "mengarang" detail visual yang sebenarnya tidak ada — fatal bagi pengguna *screen reader* yang sepenuhnya bergantung padanya
+* **Halusinasi pada deskripsi otomatis** — AI generatif bisa "mengarang" detail visual yang tidak ada, fatal bagi pengguna *screen reader* yang sepenuhnya bergantung padanya
 * Relevan dengan kerangka **automation vs. augmentation** [(Fügener et al., 2026)](https://doi.org/10.1287/mnsc.2024.05684) — AI sebaiknya **melengkapi**, bukan **menggantikan begitu saja** penilaian dan pendampingan manusia
 :::
 
@@ -237,15 +228,22 @@ Diskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang mempengaruhi *a
 * Desain aksesibel (**WCAG/POUR**) menguntungkan **semua orang**, bukan hanya penyandang disabilitas
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

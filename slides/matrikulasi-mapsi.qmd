@@ -18,18 +18,12 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Apa sebenarnya akal imitasi?** — dari model statistik ke *agentic* dan *embodied AI*
-* **Bagaimana *user* menggunakan AI?** — bagaimana bukti dari riset empiris?
-* **Pengantar *AI Fluency Framework*** — mengapa *fluency* menentukan kualitas *output*
-  + ***Delegation*** — menentukan tugas apa yang dapat dilakukan AI
-  + ***Description*** — berkomunikasi dengan AI
-  + ***Discernment*** — mengevaluasi *output* AI secara kritis
-  + ***Diligence*** — menggunakan AI secara bertanggung jawab 
-* **Kesimpulan** dan *take-away message* dari saya
-:::
+1. **Apa sebenarnya akal imitasi?** — model statistik, *agentic AI*, dan *embodied AI*
+2. **Bagaimana *user* menggunakan AI?** — bagaimana bukti dari riset empiris?
+3. **Pengantar *AI Fluency Framework*** — mengapa *fluency* menentukan kualitas *output*
+4. **Kesimpulan** dan *take-away message* dari saya
 
 ## Perlu diketahui
 
@@ -74,7 +68,7 @@ Angkat tangan kalau dalam **seminggu terakhir** Anda:
 :::
 
 ::: notes
-Pembuka interaktif ±5 menit. Poin 4 adalah jembatan penting ke materi discernment — tanyakan ke 1-2 mahasiswa: "kapan terakhir kali AI mengarang? Bagaimana Anda tahu jawabannya salah?"
+Pembuka interaktif ±5 menit. Poin 4 adalah jembatan penting ke materi discernment. Tanyakan ke 1-2 mahasiswa: "kapan terakhir kali AI mengarang? Bagaimana Anda tahu jawabannya salah?"
 :::
 
 # Apa Sebenarnya Akal Imitasi? 🤖 {background-color="#14497F"}
@@ -206,7 +200,7 @@ Gabungan ketiganya memunculkan fenomena menarik, yaitu *emergent capabilities* k
 :::
 :::
 
-## Dari *chatbot* ke *agentic* dan *embodied AI*
+## Chatbot, *Agent*, dan *Embodied AI*
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -597,7 +591,7 @@ Kolaborasi manusia–AI hanya bisa:
 :::
 
 ::: notes
-Ini pesan sentral kuliah ini — beri waktu. Hubungkan ke pengalaman mereka: "pernahkah menyerahkan tugas yang dibantu AI yang sebenarnya tidak Anda pahami? Bagaimana rasanya kalau ditanya pembimbing?" Tegaskan: menjadi psikolog/peneliti yang lebih ahli adalah strategi AI terbaik.
+Ini pesan sentral kuliah ini. Beri waktu. Hubungkan ke pengalaman mereka: "pernahkah menyerahkan tugas yang dibantu AI yang sebenarnya tidak Anda pahami? Bagaimana rasanya kalau ditanya pembimbing?" Tegaskan: menjadi psikolog/peneliti yang lebih ahli adalah strategi AI terbaik.
 :::
 
 # Diligence: Bertanggung Jawab atas Output AI ⚖️ {background-color="#14497F"}
@@ -627,7 +621,7 @@ Ini pesan sentral kuliah ini — beri waktu. Hubungkan ke pengalaman mereka: "pe
 
 Praktik yang baik: sertakan ***diligence statement*** dalam karya hasil kolaborasi dengan AI. Contoh templatnya:
 
-> "Dalam menyusun [naskah/proposal] ini, saya berkolaborasi dengan [nama AI] untuk [tugas spesifik: menyunting bahasa, menyusun kerangka, dll.]. Seluruh konten yang dihasilkan atau dikembangkan bersama AI telah saya tinjau dan evaluasi secara menyeluruh. Hasil akhirnya mencerminkan pemahaman, keahlian, dan intensi saya. **Saya bertanggung jawab penuh atas isi, akurasi, dan penyajiannya.**"
+> "Dalam menyusun [naskah/proposal] ini, saya berkolaborasi dengan [nama AI] untuk [tugas spesifik: menyunting bahasa, menyusun kerangka, dll.]. Seluruh konten yang dihasilkan atau dikembangkan bersama AI telah saya tinjau dan evaluasi dengan cermat. Hasil akhirnya mencerminkan pemahaman, keahlian, dan intensi saya. **Saya bertanggung jawab penuh atas isi, akurasi, dan penyajiannya.**"
 
 ::: {.incremental}
 * Selalu cek kebijakan yang berlaku: banyak jurnal kini mewajibkan pengungkapan penggunaan AI dan hampir semuanya **melarang AI menjadi penulis**
@@ -666,7 +660,7 @@ Kalau pembimbing bertanya *"coba jelaskan paragraf ini"* dan Anda tidak bisa men
 :::
 
 ::: {.fragment}
-**Satu hal** yang membuat Anda tidak tergantikan oleh AI adalah *domain expertise* Anda. Menjadi ilmuwan psikologi yang semakin terampil/mahir adalah strategi *human-AI collaboration* yang terbaik yang bisa Anda terapkan. 
+*Domain expertise* Anda-lah yang paling membuat Anda sulit tergantikan oleh AI. Menjadi ilmuwan psikologi yang semakin terampil/mahir adalah strategi *human-AI collaboration* yang terbaik yang bisa Anda terapkan.
 
 Ingat, AI *fluency* tidak datang dari satu kuliah matrikulasi😄, ia tumbuh lewat praktik yang dilakukan berulang-ulang secara reflektif.
 :::
@@ -688,7 +682,7 @@ Buka *chatbot* di ponsel/laptop Anda:
 [Klik di sini untuk mengumpulkan tugas di Padlet.](https://padlet.com/ameliazein/belatih-kolaborasi-bersama-ai-etm1762qirc4lbmv)
 
 ::: notes
-Debrief: siapa yang menemukan kesalahan? Kesalahan seperti apa? Lalu tanyakan: "bagaimana orang tanpa latar psikologi bisa tahu penjelasan tadi keliru?" — sambungkan ke pesan *deskilling*: kemampuan menilai barusan adalah buah dari expertise yang mereka bangun bertahun-tahun.
+Debrief: siapa yang menemukan kesalahan? Kesalahan seperti apa? Lalu tanyakan: "bagaimana orang tanpa latar psikologi bisa tahu penjelasan tadi keliru?" Sambungkan ke pesan *deskilling*: kemampuan menilai barusan adalah buah dari expertise yang mereka bangun bertahun-tahun.
 :::
 
 ## 🏠 *Take-away message* dan PR dari saya
@@ -721,13 +715,20 @@ Renungkan 4️⃣ poin di bawah:
 * Wright, A. G. C., Ringwald, W. R., Vize, C. E., Eichstaedt, J. C., Angstadt, M., Taxali, A., & Sripada, C. (2026). Assessing personality using zero-shot generative AI scoring of brief open-ended text. *Nature Human Behaviour*.
 * Yang, J., Yonack, N., Zyskowski, K., Yarats, D., Ho, J., & Ma, J. (2025). *The adoption and usage of AI agents: Early evidence from Perplexity* [Working paper].
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::

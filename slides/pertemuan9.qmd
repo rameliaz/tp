@@ -17,25 +17,16 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Mengapa ini penting** — kesenjangan kesiapan pendidik menghadapi AI
-* ***AI literacy* vs. *AI fluency*** — dua jenjang kompetensi yang berbeda
-* **Kerangka *AI literacy*** — 17 kompetensi, lima pertanyaan besar
-* **Kerangka 4D *AI Fluency*** — *Delegation*, *Description*, *Discernment*, *Diligence*
-* **Mengapa *fluency* menentukan hasil** — bukti dari 27 ribu percakapan manusia-AI
-* **Sisi kritis**: apakah AI membuat kita "bodoh"?
-:::
+1. **Mengapa *AI fluency* penting**
+2. ***AI literacy* vs. *AI fluency***
+3. **Kerangka *AI literacy***
+4. **Kerangka 4D *AI Fluency***
+5. **Mengapa *fluency* menentukan hasil**
+6. **Diskusi**: apakah AI membuat kita "bodoh"?
 
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
-
-# Mengapa Ini Penting? 📉 {background-color="#14497F"}
+# Mengapa AI fluency Penting? 📉 {background-color="#14497F"}
 
 ## Pendidik belum siap
 
@@ -86,7 +77,7 @@ Analoginya seperti belajar bahasa: *literacy* = bisa membaca; *fluency* = bisa b
 ## Mengapa "penciptaan" jadi pembeda utama
 
 ::: {.incremental}
-* [Rogers & Carbonaro (2025)](https://doi.org/10.22329/jtl.v19i4.9420) menelusuri sejarah pergeseran serupa dari literasi ke *fluency*: literasi komputer → *digital fluency*
+* [Rogers & Carbonaro (2025)](https://doi.org/10.22329/jtl.v19i4.9420) menelusuri pergeseran serupa dalam sejarah: literasi komputer → *digital fluency*
 * *National Research Council* (1999) menyimpulkan literasi komputer "terlalu sederhana" di tengah perubahan cepat, lalu memperkenalkan konsep **FITness** (*fluency with information technology*)
 * ***Fluency*** = "kemampuan merumuskan ulang pengetahuan, berekspresi kreatif, dan **menghasilkan** informasi" — bukan sekadar memahaminya
 * Ini sejalan dengan **Taksonomi Bloom Revisi**: "*mencipta*" (*create*) adalah level kognitif **tertinggi**, di atas memahami dan mengevaluasi
@@ -203,7 +194,7 @@ Cara Anda **menilai** *output* AI:
 
 ::: {.callout-important}
 ### Bayangkan Anda sebagai detektif🕵️‍♀️
-Menemukan kesalahan AI adalah **bukti Anda menggunakannya dengan benar** — bukan tanda AI-nya buruk
+Menemukan kesalahan AI adalah **bukti Anda menggunakannya dengan benar**
 :::
 
 ## *Diligence* — bertanggung jawab atas *output* AI
@@ -240,7 +231,7 @@ Tanpa keahlian di bidang Anda sendiri, keempat kriteria *fluency* ini runtuh —
 
 ::: {.callout-important}
 ### Kesimpulannya
-*Fluency* menentukan apakah AI di tangan Anda menjadi produsen AI *slop*, atau asisten yang bisa diandalkan. Menemukan kegagalan AI bukan tanda Anda gagal — itu justru **bukti** Anda menggunakannya dengan tepat.
+*Fluency* menentukan apakah AI di tangan Anda menjadi produsen AI *slop*, atau asisten yang bisa diandalkan. Menemukan kegagalan AI adalah **bukti** Anda menggunakannya dengan tepat.
 :::
 
 ::: aside
@@ -254,7 +245,7 @@ Tanpa keahlian di bidang Anda sendiri, keempat kriteria *fluency* ini runtuh —
 [Cash et al. (2026)](https://doi.org/10.1016/j.tics.2026.06.004) mengingatkan sisi lain dari cerita ini:
 
 ::: {.incremental}
-* ***Cognitive offloading*** — "menitipkan" proses berpikir ke alat bantu — lumrah dan umumnya bermanfaat (kita juga melakukannya lewat kalkulator, GPS, internet)
+* ***Cognitive offloading*** — "menitipkan" proses berpikir ke alat bantu, lumrah dan umumnya bermanfaat (kita juga melakukannya lewat kalkulator, GPS, internet)
 * Tapi keterampilan yang **tidak pernah dilatih**, tanpa friksi sama sekali, lama-lama akan **memudar** (***skill decay***)
 * Perlu dibedakan: **skill** (perilaku yang dipelajari lewat praktik) vs. **kemampuan kognitif dasar** (memori kerja, atensi selektif) — yang pertama lebih rentan terhadap *offloading*, yang kedua relatif lebih tahan
 :::
@@ -280,7 +271,7 @@ Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada **28,4%** kasus. Setela
 ::: {.incremental}
 * [Potts & Sudhof (2026)](https://doi.org/10.48550/arXiv.2604.25905): pengguna **fasih** justru mendapat hasil lebih baik karena mereka **aktif terlibat**, bukan pasrah pada AI
 * [Cash et al. (2026)](https://doi.org/10.1016/j.tics.2026.06.004): risiko *deskilling* muncul justru ketika keterlibatan aktif itu **hilang** — saat AI dipakai untuk menghindari kerja kognitif, bukan melengkapinya
-* **Kedua bacaan ini sebenarnya sepakat**: yang membedakan AI sebagai alat pemberdaya vs. alat yang mengikis kompetensi adalah **seberapa aktif** Anda terlibat dalam prosesnya — persis inti dari *discernment* dan *diligence* dalam kerangka 4D
+* **Kedua bacaan ini sepakat**: yang membedakan AI sebagai alat pemberdaya vs. alat yang mengikis kompetensi adalah **seberapa aktif** Anda terlibat dalam prosesnya — inti dari *discernment* dan *diligence* dalam kerangka 4D
 :::
 
 ## Rangkuman
@@ -292,15 +283,22 @@ Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada **28,4%** kasus. Setela
 * Risiko ***deskilling*** itu nyata — strategi terbaiknya bukan menghindari AI, tapi membangun *domain expertise* yang membuat Anda mampu **menilai** kapan AI membantu dan kapan tidak
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}

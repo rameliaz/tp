@@ -17,24 +17,15 @@ execute:
   echo: true
 ---
 
-## _Outline_
+## Agenda {.agenda-slide}
 
-::: {.incremental}
-* **Apa sebenarnya akal imitasi?** — dari model statistik ke *large language model*
-* **Bagaimana AI "dibesarkan"** — *pre-training*, *fine-tuning*, dan *reinforcement learning from human feedback*
-* ***Automation* vs. *augmentation*** — kapan AI menggantikan, kapan AI melengkapi manusia?
-* ***Reinforcement learning* untuk kolaborasi manusia-AI** — mekanisme di balik kolaborasi yang adaptif
-* **Risiko epistemik** dalam kolaborasi manusia-AI — kapan kita salah tanpa menyadarinya
-* ***The effortless trap*, *cognitive debt*, dan *productive struggle*** — kapan bantuan AI justru menghambat belajar
-* **Sintesis**: merancang kolaborasi manusia-AI yang baik
-:::
-
-::: aside
-***Disclosure* penggunaan AI**
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline* dan menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
-:::
+1. **Apa sebenarnya akal imitasi?**
+2. **Bagaimana AI "dibesarkan"**
+3. ***Automation* vs. *augmentation***
+4. ***Reinforcement learning* untuk kolaborasi manusia-AI**
+5. **Risiko epistemik dalam kolaborasi manusia-AI**
+6. ***The effortless trap*, *cognitive debt*, dan *productive struggle***
+7. **Sintesis**
 
 # Apa Sebenarnya Akal Imitasi? 🤖 {background-color="#14497F"}
 
@@ -155,7 +146,7 @@ Sumber: [Ghali, et al. (2024)](https://www.researchgate.net/publication/38110881
 :::
 :::
 
-## Dari *chatbot* ke *agentic* dan *embodied* AI
+## *Chatbot*, *reasoning model*, *agent*, dan *embodied* AI
 
 ::: {.columns}
 ::: {.column width="60%"}
@@ -337,7 +328,7 @@ RLHF pada dasarnya adalah **augmentasi di tingkat pelatihan model**: bukan manus
 
 # Risiko Epistemik dalam Kolaborasi Manusia-AI 🌀 {background-color="#14497F"}
 
-## Bukan cuma soal performa, tapi soal *bagaimana kita tahu*
+## Risiko epistemik: yang tak terlihat di metrik performa
 
 ::: {.incremental}
 * Sejauh ini kita membahas kolaborasi manusia-AI dari sisi **performa** (akurasi, kecepatan, efisiensi)
@@ -370,7 +361,7 @@ Semakin "dipoles" lewat RLHF supaya terasa membantu dan sopan, sebuah model **be
 
 ::: {.incremental}
 * [Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) — bacaan wajib Anda — menunjukkan bahwa AI generatif yang dipakai secara tidak tepat bisa menciptakan **ilusi belajar**: rasa percaya diri menguasai materi yang **runtuh** begitu diuji tanpa bantuan AI
-* Risiko epistemiknya bersifat ganda: bukan hanya salah paham, tapi **tidak menyadari** bahwa diri sendiri salah paham — inilah yang membuatnya berbahaya
+* Risiko epistemiknya ganda: salah paham, dan **tidak menyadari** bahwa diri sendiri salah paham — kombinasi itu yang berbahaya
 * Terhubung dengan konsep **kegagalan *invisible*** [(Potts & Sudhof, 2026)](https://doi.org/10.48550/arXiv.2604.25905): percakapan dengan AI terasa sukses, padahal pemahaman yang terbentuk keliru atau dangkal — akan dibahas lebih dalam pada sesi *AI fluency*
 :::
 
@@ -379,17 +370,17 @@ Semakin "dipoles" lewat RLHF supaya terasa membantu dan sopan, sebuah model **be
 Kapan terakhir kali Anda **merasa yakin** memahami sesuatu setelah berdiskusi dengan AI, tapi ternyata tidak bisa menjelaskannya ulang tanpa membuka kembali percakapan tersebut?
 :::
 
-## Bukti konkret: desain alatnya, bukan alatnya, yang menentukan
+## Bukti konkret: desain penempatan AI yang menentukan
 
 ::: {.incremental}
 * **RCT hampir 1.000 siswa SMA matematika** [(Bastani et al., 2025)](https://doi.org/10.1073/pnas.2422633122): kelompok dengan AI **tanpa pengaman** (langsung memberi jawaban) tampil lebih baik **selama** latihan, tapi skor **17% lebih rendah** dibanding kelompok tanpa akses AI sama sekali pada ujian mandiri
 * Kelompok dengan AI **berpengaman** (menahan jawaban, memberi petunjuk ala guru) memakai model yang **sama persis** — dan kerugian itu **hilang**
-* **Kesimpulannya tajam:** bukan kehadiran AI yang merusak pembelajaran, tapi **desain perannya** — memberi jawaban di titik yang seharusnya diperjuangkan siswa sendiri
+* **Kesimpulan:** bukan kehadiran AI yang merusak pembelajaran, tapi **desain perannya** — memberi jawaban di titik yang seharusnya diperjuangkan siswa sendiri
 :::
 
 ::: {.callout-note}
 ### Sisi sebaliknya
-Sebuah RCT terpisah pada mahasiswa fisika menemukan tutor AI yang dirancang cermat menghasilkan **lebih dari 2 kali lipat** pembelajaran dibanding kelas *active-learning* yang kuat — dalam waktu **lebih singkat** [(Kestin et al., 2025)](https://doi.org/10.1038/s41598-025-97652-6). AI bukan musuh pembelajaran; **penempatannya** yang menentukan.
+Sebuah RCT terpisah pada mahasiswa fisika menemukan tutor AI yang dirancang cermat menghasilkan **lebih dari 2 kali lipat** pembelajaran dibanding kelas *active-learning* yang kuat — dalam waktu **lebih singkat** [(Kestin et al., 2025)](https://doi.org/10.1038/s41598-025-97652-6). **Penempatannya** yang menentukan hasil belajar.
 :::
 
 ## Mengapa "terasa mudah" bisa menipu
@@ -475,7 +466,7 @@ Bagian ini menjembatani ke sesi berikutnya. Tekankan bahwa risiko epistemik berb
 ## Rangkuman
 
 ::: {.incremental}
-* AI adalah model statistik yang "dibesarkan" lewat *pre-training* dan *fine-tuning* (termasuk RLHF) — bukan entitas yang benar-benar "berpikir".
+* AI: model statistik yang "dibesarkan" lewat *pre-training* dan *fine-tuning* (termasuk RLHF) — bukan entitas yang benar-benar "berpikir".
 * ***Automation*** menggantikan manusia; ***augmentation*** melengkapi manusia lewat saran — pilihannya bergantung pada jenis *complementarity* yang tersedia.
 * Bukti empiris menunjukkan kombinasi automasi + augmentasi + realokasi sumber daya manusia memberi hasil **terbaik**.
 * ***Reinforcement learning*** (termasuk RLHF) adalah mekanisme di balik AI yang terus beradaptasi lewat interaksi dengan manusia — tapi tetap menghadapi tantangan keselarasan, adaptabilitas, dan koordinasi.
@@ -484,15 +475,22 @@ Bagian ini menjembatani ke sesi berikutnya. Tekankan bahwa risiko epistemik berb
 * Kolaborasi yang terlalu erat berisiko mengikis *tacit knowledge* manusia (dan berpotensi menimbulkan *cognitive debt*) — pertanyaan yang akan kita dalami lebih jauh di sesi tentang *AI literacy* dan *fluency*.
 :::
 
-## Ada pertanyaan❓
+## Terima kasih!😊 {.closing-slide}
 
-![](libs/closing.JPG){fig-align="center"}
+::: {.closing-subtitle}
+Ada pertanyaan?
+:::
 
-::: {.callout-note}
-### Catatan
+::: {.closing-contact}
+* [ ]{.fa-solid .fa-envelope .fa-fw} [amelia.zein@psikologi.unair.ac.id](mailto:amelia.zein@psikologi.unair.ac.id)
+* [ ]{.fa-solid .fa-globe .fa-fw} https://rameliaz.github.io/
+* [ ]{.fa-brands .fa-discord .fa-fw} [@rameliaz](https://discord.com/users/807046335613632555)
+* [ ]{.fa-brands .fa-keybase .fa-fw} [@rameliaz](https://keybase.io/rameliaz)
+* [ ]{.fa-brands .fa-github .fa-fw} [@rameliaz](https://github.com/rameliaz)
+:::
 
-* Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [**Quarto**](https://quarto.org) dengan *template* dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
-* Kontak saya via <i class="fas fa-paper-plane"></i> <a href="mailto:amelia.zein@psikologi.unair.ac.id">amelia.zein@psikologi.unair.ac.id</a>
+::: {.closing-note}
+Paparan disusun dengan menggunakan {{< fa brands r-project >}} dan [Quarto](https://quarto.org/) dengan template dari [UNAIR Theme](https://github.com/rameliaz/quarto-unair-theme).
 :::
 
 ## Rujukan {.scrollable .smaller}
