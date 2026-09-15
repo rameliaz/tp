@@ -2,14 +2,13 @@
 title: "Teknologi dalam Pembelajaran"
 ---
 
-::: {.callout-warning}
-#### *Work in Progress* 👷‍♀️
-Materi mata kuliah ini sedang disusun secara bertahap, sehingga sebagian besar materi belum selesai ditulis.
-:::
+## Materi Matrikulasi Magister Psikologi 2026/2027
 
-## Materi Matrikulasi S2 Mapsi 2026/2027
+* [Berkolaborasi dengan Akal Imitasi](slides/matrikulasi-mapsi.qmd)
 
-* [Berkolaborasi dengan Akal Imitasi](slides/matrikulasi-mapsi.qmd) — Pengantar *AI Fluency* untuk Mahasiswa Magister Psikologi
+## Materi *Mini-Workshop* untuk Penyusunan Tesis Magister Psikologi 2026/2027
+
+* [Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir](slides/mini-workshop.qmd)
 
 ## Rencana Pertemuan MK Teknologi dalam Pembelajaran (FPS25801105)
 

@@ -17,19 +17,16 @@ website:
   title: "Teknologi dalam Pembelajaran"
   repo-url: https://github.com/rameliaz/tp
   repo-actions: [edit, source, issue]  
-  repo-branch: master    
-  navbar:
-    left:
-      - href: https://rameliaz.github.io/
-        icon: house
-        text: "oleh Rizqy Amelia Zein"
-      - icon: github
-        href: https://github.com/rameliaz/tp
-    right:
+  repo-branch: master
+  sidebar:
+    style: docked
+    contents:
+      - text: "Beranda"
+        href: index.qmd
       - text: "Jadwal"
-        href: index.html#rencana-pertemuan
-      - text: "Materi"
-        menu:
+        href: index.html#rencana-pertemuan        
+      - section: "Materi"
+        contents:
           - text: "Matrikulasi MaPsi — Berkolaborasi dengan Akal Imitasi"
             href: slides/matrikulasi-mapsi.html
           - text: "Mini-Workshop Persiapan Tesis"
@@ -42,6 +39,14 @@ website:
             href: slides/pertemuan10.html
           - text: "TM 11 — Asesmen Pembelajaran"
             href: slides/pertemuan11.html
+  navbar:
+    left:
+      - href: https://rameliaz.github.io/
+        icon: house
+        text: "oleh Rizqy Amelia Zein"
+      - icon: github
+        href: https://github.com/rameliaz/tp
+    right:
       - icon: envelope
         href: "mailto:amelia.zein@psikologi.unair.ac.id"
       - icon: github
@@ -65,8 +70,8 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: sandstone
+      dark: slate
     toc: true
     toc-float: true
     toc-depth: 3
