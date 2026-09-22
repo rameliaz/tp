@@ -64,13 +64,13 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk menyusun *draft* awal *slide
 * Konsekuensinya: **Andalah yang bertanggung jawab** atas apa pun yang dihasilkan AI dan Anda pakai dalam tugas akhir Anda.
 :::
 
-## Sejarah singkat AI, dipadatkan jadi lima titik
+## Sejarah singkat AI
 
 ::: {.columns}
 ::: {.column width="55%"}
 ::: {.incremental}
-* 1950–80an: AI simbolik, sistem pakar berbasis aturan.
-* 1990–2000an: *machine learning* mulai belajar dari data (mis. penyaring spam).
+* 1950–80an: AI simbolik, manusia menuliskan aturan logikanya satu per satu (*expert systems*).
+* 1990–2000an: *machine learning* membuat keputusan berdasarkan data (mis. penyaring spam).
 * 2010an: *deep learning* dan *natural language processing* semakin matang.
 * 2017: arsitektur ***transformer*** — titik balik yang memungkinkan LLM modern.
 * 2022 dst.: *generative AI* menjadi fenomena massal (GPT-3.5 dan seterusnya).
@@ -86,15 +86,17 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk menyusun *draft* awal *slide
 Sumber: *A Timeline of LLM Innovation* (Synthedia)
 :::
 
-## Cara kerja LLM, disederhanakan habis-habisan
+## Cara kerja LLM
 
-![](libs/animatedllm.png){fig-align="center" width="70%"}
+![](libs/animatedllm.png){fig-align="center" width="60%"}
+
+### Klik di sini ➡️ [AnimatedLLM](https://animatedllm.github.io/generation-simple)
 
 ::: {.callout-tip}
 ### Pertanyaan yang sebenarnya sedang dijawab LLM
 "Dari semua kata yang muncul sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?"
 
-Itu saja. Semua yang terasa seperti "pemahaman" adalah hasil model ini mengulang proses tersebut jutaan kali per respons, dalam skala parameter yang sangat besar.
+Itu saja. Respon yang "terlihat" sangat "meyakinkan" adalah hasil model ini mengulang proses tersebut jutaan kali per respons, dalam skala parameter yang sangat besar.
 :::
 
 ## Kenapa LLM bisa "paham" konteks kalimat
@@ -104,9 +106,9 @@ Itu saja. Semua yang terasa seperti "pemahaman" adalah hasil model ini mengulang
 Contoh: "Bisa **ular** itu amat mematikan" vs. "Saya **bisa** datang besok."
 
 ::: {.incremental}
-* Kata yang sama, makna berbeda total — tergantung kata-kata di sekitarnya.
+* Kata yang sama tetapi maknanya berbeda (homonim), tergantung konteks dari kalimat tsb.
 * Arsitektur ***transformer*** memungkinkan setiap kata "memperhatikan" (*attention*) semua kata lain dalam konteks, bukan cuma kata sebelumnya.
-* Ini juga yang membuat pelatihan LLM bisa dilakukan paralel dalam skala masif — bukan satu kata per satu waktu.
+* Ini juga yang membuat *model training* LLM bisa dilakukan paralel dalam skala masif.
 :::
 :::
 
@@ -116,30 +118,30 @@ Contoh: "Bisa **ular** itu amat mematikan" vs. "Saya **bisa** datang besok."
 :::
 
 ::: aside
-Vaswani dkk. (2017), "Attention is all you need"
+Vaswani dkk. (2017), ["Attention is all you need"](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 :::
 
-## Bagaimana LLM "dibesarkan"?
+## Bagaimana LLM dikembangkan?
 
 ::: {.incremental}
 1. ***Pre-training*** — model membaca miliaran contoh teks, belajar memprediksi kata berikutnya. Dari sini ia memperoleh "pengetahuan" bahasa dan dunia secara luas, tapi belum tahu cara berperilaku sebagai asisten.
-2. ***Fine-tuning*** — pelatihan tambahan (termasuk dengan umpan balik manusia) agar model mengikuti instruksi, bersikap membantu, dan menolak permintaan berbahaya.
+2. ***Fine-tuning*** — pelatihan tambahan (termasuk dengan umpan balik manusia) agar model mengikuti instruksi, memberikan repson dengan *tone* membantu, dan menolak permintaan yang berisiko.
 3. ***Deployment*** — Anda memberi *prompt*, model merespons berdasarkan gabungan pola dari pelatihan dan konteks yang Anda berikan.
 :::
 
 ::: {.callout-tip}
-### Analogi psikologis
+### Analoginya dengan proses belajar manusia
 ***Pre-training* ≈** pemerolehan bahasa dan pengetahuan. ***Fine-tuning* ≈** sosialisasi — belajar norma tentang *bagaimana* menggunakan kemampuan itu secara pantas.
 :::
 
-## Kenapa kemampuannya melompat drastis sejak 2022?
+## Kenapa kemampuannya melonjak drastis sejak 2022?
 
 ::: {.columns}
 ::: {.column width="55%"}
 ::: {.incremental}
 * **Arsitektur** — *transformer* bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (*scaling laws*).
 * **Data** — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode).
-* **Komputasi** — lonjakan daya komputasi (GPU, pusat data) yang dibutuhkan untuk benar-benar melatih model sebesar itu.
+* **Daya Komputasi** — lonjakan daya komputasi (GPU, pusat data) yang dibutuhkan untuk benar-benar melatih model sebesar itu.
 :::
 :::
 
@@ -150,7 +152,7 @@ Vaswani dkk. (2017), "Attention is all you need"
 
 ::: {.callout-note}
 ### *Emergent capabilities*
-Pada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit — misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu hal paling mengejutkan tentang LLM, dan salah satu alasan perilakunya sulit diprediksi sepenuhnya.
+Pada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit, misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu hal paling mengejutkan tentang LLM, dan salah satu alasan perilakunya sulit diprediksi sepenuhnya. [Rumornya](https://dealroom.co/news/150681-rumors-swirl-that-google-deepmind-is-nearing-autonomous-rsi-as-brin-push/), ada *model developer* yang berhasil mengembangkan [*self-recursive* LLM](https://en.wikipedia.org/wiki/Recursive_self-improvement).
 :::
 
 ## *Chatbot*, *reasoning model*, *agent* — tiga tingkat otonomi
@@ -174,18 +176,15 @@ Pada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram se
 Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent* — bukan sekadar *chatbot* yang Anda ajak bicara satu per satu. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.
 :::
 
-## Keterbatasan yang perlu Anda ingat sejak awal
+## Keterbatasan LLM 🚩🚩🚩
 
 ::: {.incremental}
 * ***Hallucination*** — menyatakan sesuatu yang salah dengan nada percaya diri yang sama seperti saat ia benar. Termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada.
 * **Batas pengetahuan** (*knowledge cutoff*) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian.
+  + Tetapi, sebagian besar model *frontier* yang bisa melakukan pencarian langsung di internet tidak punya kelemahan ini.
 * **Batas konteks** — ada jumlah maksimum teks yang bisa "diingat" model dalam satu sesi.
 * **Penalaran yang rapuh** — perubahan kecil pada cara Anda memformulasikan pertanyaan bisa menghasilkan jawaban yang sangat berbeda.
 * ***Sycophancy*** — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan Anda.
-:::
-
-::: notes
-Bagian ini ±20 menit. Tekankan bahwa "akal imitasi" bukan istilah merendahkan — ia framing yang jujur tentang apa yang sebenarnya sedang berinteraksi dengan mahasiswa. Kaitkan larik terakhir (sycophancy) dengan bagian Discernment nanti.
 :::
 
 # Bagaimana dan Untuk Apa Peneliti Menggunakan AI? 📊 {background-color="#14497F"}
@@ -199,7 +198,7 @@ Bagian ini ±20 menit. Tekankan bahwa "akal imitasi" bukan istilah merendahkan �
 :::
 
 ::: aside
-Chatterji dkk. (2025)
+[Chatterji dkk. (2025)](https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf)
 :::
 
 ## Tiga cara orang "berhubungan" dengan AI
@@ -213,11 +212,11 @@ Chatterji dkk. (2025)
 
 ::: {.callout-caution}
 ### Yang perlu Anda waspadai
-Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda menyerahkan penilaian — bukan cuma pekerjaan — ke AI. Bagian *Discernment* nanti akan membahas kenapa ini penting.
+Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda menyerahkan proses evaluasi *output* ke AI. Bagian *Discernment* nanti akan membahas kenapa ini penting.
 :::
 
 ::: aside
-Chatterji dkk. (2025)
+[Chatterji dkk. (2025)](https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf)
 :::
 
 ## Tapi bagaimana dengan peneliti secara khusus?
@@ -229,7 +228,7 @@ Chatterji dkk. (2025)
 :::
 
 ::: aside
-Van Noorden & Perkel (2023)
+[Van Noorden & Perkel (2023)](https://www.nature.com/articles/d41586-023-02980-0)
 :::
 
 ## Untuk apa peneliti sebenarnya memakainya?
@@ -241,10 +240,10 @@ Van Noorden & Perkel (2023)
 :::
 
 ::: aside
-Van Noorden & Perkel (2023); Alvero dkk. (2025)
+[Van Noorden & Perkel (2023)](https://www.nature.com/articles/d41586-023-02980-0); [Alvero dkk. (2026)](https://sociologicalscience.com/download/volume-13/january/SocSci_v13_45to62.pdf)
 :::
 
-## Peneliti sendiri yang paling khawatir
+## Peneliti adalah kelompok yang paling khawatir
 
 ::: {.incremental}
 * 69% khawatir AI mendorong **ketergantungan pada pengenalan pola tanpa pemahaman**.
@@ -255,11 +254,11 @@ Van Noorden & Perkel (2023); Alvero dkk. (2025)
 
 ::: {.callout-important}
 ### Catatan penting
-Kekhawatiran ini datang dari peneliti yang sudah memakai AI — kekhawatiran dan pemakaian berjalan bersamaan.
+Kekhawatiran ini datang dari peneliti yang sudah memakai AI, karena kekhawatiran dan pemakaian bisa berjalan bersamaan.
 :::
 
 ::: aside
-Van Noorden & Perkel (2023)
+[Van Noorden & Perkel (2023)](https://www.nature.com/articles/d41586-023-02980-0)
 :::
 
 ::: notes
@@ -428,13 +427,16 @@ Alvero dkk. (2025)
 ## Penelusuran dan tinjauan literatur
 
 ::: {.incremental}
-* Alat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal — sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (*seed paper*) untuk mulai memberi rekomendasi yang relevan.
-* Tapi *chatbot* umum (ChatGPT, Claude, Gemini) **belum terbukti lebih baik** dari mesin pencari akademik biasa untuk tugas ini — basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.
+* Alat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal. 
+  + Sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (*seed paper*) untuk mulai memberi rekomendasi yang relevan.
+
+* Tapi *chatbot* umum (ChatGPT, Claude, Gemini) **belum terbukti lebih baik** dari mesin pencari akademik biasa untuk tugas ini. 
+  + Basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.
 :::
 
 ::: {.callout-caution}
-### Kebiasaan yang wajib Anda bentuk
-Jangan pernah menyalin sitasi hasil AI langsung ke daftar pustaka. Selalu telusuri sumber aslinya lewat tautan yang diberikan alat tersebut — bukan lewat ringkasan yang dihasilkan AI.
+### Penting diingat
+Jangan pernah menyalin sitasi hasil AI langsung ke daftar pustaka. Selalu telusuri sumber aslinya lewat tautan yang disediakan, jangan mengandalkan ringkasan yang dihasilkan AI.
 :::
 
 ::: aside
@@ -447,8 +449,8 @@ Bolaños dkk. (2024); Lahrsow & Baumgarten (2026)
 ::: {.column width="60%"}
 ::: {.incremental}
 * AI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis.
-* Contoh nyata: alat *Psychometric Item Generator* menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat — versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.
-* Tapi tetap ada batas nyata: dalam satu studi, sekitar **25% saran skala kriteria** dari ChatGPT untuk validasi konstruk ternyata bermasalah — sebagian bahkan tidak benar-benar ada.
+* Contoh: alat *Psychometric Item Generator* menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat, versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.
+* Tapi tetap ada batasnya: dalam satu studi, sekitar **25% saran skala kriteria** dari ChatGPT untuk validasi konstruk ternyata bermasalah, dan sebagian lagi bahkan tidak benar-benar ada.
 :::
 :::
 
@@ -718,7 +720,7 @@ Dalam seminggu ke depan, susun **strategi/kebijakan pribadi Anda dalam menggunak
 Renungkan 4️⃣ poin di bawah:
 
 ::: {.incremental}
-1. Kapan (dan untuk apa) saya akan — dan tidak akan — menggunakan AI?
+1. Kapan (dan untuk apa) saya **akan**, dan **tidak akan**, menggunakan AI?
 2. Batasan apa yang saya tetapkan untuk data dan informasi sensitif?
 3. Bagaimana saya memverifikasi karya yang dibantu AI sebelum diserahkan ke dosen?
 4. Bagaimana saya mengungkapkan penggunaan AI kepada dosen pembimbing?

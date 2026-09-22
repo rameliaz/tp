@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-14">
+  <meta name="dcterms.date" content="2026-09-22">
   <title>Teknologi dalam Pembelajaran – Human-AI Collaboration dan Reinforcement Learning from Human Feedback</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -38,7 +38,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-251ec9301427f96990f712d3bb75160d.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-fbe870f61a893d897a80f8f359f6c4c2.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -156,13 +156,12 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-14</p>
+  <p class="date">2026-09-22</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
 <ol type="1">
 <li><strong>Apa sebenarnya akal imitasi?</strong></li>
-<li><strong>Bagaimana AI “dibesarkan”</strong></li>
 <li><strong><em>Automation</em> vs.&nbsp;<em>augmentation</em></strong></li>
 <li><strong><em>Reinforcement learning</em> untuk kolaborasi manusia-AI</strong></li>
 <li><strong>Risiko epistemik dalam kolaborasi manusia-AI</strong></li>
@@ -353,16 +352,13 @@ Rizqy Amelia Zein
 <li class="fragment"><strong><em>Automation</em></strong> — AI <strong>menggantikan</strong> manusia sepenuhnya pada suatu tugas</li>
 <li class="fragment"><strong><em>Augmentation</em></strong> — AI <strong>memberi saran</strong> (<em>advice</em>) kepada manusia, yang kemudian mengambil keputusan akhir — disebut <strong><em>judge-advisor system</em></strong></li>
 </ul>
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-note callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Pertanyaan penelitiannya</strong></p>
-</div>
 <div class="callout-content">
-<p>Bukan “AI atau manusia?”, tapi: <strong>kapan</strong> sebaiknya AI menggantikan, <strong>kapan</strong> sebaiknya AI mendampingi, dan <strong>kapan</strong> manusia sebaiknya bekerja tanpa AI sama sekali?</p>
+<p><strong>Kapan</strong> sebaiknya AI menggantikan, <strong>kapan</strong> sebaiknya AI mendampingi, dan <strong>kapan</strong> manusia sebaiknya bekerja tanpa AI sama sekali?</p>
 </div>
 </div>
 </div>
@@ -385,7 +381,7 @@ Rizqy Amelia Zein
 </div></aside></section>
 <section id="bukti-empiris-klasifikasi-gambar" class="slide level2">
 <h2>Bukti empiris: klasifikasi gambar</h2>
-<p>Studi eksperimental (klasifikasi gambar dari ImageNet) membandingkan performa akurasi:</p>
+<p>Studi eksperimental (klasifikasi gambar dari ImageNet, <a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener, Walzner, &amp; Gupta (2026)</a>) membandingkan performa akurasi:</p>
 <ul>
 <li class="fragment"><strong>Manusia sendirian</strong>: 68%</li>
 <li class="fragment"><strong><em>Automation</em> (AI sendirian)</strong>: 77%</li>
@@ -428,33 +424,33 @@ Rizqy Amelia Zein
 </div>
 </div>
 </section>
-<section id="studi-kasus-dunia-nyata-kapan-manusia-sebaiknya-override-ai" class="slide level2">
-<h2>Studi kasus dunia nyata: kapan manusia sebaiknya <em>override</em> AI?</h2>
+<section id="studi-kasus-kapan-manusia-sebaiknya-melakukan-override" class="slide level2">
+<h2>Studi kasus: kapan manusia sebaiknya melakukan <em>override</em>?</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Kesavan &amp; Kushwaha (2020) — Eksperimen lapangan di ritel suku cadang otomotif</strong></p>
+<p><strong><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3743">Kesavan &amp; Kushwaha (2020)</a> — Eksperimen lapangan di ritel suku cadang otomotif</strong></p>
 </div>
 <div class="callout-content">
-<p>Karyawan diberi opsi meng-<em>override</em> rekomendasi alat <em>data-driven</em>.</p>
+<p>Karyawan diberi opsi meng-<em>override</em> rekomendasi alat yang memberikan informasi <em>data-driven</em>.</p>
 </div>
 </div>
 </div>
 <ul>
-<li class="fragment">Untuk produk <strong>tahap pertumbuhan</strong> (data historis sedikit) — manusia yang meng-<em>override</em> alat (<strong>augmentasi</strong>) tampil <strong>lebih baik</strong></li>
-<li class="fragment">Untuk produk <strong>tahap matang/menurun</strong> (data historis banyak) — mengikuti rekomendasi alat (<strong>automasi</strong>) tampil <strong>lebih baik</strong></li>
-<li class="fragment"><strong>Implikasinya:</strong> ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi lebih berharga</li>
+<li class="fragment">Ketika produk masih di <strong>tahap pertumbuhan</strong> (data historis sedikit) — manusia yang meng-<em>override</em> alat (<strong>augmentasi</strong>) performa <strong>lebih baik</strong></li>
+<li class="fragment">Ketika produk sudah di <strong>tahap matang/menurun</strong> (data historis banyak) — mengikuti rekomendasi alat (<strong>automasi</strong>) performa <strong>lebih baik</strong></li>
+<li class="fragment"><strong>Implikasinya:</strong> ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi pembeda performa</li>
 </ul>
 </section>
-<section id="bayang-bayang-di-masa-depan-risiko-kehilangan-tacit-knowledge" class="slide level2">
-<h2>Bayang-bayang di masa depan: risiko kehilangan <em>tacit knowledge</em></h2>
+<section id="risiko-kehilangan-tacit-knowledge" class="slide level2">
+<h2>Risiko kehilangan <em>tacit knowledge</em></h2>
 <ul>
 <li class="fragment"><em>Complementarity</em> manusia-AI mengandaikan manusia punya <strong>pengetahuan tak-terkodifikasi</strong> (<em>tacit knowledge</em>) yang tidak dimiliki AI</li>
-<li class="fragment">Tapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko <strong>berhenti berpikir aktif</strong> tentang tugasnya — dan <em>tacit knowledge</em> itu sendiri terancam hilang</li>
-<li class="fragment">Ini persis kekhawatiran <strong><em>deskilling</em></strong> yang akan kita bahas lebih dalam di sesi tentang <em>AI fluency</em> — kolaborasi yang nyaman hari ini bisa mengikis kompetensi jangka panjang</li>
+<li class="fragment">Tapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko <strong>berhenti berpikir aktif</strong> tentang tugasnya, dan <em>tacit knowledge</em> itu sendiri terancam hilang</li>
+<li class="fragment">Ini persis kekhawatiran soal <strong><em>deskilling</em></strong> yang akan kita bahas lebih dalam di sesi tentang <em>AI fluency</em></li>
 </ul>
 
 <aside><div>
@@ -467,10 +463,10 @@ Rizqy Amelia Zein
 </section>
 <section id="mengapa-reinforcement-learning" class="slide level2">
 <h2>Mengapa <em>reinforcement learning</em>?</h2>
-<p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li et al.&nbsp;(2025)</a> meninjau bagaimana <em>reinforcement learning</em> (RL) — AI yang belajar lewat mekanisme <em>reward</em> dan <em>trial-and-error</em> — memperkuat kolaborasi manusia-AI:</p>
+<p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li et al.&nbsp;(2025)</a> meninjau bagaimana <em>reinforcement learning</em> (RL), yang artinya AI yang belajar lewat mekanisme <em>reward</em> dan <em>trial-and-error</em>, dapat memperkuat kolaborasi manusia-AI:</p>
 <ul>
-<li class="fragment">RL cocok untuk kolaborasi karena <strong>adaptif</strong>: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan — tidak seperti aturan statis</li>
-<li class="fragment">Kolaborasi terjadi lewat <strong><em>umpan balik dua arah</em></strong>: interaksi manusia menjadi sinyal <em>training</em> untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan <strong>hak veto</strong> manusia pada keputusan kritis</li>
+<li class="fragment">RL cocok untuk kolaborasi karena <strong>adaptif</strong>: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan.</li>
+<li class="fragment">Kolaborasi terjadi lewat <strong><em>umpan balik dua arah</em></strong>: interaksi manusia menjadi sinyal <em>training</em> untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan kemungkinan manusia melakukan <em>override</em> pada keputusan yang penting.</li>
 </ul>
 </section>
 <section id="pembagian-peran-manusia-dan-sistem-ai" class="slide level2">
@@ -520,22 +516,12 @@ Rizqy Amelia Zein
 <aside><div>
 <p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li, Liu, Huang, &amp; Hussain (2025)</a></p>
 </div></aside></section>
-<section id="bukti-empiris-rl-dibanding-metode-lain" class="slide level2">
-<h2>Bukti empiris: RL dibanding metode lain</h2>
-<p>Perbandingan performa RL vs.&nbsp;metode non-RL (klasifikasi tradisional, <em>behavior cloning</em>, <em>imitation learning</em>) di 4 ranah kolaborasi manusia-AI:</p>
-<ul>
-<li class="fragment"><strong>Tugas pengepakan (<em>packaging</em>)</strong> — RL unggul <strong>36%</strong> lebih tinggi dibanding klasifikasi <em>supervised</em></li>
-<li class="fragment"><strong>Permainan kolaboratif <em>Overcooked</em></strong> — RL unggul <strong>273%</strong> dibanding strategi <em>self-play</em></li>
-<li class="fragment"><strong>Resep olahraga personal</strong> — RL meningkatkan akurasi keputusan <strong>15%</strong>, konsisten pada pengguna dengan kebutuhan kognisi rendah maupun tinggi</li>
-<li class="fragment"><strong>Mengemudi otonom</strong> — RL dengan umpan balik manusia mencapai <strong>85%</strong> tingkat keberhasilan, dibanding <strong>0%</strong> untuk pendekatan <em>imitation learning</em> murni</li>
-</ul>
-</section>
 <section id="tiga-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl" class="slide level2">
 <h2>Tiga tantangan utama kolaborasi manusia-AI berbasis RL</h2>
 <ol type="1">
 <li class="fragment"><strong>Keselarasan dengan perilaku manusia</strong> (<em>alignment</em>) — perilaku manusia dipengaruhi bias kognisi, emosi, dan konteks yang sulit diprediksi AI secara presisi</li>
 <li class="fragment"><strong>Adaptabilitas di lingkungan dinamis</strong> — dunia nyata jauh lebih bervariasi daripada kondisi <em>training</em> yang terkendali; AI harus mampu beradaptasi pada perubahan yang belum pernah dilihat</li>
-<li class="fragment"><strong>Komunikasi dan koordinasi</strong> — terutama saat AI harus berkoordinasi dengan <strong>banyak</strong> manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal (mis. robot kolaboratif di lingkungan industri)</li>
+<li class="fragment"><strong>Komunikasi dan koordinasi</strong> — terutama saat AI harus berkoordinasi dengan <strong>banyak</strong> manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal</li>
 </ol>
 </section>
 <section id="rlhf-rl-dari-umpan-balik-manusia" class="slide level2">
@@ -575,9 +561,9 @@ Rizqy Amelia Zein
 <section id="ironi-rlhf-melatih-sycophancy-bukan-kebenaran" class="slide level2">
 <h2>Ironi RLHF: melatih <em>sycophancy</em>, bukan kebenaran</h2>
 <ul>
-<li class="fragment">Ingat <em>sycophancy</em> pada slide “keterbatasan AI” di awal sesi? Ternyata itu <strong>bukan kebetulan</strong> — ia berakar pada cara RLHF melatih model</li>
-<li class="fragment"><a href="https://arxiv.org/abs/2310.13548">Sharma et al.&nbsp;(2023)</a> menemukan: manusia (dan model <em>reward</em> yang meniru preferensi manusia) <strong>lebih memilih</strong> jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi — pada sebagian kasus yang tidak sedikit</li>
-<li class="fragment">Karena <em>reward model</em> dilatih dari preferensi manusia semacam ini, <strong>optimisasi RLHF bisa secara sistematis mendorong model ke arah “menyenangkan”, bukan “benar”</strong></li>
+<li class="fragment">Ingat <em>sycophancy</em> pada slide “keterbatasan AI” di awal sesi? Ia ternyata berakar pada cara RLHF melatih model</li>
+<li class="fragment"><a href="https://arxiv.org/abs/2310.13548">Sharma et al.&nbsp;(2023)</a> menemukan bahwa manusia (dan model <em>reward</em> yang meniru preferensi manusia) <strong>lebih memilih</strong> jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi, pada kebanyakan kasus</li>
+<li class="fragment">Karena <em>reward model</em> dilatih dari preferensi manusia semacam ini, <strong>optimisasi RLHF bisa secara sistematis mendorong model ke arah “menyenangkan” <em>user</em>, bukan “benar secara faktual”</strong></li>
 </ul>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -588,7 +574,7 @@ Rizqy Amelia Zein
 <p><strong>Implikasinya</strong></p>
 </div>
 <div class="callout-content">
-<p>Semakin “dipoles” lewat RLHF supaya terasa membantu dan sopan, sebuah model <strong>berpotensi</strong> semakin pandai terdengar meyakinkan — tanpa proporsional lebih akurat. Kefasihan bahasa AI <strong>bukan</strong> jaminan kebenaran isinya.</p>
+<p>Semakin “dipoles” lewat RLHF supaya model terasa membantu dan sopan, sebuah model <strong>berpotensi</strong> semakin terdengar meyakinkan, tanpa memberikan proporsi yang memadai pada akurasi. Ingat, kefasihan bahasa AI <strong>bukan</strong> jaminan kebenaran isinya.</p>
 </div>
 </div>
 </div>
@@ -598,7 +584,7 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment">Ingat kerangka <em>augmentation</em> <a href="https://doi.org/10.1287/mnsc.2024.05684">(Fügener et al., 2026)</a>: manusia menerima <strong>saran</strong> AI, lalu memutuskan</li>
 <li class="fragment">Risiko epistemiknya: manusia cenderung <strong>terlalu percaya</strong> pada saran yang datang dari sistem yang tampak “objektif” dan konsisten (<strong><em>automation bias</em></strong>), terutama saat kelelahan atau tugasnya rutin</li>
-<li class="fragment">Augmentasi hanya benar-benar bermanfaat kalau manusia <strong>mampu membedakan</strong> saran AI yang benar dan salah — begitu kemampuan membedakan ini melemah, augmentasi diam-diam berubah menjadi automasi tanpa disadari</li>
+<li class="fragment">Augmentasi hanya benar-benar bermanfaat kalau manusia <strong>mampu membedakan</strong> saran AI yang benar dan salah</li>
 </ul>
 </section>
 <section id="ilusi-pemahaman-the-effortless-trap" class="slide level2">
@@ -701,8 +687,8 @@ Rizqy Amelia Zein
 <aside><div>
 <p><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić &amp; Frljić (2026)</a></p>
 </div></aside></section>
-<section id="aturan-penempatan-kapan-ai-boleh-masuk" class="slide level2">
-<h2>Aturan penempatan: kapan AI boleh masuk?</h2>
+<section id="aturan-penempatan-kapan-ai-boleh-digunakan" class="slide level2">
+<h2>Aturan penempatan: kapan AI boleh digunakan?</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1087,6 +1073,9 @@ Rizqy Amelia Zein
             titleLogo.src = _unairExtPath + 'logo.png';
             titleLogo.className = 'title-slide-logo';
             titleLogo.alt = 'Universitas Airlangga Logo';
+            // The logo has no intrinsic size until it loads, so a pre-load
+            // fitCoverFonts() call would see a 0x0 box and under-shrink the title.
+            titleLogo.onload = fitCoverFonts;
             slide.insertBefore(titleLogo, slide.firstChild);
           }
           return;
@@ -1109,16 +1098,133 @@ Rizqy Amelia Zein
         // If exactly one logo exists, just update its source
         if (existingLogos.length === 1) {
           existingLogos[0].src = logoSrc;
-        } 
+        }
         // If no logo exists, create one
         else if (existingLogos.length === 0) {
           const logo = document.createElement('img');
           logo.src = logoSrc;
           logo.className = 'slide-logo';
           logo.alt = 'Universitas Airlangga Logo';
+          // Same reasoning as titleLogo.onload above: the closing slide's heading
+          // needs the logo's real size to shrink against, not a pre-load 0x0 box.
+          if (slide.classList.contains('closing-slide')) logo.onload = fitCoverFonts;
           slide.appendChild(logo);
         }
       });
+    }
+
+    // Shrinks a cover heading's font size just enough that long text wraps
+    // without its top line reaching into the corner logo. Re-measures from the
+    // CSS max size each time rather than only ever shrinking further, so it
+    // recovers if the heading shortens (e.g. a resize changes how much wraps).
+    // Covers both slides that pair a big heading with a fixed-position logo in
+    // the same corner: the title slide (h1.title / .title-slide-logo) and the
+    // closing slide (its h2 / .slide-logo), which mirror each other's layout.
+    var UNAIR_COVER_FONT_MAX = 2.6;  // em, matches h1.title/.closing-slide h2 in airlangga.scss
+    var UNAIR_COVER_FONT_MIN = 1.3;  // em, floor so text stays readable
+    var UNAIR_COVER_FONT_STEP = 0.1; // em
+    var UNAIR_COVER_LOGO_GAP = 14;   // px clearance kept below the logo
+
+    function _unairFitCoverHeading(headingEl, logoEl) {
+      if (!headingEl || !logoEl) return;
+
+      var size = UNAIR_COVER_FONT_MAX;
+      headingEl.style.fontSize = size + 'em';
+
+      var headingRect = headingEl.getBoundingClientRect();
+      var logoRect = logoEl.getBoundingClientRect();
+
+      // Full rectangle-intersection test (all four half-plane checks), not just
+      // the two that happen to matter today — the heading is a block element
+      // that always spans the full container width, so the horizontal checks
+      // are currently trivial, but that's a property of the CSS, not of this
+      // function, and shouldn't be assumed here.
+      while (size > UNAIR_COVER_FONT_MIN &&
+        headingRect.left < logoRect.right &&
+        headingRect.right > logoRect.left &&
+        headingRect.bottom > logoRect.top &&
+        headingRect.top < logoRect.bottom + UNAIR_COVER_LOGO_GAP) {
+        size -= UNAIR_COVER_FONT_STEP;
+        headingEl.style.fontSize = size.toFixed(2) + 'em';
+        headingRect = headingEl.getBoundingClientRect();
+      }
+    }
+
+    function fitCoverFonts() {
+      var titleSlide = document.getElementById('title-slide');
+      if (titleSlide) {
+        _unairFitCoverHeading(titleSlide.querySelector('h1.title'), titleSlide.querySelector('.title-slide-logo'));
+      }
+
+      var closingSlide = document.querySelector('.reveal .slides section.closing-slide');
+      if (closingSlide) {
+        _unairFitCoverHeading(closingSlide.querySelector(':scope > h2'), closingSlide.querySelector('.slide-logo'));
+      }
+    }
+
+    // Shrinks `el`'s own font-size (off a cached natural baseline, so repeated
+    // calls don't compound and later-shorter content can grow back) until its
+    // rendered content no longer overflows `containerEl`'s laid-out height.
+    // Deliberately uses clientHeight/scrollHeight rather than
+    // getBoundingClientRect: those are layout metrics, unaffected by the CSS
+    // transform Reveal uses to scale the whole deck to fit the viewport, so the
+    // same authored-pixel comparison holds at any zoom level (see layoutSidebar
+    // above for the same distinction). Only meaningful while the element is
+    // actually laid out (not `display:none`) — i.e. while its slide is current.
+    function _unairShrinkToFit(el, containerEl, opts) {
+      if (!el || !containerEl) return;
+      opts = opts || {};
+      var min = opts.min || 0.5;    // floor, as a fraction of the natural size
+      var step = opts.step || 0.04; // fraction per iteration
+      var margin = opts.margin || 1; // shrink target = containerEl height * margin
+
+      if (el.dataset.unairBaseFontPx === undefined) {
+        var priorSize = el.style.fontSize;
+        el.style.fontSize = '';
+        el.dataset.unairBaseFontPx = parseFloat(getComputedStyle(el).fontSize);
+        el.style.fontSize = priorSize;
+      }
+      var basePx = parseFloat(el.dataset.unairBaseFontPx);
+      if (!basePx) return;
+
+      var factor = 1;
+      el.style.fontSize = (basePx * factor) + 'px';
+      var targetHeight = containerEl.clientHeight * margin;
+      while (factor > min && el.scrollHeight > targetHeight) {
+        factor -= step;
+        el.style.fontSize = (basePx * factor) + 'px';
+      }
+    }
+
+    // Quote slides (`.quote-slide`/`.quote-slide-dark`) centre `.quote-bubble`
+    // in a fixed-height, `overflow: hidden` section (airlangga.scss) — a long
+    // quote used to just get silently clipped top/bottom with no visual cue.
+    // Agenda slides (`.agenda-slide`) size their `ol` via CSS item-count
+    // breakpoints (`:has(li:nth-child(n))`), which handle item *count* but not
+    // long items that wrap to extra lines; this adds a dynamic pass on top of
+    // whatever size the CSS breakpoints land on.
+    // Only the current slide's content is laid out (non-`display:none`) at any
+    // given time, so — unlike fitCoverFonts, which targets the title/closing
+    // slides unconditionally by id/class — these run against whichever slide
+    // `slidechanged` just made current.
+    function fitOverflowContent() {
+      var current = Reveal.getCurrentSlide && Reveal.getCurrentSlide();
+      if (!current) return;
+
+      if (current.classList.contains('quote-slide') || current.classList.contains('quote-slide-dark')) {
+        var bubble = current.querySelector(':scope > .quote-bubble');
+        // 0.92: a little breathing room so the shrink target is reached just
+        // before the text would actually touch the slide's top/bottom edge.
+        _unairShrinkToFit(bubble, current, { min: 0.5, step: 0.04, margin: 0.92 });
+      }
+
+      if (current.classList.contains('agenda-slide')) {
+        var ol = current.querySelector(':scope > ol');
+        // The `ol` is its own fixed-height box (absolutely positioned via
+        // top/bottom in the SCSS), so it's both the shrinking element and the
+        // container its own content must fit inside.
+        _unairShrinkToFit(ol, ol, { min: 0.4, step: 0.04 });
+      }
     }
 
     // Sidebar label: the talk's short title. Prefers the `short-title` YAML
@@ -1208,17 +1314,25 @@ Rizqy Amelia Zein
             manageSidebar();
             layoutSidebar();
             manageLogos();
+            fitCoverFonts();
+            fitOverflowContent();
           } else {
             Reveal.on('ready', manageSidebar);
             Reveal.on('ready', layoutSidebar);
             Reveal.on('ready', manageLogos);
+            Reveal.on('ready', fitCoverFonts);
+            Reveal.on('ready', fitOverflowContent);
           }
           Reveal.on('resize', layoutSidebar);
+          Reveal.on('resize', fitCoverFonts);
+          Reveal.on('resize', fitOverflowContent);
           // Re-run on every slide change, like the logos: both are idempotent, and
           // this self-heals the rare load where the sidebar went missing.
           Reveal.on('slidechanged', manageSidebar);
           Reveal.on('slidechanged', layoutSidebar);
           Reveal.on('slidechanged', manageLogos);
+          Reveal.on('slidechanged', fitCoverFonts);
+          Reveal.on('slidechanged', fitOverflowContent);
         } else {
           setTimeout(manageLogos, 500);
         }

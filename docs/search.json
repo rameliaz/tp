@@ -48,11 +48,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#sejarah-singkat-ai-dipadatkan-jadi-lima-titik",
-    "href": "slides/mini-workshop.html#sejarah-singkat-ai-dipadatkan-jadi-lima-titik",
+    "objectID": "slides/mini-workshop.html#sejarah-singkat-ai",
+    "href": "slides/mini-workshop.html#sejarah-singkat-ai",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
-    "section": "Sejarah singkat AI, dipadatkan jadi lima titik",
-    "text": "Sejarah singkat AI, dipadatkan jadi lima titik\n\n\n\n1950–80an: AI simbolik, sistem pakar berbasis aturan.\n1990–2000an: machine learning mulai belajar dari data (mis. penyaring spam).\n2010an: deep learning dan natural language processing semakin matang.\n2017: arsitektur transformer — titik balik yang memungkinkan LLM modern.\n2022 dst.: generative AI menjadi fenomena massal (GPT-3.5 dan seterusnya).\n\n\n\n\n\n\n\n\n\n\nSumber: A Timeline of LLM Innovation (Synthedia)",
+    "section": "Sejarah singkat AI",
+    "text": "Sejarah singkat AI\n\n\n\n1950–80an: AI simbolik, manusia menuliskan aturan logikanya satu per satu (expert systems).\n1990–2000an: machine learning membuat keputusan berdasarkan data (mis. penyaring spam).\n2010an: deep learning dan natural language processing semakin matang.\n2017: arsitektur transformer — titik balik yang memungkinkan LLM modern.\n2022 dst.: generative AI menjadi fenomena massal (GPT-3.5 dan seterusnya).\n\n\n\n\n\n\n\n\n\n\nSumber: A Timeline of LLM Innovation (Synthedia)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -60,11 +60,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#cara-kerja-llm-disederhanakan-habis-habisan",
-    "href": "slides/mini-workshop.html#cara-kerja-llm-disederhanakan-habis-habisan",
+    "objectID": "slides/mini-workshop.html#cara-kerja-llm",
+    "href": "slides/mini-workshop.html#cara-kerja-llm",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
-    "section": "Cara kerja LLM, disederhanakan habis-habisan",
-    "text": "Cara kerja LLM, disederhanakan habis-habisan\n\n\n\n\n\n\n\nPertanyaan yang sebenarnya sedang dijawab LLM\n\n\n“Dari semua kata yang muncul sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?”\nItu saja. Semua yang terasa seperti “pemahaman” adalah hasil model ini mengulang proses tersebut jutaan kali per respons, dalam skala parameter yang sangat besar.",
+    "section": "Cara kerja LLM",
+    "text": "Cara kerja LLM\n\nKlik di sini ➡️ AnimatedLLM\n\n\n\n\n\n\nPertanyaan yang sebenarnya sedang dijawab LLM\n\n\n“Dari semua kata yang muncul sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?”\nItu saja. Respon yang “terlihat” sangat “meyakinkan” adalah hasil model ini mengulang proses tersebut jutaan kali per respons, dalam skala parameter yang sangat besar.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -76,7 +76,7 @@
     "href": "slides/mini-workshop.html#kenapa-llm-bisa-paham-konteks-kalimat",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
     "section": "Kenapa LLM bisa “paham” konteks kalimat",
-    "text": "Kenapa LLM bisa “paham” konteks kalimat\n\n\nContoh: “Bisa ular itu amat mematikan” vs. “Saya bisa datang besok.”\n\nKata yang sama, makna berbeda total — tergantung kata-kata di sekitarnya.\nArsitektur transformer memungkinkan setiap kata “memperhatikan” (attention) semua kata lain dalam konteks, bukan cuma kata sebelumnya.\nIni juga yang membuat pelatihan LLM bisa dilakukan paralel dalam skala masif — bukan satu kata per satu waktu.\n\n\n\n\n\n\n\n\n\n\nVaswani dkk. (2017), “Attention is all you need”",
+    "text": "Kenapa LLM bisa “paham” konteks kalimat\n\n\nContoh: “Bisa ular itu amat mematikan” vs. “Saya bisa datang besok.”\n\nKata yang sama tetapi maknanya berbeda (homonim), tergantung konteks dari kalimat tsb.\nArsitektur transformer memungkinkan setiap kata “memperhatikan” (attention) semua kata lain dalam konteks, bukan cuma kata sebelumnya.\nIni juga yang membuat model training LLM bisa dilakukan paralel dalam skala masif.\n\n\n\n\n\n\n\n\n\n\nVaswani dkk. (2017), “Attention is all you need”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -84,11 +84,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#bagaimana-llm-dibesarkan",
-    "href": "slides/mini-workshop.html#bagaimana-llm-dibesarkan",
+    "objectID": "slides/mini-workshop.html#bagaimana-llm-dikembangkan",
+    "href": "slides/mini-workshop.html#bagaimana-llm-dikembangkan",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
-    "section": "Bagaimana LLM “dibesarkan”?",
-    "text": "Bagaimana LLM “dibesarkan”?\n\nPre-training — model membaca miliaran contoh teks, belajar memprediksi kata berikutnya. Dari sini ia memperoleh “pengetahuan” bahasa dan dunia secara luas, tapi belum tahu cara berperilaku sebagai asisten.\nFine-tuning — pelatihan tambahan (termasuk dengan umpan balik manusia) agar model mengikuti instruksi, bersikap membantu, dan menolak permintaan berbahaya.\nDeployment — Anda memberi prompt, model merespons berdasarkan gabungan pola dari pelatihan dan konteks yang Anda berikan.\n\n\n\n\n\n\n\nAnalogi psikologis\n\n\nPre-training ≈ pemerolehan bahasa dan pengetahuan. Fine-tuning ≈ sosialisasi — belajar norma tentang bagaimana menggunakan kemampuan itu secara pantas.",
+    "section": "Bagaimana LLM dikembangkan?",
+    "text": "Bagaimana LLM dikembangkan?\n\nPre-training — model membaca miliaran contoh teks, belajar memprediksi kata berikutnya. Dari sini ia memperoleh “pengetahuan” bahasa dan dunia secara luas, tapi belum tahu cara berperilaku sebagai asisten.\nFine-tuning — pelatihan tambahan (termasuk dengan umpan balik manusia) agar model mengikuti instruksi, memberikan repson dengan tone membantu, dan menolak permintaan yang berisiko.\nDeployment — Anda memberi prompt, model merespons berdasarkan gabungan pola dari pelatihan dan konteks yang Anda berikan.\n\n\n\n\n\n\n\nAnaloginya dengan proses belajar manusia\n\n\nPre-training ≈ pemerolehan bahasa dan pengetahuan. Fine-tuning ≈ sosialisasi — belajar norma tentang bagaimana menggunakan kemampuan itu secara pantas.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -96,11 +96,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#kenapa-kemampuannya-melompat-drastis-sejak-2022",
-    "href": "slides/mini-workshop.html#kenapa-kemampuannya-melompat-drastis-sejak-2022",
+    "objectID": "slides/mini-workshop.html#kenapa-kemampuannya-melonjak-drastis-sejak-2022",
+    "href": "slides/mini-workshop.html#kenapa-kemampuannya-melonjak-drastis-sejak-2022",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
-    "section": "Kenapa kemampuannya melompat drastis sejak 2022?",
-    "text": "Kenapa kemampuannya melompat drastis sejak 2022?\n\n\n\nArsitektur — transformer bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (scaling laws).\nData — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode).\nKomputasi — lonjakan daya komputasi (GPU, pusat data) yang dibutuhkan untuk benar-benar melatih model sebesar itu.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmergent capabilities\n\n\nPada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit — misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu hal paling mengejutkan tentang LLM, dan salah satu alasan perilakunya sulit diprediksi sepenuhnya.",
+    "section": "Kenapa kemampuannya melonjak drastis sejak 2022?",
+    "text": "Kenapa kemampuannya melonjak drastis sejak 2022?\n\n\n\nArsitektur — transformer bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (scaling laws).\nData — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode).\nDaya Komputasi — lonjakan daya komputasi (GPU, pusat data) yang dibutuhkan untuk benar-benar melatih model sebesar itu.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmergent capabilities\n\n\nPada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit, misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu hal paling mengejutkan tentang LLM, dan salah satu alasan perilakunya sulit diprediksi sepenuhnya. Rumornya, ada model developer yang berhasil mengembangkan self-recursive LLM.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -120,11 +120,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#keterbatasan-yang-perlu-anda-ingat-sejak-awal",
-    "href": "slides/mini-workshop.html#keterbatasan-yang-perlu-anda-ingat-sejak-awal",
+    "objectID": "slides/mini-workshop.html#keterbatasan-llm",
+    "href": "slides/mini-workshop.html#keterbatasan-llm",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
-    "section": "Keterbatasan yang perlu Anda ingat sejak awal",
-    "text": "Keterbatasan yang perlu Anda ingat sejak awal\n\nHallucination — menyatakan sesuatu yang salah dengan nada percaya diri yang sama seperti saat ia benar. Termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada.\nBatas pengetahuan (knowledge cutoff) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian.\nBatas konteks — ada jumlah maksimum teks yang bisa “diingat” model dalam satu sesi.\nPenalaran yang rapuh — perubahan kecil pada cara Anda memformulasikan pertanyaan bisa menghasilkan jawaban yang sangat berbeda.\nSycophancy — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan Anda.\n\n\nBagian ini ±20 menit. Tekankan bahwa “akal imitasi” bukan istilah merendahkan — ia framing yang jujur tentang apa yang sebenarnya sedang berinteraksi dengan mahasiswa. Kaitkan larik terakhir (sycophancy) dengan bagian Discernment nanti.",
+    "section": "Keterbatasan LLM 🚩🚩🚩",
+    "text": "Keterbatasan LLM 🚩🚩🚩\n\nHallucination — menyatakan sesuatu yang salah dengan nada percaya diri yang sama seperti saat ia benar. Termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada.\nBatas pengetahuan (knowledge cutoff) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian.\n\nTetapi, sebagian besar model frontier yang bisa melakukan pencarian langsung di internet tidak punya kelemahan ini.\n\nBatas konteks — ada jumlah maksimum teks yang bisa “diingat” model dalam satu sesi.\nPenalaran yang rapuh — perubahan kecil pada cara Anda memformulasikan pertanyaan bisa menghasilkan jawaban yang sangat berbeda.\nSycophancy — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan Anda.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -148,7 +148,7 @@
     "href": "slides/mini-workshop.html#tiga-cara-orang-berhubungan-dengan-ai",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
     "section": "Tiga cara orang “berhubungan” dengan AI",
-    "text": "Tiga cara orang “berhubungan” dengan AI\n\nAsking — meminta informasi atau saran, keputusan tetap di tangan manusia.\nDoing — meminta AI menghasilkan atau menyelesaikan sesuatu secara langsung.\nExpressing — memakai AI untuk memproses pikiran/perasaan, bukan menghasilkan sesuatu yang konkret.\nUntuk pemakaian terkait pekerjaan secara spesifik, Doing mendominasi (±56%) — orang lebih banyak minta AI mengerjakan, bukan sekadar menyarankan.\n\n\n\n\n\n\n\nYang perlu Anda waspadai\n\n\nSemakin besar porsi Doing dibanding Asking, semakin besar pula risiko Anda menyerahkan penilaian — bukan cuma pekerjaan — ke AI. Bagian Discernment nanti akan membahas kenapa ini penting.\n\n\n\n\n\nChatterji dkk. (2025)",
+    "text": "Tiga cara orang “berhubungan” dengan AI\n\nAsking — meminta informasi atau saran, keputusan tetap di tangan manusia.\nDoing — meminta AI menghasilkan atau menyelesaikan sesuatu secara langsung.\nExpressing — memakai AI untuk memproses pikiran/perasaan, bukan menghasilkan sesuatu yang konkret.\nUntuk pemakaian terkait pekerjaan secara spesifik, Doing mendominasi (±56%) — orang lebih banyak minta AI mengerjakan, bukan sekadar menyarankan.\n\n\n\n\n\n\n\nYang perlu Anda waspadai\n\n\nSemakin besar porsi Doing dibanding Asking, semakin besar pula risiko Anda menyerahkan proses evaluasi output ke AI. Bagian Discernment nanti akan membahas kenapa ini penting.\n\n\n\n\n\nChatterji dkk. (2025)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -172,7 +172,7 @@
     "href": "slides/mini-workshop.html#untuk-apa-peneliti-sebenarnya-memakainya",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
     "section": "Untuk apa peneliti sebenarnya memakainya?",
-    "text": "Untuk apa peneliti sebenarnya memakainya?\n\nUrutan pemakaian dari yang paling umum: hiburan kreatif yang tidak terkait riset (justru paling sering!), menulis kode, curah gagasan, menulis naskah, mengerjakan riset, tinjauan literatur, mesin pencari, urusan administratif.\nArtinya: pemakaian AI oleh peneliti jauh lebih beragam — dan lebih “biasa” — daripada citra “AI menulis paper untuk saya” yang sering dibayangkan.\nPola serupa muncul pada survei terhadap sosiolog: pemakaian AI bersifat bimodal (kelompok pemakai rutin cukup besar, tapi kelompok “tidak pernah” juga besar), paling tinggi untuk menulis, paling rendah untuk pengumpulan data.\n\n\n\nVan Noorden & Perkel (2023); Alvero dkk. (2025)",
+    "text": "Untuk apa peneliti sebenarnya memakainya?\n\nUrutan pemakaian dari yang paling umum: hiburan kreatif yang tidak terkait riset (justru paling sering!), menulis kode, curah gagasan, menulis naskah, mengerjakan riset, tinjauan literatur, mesin pencari, urusan administratif.\nArtinya: pemakaian AI oleh peneliti jauh lebih beragam — dan lebih “biasa” — daripada citra “AI menulis paper untuk saya” yang sering dibayangkan.\nPola serupa muncul pada survei terhadap sosiolog: pemakaian AI bersifat bimodal (kelompok pemakai rutin cukup besar, tapi kelompok “tidak pernah” juga besar), paling tinggi untuk menulis, paling rendah untuk pengumpulan data.\n\n\n\nVan Noorden & Perkel (2023); Alvero dkk. (2026)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -180,11 +180,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#peneliti-sendiri-yang-paling-khawatir",
-    "href": "slides/mini-workshop.html#peneliti-sendiri-yang-paling-khawatir",
+    "objectID": "slides/mini-workshop.html#peneliti-adalah-kelompok-yang-paling-khawatir",
+    "href": "slides/mini-workshop.html#peneliti-adalah-kelompok-yang-paling-khawatir",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
-    "section": "Peneliti sendiri yang paling khawatir",
-    "text": "Peneliti sendiri yang paling khawatir\n\n69% khawatir AI mendorong ketergantungan pada pengenalan pola tanpa pemahaman.\n68% khawatir AI mempermudah penyebaran misinformasi dan plagiarisme yang sulit dideteksi.\n66% khawatir AI membawa kesalahan/ketidakakuratan masuk ke naskah publikasi.\n58% khawatir AI melanggengkan bias yang ada di data latihnya.\n\n\n\n\n\n\n\nCatatan penting\n\n\nKekhawatiran ini datang dari peneliti yang sudah memakai AI — kekhawatiran dan pemakaian berjalan bersamaan.\n\n\n\n\n\n±15 menit. Poin kunci: pemakaian AI oleh peneliti jauh lebih pelan dan lebih pragmatis daripada narasi publik. Ini jadi jembatan alami ke bagian Fluency — kalau bahkan peneliti berpengalaman baru memakainya sesekali dan tetap khawatir, mahasiswa magister tidak perlu merasa harus “all-in.”\n\n\nVan Noorden & Perkel (2023)",
+    "section": "Peneliti adalah kelompok yang paling khawatir",
+    "text": "Peneliti adalah kelompok yang paling khawatir\n\n69% khawatir AI mendorong ketergantungan pada pengenalan pola tanpa pemahaman.\n68% khawatir AI mempermudah penyebaran misinformasi dan plagiarisme yang sulit dideteksi.\n66% khawatir AI membawa kesalahan/ketidakakuratan masuk ke naskah publikasi.\n58% khawatir AI melanggengkan bias yang ada di data latihnya.\n\n\n\n\n\n\n\nCatatan penting\n\n\nKekhawatiran ini datang dari peneliti yang sudah memakai AI, karena kekhawatiran dan pemakaian bisa berjalan bersamaan.\n\n\n\n\n\n±15 menit. Poin kunci: pemakaian AI oleh peneliti jauh lebih pelan dan lebih pragmatis daripada narasi publik. Ini jadi jembatan alami ke bagian Fluency — kalau bahkan peneliti berpengalaman baru memakainya sesekali dan tetap khawatir, mahasiswa magister tidak perlu merasa harus “all-in.”\n\n\nVan Noorden & Perkel (2023)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -316,7 +316,7 @@
     "href": "slides/mini-workshop.html#penelusuran-dan-tinjauan-literatur",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
     "section": "Penelusuran dan tinjauan literatur",
-    "text": "Penelusuran dan tinjauan literatur\n\nAlat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal — sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (seed paper) untuk mulai memberi rekomendasi yang relevan.\nTapi chatbot umum (ChatGPT, Claude, Gemini) belum terbukti lebih baik dari mesin pencari akademik biasa untuk tugas ini — basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.\n\n\n\n\n\n\n\nKebiasaan yang wajib Anda bentuk\n\n\nJangan pernah menyalin sitasi hasil AI langsung ke daftar pustaka. Selalu telusuri sumber aslinya lewat tautan yang diberikan alat tersebut — bukan lewat ringkasan yang dihasilkan AI.\n\n\n\n\n\nBolaños dkk. (2024); Lahrsow & Baumgarten (2026)",
+    "text": "Penelusuran dan tinjauan literatur\n\nAlat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal.\n\nSebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (seed paper) untuk mulai memberi rekomendasi yang relevan.\n\nTapi chatbot umum (ChatGPT, Claude, Gemini) belum terbukti lebih baik dari mesin pencari akademik biasa untuk tugas ini.\n\nBasis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.\n\n\n\n\n\n\n\n\nPenting diingat\n\n\nJangan pernah menyalin sitasi hasil AI langsung ke daftar pustaka. Selalu telusuri sumber aslinya lewat tautan yang disediakan, jangan mengandalkan ringkasan yang dihasilkan AI.\n\n\n\n\n\nBolaños dkk. (2024); Lahrsow & Baumgarten (2026)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -328,7 +328,7 @@
     "href": "slides/mini-workshop.html#desain-penelitian-dan-penyusunan-alat-ukur",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
     "section": "Desain penelitian dan penyusunan alat ukur",
-    "text": "Desain penelitian dan penyusunan alat ukur\n\n\n\nAI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis.\nContoh nyata: alat Psychometric Item Generator menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat — versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.\nTapi tetap ada batas nyata: dalam satu studi, sekitar 25% saran skala kriteria dari ChatGPT untuk validasi konstruk ternyata bermasalah — sebagian bahkan tidak benar-benar ada.\n\n\n\n\n\n\n\nHommel & Arslan (2025): LLM bisa menyimpulkan korelasi antar-item/skala psikologis langsung dari teksnya.\n\n\n\n\n\n\n\nPrinsipnya\n\n\nAI cocok jadi kolam awal kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing — bukan pengganti proses validasi psikometrik itu sendiri.\n\n\n\n\n\nGötz dkk. (2024); Austin dkk. (2025); Hommel & Arslan (2025)",
+    "text": "Desain penelitian dan penyusunan alat ukur\n\n\n\nAI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis.\nContoh: alat Psychometric Item Generator menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat, versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.\nTapi tetap ada batasnya: dalam satu studi, sekitar 25% saran skala kriteria dari ChatGPT untuk validasi konstruk ternyata bermasalah, dan sebagian lagi bahkan tidak benar-benar ada.\n\n\n\n\n\n\n\nHommel & Arslan (2025): LLM bisa menyimpulkan korelasi antar-item/skala psikologis langsung dari teksnya.\n\n\n\n\n\n\n\nPrinsipnya\n\n\nAI cocok jadi kolam awal kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing — bukan pengganti proses validasi psikometrik itu sendiri.\n\n\n\n\n\nGötz dkk. (2024); Austin dkk. (2025); Hommel & Arslan (2025)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -496,7 +496,7 @@
     "href": "slides/mini-workshop.html#setelah-workshop-ini",
     "title": "Menggunakan Akal Imitasi Untuk Penelitian Tugas Akhir",
     "section": "🏠 Setelah workshop ini",
-    "text": "🏠 Setelah workshop ini\nDalam seminggu ke depan, susun strategi/kebijakan pribadi Anda dalam menggunakan AI selama mengerjakan tugas akhir. Dalam menyusun strategi ini, Anda bisa menggunakan AI sebagai mitra diskusi Anda.\nRenungkan 4️⃣ poin di bawah:\n\nKapan (dan untuk apa) saya akan — dan tidak akan — menggunakan AI?\nBatasan apa yang saya tetapkan untuk data dan informasi sensitif?\nBagaimana saya memverifikasi karya yang dibantu AI sebelum diserahkan ke dosen?\nBagaimana saya mengungkapkan penggunaan AI kepada dosen pembimbing?",
+    "text": "🏠 Setelah workshop ini\nDalam seminggu ke depan, susun strategi/kebijakan pribadi Anda dalam menggunakan AI selama mengerjakan tugas akhir. Dalam menyusun strategi ini, Anda bisa menggunakan AI sebagai mitra diskusi Anda.\nRenungkan 4️⃣ poin di bawah:\n\nKapan (dan untuk apa) saya akan, dan tidak akan, menggunakan AI?\nBatasan apa yang saya tetapkan untuk data dan informasi sensitif?\nBagaimana saya memverifikasi karya yang dibantu AI sebelum diserahkan ke dosen?\nBagaimana saya mengungkapkan penggunaan AI kepada dosen pembimbing?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1047,7 +1047,7 @@
     "href": "slides/pertemuan7.html#agenda",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Agenda",
-    "text": "Agenda\n\nApa sebenarnya akal imitasi?\nBagaimana AI “dibesarkan”\nAutomation vs. augmentation\nReinforcement learning untuk kolaborasi manusia-AI\nRisiko epistemik dalam kolaborasi manusia-AI\nThe effortless trap, cognitive debt, dan productive struggle\nSintesis",
+    "text": "Agenda\n\nApa sebenarnya akal imitasi?\nAutomation vs. augmentation\nReinforcement learning untuk kolaborasi manusia-AI\nRisiko epistemik dalam kolaborasi manusia-AI\nThe effortless trap, cognitive debt, dan productive struggle\nSintesis",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1167,7 +1167,7 @@
     "href": "slides/pertemuan7.html#dua-cara-ai-terlibat-dalam-pekerjaan-berbasis-penilaian",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Dua cara AI terlibat dalam pekerjaan berbasis penilaian",
-    "text": "Dua cara AI terlibat dalam pekerjaan berbasis penilaian\nFügener et al. (2026) meneliti peran AI dalam judgment tasks — tugas yang membutuhkan penilaian, bukan sekadar eksekusi mekanis:\n\nAutomation — AI menggantikan manusia sepenuhnya pada suatu tugas\nAugmentation — AI memberi saran (advice) kepada manusia, yang kemudian mengambil keputusan akhir — disebut judge-advisor system\n\n\n\n\n\n\n\nPertanyaan penelitiannya\n\n\nBukan “AI atau manusia?”, tapi: kapan sebaiknya AI menggantikan, kapan sebaiknya AI mendampingi, dan kapan manusia sebaiknya bekerja tanpa AI sama sekali?",
+    "text": "Dua cara AI terlibat dalam pekerjaan berbasis penilaian\nFügener et al. (2026) meneliti peran AI dalam judgment tasks — tugas yang membutuhkan penilaian, bukan sekadar eksekusi mekanis:\n\nAutomation — AI menggantikan manusia sepenuhnya pada suatu tugas\nAugmentation — AI memberi saran (advice) kepada manusia, yang kemudian mengambil keputusan akhir — disebut judge-advisor system\n\n\n\n\n\n\n\nKapan sebaiknya AI menggantikan, kapan sebaiknya AI mendampingi, dan kapan manusia sebaiknya bekerja tanpa AI sama sekali?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1191,7 +1191,7 @@
     "href": "slides/pertemuan7.html#bukti-empiris-klasifikasi-gambar",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Bukti empiris: klasifikasi gambar",
-    "text": "Bukti empiris: klasifikasi gambar\nStudi eksperimental (klasifikasi gambar dari ImageNet) membandingkan performa akurasi:\n\nManusia sendirian: 68%\nAutomation (AI sendirian): 77%\nAugmentation (manusia + saran AI): 80%\nKerangka gabungan (automasi + augmentasi + realokasi sumber daya manusia): 88%\n\n\n\n\n\n\n\nTemuan kunci\n\n\nMenggabungkan automasi, augmentasi, dan realokasi sumber daya manusia (manusia yang “dibebaskan” dari tugas yang diotomasi dialihkan ke tugas lain) memberi hasil jauh lebih baik daripada mengandalkan satu strategi saja.",
+    "text": "Bukti empiris: klasifikasi gambar\nStudi eksperimental (klasifikasi gambar dari ImageNet, Fügener, Walzner, & Gupta (2026)) membandingkan performa akurasi:\n\nManusia sendirian: 68%\nAutomation (AI sendirian): 77%\nAugmentation (manusia + saran AI): 80%\nKerangka gabungan (automasi + augmentasi + realokasi sumber daya manusia): 88%\n\n\n\n\n\n\n\nTemuan kunci\n\n\nMenggabungkan automasi, augmentasi, dan realokasi sumber daya manusia (manusia yang “dibebaskan” dari tugas yang diotomasi dialihkan ke tugas lain) memberi hasil jauh lebih baik daripada mengandalkan satu strategi saja.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1211,11 +1211,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#studi-kasus-dunia-nyata-kapan-manusia-sebaiknya-override-ai",
-    "href": "slides/pertemuan7.html#studi-kasus-dunia-nyata-kapan-manusia-sebaiknya-override-ai",
+    "objectID": "slides/pertemuan7.html#studi-kasus-kapan-manusia-sebaiknya-melakukan-override",
+    "href": "slides/pertemuan7.html#studi-kasus-kapan-manusia-sebaiknya-melakukan-override",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
-    "section": "Studi kasus dunia nyata: kapan manusia sebaiknya override AI?",
-    "text": "Studi kasus dunia nyata: kapan manusia sebaiknya override AI?\n\n\n\n\n\n\nKesavan & Kushwaha (2020) — Eksperimen lapangan di ritel suku cadang otomotif\n\n\nKaryawan diberi opsi meng-override rekomendasi alat data-driven.\n\n\n\n\nUntuk produk tahap pertumbuhan (data historis sedikit) — manusia yang meng-override alat (augmentasi) tampil lebih baik\nUntuk produk tahap matang/menurun (data historis banyak) — mengikuti rekomendasi alat (automasi) tampil lebih baik\nImplikasinya: ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi lebih berharga",
+    "section": "Studi kasus: kapan manusia sebaiknya melakukan override?",
+    "text": "Studi kasus: kapan manusia sebaiknya melakukan override?\n\n\n\n\n\n\nKesavan & Kushwaha (2020) — Eksperimen lapangan di ritel suku cadang otomotif\n\n\nKaryawan diberi opsi meng-override rekomendasi alat yang memberikan informasi data-driven.\n\n\n\n\nKetika produk masih di tahap pertumbuhan (data historis sedikit) — manusia yang meng-override alat (augmentasi) performa lebih baik\nKetika produk sudah di tahap matang/menurun (data historis banyak) — mengikuti rekomendasi alat (automasi) performa lebih baik\nImplikasinya: ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi pembeda performa",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1223,11 +1223,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#bayang-bayang-di-masa-depan-risiko-kehilangan-tacit-knowledge",
-    "href": "slides/pertemuan7.html#bayang-bayang-di-masa-depan-risiko-kehilangan-tacit-knowledge",
+    "objectID": "slides/pertemuan7.html#risiko-kehilangan-tacit-knowledge",
+    "href": "slides/pertemuan7.html#risiko-kehilangan-tacit-knowledge",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
-    "section": "Bayang-bayang di masa depan: risiko kehilangan tacit knowledge",
-    "text": "Bayang-bayang di masa depan: risiko kehilangan tacit knowledge\n\nComplementarity manusia-AI mengandaikan manusia punya pengetahuan tak-terkodifikasi (tacit knowledge) yang tidak dimiliki AI\nTapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko berhenti berpikir aktif tentang tugasnya — dan tacit knowledge itu sendiri terancam hilang\nIni persis kekhawatiran deskilling yang akan kita bahas lebih dalam di sesi tentang AI fluency — kolaborasi yang nyaman hari ini bisa mengikis kompetensi jangka panjang\n\n\n\nFügener, Walzner, & Gupta (2026)",
+    "section": "Risiko kehilangan tacit knowledge",
+    "text": "Risiko kehilangan tacit knowledge\n\nComplementarity manusia-AI mengandaikan manusia punya pengetahuan tak-terkodifikasi (tacit knowledge) yang tidak dimiliki AI\nTapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko berhenti berpikir aktif tentang tugasnya, dan tacit knowledge itu sendiri terancam hilang\nIni persis kekhawatiran soal deskilling yang akan kita bahas lebih dalam di sesi tentang AI fluency\n\n\n\nFügener, Walzner, & Gupta (2026)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1239,7 +1239,7 @@
     "href": "slides/pertemuan7.html#mengapa-reinforcement-learning",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Mengapa reinforcement learning?",
-    "text": "Mengapa reinforcement learning?\nLi et al. (2025) meninjau bagaimana reinforcement learning (RL) — AI yang belajar lewat mekanisme reward dan trial-and-error — memperkuat kolaborasi manusia-AI:\n\nRL cocok untuk kolaborasi karena adaptif: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan — tidak seperti aturan statis\nKolaborasi terjadi lewat umpan balik dua arah: interaksi manusia menjadi sinyal training untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan hak veto manusia pada keputusan kritis",
+    "text": "Mengapa reinforcement learning?\nLi et al. (2025) meninjau bagaimana reinforcement learning (RL), yang artinya AI yang belajar lewat mekanisme reward dan trial-and-error, dapat memperkuat kolaborasi manusia-AI:\n\nRL cocok untuk kolaborasi karena adaptif: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan.\nKolaborasi terjadi lewat umpan balik dua arah: interaksi manusia menjadi sinyal training untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan kemungkinan manusia melakukan override pada keputusan yang penting.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1259,23 +1259,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#bukti-empiris-rl-dibanding-metode-lain",
-    "href": "slides/pertemuan7.html#bukti-empiris-rl-dibanding-metode-lain",
-    "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
-    "section": "Bukti empiris: RL dibanding metode lain",
-    "text": "Bukti empiris: RL dibanding metode lain\nPerbandingan performa RL vs. metode non-RL (klasifikasi tradisional, behavior cloning, imitation learning) di 4 ranah kolaborasi manusia-AI:\n\nTugas pengepakan (packaging) — RL unggul 36% lebih tinggi dibanding klasifikasi supervised\nPermainan kolaboratif Overcooked — RL unggul 273% dibanding strategi self-play\nResep olahraga personal — RL meningkatkan akurasi keputusan 15%, konsisten pada pengguna dengan kebutuhan kognisi rendah maupun tinggi\nMengemudi otonom — RL dengan umpan balik manusia mencapai 85% tingkat keberhasilan, dibanding 0% untuk pendekatan imitation learning murni",
-    "crumbs": [
-      "oleh Rizqy Amelia Zein",
-      "Materi",
-      "TM 7 — Human-AI Collaboration & RLHF"
-    ]
-  },
-  {
     "objectID": "slides/pertemuan7.html#tiga-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl",
     "href": "slides/pertemuan7.html#tiga-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Tiga tantangan utama kolaborasi manusia-AI berbasis RL",
-    "text": "Tiga tantangan utama kolaborasi manusia-AI berbasis RL\n\nKeselarasan dengan perilaku manusia (alignment) — perilaku manusia dipengaruhi bias kognisi, emosi, dan konteks yang sulit diprediksi AI secara presisi\nAdaptabilitas di lingkungan dinamis — dunia nyata jauh lebih bervariasi daripada kondisi training yang terkendali; AI harus mampu beradaptasi pada perubahan yang belum pernah dilihat\nKomunikasi dan koordinasi — terutama saat AI harus berkoordinasi dengan banyak manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal (mis. robot kolaboratif di lingkungan industri)",
+    "text": "Tiga tantangan utama kolaborasi manusia-AI berbasis RL\n\nKeselarasan dengan perilaku manusia (alignment) — perilaku manusia dipengaruhi bias kognisi, emosi, dan konteks yang sulit diprediksi AI secara presisi\nAdaptabilitas di lingkungan dinamis — dunia nyata jauh lebih bervariasi daripada kondisi training yang terkendali; AI harus mampu beradaptasi pada perubahan yang belum pernah dilihat\nKomunikasi dan koordinasi — terutama saat AI harus berkoordinasi dengan banyak manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1311,7 +1299,7 @@
     "href": "slides/pertemuan7.html#ironi-rlhf-melatih-sycophancy-bukan-kebenaran",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Ironi RLHF: melatih sycophancy, bukan kebenaran",
-    "text": "Ironi RLHF: melatih sycophancy, bukan kebenaran\n\nIngat sycophancy pada slide “keterbatasan AI” di awal sesi? Ternyata itu bukan kebetulan — ia berakar pada cara RLHF melatih model\nSharma et al. (2023) menemukan: manusia (dan model reward yang meniru preferensi manusia) lebih memilih jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi — pada sebagian kasus yang tidak sedikit\nKarena reward model dilatih dari preferensi manusia semacam ini, optimisasi RLHF bisa secara sistematis mendorong model ke arah “menyenangkan”, bukan “benar”\n\n\n\n\n\n\n\nImplikasinya\n\n\nSemakin “dipoles” lewat RLHF supaya terasa membantu dan sopan, sebuah model berpotensi semakin pandai terdengar meyakinkan — tanpa proporsional lebih akurat. Kefasihan bahasa AI bukan jaminan kebenaran isinya.",
+    "text": "Ironi RLHF: melatih sycophancy, bukan kebenaran\n\nIngat sycophancy pada slide “keterbatasan AI” di awal sesi? Ia ternyata berakar pada cara RLHF melatih model\nSharma et al. (2023) menemukan bahwa manusia (dan model reward yang meniru preferensi manusia) lebih memilih jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi, pada kebanyakan kasus\nKarena reward model dilatih dari preferensi manusia semacam ini, optimisasi RLHF bisa secara sistematis mendorong model ke arah “menyenangkan” user, bukan “benar secara faktual”\n\n\n\n\n\n\n\nImplikasinya\n\n\nSemakin “dipoles” lewat RLHF supaya model terasa membantu dan sopan, sebuah model berpotensi semakin terdengar meyakinkan, tanpa memberikan proporsi yang memadai pada akurasi. Ingat, kefasihan bahasa AI bukan jaminan kebenaran isinya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1323,7 +1311,7 @@
     "href": "slides/pertemuan7.html#bias-otomasi-dalam-sistem-judge-advisor",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Bias otomasi dalam sistem judge-advisor",
-    "text": "Bias otomasi dalam sistem judge-advisor\n\nIngat kerangka augmentation (Fügener et al., 2026): manusia menerima saran AI, lalu memutuskan\nRisiko epistemiknya: manusia cenderung terlalu percaya pada saran yang datang dari sistem yang tampak “objektif” dan konsisten (automation bias), terutama saat kelelahan atau tugasnya rutin\nAugmentasi hanya benar-benar bermanfaat kalau manusia mampu membedakan saran AI yang benar dan salah — begitu kemampuan membedakan ini melemah, augmentasi diam-diam berubah menjadi automasi tanpa disadari",
+    "text": "Bias otomasi dalam sistem judge-advisor\n\nIngat kerangka augmentation (Fügener et al., 2026): manusia menerima saran AI, lalu memutuskan\nRisiko epistemiknya: manusia cenderung terlalu percaya pada saran yang datang dari sistem yang tampak “objektif” dan konsisten (automation bias), terutama saat kelelahan atau tugasnya rutin\nAugmentasi hanya benar-benar bermanfaat kalau manusia mampu membedakan saran AI yang benar dan salah",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1391,11 +1379,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#aturan-penempatan-kapan-ai-boleh-masuk",
-    "href": "slides/pertemuan7.html#aturan-penempatan-kapan-ai-boleh-masuk",
+    "objectID": "slides/pertemuan7.html#aturan-penempatan-kapan-ai-boleh-digunakan",
+    "href": "slides/pertemuan7.html#aturan-penempatan-kapan-ai-boleh-digunakan",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
-    "section": "Aturan penempatan: kapan AI boleh masuk?",
-    "text": "Aturan penempatan: kapan AI boleh masuk?\n\n\n\n\n\n\nDiagnostik satu kalimat\n\n\nJika membiarkan AI masuk membuat tugas terasa tanpa usaha (effortless), AI kemungkinan besar sedang menggantikan pekerjaan yang seharusnya membangun keterampilan itu sendiri.\n\n\n\n\nAturannya per keterampilan, bukan per mata kuliah — AI bisa pantas dipakai di satu bagian tugas dan harus dihindari di bagian lain, dalam jam yang sama\nAI punya dua peran sah: memangkas kerja rutin yang bukan inti pembelajaran, dan menambah kepadatan latihan/umpan balik yang mustahil disediakan satu pengajar untuk semua orang\nYang tidak boleh dilakukan AI: mengerjakan perjuangan kognitif yang justru menjadi inti dari apa yang sedang dipelajari, dan mengaburkan bukti bahwa siswa benar-benar bisa berpikir/berkinerja mandiri",
+    "section": "Aturan penempatan: kapan AI boleh digunakan?",
+    "text": "Aturan penempatan: kapan AI boleh digunakan?\n\n\n\n\n\n\nDiagnostik satu kalimat\n\n\nJika membiarkan AI masuk membuat tugas terasa tanpa usaha (effortless), AI kemungkinan besar sedang menggantikan pekerjaan yang seharusnya membangun keterampilan itu sendiri.\n\n\n\n\nAturannya per keterampilan, bukan per mata kuliah — AI bisa pantas dipakai di satu bagian tugas dan harus dihindari di bagian lain, dalam jam yang sama\nAI punya dua peran sah: memangkas kerja rutin yang bukan inti pembelajaran, dan menambah kepadatan latihan/umpan balik yang mustahil disediakan satu pengajar untuk semua orang\nYang tidak boleh dilakukan AI: mengerjakan perjuangan kognitif yang justru menjadi inti dari apa yang sedang dipelajari, dan mengaburkan bukti bahwa siswa benar-benar bisa berpikir/berkinerja mandiri",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

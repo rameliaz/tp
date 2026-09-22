@@ -20,12 +20,11 @@ execute:
 ## Agenda {.agenda-slide}
 
 1. **Apa sebenarnya akal imitasi?**
-2. **Bagaimana AI "dibesarkan"**
-3. ***Automation* vs. *augmentation***
-4. ***Reinforcement learning* untuk kolaborasi manusia-AI**
-5. **Risiko epistemik dalam kolaborasi manusia-AI**
-6. ***The effortless trap*, *cognitive debt*, dan *productive struggle***
-7. **Sintesis**
+2. ***Automation* vs. *augmentation***
+3. ***Reinforcement learning* untuk kolaborasi manusia-AI**
+4. **Risiko epistemik dalam kolaborasi manusia-AI**
+5. ***The effortless trap*, *cognitive debt*, dan *productive struggle***
+6. **Sintesis**
 
 # Apa Sebenarnya Akal Imitasi? 🤖 {background-color="#14497F"}
 
@@ -194,9 +193,8 @@ Bagian intro ±25 menit. Ini fondasi yang akan terus dipakai sepanjang sesi hari
 * ***Augmentation*** — AI **memberi saran** (*advice*) kepada manusia, yang kemudian mengambil keputusan akhir — disebut ***judge-advisor system***
 :::
 
-::: {.callout-note}
-### Pertanyaan penelitiannya
-Bukan "AI atau manusia?", tapi: **kapan** sebaiknya AI menggantikan, **kapan** sebaiknya AI mendampingi, dan **kapan** manusia sebaiknya bekerja tanpa AI sama sekali?
+::: {.callout-note appearance="simple"}
+**Kapan** sebaiknya AI menggantikan, **kapan** sebaiknya AI mendampingi, dan **kapan** manusia sebaiknya bekerja tanpa AI sama sekali?
 :::
 
 ## Dari mana *complementarity* manusia-AI berasal?
@@ -214,7 +212,7 @@ Bukan "AI atau manusia?", tapi: **kapan** sebaiknya AI menggantikan, **kapan** s
 
 ## Bukti empiris: klasifikasi gambar
 
-Studi eksperimental (klasifikasi gambar dari ImageNet) membandingkan performa akurasi:
+Studi eksperimental (klasifikasi gambar dari ImageNet, [Fügener, Walzner, & Gupta (2026)](https://doi.org/10.1287/mnsc.2024.05684)) membandingkan performa akurasi:
 
 ::: {.incremental}
 * **Manusia sendirian**: 68%
@@ -243,26 +241,26 @@ Berdasarkan performa relatif AI pada suatu tugas, pola berikut konsisten muncul:
 Jika AI jauh lebih unggul dari manusia (mis. akurasi AI 84% vs. manusia 58%), melibatkan manusia dalam pengambilan keputusan justru **tidak meningkatkan** akurasi — augmentasi hanya bermanfaat jika ada *complementarity* nyata, bukan sekadar karena "melibatkan manusia terasa lebih aman"
 :::
 
-## Studi kasus dunia nyata: kapan manusia sebaiknya *override* AI?
+## Studi kasus: kapan manusia sebaiknya melakukan *override*?
 
 ::: {.callout-note}
-### Kesavan & Kushwaha (2020) — Eksperimen lapangan di ritel suku cadang otomotif
+### [Kesavan & Kushwaha (2020)](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3743) — Eksperimen lapangan di ritel suku cadang otomotif
 
-Karyawan diberi opsi meng-*override* rekomendasi alat *data-driven*.
+Karyawan diberi opsi meng-*override* rekomendasi alat yang memberikan informasi *data-driven*.
 :::
 
 ::: {.incremental}
-* Untuk produk **tahap pertumbuhan** (data historis sedikit) — manusia yang meng-*override* alat (**augmentasi**) tampil **lebih baik**
-* Untuk produk **tahap matang/menurun** (data historis banyak) — mengikuti rekomendasi alat (**automasi**) tampil **lebih baik**
-* **Implikasinya:** ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi lebih berharga
+* Ketika produk masih di **tahap pertumbuhan** (data historis sedikit) — manusia yang meng-*override* alat (**augmentasi**) performa **lebih baik**
+* Ketika produk sudah di **tahap matang/menurun** (data historis banyak) — mengikuti rekomendasi alat (**automasi**) performa **lebih baik**
+* **Implikasinya:** ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi pembeda performa
 :::
 
-## Bayang-bayang di masa depan: risiko kehilangan *tacit knowledge*
+## Risiko kehilangan *tacit knowledge*
 
 ::: {.incremental}
 * *Complementarity* manusia-AI mengandaikan manusia punya **pengetahuan tak-terkodifikasi** (*tacit knowledge*) yang tidak dimiliki AI
-* Tapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko **berhenti berpikir aktif** tentang tugasnya — dan *tacit knowledge* itu sendiri terancam hilang
-* Ini persis kekhawatiran ***deskilling*** yang akan kita bahas lebih dalam di sesi tentang *AI fluency* — kolaborasi yang nyaman hari ini bisa mengikis kompetensi jangka panjang
+* Tapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko **berhenti berpikir aktif** tentang tugasnya, dan *tacit knowledge* itu sendiri terancam hilang
+* Ini persis kekhawatiran soal ***deskilling*** yang akan kita bahas lebih dalam di sesi tentang *AI fluency*
 :::
 
 ::: aside
@@ -273,11 +271,11 @@ Karyawan diberi opsi meng-*override* rekomendasi alat *data-driven*.
 
 ## Mengapa *reinforcement learning*?
 
-[Li et al. (2025)](https://doi.org/10.1007/s12559-025-10500-7) meninjau bagaimana *reinforcement learning* (RL) — AI yang belajar lewat mekanisme *reward* dan *trial-and-error* — memperkuat kolaborasi manusia-AI:
+[Li et al. (2025)](https://doi.org/10.1007/s12559-025-10500-7) meninjau bagaimana *reinforcement learning* (RL), yang artinya AI yang belajar lewat mekanisme *reward* dan *trial-and-error*, dapat memperkuat kolaborasi manusia-AI:
 
 ::: {.incremental}
-* RL cocok untuk kolaborasi karena **adaptif**: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan — tidak seperti aturan statis
-* Kolaborasi terjadi lewat ***umpan balik dua arah***: interaksi manusia menjadi sinyal *training* untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan **hak veto** manusia pada keputusan kritis
+* RL cocok untuk kolaborasi karena **adaptif**: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan.
+* Kolaborasi terjadi lewat ***umpan balik dua arah***: interaksi manusia menjadi sinyal *training* untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan kemungkinan manusia melakukan *override* pada keputusan yang penting.
 :::
 
 ## Pembagian peran manusia dan sistem AI
@@ -294,23 +292,12 @@ Karyawan diberi opsi meng-*override* rekomendasi alat *data-driven*.
 [Li, Liu, Huang, & Hussain (2025)](https://doi.org/10.1007/s12559-025-10500-7)
 :::
 
-## Bukti empiris: RL dibanding metode lain
-
-Perbandingan performa RL vs. metode non-RL (klasifikasi tradisional, *behavior cloning*, *imitation learning*) di 4 ranah kolaborasi manusia-AI:
-
-::: {.incremental}
-* **Tugas pengepakan (*packaging*)** — RL unggul **36%** lebih tinggi dibanding klasifikasi *supervised*
-* **Permainan kolaboratif *Overcooked*** — RL unggul **273%** dibanding strategi *self-play*
-* **Resep olahraga personal** — RL meningkatkan akurasi keputusan **15%**, konsisten pada pengguna dengan kebutuhan kognisi rendah maupun tinggi
-* **Mengemudi otonom** — RL dengan umpan balik manusia mencapai **85%** tingkat keberhasilan, dibanding **0%** untuk pendekatan *imitation learning* murni
-:::
-
 ## Tiga tantangan utama kolaborasi manusia-AI berbasis RL
 
 ::: {.incremental}
 1. **Keselarasan dengan perilaku manusia** (*alignment*) — perilaku manusia dipengaruhi bias kognisi, emosi, dan konteks yang sulit diprediksi AI secara presisi
 2. **Adaptabilitas di lingkungan dinamis** — dunia nyata jauh lebih bervariasi daripada kondisi *training* yang terkendali; AI harus mampu beradaptasi pada perubahan yang belum pernah dilihat
-3. **Komunikasi dan koordinasi** — terutama saat AI harus berkoordinasi dengan **banyak** manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal (mis. robot kolaboratif di lingkungan industri)
+3. **Komunikasi dan koordinasi** — terutama saat AI harus berkoordinasi dengan **banyak** manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal
 :::
 
 ## RLHF: RL dari umpan balik manusia
@@ -339,14 +326,14 @@ RLHF pada dasarnya adalah **augmentasi di tingkat pelatihan model**: bukan manus
 ## Ironi RLHF: melatih *sycophancy*, bukan kebenaran
 
 ::: {.incremental}
-* Ingat *sycophancy* pada slide "keterbatasan AI" di awal sesi? Ternyata itu **bukan kebetulan** — ia berakar pada cara RLHF melatih model
-* [Sharma et al. (2023)](https://arxiv.org/abs/2310.13548) menemukan: manusia (dan model *reward* yang meniru preferensi manusia) **lebih memilih** jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi — pada sebagian kasus yang tidak sedikit
-* Karena *reward model* dilatih dari preferensi manusia semacam ini, **optimisasi RLHF bisa secara sistematis mendorong model ke arah "menyenangkan", bukan "benar"**
+* Ingat *sycophancy* pada slide "keterbatasan AI" di awal sesi? Ia ternyata berakar pada cara RLHF melatih model
+* [Sharma et al. (2023)](https://arxiv.org/abs/2310.13548) menemukan bahwa manusia (dan model *reward* yang meniru preferensi manusia) **lebih memilih** jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi, pada kebanyakan kasus
+* Karena *reward model* dilatih dari preferensi manusia semacam ini, **optimisasi RLHF bisa secara sistematis mendorong model ke arah "menyenangkan" *user*, bukan "benar secara faktual"**
 :::
 
 ::: {.callout-important}
 ### Implikasinya
-Semakin "dipoles" lewat RLHF supaya terasa membantu dan sopan, sebuah model **berpotensi** semakin pandai terdengar meyakinkan — tanpa proporsional lebih akurat. Kefasihan bahasa AI **bukan** jaminan kebenaran isinya.
+Semakin "dipoles" lewat RLHF supaya model terasa membantu dan sopan, sebuah model **berpotensi** semakin terdengar meyakinkan, tanpa memberikan proporsi yang memadai pada akurasi. Ingat, kefasihan bahasa AI **bukan** jaminan kebenaran isinya.
 :::
 
 ## Bias otomasi dalam sistem *judge-advisor*
@@ -354,15 +341,15 @@ Semakin "dipoles" lewat RLHF supaya terasa membantu dan sopan, sebuah model **be
 ::: {.incremental}
 * Ingat kerangka *augmentation* [(Fügener et al., 2026)](https://doi.org/10.1287/mnsc.2024.05684): manusia menerima **saran** AI, lalu memutuskan
 * Risiko epistemiknya: manusia cenderung **terlalu percaya** pada saran yang datang dari sistem yang tampak "objektif" dan konsisten (***automation bias***), terutama saat kelelahan atau tugasnya rutin
-* Augmentasi hanya benar-benar bermanfaat kalau manusia **mampu membedakan** saran AI yang benar dan salah — begitu kemampuan membedakan ini melemah, augmentasi diam-diam berubah menjadi automasi tanpa disadari
+* Augmentasi hanya benar-benar bermanfaat kalau manusia **mampu membedakan** saran AI yang benar dan salah
 :::
 
 ## Ilusi pemahaman: *"the effortless trap"*
 
 ::: {.incremental}
-* [Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) — bacaan wajib Anda — menunjukkan bahwa AI generatif yang dipakai secara tidak tepat bisa menciptakan **ilusi belajar**: rasa percaya diri menguasai materi yang **runtuh** begitu diuji tanpa bantuan AI
-* Risiko epistemiknya ganda: salah paham, dan **tidak menyadari** bahwa diri sendiri salah paham — kombinasi itu yang berbahaya
-* Terhubung dengan konsep **kegagalan *invisible*** [(Potts & Sudhof, 2026)](https://doi.org/10.48550/arXiv.2604.25905): percakapan dengan AI terasa sukses, padahal pemahaman yang terbentuk keliru atau dangkal — akan dibahas lebih dalam pada sesi *AI fluency*
+* [Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) —  menunjukkan bahwa AI generatif yang dipakai secara tidak tepat bisa menciptakan **ilusi belajar**: rasa percaya diri menguasai materi yang **runtuh** begitu diuji tanpa bantuan AI
+* Risiko epistemiknya berlipat: salah paham, dan **tidak menyadari** bahwa diri sendiri salah paham
+* Terhubung dengan konsep **kegagalan *invisible*** [(Potts & Sudhof, 2026)](https://doi.org/10.48550/arXiv.2604.25905): percakapan dengan AI terasa sukses, padahal pemahaman yang terbentuk keliru atau dangkal, dan ini akan dibahas lebih dalam pada sesi *AI fluency*
 :::
 
 ::: {.callout-caution}
@@ -373,20 +360,20 @@ Kapan terakhir kali Anda **merasa yakin** memahami sesuatu setelah berdiskusi de
 ## Bukti konkret: desain penempatan AI yang menentukan
 
 ::: {.incremental}
-* **RCT hampir 1.000 siswa SMA matematika** [(Bastani et al., 2025)](https://doi.org/10.1073/pnas.2422633122): kelompok dengan AI **tanpa pengaman** (langsung memberi jawaban) tampil lebih baik **selama** latihan, tapi skor **17% lebih rendah** dibanding kelompok tanpa akses AI sama sekali pada ujian mandiri
-* Kelompok dengan AI **berpengaman** (menahan jawaban, memberi petunjuk ala guru) memakai model yang **sama persis** — dan kerugian itu **hilang**
-* **Kesimpulan:** bukan kehadiran AI yang merusak pembelajaran, tapi **desain perannya** — memberi jawaban di titik yang seharusnya diperjuangkan siswa sendiri
+* **RCT hampir 1.000 siswa SMA matematika** [(Bastani et al., 2025)](https://doi.org/10.1073/pnas.2422633122): kelompok dengan AI **tanpa *guardrail*** (langsung memberi jawaban) tampil lebih baik **selama** latihan, tapi skor **17% lebih rendah** dibanding kelompok tanpa akses AI sama sekali pada ujian mandiri
+* Kelompok dengan AI dengan *guardrail* (menahan jawaban, memberi petunjuk ala guru) memakai model yang **sama persis** dan kerugian itu **hilang**
+* **Kesimpulan:** bukan kehadiran AI yang merusak pembelajaran, tapi **desain perannya** yang memberi jawaban di masas yang seharusnya dilakukan siswa sendiri
 :::
 
 ::: {.callout-note}
 ### Sisi sebaliknya
-Sebuah RCT terpisah pada mahasiswa fisika menemukan tutor AI yang dirancang cermat menghasilkan **lebih dari 2 kali lipat** pembelajaran dibanding kelas *active-learning* yang kuat — dalam waktu **lebih singkat** [(Kestin et al., 2025)](https://doi.org/10.1038/s41598-025-97652-6). **Penempatannya** yang menentukan hasil belajar.
+Sebuah RCT terpisah pada mahasiswa fisika menemukan tutor AI yang dirancang cermat menghasilkan **lebih dari 2 kali lipat** pembelajaran dibanding kelas *active-learning* yang kuat dalam waktu **lebih singkat** [(Kestin et al., 2025)](https://doi.org/10.1038/s41598-025-97652-6). **Penempatannya** yang menentukan hasil belajar.
 :::
 
 ## Mengapa "terasa mudah" bisa menipu
 
 ::: {.incremental}
-* Pembelajaran terjadi ketika siswa melakukan bagian yang **berat secara kognitif** — yang disebut ilmu kognisi sebagai ***productive struggle*** [(Kapur, 2008)](https://doi.org/10.1080/07370000802212669)
+* Pembelajaran terjadi ketika siswa melakukan bagian yang **berat secara kognitif**, yang disebut ilmu kognisi sebagai ***productive struggle*** [(Kapur, 2008)](https://doi.org/10.1080/07370000802212669)
 * AI yang mengerjakan bagian itu **terasa membantu**, padahal menghilangkan justru kerja yang **membangun keterampilan**
 * Bukti langsungnya: mahasiswa di kelas aktif yang **efortful** menilai diri mereka belajar **lebih sedikit**, padahal secara objektif mereka belajar **lebih banyak** [(Deslauriers et al., 2019)](https://doi.org/10.1073/pnas.1821936116) — perasaan lancar (*fluent*) bukan indikator belajar yang valid
 :::
@@ -427,7 +414,7 @@ Studi ini masih berupa **preprint** dan metodologinya **diperdebatkan** — ada 
 [Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181)
 :::
 
-## Aturan penempatan: kapan AI boleh masuk?
+## Aturan penempatan: kapan AI boleh digunakan?
 
 ::: {.callout-important}
 ### Diagnostik satu kalimat
