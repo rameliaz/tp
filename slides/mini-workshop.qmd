@@ -32,14 +32,11 @@ execute:
 ![](libs/alfluency.png){fig-align="center" width="90%"}
 
 ::: aside
-**Bagaimana saya menyusun materi ini dan *disclosure* penggunaan AI**
+**Bagaimana saya menyusun materi ini**
 
 Materi ini sebagian terinspirasi dari kursus daring "*AI Fluency: Framework & Foundations*" yang disediakan secara gratis oleh Anthropic, tetapi paparan ini lebih berfokus pada penggunaan AI dalam proses penelitian.
 
 [**Klik di sini untuk mengikuti kursus tersebut**](https://anthropic.skilljar.com/ai-fluency-framework-foundations)
-
-Saya menggunakan Claude Code (Model Sonnet 5) untuk menyusun *draft* awal *slide deck*, mencari informasi dalam teks/referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
-
 :::
 
 ## Mungkin kursus ini juga menarik?

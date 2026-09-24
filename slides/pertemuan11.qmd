@@ -31,12 +31,12 @@ execute:
 ## Asesmen tumbuh jadi ekosistem data
 
 ::: {.incremental}
-* Asesmen tradisional: ujian kertas, dinilai manual, hasilnya **statis** (satu angka, satu waktu)
-* Asesmen berbasis teknologi memungkinkan: **skala** (menilai ribuan jawaban serentak), **kecepatan** (umpan balik instan), dan **granularitas data** (jejak proses asesmen, tidak terbatas pada hasil akhir)
-* Pendorong utama: kebutuhan akan asesmen **formatif** yang berkelanjutan, di samping sumatif di akhir semester
+* Asesmen tradisional: ujian kertas, dinilai manual, hasilnya **statis** (satu angka, satu waktu).
+* Asesmen berbasis teknologi memungkinkan: asesmen dilakukan **skala besar** (menilai ribuan jawaban serentak), **kecepatan** (umpan balik instan), dan **granularitas data** (rekaman atas proses asesmen, tidak terbatas pada hasil akhir).
+* Pendorong utama: kebutuhan akan asesmen **formatif** yang berkelanjutan, di samping sumatif di akhir masa pembelajaran.
 :::
 
-## Asesmen formatif vs. sumatif (sekilas ulang)
+## Asesmen formatif vs. sumatif
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -46,6 +46,7 @@ execute:
 * Berlangsung selama proses belajar
 * Tujuan: umpan balik untuk perbaikan
 * Risiko rendah (*low-stakes*)
+* Contoh: UTS, UAS
 :::
 :::
 
@@ -56,6 +57,7 @@ execute:
 * Dilakukan di akhir suatu periode belajar
 * Tujuan: mengukur capaian akhir
 * Risiko tinggi (*high-stakes*)
+* Contoh: UTBK, UKMPPDI
 :::
 :::
 :::

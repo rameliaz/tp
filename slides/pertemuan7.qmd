@@ -398,7 +398,7 @@ Pola yang sama sangat mungkin berlaku pada penulisan akademik dan analisis data.
 Studi ini masih berupa ***preprint*** dan metodologinya **diperdebatkan**: ada komentar kritis (juga berupa *preprint*) yang mempertanyakan desain studi dan metode EEG-nya [(Stankovic et al., 2025)](https://arxiv.org/abs/2601.00856). Perlakukan *cognitive debt* sebagai **hipotesis yang sedang diuji**.
 :::
 
-## Enam langkah belajar: kerangka penempatan AI
+## Enam langkah belajar dan peran AI
 
 [Brčić dan Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) menawarkan kerangka praktis: belajar satu ide baru terjadi lewat **enam langkah** berurutan:
 
@@ -409,10 +409,6 @@ Studi ini masih berupa ***preprint*** dan metodologinya **diperdebatkan**: ada k
 4. ***Attach*** — barulah contoh soal beserta penyelesaiannya (*worked example*) ditunjukkan → **AI boleh membuat contoh** yang relevan
 5. ***Strengthen*** — latihan bervariasi memperkuat pemahaman → **AI bisa menyediakan latihan terus menerus**
 6. ***Test*** — siswa diuji **sendirian**, tanpa bantuan → **AI sama sekali tidak dilibatkan**; inilah satu-satunya bukti bahwa proses belajar benar-benar terjadi
-:::
-
-::: aside
-[Brčić dan Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181)
 :::
 
 ## Aturan penempatan: kapan AI boleh digunakan?
@@ -439,8 +435,15 @@ Studi ini masih berupa ***preprint*** dan metodologinya **diperdebatkan**: ada k
 ## Rangkuman
 
 ::: {.incremental}
-* Pertanyaan refleksi: di tugas akhir Anda, tahap mana yang harus tetap Anda kerjakan tanpa AI (*Probe* dan *Test*), dan bagaimana Anda tahu kalau AI sudah terlalu dalam mengambil alih tahap itu?
-* Pertemuan berikutnya: *AI literacy* dan *AI fluency*, kompetensi yang menjaga kolaborasi manusia-AI ini agar tidak mengarah pada *automation bias*.
+* AI (LLM) adalah model statistik yang **meniru** kognisi manusia, bukan benar-benar "cerdas"; tanggung jawab atas *output*-nya tetap ada pada **pengguna**.
+* AI bisa berperan sebagai ***automation*** (menggantikan) atau ***augmentation*** (mendampingi), dan pilihannya bergantung pada *complementarity* manusia-AI di tugas tersebut.
+* RLHF membuat AI menuruti preferensi manusia, tapi ini berisiko mendorong ***sycophancy*** — teks terasa meyakinkan belum tentu akurat.
+* Risiko epistemik utama: ***effortless trap***, *automation bias*, dan *cognitive debt* — kefasihan AI bisa menciptakan ilusi belajar.
+* Aturan peran AI dalam proses belajar: hindari AI pada tahap *Probe* dan *Test* agar *productive struggle* tetap terjaga.
+:::
+
+::: {.callout-tip appearance="simple"}
+Pertemuan berikutnya: *AI literacy* dan *AI fluency*, yang merupakan kompetensi yang menjaga kolaborasi manusia-AI ini agar tidak mengarah pada *automation bias*.
 :::
 
 ## Terima kasih!😊 {.closing-slide}

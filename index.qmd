@@ -132,5 +132,5 @@ Halaman ini merupakan ringkasan **RPP** dan **RTM** (Rancangan Tugas Mahasiswa);
 ---
 
 ::: {.callout-info appearance="simple"}
-Saya menggunakan Claude Code (Model Sonnet 5) untuk membuat *outline*, menyusun *slide deck*, mencari referensi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
+Saya menggunakan Claude Code (Model Sonnet 5 dan Opus 5.5) untuk membuat *outline*, menyusun *slide deck*, mencari referensi, melakukan pemeriksaan akhir pada akurasi dan keterbacaan konten presentasi, dan melakukan *troubleshooting* kode `quarto` dan `git`. Saya bertanggung jawab penuh atas substansi dan penyajian presentasi ini.
 :::
