@@ -49,7 +49,7 @@ execute:
 * **2010-an** — *deep learning*: jaringan saraf tiruan berlapis yang terinspirasi cara kerja otak; terobosan besar dalam pengenalan gambar dan suara, lalu pemrosesan bahasa alami (*natural language processing*, NLP)
 * **2017** — arsitektur [***transformer***](https://www.ibm.com/think/topics/transformer-model) diperkenalkan dan menjadi fondasi hampir semua LLM modern
 * **2022** — OpenAI merilis ChatGPT (berbasis GPT-3.5); AI generatif menjadi fenomena massal
-* Google AI membuat visualisasi perkembangan produk AI mereka [di sini](https://ai.google/our-ai-journey/?section=intro).
+* LIhat visualisasi perkembangan [Google AI di sini](https://ai.google/our-ai-journey/?section=intro).
 :::
 :::
 
@@ -174,11 +174,12 @@ Sumber: [Ghali et al. (2024)](https://doi.org/10.48550/arXiv.2405.20585)
 ## Apa *keterbatasan* AI?
 
 ::: {.incremental}
-* **Halusinasi** — menghasilkan *output* yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk **mengarang referensi ilmiah**
-* ***Knowledge cutoff*** — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web
-* ***Context window*** terbatas — *working memory*-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses
-* **Penalaran yang rapuh** — LLM bisa memberikan jawaban yang sama sekali berbeda ketika *prompt*-nya diubah sedikit saja dari pola data pelatihannya
-* ***Sycophancy*** — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna
+* **Halusinasi** — menghasilkan *output* yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk **mengarang referensi ilmiah**.
+* ***Knowledge cutoff*** — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web.
+* ***Context window*** terbatas — *working memory*-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses.
+* **Penalaran yang rapuh** — LLM bisa memberikan jawaban yang sama sekali berbeda ketika *prompt*-nya diubah sedikit saja dari pola data pelatihannya.
+* ***Sycophancy*** — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna.
+  + Fenomena perilaku *sychopancy* LLM ini yang paling menonjol terjadi di [GPT-4o](https://openai.com/index/sycophancy-in-gpt-4o/).
 :::
 
 # *Automation* vs. *Augmentation*: Dua Peran AI dalam Kolaborasi 🤝 {background-color="#14497F"}
@@ -312,7 +313,7 @@ Umpan balik manusia diserap untuk memperbaiki perilaku model secara bertahap, se
 
 # Risiko Epistemik dalam Kolaborasi Manusia-AI 🌀 {background-color="#14497F"}
 
-## Risiko epistemik: yang tak terlihat di metrik performa
+## Risiko epistemik
 
 ::: {.incremental}
 * Sejauh ini kita membahas kolaborasi manusia-AI dari sisi **performa** (akurasi, kecepatan, efisiensi).
@@ -320,7 +321,7 @@ Umpan balik manusia diserap untuk memperbaiki perilaku model secara bertahap, se
 * Akurasi dan kecepatan bisa dimaksimalkan, sementara kemampuan kita menilai akurasi dari *output* AI tersebut justru bisa melemah tanpa disadari.
 :::
 
-## Ironi RLHF: LLM yang terlatih justru *sycophant*
+## Ironi RLHF: LLM yang terlatih justru menjadi *sycophant*
 
 ::: {.incremental}
 * Ingat *sycophancy* pada *slide* "keterbatasan AI" di awal sesi? Sebagian penyebabnya kemungkinan adalah preferensi manusia yang dipakai dalam RLHF.

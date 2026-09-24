@@ -196,7 +196,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong>2010-an</strong> — <em>deep learning</em>: jaringan saraf tiruan berlapis yang terinspirasi cara kerja otak; terobosan besar dalam pengenalan gambar dan suara, lalu pemrosesan bahasa alami (<em>natural language processing</em>, NLP)</li>
 <li class="fragment"><strong>2017</strong> — arsitektur <a href="https://www.ibm.com/think/topics/transformer-model"><strong><em>transformer</em></strong></a> diperkenalkan dan menjadi fondasi hampir semua LLM modern</li>
 <li class="fragment"><strong>2022</strong> — OpenAI merilis ChatGPT (berbasis GPT-3.5); AI generatif menjadi fenomena massal</li>
-<li class="fragment">Google AI membuat visualisasi perkembangan produk AI mereka <a href="https://ai.google/our-ai-journey/?section=intro">di sini</a>.</li>
+<li class="fragment">LIhat visualisasi perkembangan <a href="https://ai.google/our-ai-journey/?section=intro">Google AI di sini</a>.</li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
@@ -333,11 +333,14 @@ Rizqy Amelia Zein
 <section id="apa-keterbatasan-ai" class="slide level2">
 <h2>Apa <em>keterbatasan</em> AI?</h2>
 <ul>
-<li class="fragment"><strong>Halusinasi</strong> — menghasilkan <em>output</em> yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk <strong>mengarang referensi ilmiah</strong></li>
-<li class="fragment"><strong><em>Knowledge cutoff</em></strong> — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web</li>
-<li class="fragment"><strong><em>Context window</em></strong> terbatas — <em>working memory</em>-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses</li>
-<li class="fragment"><strong>Penalaran yang rapuh</strong> — LLM bisa memberikan jawaban yang sama sekali berbeda ketika <em>prompt</em>-nya diubah sedikit saja dari pola data pelatihannya</li>
-<li class="fragment"><strong><em>Sycophancy</em></strong> — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna</li>
+<li class="fragment"><strong>Halusinasi</strong> — menghasilkan <em>output</em> yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk <strong>mengarang referensi ilmiah</strong>.</li>
+<li class="fragment"><strong><em>Knowledge cutoff</em></strong> — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web.</li>
+<li class="fragment"><strong><em>Context window</em></strong> terbatas — <em>working memory</em>-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses.</li>
+<li class="fragment"><strong>Penalaran yang rapuh</strong> — LLM bisa memberikan jawaban yang sama sekali berbeda ketika <em>prompt</em>-nya diubah sedikit saja dari pola data pelatihannya.</li>
+<li class="fragment"><strong><em>Sycophancy</em></strong> — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna.
+<ul>
+<li class="fragment">Fenomena perilaku <em>sychopancy</em> LLM ini yang paling menonjol terjadi di <a href="https://openai.com/index/sycophancy-in-gpt-4o/">GPT-4o</a>.</li>
+</ul></li>
 </ul>
 </section></section>
 <section>
@@ -521,16 +524,16 @@ Rizqy Amelia Zein
 <h1>Risiko Epistemik dalam Kolaborasi Manusia-AI 🌀</h1>
 
 </section>
-<section id="risiko-epistemik-yang-tak-terlihat-di-metrik-performa" class="slide level2">
-<h2>Risiko epistemik: yang tak terlihat di metrik performa</h2>
+<section id="risiko-epistemik" class="slide level2">
+<h2>Risiko epistemik</h2>
 <ul>
 <li class="fragment">Sejauh ini kita membahas kolaborasi manusia-AI dari sisi <strong>performa</strong> (akurasi, kecepatan, efisiensi).</li>
 <li class="fragment">Tapi ada risiko yang lebih krusial diantisipasi: <strong><em>risiko epistemik</em></strong>, yaitu risiko terhadap <strong>cara kita membentuk keyakinan, menilai kebenaran, dan menyadari batas pengetahuan kita sendiri</strong> ketika AI ikut campur dalam prosesnya.</li>
 <li class="fragment">Akurasi dan kecepatan bisa dimaksimalkan, sementara kemampuan kita menilai akurasi dari <em>output</em> AI tersebut justru bisa melemah tanpa disadari.</li>
 </ul>
 </section>
-<section id="ironi-rlhf-llm-yang-terlatih-justru-sycophant" class="slide level2">
-<h2>Ironi RLHF: LLM yang terlatih justru <em>sycophant</em></h2>
+<section id="ironi-rlhf-llm-yang-terlatih-justru-menjadi-sycophant" class="slide level2">
+<h2>Ironi RLHF: LLM yang terlatih justru menjadi <em>sycophant</em></h2>
 <ul>
 <li class="fragment">Ingat <em>sycophancy</em> pada <em>slide</em> “keterbatasan AI” di awal sesi? Sebagian penyebabnya kemungkinan adalah preferensi manusia yang dipakai dalam RLHF.</li>
 <li class="fragment"><a href="https://arxiv.org/abs/2310.13548">Sharma et al.&nbsp;(2023)</a> menemukan bahwa manusia (dan model <em>reward</em> yang meniru preferensi manusia) <strong>tidak jarang memilih</strong> jawaban yang meyakinkan dan sejalan dengan pandangan mereka daripada jawaban yang benar tetapi tidak sesuai harapan.</li>

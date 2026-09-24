@@ -1071,7 +1071,7 @@
     "href": "slides/pertemuan7.html#ai-tidak-ujug-ujug-diciptakan",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "AI tidak ujug-ujug diciptakan",
-    "text": "AI tidak ujug-ujug diciptakan\n\n\n\n1950-an–1980-an — AI simbolik: manusia menuliskan aturan logikanya satu per satu (expert systems)\n1990-an–2000-an — machine learning: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (mis. spam filter)\n2010-an — deep learning: jaringan saraf tiruan berlapis yang terinspirasi cara kerja otak; terobosan besar dalam pengenalan gambar dan suara, lalu pemrosesan bahasa alami (natural language processing, NLP)\n2017 — arsitektur transformer diperkenalkan dan menjadi fondasi hampir semua LLM modern\n2022 — OpenAI merilis ChatGPT (berbasis GPT-3.5); AI generatif menjadi fenomena massal\nGoogle AI membuat visualisasi perkembangan produk AI mereka di sini.\n\n\n\n\n\n\n\n\nKlik di sini untuk lengkapnya\n\n\n\n\nSumber: A Timeline of LLM Innovation",
+    "text": "AI tidak ujug-ujug diciptakan\n\n\n\n1950-an–1980-an — AI simbolik: manusia menuliskan aturan logikanya satu per satu (expert systems)\n1990-an–2000-an — machine learning: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (mis. spam filter)\n2010-an — deep learning: jaringan saraf tiruan berlapis yang terinspirasi cara kerja otak; terobosan besar dalam pengenalan gambar dan suara, lalu pemrosesan bahasa alami (natural language processing, NLP)\n2017 — arsitektur transformer diperkenalkan dan menjadi fondasi hampir semua LLM modern\n2022 — OpenAI merilis ChatGPT (berbasis GPT-3.5); AI generatif menjadi fenomena massal\nLIhat visualisasi perkembangan Google AI di sini.\n\n\n\n\n\n\n\n\nKlik di sini untuk lengkapnya\n\n\n\n\nSumber: A Timeline of LLM Innovation",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1155,7 +1155,7 @@
     "href": "slides/pertemuan7.html#apa-keterbatasan-ai",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
     "section": "Apa keterbatasan AI?",
-    "text": "Apa keterbatasan AI?\n\nHalusinasi — menghasilkan output yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk mengarang referensi ilmiah\nKnowledge cutoff — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web\nContext window terbatas — working memory-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses\nPenalaran yang rapuh — LLM bisa memberikan jawaban yang sama sekali berbeda ketika prompt-nya diubah sedikit saja dari pola data pelatihannya\nSycophancy — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna",
+    "text": "Apa keterbatasan AI?\n\nHalusinasi — menghasilkan output yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk mengarang referensi ilmiah.\nKnowledge cutoff — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web.\nContext window terbatas — working memory-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses.\nPenalaran yang rapuh — LLM bisa memberikan jawaban yang sama sekali berbeda ketika prompt-nya diubah sedikit saja dari pola data pelatihannya.\nSycophancy — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna.\n\nFenomena perilaku sychopancy LLM ini yang paling menonjol terjadi di GPT-4o.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1283,11 +1283,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#risiko-epistemik-yang-tak-terlihat-di-metrik-performa",
-    "href": "slides/pertemuan7.html#risiko-epistemik-yang-tak-terlihat-di-metrik-performa",
+    "objectID": "slides/pertemuan7.html#risiko-epistemik",
+    "href": "slides/pertemuan7.html#risiko-epistemik",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
-    "section": "Risiko epistemik: yang tak terlihat di metrik performa",
-    "text": "Risiko epistemik: yang tak terlihat di metrik performa\n\nSejauh ini kita membahas kolaborasi manusia-AI dari sisi performa (akurasi, kecepatan, efisiensi).\nTapi ada risiko yang lebih krusial diantisipasi: risiko epistemik, yaitu risiko terhadap cara kita membentuk keyakinan, menilai kebenaran, dan menyadari batas pengetahuan kita sendiri ketika AI ikut campur dalam prosesnya.\nAkurasi dan kecepatan bisa dimaksimalkan, sementara kemampuan kita menilai akurasi dari output AI tersebut justru bisa melemah tanpa disadari.",
+    "section": "Risiko epistemik",
+    "text": "Risiko epistemik\n\nSejauh ini kita membahas kolaborasi manusia-AI dari sisi performa (akurasi, kecepatan, efisiensi).\nTapi ada risiko yang lebih krusial diantisipasi: risiko epistemik, yaitu risiko terhadap cara kita membentuk keyakinan, menilai kebenaran, dan menyadari batas pengetahuan kita sendiri ketika AI ikut campur dalam prosesnya.\nAkurasi dan kecepatan bisa dimaksimalkan, sementara kemampuan kita menilai akurasi dari output AI tersebut justru bisa melemah tanpa disadari.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -1295,11 +1295,11 @@
     ]
   },
   {
-    "objectID": "slides/pertemuan7.html#ironi-rlhf-llm-yang-terlatih-justru-sycophant",
-    "href": "slides/pertemuan7.html#ironi-rlhf-llm-yang-terlatih-justru-sycophant",
+    "objectID": "slides/pertemuan7.html#ironi-rlhf-llm-yang-terlatih-justru-menjadi-sycophant",
+    "href": "slides/pertemuan7.html#ironi-rlhf-llm-yang-terlatih-justru-menjadi-sycophant",
     "title": "Human-AI Collaboration dan Reinforcement Learning from Human Feedback",
-    "section": "Ironi RLHF: LLM yang terlatih justru sycophant",
-    "text": "Ironi RLHF: LLM yang terlatih justru sycophant\n\nIngat sycophancy pada slide “keterbatasan AI” di awal sesi? Sebagian penyebabnya kemungkinan adalah preferensi manusia yang dipakai dalam RLHF.\nSharma et al. (2023) menemukan bahwa manusia (dan model reward yang meniru preferensi manusia) tidak jarang memilih jawaban yang meyakinkan dan sejalan dengan pandangan mereka daripada jawaban yang benar tetapi tidak sesuai harapan.\nKarena model reward dilatih dari preferensi semacam ini, optimasi RLHF bisa ikut mendorong model ke arah “menyenangkan” pengguna, alih-alih “benar secara faktual”.\n\n\n\n\n\n\n\nImplikasinya\n\n\nMakin dipoles lewat RLHF agar terasa membantu dan sopan, makin meyakinkan pula jawaban model, padahal akurasinya belum tentu ikut naik. Ingat, output AI sering terlihat meyakinkan (karena ditulis dengan “fasih”) tetapi “kefasihan” ini tidak menjamin kebenaran/akurasinya.",
+    "section": "Ironi RLHF: LLM yang terlatih justru menjadi sycophant",
+    "text": "Ironi RLHF: LLM yang terlatih justru menjadi sycophant\n\nIngat sycophancy pada slide “keterbatasan AI” di awal sesi? Sebagian penyebabnya kemungkinan adalah preferensi manusia yang dipakai dalam RLHF.\nSharma et al. (2023) menemukan bahwa manusia (dan model reward yang meniru preferensi manusia) tidak jarang memilih jawaban yang meyakinkan dan sejalan dengan pandangan mereka daripada jawaban yang benar tetapi tidak sesuai harapan.\nKarena model reward dilatih dari preferensi semacam ini, optimasi RLHF bisa ikut mendorong model ke arah “menyenangkan” pengguna, alih-alih “benar secara faktual”.\n\n\n\n\n\n\n\nImplikasinya\n\n\nMakin dipoles lewat RLHF agar terasa membantu dan sopan, makin meyakinkan pula jawaban model, padahal akurasinya belum tentu ikut naik. Ingat, output AI sering terlihat meyakinkan (karena ditulis dengan “fasih”) tetapi “kefasihan” ini tidak menjamin kebenaran/akurasinya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
