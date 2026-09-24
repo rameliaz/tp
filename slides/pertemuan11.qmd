@@ -33,10 +33,10 @@ execute:
 ::: {.incremental}
 * Asesmen tradisional: ujian kertas, dinilai manual, hasilnya **statis** (satu angka, satu waktu)
 * Asesmen berbasis teknologi memungkinkan: **skala** (menilai ribuan jawaban serentak), **kecepatan** (umpan balik instan), dan **granularitas data** (jejak proses asesmen, tidak terbatas pada hasil akhir)
-* Pendorong utama: kebutuhan akan asesmen **formatif** yang berkelanjutan, bukan cuma sumatif di akhir semester
+* Pendorong utama: kebutuhan akan asesmen **formatif** yang berkelanjutan, di samping sumatif di akhir semester
 :::
 
-## Asesmen formatif vs. sumatif — sekilas ulang
+## Asesmen formatif vs. sumatif (sekilas ulang)
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -70,9 +70,9 @@ Teknologi paling berdampak justru pada asesmen **formatif**, karena skala dan ke
 ## *Computer-based testing* (CBT)
 
 ::: {.incremental}
-* Ujian yang diselenggarakan lewat perangkat digital, menggantikan kertas — mis. UTBK, TOEFL iBT
+* Ujian yang diselenggarakan lewat perangkat digital, menggantikan kertas, mis. UTBK, TOEFL iBT
 * Keuntungan: penilaian objektif otomatis (pilihan ganda), distribusi dan administrasi lebih efisien
-* Keterbatasan: soal tetap **statis** — semua peserta mengerjakan set soal yang sama tanpa memandang kemampuan masing-masing
+* Keterbatasan: soal tetap **statis**: semua peserta mengerjakan set soal yang sama tanpa memandang kemampuan masing-masing
 :::
 
 ## *Computerized adaptive testing* (CAT)
@@ -92,9 +92,9 @@ Teknologi paling berdampak justru pada asesmen **formatif**, karena skala dan ke
 ## Tiga generasi penilaian otomatis
 
 ::: {.incremental}
-* ***Automated essay scoring* (AES)** pertama kali dikembangkan tahun **1966** oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, kosakata) untuk memprediksi skor manusia.
-* Generasi *machine learning* (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih "atomistik", jadi belum benar-benar "memahami" makna esai.
-* Generasi **LLM** (2020-an–kini): model dapat mengevaluasi **kualitas argumen** dan memberi **umpan balik berbentuk kalimat**.
+* ***Automated essay scoring* (AES)** pertama kali dikembangkan tahun **1966** oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, kosakata) untuk memprediksi skor manusia
+* Generasi *machine learning* (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih "atomistik", jadi belum benar-benar "memahami" makna esai
+* Generasi **LLM** (2020-an–kini): model dapat mengevaluasi **kualitas argumen** dan memberi **umpan balik berbentuk kalimat**
 :::
 
 ::: aside
@@ -118,7 +118,7 @@ Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang 
 ::: {.incremental}
 * ***Learning analytics*** = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar
 * Contoh aplikasi: *dashboard* kemajuan belajar, sistem peringatan dini (*early-warning system*) untuk peserta didik berisiko *drop out*, rekomendasi materi yang dipersonalisasi
-* Fokusnya: memahami **proses belajar** itu sendiri secara *real-time*, bukan cuma mengukur hasil akhirnya
+* Fokusnya: memahami **proses belajar** itu sendiri secara *real-time*, selain mengukur hasil akhirnya
 :::
 
 ::: aside
@@ -127,7 +127,7 @@ Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang 
 
 ::: {.callout-important}
 ### Isu privasi
-Data jejak belajar sangat granular dan sensitif — siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen, harus jelas sejak awal (*informed consent*, bukan *surveillance* diam-diam)
+Data jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (*informed consent*)
 :::
 
 # Validitas, Reliabilitas, dan Keadilan ⚖️ {background-color="#14497F"}
@@ -145,7 +145,7 @@ Data jejak belajar sangat granular dan sensitif — siapa yang punya akses, bera
 ::: {.incremental}
 * Sistem *automated speech recognition*, komponen kunci di balik banyak alat asesmen berbasis suara, terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih [(Koenecke et al., 2020)](https://doi.org/10.1073/pnas.1915768117)
 * Pola serupa berulang pada *automated essay scoring*: model cenderung "menghukum" gaya penulisan yang menyimpang dari norma dominan dalam data pelatihannya (mis. tulisan penutur bahasa kedua)
-* Prinsipnya sama dengan bias yang kita bahas pada *reinforcement learning from human feedback*: model mewarisi (dan bisa memperbesar) bias dari data *training*nya
+* Prinsipnya sama dengan bias yang kita bahas pada *reinforcement learning from human feedback*: model mewarisi (dan bisa memperbesar) bias dari data pelatihannya
 :::
 
 ::: {.callout-note}
@@ -158,37 +158,34 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 ## Masalah lama dengan skala baru
 
 ::: {.incremental}
-* Kecurangan akademik bukan hal baru, tapi AI membuatnya **jauh lebih mudah, cepat, dan sulit dideteksi**.
+* Kecurangan akademik bukan hal baru, tapi AI membuatnya **jauh lebih mudah dan sulit dideteksi**
 * Alat "*AI detector*" (mis. GPTZero, Turnitin AI detection) punya tingkat **kesalahan (*false positive/negative*) yang tinggi**, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan peserta didik.
-* Konsekuensinya: mendeteksi "apakah teks ditulis AI" adalah **perlombaan yang sulit dimenangkan**.
-* Tetapi, sejak Bulan Agustus 2026, *developer* LLM besar diwajibkan mematuhi [EU AI Act](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content), yang akibatnya, memaksa *developer* untuk mengembangkan teknologi *watermarking* ada seluruh AI *generated content*.
-  + Salah satu *developer* yang sudah mengumumkan penambahan *watermark* pada seluruh produknya adalah [Anthropic (Claude)](https://www.anthropic.com/news/claude-text-watermark).
-  + Teknik *watermarking* ini terletak pada *pemilihan token* yang *randomness*nya dikendalikan, sehingga tidak mungkin bisa hilang tanpa melakukan parafrase menyeluruh pada teks *output*nya.
-  + Kemungkinan besar akan diikuti dengan munculnya AI-*generated content detector* dengan performa yang lebih baik.
-  + Ke depan, AI-*generated text* akan jauh lebih *visible* dibandingkan saat ini.
+* Konsekuensinya: mendeteksi "apakah teks ditulis AI" adalah **perlombaan yang sulit dimenangkan**
+* Sejak Agustus 2026, [EU AI Act](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content) mewajibkan pengembang LLM besar menandai (*watermark*) semua konten buatan AI
+  + Salah satu pengembang yang sudah mengumumkan *watermark* di seluruh produknya: [Anthropic (Claude)](https://www.anthropic.com/news/claude-text-watermark)
+  + *Watermark*-nya disisipkan lewat pemilihan token yang keacakannya dikendalikan, sehingga sulit dihapus tanpa memparafrasekan seluruh teks *output*-nya
+  + Kemungkinan besar akan muncul detektor konten AI yang lebih akurat
+  + Ke depan, teks buatan AI akan jauh lebih mudah dikenali
 :::
 
 ## Arah yang lebih menjanjikan: rancang ulang asesmen
 
 ::: {.incremental}
-* **Asesmen otentik** — tugas yang menuntut aplikasi kontekstual, bukan reproduksi informasi generik yang mudah dijawab AI
-* **Asesmen berbasis proses** — menilai *log* interaksi, draf, dan iterasi, bukan cuma produk akhir (ingat tugas UTS Anda: log interaksi dengan *chatbot* AI!)
+* **Asesmen otentik** — tugas yang menuntut penerapan kontekstual, sehingga sulit dijawab AI dengan informasi generik
+* **Asesmen berbasis proses** — menilai *log* interaksi, draf, dan iterasi, selain produk akhir (ingat tugas UTS Anda: log interaksi dengan *chatbot* AI!)
 * **Deklarasi penggunaan AI** yang jujur dan terbuka, dibanding melarang total (yang sulit ditegakkan dan tidak realistis)
 * **Asesmen lisan/interaktif** (presentasi, tanya-jawab langsung) yang sulit "diwakilkan" sepenuhnya ke AI
 :::
 
 ::: {.callout-tip}
-### Menghubungkan ke *effortless trap*
-[Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) mengingatkan: pertanyaan intinya adalah ***di titik mana* dalam proses belajar** AI ditempatkan — kalau asesmen dirancang sedemikian rupa sehingga tugas terasa "tanpa usaha" (*effortless*) dengan bantuan AI, itu sinyal desainnya perlu ditinjau ulang
+### Kaitannya dengan *effortless trap*
+[Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) mengingatkan: pertanyaan intinya adalah ***di titik mana* dalam proses belajar** AI ditempatkan. Kalau tugas asesmen terasa "tanpa usaha" (*effortless*) dengan bantuan AI, desainnya perlu ditinjau ulang
 :::
 
 ## Rangkuman
 
 ::: {.incremental}
-* Teknologi membuat asesmen **adaptif, formatif, dan berbasis data proses**, bukan lagi statis dan sumatif
-* **Penilaian otomatis** berkembang pesat, tapi masalah **validitas, reliabilitas, dan keadilan** tetap relevan. Satu potensi bias yang dibiarkan justru bisa berdampak negatif pada ribuan peserta didik sekaligus begitu diterapkan dalam skala besar
-* Kerangka ***automation* vs. *augmentation*** membantu menentukan kapan AI pantas menggantikan vs. sekadar membantu penilai manusia
-* Menghadapi tantangan integritas akademik di era AI, **rancang ulang asesmen** (otentik, berbasis proses) lebih berkelanjutan daripada sekadar mengandalkan alat deteksi AI
+* Pertanyaan untuk dibawa pulang: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?
 :::
 
 ## Terima kasih!😊 {.closing-slide}

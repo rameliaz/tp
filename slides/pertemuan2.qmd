@@ -31,17 +31,17 @@ execute:
 ## Model adopsi klasik: keputusan sekali jalan
 
 ::: {.incremental}
-* Teori difusi inovasi (Rogers, 1983) menggambarkan adopsi teknologi sebagai rangkaian tahap: pengetahuan → persuasi → keputusan → implementasi → konfirmasi (memakai terus, atau berhenti).
-* Model ini memperlakukan teknologi sebagai artefak **tetap** — begitu diadopsi, dipakai sesuai rancangan aslinya.
-* Masalahnya: model ini tidak menjelaskan apa yang sebenarnya terjadi **setelah** orang mulai memakai teknologi — orang jarang memakainya persis seperti niat perancangnya.
+* Teori difusi inovasi (Rogers, 1983) menggambarkan adopsi teknologi sebagai rangkaian tahap: pengetahuan → persuasi → keputusan → implementasi → konfirmasi (memakai terus, atau berhenti)
+* Teknologi diperlakukan sebagai artefak **tetap**: begitu diadopsi, dipakai sesuai rancangan aslinya
+* Masalahnya: model ini diam soal apa yang terjadi **setelah** orang mulai memakai teknologi, padahal orang jarang memakainya persis seperti niat perancangnya
 :::
 
 ## Apropriasi: teknologi dibongkar dan disesuaikan
 
 ::: {.incremental}
-* Carroll, Howard, Vetere, Peck, & Murphy (2001) mengusulkan istilah ***technology appropriation*** — bukan sekadar "menerima" teknologi, melainkan **membongkar** fungsi-fungsinya dan menyesuaikannya dengan kebutuhan sendiri.
-* Definisinya, mengutip Swan & Clark (1992, h. 114): pengguna "telah mengubah bentuk dan cara pakai inovasi dari yang disediakan" — mulai dari modifikasi kecil sampai transformasi besar.
-* Bedanya dengan adopsi: apropriasi **berulang dan tidak pernah selesai**, terus dievaluasi ulang meski sudah lama dipakai.
+* Carroll, Howard, Vetere, Peck, & Murphy (2001) mengusulkan istilah ***technology appropriation***: pengguna **membongkar** fungsi-fungsi teknologi dan menyesuaikannya dengan kebutuhan sendiri
+* Definisinya, mengutip Swan & Clark (1992, h. 114): pengguna "telah mengubah bentuk dan cara pakai inovasi dari yang disediakan", mulai dari modifikasi kecil sampai transformasi besar
+* Bedanya dengan adopsi: apropriasi **berulang dan tidak pernah selesai**, terus dievaluasi ulang meski sudah lama dipakai
 :::
 
 ::: aside
@@ -56,9 +56,9 @@ Carroll, Howard, Vetere, Peck, & Murphy (2001)
 ::: {.column width="55%"}
 
 ::: {.incremental}
-1. ***Technology-as-designed*** (teknologi-sebagai-dirancang) — artefak yang disediakan, membawa asumsi perancang tentang siapa penggunanya dan bagaimana ia akan dipakai.
-2. **Proses apropriasi** — pengguna mencoba, menilai, memilih fitur mana yang dipakai dan mana yang diabaikan.
-3. ***Technology-in-use*** (teknologi-dalam-pemakaian) — hasil akhirnya: teknologi yang sudah dievaluasi, disesuaikan, dan tertanam dalam rutinitas sehari-hari.
+1. ***Technology-as-designed*** (teknologi-sebagai-dirancang) — artefak yang disediakan, membawa asumsi perancang tentang siapa penggunanya dan bagaimana ia akan dipakai
+2. **Proses apropriasi** — pengguna mencoba, menilai, memilih fitur mana yang dipakai dan mana yang diabaikan
+3. ***Technology-in-use*** (teknologi-dalam-pemakaian) — hasil akhirnya: teknologi yang sudah dievaluasi, disesuaikan, dan tertanam dalam rutinitas sehari-hari
 :::
 :::
 
@@ -83,14 +83,14 @@ Kelompok berbeda bisa menghasilkan ***technology-in-use*** yang sangat berbeda d
 ## Tiga jalan dalam proses apropriasi
 
 ::: {.incremental}
-* ***Non-appropriation*** — pengguna tidak tahu atau tidak tertarik pada teknologi/fiturnya; tidak pernah masuk ke proses sama sekali.
-* ***Appropriation*** — pengguna mencoba, menilai, memilih dan menyesuaikan atribut tertentu, mengambil alih kemampuannya untuk memenuhi kebutuhan sendiri.
-* ***Disappropriation*** — pengguna memilih **berhenti** memakai; bisa terjadi di awal, di akhir, bahkan **setelah** periode pemakaian rutin sekalipun.
+* ***Non-appropriation*** — pengguna tidak tahu atau tidak tertarik pada teknologi/fiturnya; tidak pernah masuk ke proses sama sekali
+* ***Appropriation*** — pengguna mencoba, menilai, memilih dan menyesuaikan atribut tertentu, mengambil alih kemampuannya untuk memenuhi kebutuhan sendiri
+* ***Disappropriation*** — pengguna memilih **berhenti** memakai; bisa terjadi di awal, di akhir, bahkan **setelah** periode pemakaian rutin sekalipun
 :::
 
 ::: {.callout-important}
 ### Yang sering diabaikan model-model lain
-Apropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap tetap bisa ditinggalkan — inilah yang membedakan model ini dari teori adopsi yang berhenti begitu "keputusan" diambil.
+Apropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap tetap bisa ditinggalkan. Di sinilah model ini berbeda dari teori adopsi yang berhenti begitu "keputusan" diambil.
 :::
 
 ## Penarik dan penolak proses apropriasi
@@ -100,9 +100,9 @@ Apropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap te
 ### Penarik (*attractors*)
 
 ::: {.incremental}
-* Kepraktisan.
-* Kegunaan yang jelas.
-* Faktor gaya — ukuran, bobot, kemudahan pakai.
+* Kepraktisan
+* Kegunaan yang jelas
+* Faktor gaya (ukuran, bobot, kemudahan pakai)
 :::
 :::
 
@@ -110,10 +110,10 @@ Apropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap te
 ### Penolak (*repellents*)
 
 ::: {.incremental}
-* Biaya, terutama untuk pengguna usia sekolah.
-* Fitur yang sulit dipelajari.
+* Biaya, terutama untuk pengguna usia sekolah
+* Fitur yang sulit dipelajari
 * Kekhawatiran (mis. kesehatan), meski tak selalu mengubah perilaku.
-* Konten tak diinginkan (spam, materi tak pantas).
+* Konten tak diinginkan (spam, materi tak pantas)
 :::
 :::
 :::
@@ -123,7 +123,7 @@ Apropriasi tidak pernah benar-benar stabil. Kebiasaan yang sudah lama menetap te
 ## Desain penelitian
 
 ::: {.callout-note}
-### Carroll et al. (2001) — metode gabungan
+### Carroll et al. (2001): metode gabungan
 4 kelompok fokus (Melbourne dan Sydney, usia 16–22), dilanjutkan observasi 6 partisipan dalam aktivitas sehari-hari, plus catatan harian daring selama 3 minggu.
 :::
 
@@ -132,25 +132,25 @@ Temuannya berputar pada tiga tema yang saling menguatkan: **identitas**, **kekua
 ## Identitas: ponsel sebagai penanda diri
 
 ::: {.incremental}
-* "*It gives you an identity: this is who I am, this is my number*" — salah satu partisipan.
-* SMS memperkuat identitas meski secara teknis sederhana; sebuah survei Eropa yang dikutip penulis menemukan lebih dari separuh responden **kecewa** kalau sehari tanpa pesan teks.
-* Ponsel bahkan disebut sebagai prasyarat untuk punya kehidupan sosial — remaja tanpa ponsel kesulitan menjaga hubungan.
-* Ada hierarki keintiman per media: SMS/ponsel (paling intim) → surel (keluarga/teman di luar kota) → *chat* (paling berjarak, "teman *chat*").
+* "*It gives you an identity: this is who I am, this is my number*" (salah satu partisipan)
+* SMS memperkuat identitas meski secara teknis sederhana; sebuah survei Eropa yang dikutip penulis menemukan lebih dari separuh responden **kecewa** kalau sehari tanpa pesan teks
+* Ponsel bahkan disebut prasyarat kehidupan sosial: remaja tanpa ponsel kesulitan menjaga hubungan
+* Ada hierarki keintiman per media: SMS/ponsel (paling intim) → surel (keluarga/teman di luar kota) → *chat* (paling berjarak, "teman *chat*")
 :::
 
-## Kekuasaan: menavigasi otoritas orang tua dan sekolah
+## Kekuasaan: menyiasati otoritas orang tua dan sekolah
 
 ::: {.incremental}
-* Remaja memakai fitur ponsel untuk mengelola siapa yang bisa menjangkau mereka, kapan — penyaringan panggilan lewat *caller ID*, nada dering personal, kotak suara.
-* "*Mum calls when I'm out drinking. Let it go and SMS her*" — SMS dipakai untuk menghindar dari percakapan langsung yang tidak diinginkan.
-* SMS dipakai diam-diam di ruang kelas dan kuliah; sebagian remaja perempuan membuat grup *chat* sendiri untuk mengendalikan siapa yang boleh ikut.
+* Remaja memakai fitur ponsel untuk mengatur siapa yang bisa menjangkau mereka dan kapan: penyaringan panggilan lewat *caller ID*, nada dering personal, kotak suara
+* "*Mum calls when I'm out drinking. Let it go and SMS her*": SMS dipakai untuk menghindari percakapan langsung yang tidak diinginkan
+* SMS dipakai diam-diam di ruang kelas dan kuliah; sebagian remaja perempuan membuat grup *chat* sendiri untuk mengendalikan siapa yang boleh ikut
 :::
 
 ## Fragmentasi: menjaga kohesi lintas jarak
 
 ::: {.incremental}
-* ICT membantu menjaga hubungan yang tersebar secara geografis atau sosial — keluarga campuran (*blended families*), mahasiswa rantau, teman yang pindah sekolah.
-* Contoh dari studi: seorang remaja tetap menjaga pertemanan lama lewat ponsel setelah pindah sekolah; mahasiswa di kampus berbeda tetap kontak harian lewat ponsel.
+* ICT membantu menjaga hubungan yang tersebar secara geografis atau sosial: keluarga campuran (*blended families*), mahasiswa rantau, teman yang pindah sekolah
+* Contoh dari studi: seorang remaja tetap menjaga pertemanan lama lewat ponsel setelah pindah sekolah; mahasiswa di kampus berbeda tetap kontak harian lewat ponsel
 :::
 
 ::: aside
@@ -162,21 +162,21 @@ Carroll, Howard, Vetere, Peck, & Murphy (2001)
 ## Ketika teknologi mengubah cara hidup direncanakan
 
 ::: {.incremental}
-* Salah satu temuan paling mencolok: hidup remaja jadi ditandai oleh ***adhocracy*** — improvisasi janji sosial dari menit ke menit, bukan rencana yang disusun jauh-jauh hari.
-* "*It's taken the strict plan out of your social life altogether, once you've got a mobile phone*" — partisipan menggambarkan hidupnya jadi lebih cepat dan kurang terorganisasi sejak punya ponsel.
-* Dampaknya sampai ke norma sosial soal berjanji dan menepati janji, bukan cuma cara berkomunikasi.
+* Salah satu temuan paling mencolok: hidup remaja jadi ditandai oleh ***adhocracy***, yaitu janji sosial yang diimprovisasi dari menit ke menit
+* "*It's taken the strict plan out of your social life altogether, once you've got a mobile phone*": partisipan merasa hidupnya jadi lebih cepat dan kurang terorganisasi sejak punya ponsel
+* Dampaknya merembet ke norma sosial soal berjanji dan menepati janji
 :::
 
-## Menghubungkan balik ke pertemuan sebelumnya
+## Kaitannya dengan pertemuan sebelumnya
 
 ::: {.incremental}
-* Minggu lalu kita membahas *affordance* dan *mental model* — bagaimana desain antarmuka membentuk ekspektasi pengguna.
-* Model apropriasi menambahkan lapisan berikutnya: desain yang sama bisa berujung pada ***technology-in-use*** yang sangat berbeda, tergantung siapa yang memakainya dan kebutuhan apa yang mereka bawa.
-* Faktor identitas, kekuasaan, dan konteks sosial ikut menentukan penggunaan — tidak selalu terlihat dari seberapa baik antarmukanya dirancang.
+* Minggu lalu: *affordance* dan *mental model*, yaitu cara desain antarmuka membentuk ekspektasi pengguna
+* Model apropriasi menambahkan lapisan berikutnya: desain yang sama bisa berujung pada ***technology-in-use*** yang sangat berbeda, tergantung siapa yang memakainya dan kebutuhan apa yang mereka bawa
+* Identitas, kekuasaan, dan konteks sosial ikut menentukan pemakaian, dan faktor-faktor ini tidak terlihat dari kualitas desain antarmukanya
 :::
 
 ::: notes
-Bagian ceramah ±50 menit. Tekankan bahwa penelitian Carroll et al. tentang ponsel awal 2000-an masih relevan sebagai kerangka, meski perangkatnya sudah sangat berbeda — pola perilakunya (identitas, kekuasaan, fragmentasi) berulang di media sosial dan aplikasi belajar saat ini.
+Bagian ceramah ±50 menit. Tekankan bahwa penelitian Carroll et al. tentang ponsel awal 2000-an masih relevan sebagai kerangka, meski perangkatnya sudah sangat berbeda. Pola perilakunya (identitas, kekuasaan, fragmentasi) berulang di media sosial dan aplikasi belajar saat ini.
 :::
 
 # Diskusi & Refleksi 💬 {background-color="#14497F"}
@@ -191,7 +191,7 @@ Pilih satu teknologi yang rutin Anda pakai untuk belajar atau bekerja (aplikasi 
 ::: {.incremental}
 * Ceritakan lintasan apropriasinya: bagaimana pertama kali Anda mencobanya, fitur apa yang Anda pakai berbeda dari niat perancangnya?
 * Adakah fitur yang pernah Anda pakai rutin, lalu Anda tinggalkan (*disappropriation*) setelah sekian lama?
-* Identifikasi satu penarik dan satu penolak yang memengaruhi keputusan Anda memakai atau tidak memakai teknologi tersebut.
+* Identifikasi satu penarik dan satu penolak yang memengaruhi keputusan Anda memakai atau tidak memakai teknologi tersebut
 :::
 
 ::: {style="text-align: center"}
@@ -199,16 +199,14 @@ Pilih satu teknologi yang rutin Anda pakai untuk belajar atau bekerja (aplikasi 
 :::
 
 ::: notes
-Sesi diskusi ±50 menit termasuk berbagi. Arahkan mahasiswa untuk melihat apropriasi sebagai proses yang sedang berjalan, bukan keputusan yang sudah selesai — termasuk kemungkinan mereka akan meninggalkan sebagian fitur di masa depan.
+Sesi diskusi ±50 menit termasuk berbagi. Arahkan mahasiswa untuk melihat apropriasi sebagai proses yang masih berjalan, termasuk kemungkinan mereka meninggalkan sebagian fitur di masa depan.
 :::
 
 ## Rangkuman
 
 ::: {.incremental}
-* ***Technology appropriation*** melampaui model adopsi klasik: proses berulang membongkar dan menyesuaikan teknologi dengan kebutuhan sendiri.
-* Tiga komponen model: ***technology-as-designed***, **proses apropriasi**, ***technology-in-use*** — dengan tiga kemungkinan jalan (*non-appropriation*, *appropriation*, *disappropriation*) yang bisa terjadi kapan saja, bahkan setelah pemakaian rutin bertahun-tahun.
-* Studi Carroll et al. (2001) menunjukkan apropriasi ponsel pada remaja berputar di sekitar **identitas**, **kekuasaan**, dan **fragmentasi** — dan melahirkan pola hidup ***adhocracy***.
-* Desain yang identik bisa menghasilkan pemakaian yang sangat berbeda, karena faktor sosial dan personal ikut menentukan.
+* Pertanyaan untuk dibawa pulang: dari semua fitur *chatbot* AI yang Anda pakai sekarang, mana yang Anda pakai persis seperti niat perancangnya, dan mana yang sudah Anda "bongkar"?
+* Apropriasi menjelaskan apa yang terjadi **setelah** teknologi dipakai; minggu depan TAM menjelaskan keyakinan yang muncul **sebelum** orang mau mencobanya
 :::
 
 ## Terima kasih!😊 {.closing-slide}

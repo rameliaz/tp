@@ -71,7 +71,7 @@ Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *s
 |:--|:--|--:|
 | Ketepatan aplikasi kerangka teoretis | Kesesuaian dan kedalaman penggunaan minimal dua konsep/teori dari Minggu 1–7 | 30 |
 | Kualitas refleksi kritis | Kemampuan mengevaluasi secara kritis peran AI (*automation*/*augmentation*), risiko, dan batasannya | 30 |
-| Kelengkapan dan kejujuran log interaksi | Log mencerminkan proses nyata secara utuh, termasuk kegagalan/iterasi | 20 |
+| Kelengkapan dan kejujuran log interaksi | Log mencerminkan proses yang sebenarnya secara utuh, termasuk kegagalan/iterasi | 20 |
 | Kejelasan dan struktur penulisan | Esai terorganisir, alur logis, menggunakan gaya bahasa akademik | 15 |
 | Ketepatan format dan sitasi | Mengikuti gaya sitasi APA edisi ke-7 | 5 |
 | **Total** | | **100** |
@@ -81,7 +81,7 @@ Alternatifnya, Anda bisa menekan tombol `e` sebagai *shortcut*, lalu mencetak *s
 ::: {.callout-tip collapse="true"}
 ### Rincian Tugas 2 — Diskusi Kelompok & Presentasi Studi Kasus (Minggu ke-12)
 
-**Tujuan:** mahasiswa mampu mengidentifikasi dan menganalisis secara kritis dampak serta implikasi penggunaan teknologi (termasuk AI) pada proses pembelajaran di berbagai jenjang pendidikan melalui diskusi kelompok atas studi kasus nyata, serta mengomunikasikan hasil analisis dalam presentasi ilmiah.
+**Tujuan:** mahasiswa mampu mengidentifikasi dan menganalisis secara kritis dampak serta implikasi penggunaan teknologi (termasuk AI) pada proses pembelajaran di berbagai jenjang pendidikan melalui diskusi kelompok atas studi kasus dari lapangan, serta mengomunikasikan hasil analisis dalam presentasi ilmiah.
 
 **Objek garapan:** diskusi dan presentasi kelompok yang menganalisis satu studi kasus mengenai dampak/implikasi teknologi pada pembelajaran, dilengkapi sesi diskusi dengan kelas.
 

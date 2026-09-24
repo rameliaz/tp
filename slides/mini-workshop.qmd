@@ -21,7 +21,7 @@ execute:
 ## Agenda {.agenda-slide}
 
 1. **Apa sebenarnya akal imitasi?**
-2. **Bagaimana dan untuk apa peneliti menggunakan AI?** — bagaimana bukti dari riset empiris?
+2. **Bagaimana dan untuk apa peneliti memakai AI?** Bukti dari riset
 3. ***AI Fluency Framework*** — mengapa *fluency* menentukan kualitas *output*
 4. Di tahapan siklus penelitian yang mana AI bisa membantu?
 5. Risiko dan mitigasinya
@@ -34,7 +34,7 @@ execute:
 ::: aside
 **Bagaimana saya menyusun materi ini dan *disclosure* penggunaan AI**
 
-Materi ini sebagian terinspirasi dari kursus daring "*AI Fluency: Framework & Foundations*" yang disediakan secara gratis oleh Anthropic. Meskipun paparan ini lebih banyak difokuskan pada penggunaan AI dalam proses penelitian.
+Materi ini sebagian terinspirasi dari kursus daring "*AI Fluency: Framework & Foundations*" yang disediakan secara gratis oleh Anthropic, tetapi paparan ini lebih berfokus pada penggunaan AI dalam proses penelitian.
 
 [**Klik di sini untuk mengikuti kursus tersebut**](https://anthropic.skilljar.com/ai-fluency-framework-foundations)
 
@@ -55,13 +55,13 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk menyusun *draft* awal *slide
 
 # Apa Sebenarnya Akal Imitasi? 🤖 {background-color="#14497F"}
 
-## Bukan "kecerdasan buatan" seperti yang dibayangkan orang
+## *Artificial intelligence* alias "akal imitasi"
 
 ::: {.incremental}
-* Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan," dan akibatnya publik menganggap seolah-olah AI benar-benar *cerdas*.
-* Padahal AI *chatbot* adalah model statistik dengan *output* teks (***large language model***, LLM) yang **meniru** proses dan produk kognisi manusia — bukan mereplikasinya.
-* Istilah **akal imitasi** dipilih untuk mengingatkan dua hal sekaligus: *output*-nya terasa natural dan meyakinkan, tapi ia bukan manusia — tidak punya pemahaman, niat, atau tanggung jawab.
-* Konsekuensinya: **Andalah yang bertanggung jawab** atas apa pun yang dihasilkan AI dan Anda pakai dalam tugas akhir Anda.
+* Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan", sehingga publik mengira AI **benar-benar** *cerdas*
+* Padahal *chatbot* AI adalah model statistik dengan *output* teks (***large language model***, LLM) yang **meniru** proses dan produk kognisi manusia
+* Istilah **akal imitasi** mengingatkan dua hal sekaligus: *output*-nya terasa alami dan meyakinkan, tapi LLM bukan manusia, sehingga tidak punya pemahaman dalam arti manusiawi, niat, atau tanggung jawab
+* Konsekuensinya: **Andalah yang bertanggung jawab** atas apa pun yang dihasilkan AI dan Anda pakai dalam tugas akhir Anda
 :::
 
 ## Sejarah singkat AI
@@ -69,11 +69,11 @@ Saya menggunakan Claude Code (Model Sonnet 5) untuk menyusun *draft* awal *slide
 ::: {.columns}
 ::: {.column width="55%"}
 ::: {.incremental}
-* 1950–80an: AI simbolik, manusia menuliskan aturan logikanya satu per satu (*expert systems*).
-* 1990–2000an: *machine learning* membuat keputusan berdasarkan data (mis. penyaring spam).
-* 2010an: *deep learning* dan *natural language processing* semakin matang.
-* 2017: arsitektur ***transformer*** — titik balik yang memungkinkan LLM modern.
-* 2022 dst.: *generative AI* menjadi fenomena massal (GPT-3.5 dan seterusnya).
+* 1950-an–1980-an: AI simbolik, manusia menuliskan aturan logikanya satu per satu (*expert systems*)
+* 1990-an–2000-an: *machine learning* membuat keputusan berdasarkan data (mis. penyaring spam).
+* 2010-an: *deep learning* dan pemrosesan bahasa alami (*natural language processing*) semakin matang
+* 2017: arsitektur ***transformer***, titik balik yang memungkinkan LLM modern
+* 2022: OpenAI merilis ChatGPT (berbasis GPT-3.5); AI generatif menjadi fenomena massal
 :::
 :::
 
@@ -94,21 +94,21 @@ Sumber: *A Timeline of LLM Innovation* (Synthedia)
 
 ::: {.callout-tip}
 ### Pertanyaan yang sebenarnya sedang dijawab LLM
-"Dari semua kata yang muncul sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?"
+"Berdasarkan semua kata dalam percakapan sejauh ini, kata apa yang paling mungkin muncul berikutnya?"
 
-Itu saja. Respon yang "terlihat" sangat "meyakinkan" adalah hasil model ini mengulang proses tersebut jutaan kali per respons, dalam skala parameter yang sangat besar.
+Jawaban yang meyakinkan itu hasil dari proses ini yang diulang untuk setiap token, oleh model berukuran sangat besar.
 :::
 
 ## Kenapa LLM bisa "paham" konteks kalimat
 
 ::: {.columns}
 ::: {.column width="55%"}
-Contoh: "Bisa **ular** itu amat mematikan" vs. "Saya **bisa** datang besok."
+Contoh: "**Bisa** ular itu amat mematikan" vs. "Saya **bisa** datang besok."
 
 ::: {.incremental}
-* Kata yang sama tetapi maknanya berbeda (homonim), tergantung konteks dari kalimat tsb.
-* Arsitektur ***transformer*** memungkinkan setiap kata "memperhatikan" (*attention*) semua kata lain dalam konteks, bukan cuma kata sebelumnya.
-* Ini juga yang membuat *model training* LLM bisa dilakukan paralel dalam skala masif.
+* Kata yang sama dengan makna berbeda (homonim), bergantung pada konteks kalimatnya
+* Arsitektur ***transformer*** memungkinkan setiap kata "memperhatikan" (*attention*) semua kata lain dalam konteks, bukan cuma kata sebelumnya
+* Ini juga yang membuat pelatihan LLM bisa dilakukan paralel dalam skala masif
 :::
 :::
 
@@ -124,14 +124,14 @@ Vaswani dkk. (2017), ["Attention is all you need"](https://proceedings.neurips.c
 ## Bagaimana LLM dikembangkan?
 
 ::: {.incremental}
-1. ***Pre-training*** — model membaca miliaran contoh teks, belajar memprediksi kata berikutnya. Dari sini ia memperoleh "pengetahuan" bahasa dan dunia secara luas, tapi belum tahu cara berperilaku sebagai asisten.
-2. ***Fine-tuning*** — pelatihan tambahan (termasuk dengan umpan balik manusia) agar model mengikuti instruksi, memberikan repson dengan *tone* membantu, dan menolak permintaan yang berisiko.
-3. ***Deployment*** — Anda memberi *prompt*, model merespons berdasarkan gabungan pola dari pelatihan dan konteks yang Anda berikan.
+1. ***Pre-training*** — model membaca miliaran contoh teks dan belajar memprediksi kata berikutnya; hasilnya "pengetahuan" bahasa dan dunia yang luas, tapi belum bisa berperilaku sebagai asisten
+2. ***Fine-tuning*** — pelatihan tambahan (termasuk dengan umpan balik manusia) agar model mengikuti instruksi, merespons dengan nada membantu, dan menolak permintaan yang berisiko
+3. ***Deployment*** — Anda memberi *prompt*, model merespons berdasarkan gabungan pola dari pelatihan dan konteks yang Anda berikan
 :::
 
 ::: {.callout-tip}
 ### Analoginya dengan proses belajar manusia
-***Pre-training* ≈** pemerolehan bahasa dan pengetahuan. ***Fine-tuning* ≈** sosialisasi — belajar norma tentang *bagaimana* menggunakan kemampuan itu secara pantas.
+***Pre-training* ≈** pemerolehan bahasa dan pengetahuan. ***Fine-tuning* ≈** sosialisasi, yaitu belajar norma tentang *bagaimana* menggunakan kemampuan itu secara pantas.
 :::
 
 ## Kenapa kemampuannya melonjak drastis sejak 2022?
@@ -139,9 +139,9 @@ Vaswani dkk. (2017), ["Attention is all you need"](https://proceedings.neurips.c
 ::: {.columns}
 ::: {.column width="55%"}
 ::: {.incremental}
-* **Arsitektur** — *transformer* bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (*scaling laws*).
-* **Data** — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode).
-* **Daya Komputasi** — lonjakan daya komputasi (GPU, pusat data) yang dibutuhkan untuk benar-benar melatih model sebesar itu.
+* **Arsitektur** — *transformer* bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (*scaling laws*)
+* **Data** — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode)
+* **Komputasi** — GPU dan pusat data yang dibutuhkan untuk melatih model sebesar itu
 :::
 :::
 
@@ -152,17 +152,21 @@ Vaswani dkk. (2017), ["Attention is all you need"](https://proceedings.neurips.c
 
 ::: {.callout-note}
 ### *Emergent capabilities*
-Pada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit, misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu hal paling mengejutkan tentang LLM, dan salah satu alasan perilakunya sulit diprediksi sepenuhnya. [Rumornya](https://dealroom.co/news/150681-rumors-swirl-that-google-deepmind-is-nearing-autonomous-rsi-as-brin-push/), ada *model developer* yang berhasil mengembangkan [*self-recursive* LLM](https://en.wikipedia.org/wiki/Recursive_self-improvement).
+Pada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit, misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu alasan perilaku LLM sulit diprediksi sepenuhnya.
 :::
 
-## *Chatbot*, *reasoning model*, *agent* — tiga tingkat otonomi
+::: notes
+Kalau ada yang bertanya: beredar [rumor](https://dealroom.co/news/150681-rumors-swirl-that-google-deepmind-is-nearing-autonomous-rsi-as-brin-push/) bahwa sebuah pengembang model mendekati [*recursive self-improvement*](https://en.wikipedia.org/wiki/Recursive_self-improvement). Sampaikan sebagai rumor yang belum terverifikasi.
+:::
+
+## *Chatbot*, *reasoning model*, dan *agent*: tiga tingkat otonomi
 
 ::: {.columns}
 ::: {.column width="55%"}
 ::: {.incremental}
-* ***Chatbot*** — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.
-* ***Reasoning model*** — "berpikir" bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks.
-* ***AI agent*** — merencanakan dan mengeksekusi tugas multi-langkah secara **otonom**: menjelajah web, memakai aplikasi, menjalankan kode — atas nama Anda, dengan pengawasan yang jauh lebih longgar.
+* ***Chatbot*** — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah
+* ***Reasoning model*** — "berpikir" bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks
+* ***AI agent*** — merencanakan dan mengeksekusi tugas multi-langkah secara **otonom** atas nama Anda (menjelajah web, memakai aplikasi, menjalankan kode), dengan pengawasan yang jauh lebih longgar
 :::
 :::
 
@@ -173,18 +177,18 @@ Pada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram se
 
 ::: {.callout-important}
 ### Kenapa ini penting untuk riset Anda
-Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent* — bukan sekadar *chatbot* yang Anda ajak bicara satu per satu. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.
+Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent*. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.
 :::
 
 ## Keterbatasan LLM 🚩🚩🚩
 
 ::: {.incremental}
-* ***Hallucination*** — menyatakan sesuatu yang salah dengan nada percaya diri yang sama seperti saat ia benar. Termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada.
-* **Batas pengetahuan** (*knowledge cutoff*) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian.
-  + Tetapi, sebagian besar model *frontier* yang bisa melakukan pencarian langsung di internet tidak punya kelemahan ini.
-* **Batas konteks** — ada jumlah maksimum teks yang bisa "diingat" model dalam satu sesi.
-* **Penalaran yang rapuh** — perubahan kecil pada cara Anda memformulasikan pertanyaan bisa menghasilkan jawaban yang sangat berbeda.
-* ***Sycophancy*** — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan Anda.
+* **Halusinasi** — menyatakan sesuatu yang salah dengan nada percaya diri yang sama seperti saat ia benar, termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada
+* **Batas pengetahuan** (*knowledge cutoff*) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian
+  + Kelemahan ini berkurang pada model yang bisa mencari langsung di internet
+* **Batas konteks** — ada jumlah maksimum teks yang bisa "diingat" model dalam satu sesi
+* **Penalaran yang rapuh** — perubahan kecil pada cara Anda memformulasikan pertanyaan bisa menghasilkan jawaban yang sangat berbeda
+* ***Sycophancy*** — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan Anda
 :::
 
 # Bagaimana dan Untuk Apa Peneliti Menggunakan AI? 📊 {background-color="#14497F"}
@@ -193,26 +197,26 @@ Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent* —
 
 ::: {.incremental}
 * ChatGPT diluncurkan November 2022. Per Juli 2025: sekitar **18 miliar pesan per minggu**, dari sekitar **700 juta pengguna** — kira-kira 1 dari 10 orang dewasa di dunia.
-* Proporsi pemakaiannya bergeser: pada Juni 2024, pemakaian untuk pekerjaan vs. di luar pekerjaan hampir seimbang (47% vs 53%). Setahun kemudian, pemakaian non-kerja mendominasi (73%) — orang makin banyak memakainya untuk urusan pribadi, bukan cuma tugas profesional.
-* Tiga kategori percakapan terbesar: mencari **panduan praktis** (±29%), **mencari informasi** (±24%), dan **menulis** (±24%) — bersama-sama sekitar 77% dari seluruh pemakaian.
+* Proporsi pemakaiannya bergeser: pada Juni 2024, pemakaian untuk pekerjaan vs. di luar pekerjaan hampir seimbang (47% vs 53%). Setahun kemudian, pemakaian non-kerja mendominasi (73%).
+* Tiga kategori percakapan terbesar: mencari **panduan praktis** (±29%), **mencari informasi** (±24%), dan **menulis** (±24%) ; totalnya sekitar 77% dari seluruh pemakaian
 :::
 
 ::: aside
 [Chatterji dkk. (2025)](https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf)
 :::
 
-## Tiga cara orang "berhubungan" dengan AI
+## Tiga cara orang memakai AI
 
 ::: {.incremental}
-* ***Asking*** — meminta informasi atau saran, keputusan tetap di tangan manusia.
-* ***Doing*** — meminta AI menghasilkan atau menyelesaikan sesuatu secara langsung.
-* ***Expressing*** — memakai AI untuk memproses pikiran/perasaan, bukan menghasilkan sesuatu yang konkret.
-* Untuk pemakaian terkait pekerjaan secara spesifik, ***Doing*** mendominasi (±56%) — orang lebih banyak minta AI *mengerjakan*, bukan sekadar *menyarankan*.
+* ***Asking*** — meminta informasi atau saran, keputusan tetap di tangan manusia
+* ***Doing*** — meminta AI menghasilkan atau menyelesaikan sesuatu secara langsung
+* ***Expressing*** — memakai AI untuk memproses pikiran/perasaan
+* Untuk pemakaian terkait pekerjaan secara spesifik, ***Doing*** mendominasi (±56%): orang lebih banyak meminta AI *mengerjakan* daripada *menyarankan*
 :::
 
 ::: {.callout-caution}
 ### Yang perlu Anda waspadai
-Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda menyerahkan proses evaluasi *output* ke AI. Bagian *Discernment* nanti akan membahas kenapa ini penting.
+Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda menyerahkan proses evaluasi *output* ke AI. Kita bahas lagi di bagian *Discernment*.
 :::
 
 ::: aside
@@ -222,9 +226,9 @@ Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda m
 ## Tapi bagaimana dengan peneliti secara khusus?
 
 ::: {.incremental}
-* Survei *Nature* terhadap **1.659 peneliti** (2023): 48% mengembangkan/meneliti AI itu sendiri, 30% memakai AI *dalam* riset mereka, 22% tidak memakainya sama sekali.
-* Bahkan di antara peneliti yang mempelajari/mengembangkan AI itu sendiri, hanya **28%** memakai *generative AI* (semacam ChatGPT) setiap hari/lebih dari sekali seminggu — pada peneliti yang sekadar *memakai* AI, angkanya turun ke 13%.
-* Optimisme jangka panjang jauh lebih tinggi dari pemakaian saat ini: 27% memperkirakan AI akan jadi "esensial" bagi bidang mereka dalam satu dekade, dibanding hanya 4% yang menyebutnya esensial *sekarang*.
+* Survei *Nature* terhadap **1.659 peneliti** (2023): 48% mengembangkan/meneliti AI itu sendiri, 30% memakai AI *dalam* riset mereka, 22% tidak memakainya sama sekali
+* Bahkan di antara peneliti yang mempelajari/mengembangkan AI itu sendiri, hanya **28%** memakai *generative AI* (semacam ChatGPT) setiap hari/lebih dari sekali seminggu ; pada peneliti yang sekadar *memakai* AI, hanya 13%
+* Optimisme jangka panjang jauh lebih tinggi dari pemakaian saat ini: 27% memperkirakan AI akan jadi "esensial" bagi bidang mereka dalam satu dekade, dibanding hanya 4% yang menyebutnya esensial *sekarang*
 :::
 
 ::: aside
@@ -234,27 +238,27 @@ Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda m
 ## Untuk apa peneliti sebenarnya memakainya?
 
 ::: {.incremental}
-* Urutan pemakaian dari yang paling umum: hiburan kreatif yang **tidak terkait riset** (justru paling sering!), menulis kode, curah gagasan, menulis naskah, mengerjakan riset, tinjauan literatur, mesin pencari, urusan administratif.
-* Artinya: pemakaian AI oleh peneliti jauh lebih beragam — dan lebih "biasa" — daripada citra "AI menulis paper untuk saya" yang sering dibayangkan.
-* Pola serupa muncul pada survei terhadap sosiolog: pemakaian AI bersifat **bimodal** (kelompok pemakai rutin cukup besar, tapi kelompok "tidak pernah" juga besar), paling tinggi untuk **menulis**, paling rendah untuk **pengumpulan data**.
+* Urutan pemakaian dari yang paling umum: hiburan kreatif yang **tidak terkait riset** (justru paling sering), menulis kode, curah gagasan, menulis naskah, mengerjakan riset, tinjauan literatur, mesin pencari, urusan administratif
+* Artinya: pemakaian AI oleh peneliti jauh lebih beragam dan lebih "biasa" daripada citra "AI menulis paper untuk saya" yang sering dibayangkan
+* Pola serupa muncul pada survei terhadap sosiolog: pemakaian AI bersifat **bimodal** (kelompok pemakai rutin cukup besar, tapi kelompok "tidak pernah" juga besar), paling tinggi untuk **menulis**, paling rendah untuk **pengumpulan data**
 :::
 
 ::: aside
 [Van Noorden & Perkel (2023)](https://www.nature.com/articles/d41586-023-02980-0); [Alvero dkk. (2026)](https://sociologicalscience.com/download/volume-13/january/SocSci_v13_45to62.pdf)
 :::
 
-## Peneliti adalah kelompok yang paling khawatir
+## Peneliti tetap khawatir
 
 ::: {.incremental}
-* 69% khawatir AI mendorong **ketergantungan pada pengenalan pola tanpa pemahaman**.
-* 68% khawatir AI mempermudah **penyebaran misinformasi** dan **plagiarisme yang sulit dideteksi**.
-* 66% khawatir AI membawa **kesalahan/ketidakakuratan** masuk ke naskah publikasi.
-* 58% khawatir AI **melanggengkan bias** yang ada di data latihnya.
+* 69% khawatir AI mendorong **ketergantungan pada pengenalan pola tanpa pemahaman**
+* 68% khawatir AI mempermudah **penyebaran misinformasi** dan **plagiarisme yang sulit dideteksi**
+* 66% khawatir AI membawa **kesalahan/ketidakakuratan** masuk ke naskah publikasi
+* 58% khawatir AI **melanggengkan bias** yang ada di data latihnya
 :::
 
 ::: {.callout-important}
-### Catatan penting
-Kekhawatiran ini datang dari peneliti yang sudah memakai AI, karena kekhawatiran dan pemakaian bisa berjalan bersamaan.
+### Khawatir sambil tetap memakai
+Kekhawatiran ini datang dari peneliti yang sudah memakai AI. Mereka memakainya sambil tetap khawatir.
 :::
 
 ::: aside
@@ -270,9 +274,9 @@ Kekhawatiran ini datang dari peneliti yang sudah memakai AI, karena kekhawatiran
 ## Kenapa sekadar "bisa pakai AI" tidak cukup
 
 ::: {.incremental}
-* **Literasi AI** — tahu apa itu AI, cara kerjanya secara umum, istilah-istilahnya.
-* ***Fluency* AI** — kemampuan bekerja **efektif, efisien, etis, dan aman** dalam berbagai bentuk interaksi manusia-AI.
-* Fluency diukur dari seberapa baik Anda **menilai** apa yang dihasilkan AI dan **bertanggung jawab** atas cara Anda memakainya.
+* **Literasi AI** — tahu apa itu AI, cara kerjanya secara umum, istilah-istilahnya
+* ***Fluency* AI** — kemampuan bekerja **efektif, efisien, etis, dan aman** dalam berbagai bentuk interaksi manusia-AI
+* *Fluency* diukur dari seberapa baik Anda **menilai** apa yang dihasilkan AI dan **bertanggung jawab** atas cara Anda memakainya
 * Kerangka yang akan kita pakai berasal dari kursus daring Anthropic, "*AI Fluency: Framework & Foundations*."
 :::
 
@@ -289,7 +293,7 @@ Bent dkk. (2026); Dakan & Feller (2025)
 :::
 
 ::: {.callout-note}
-### Kenapa ini penting sebelum masuk ke 4D
+### Sebelum masuk ke 4D
 Keempat kompetensi berikutnya berlaku di ketiga mode ini, tetapi risiko dan kebutuhan pengawasannya berbeda jauh. Semakin ke arah *Agency*, semakin besar juga tanggung jawab Anda untuk memastikan bahwa *output* AI dapat digunakan.
 :::
 
@@ -298,7 +302,7 @@ Keempat kompetensi berikutnya berlaku di ketiga mode ini, tetapi risiko dan kebu
 ![](libs/4d.png){fig-align="center" width="85%"}
 
 ::: {.callout-tip appearance="simple"}
-***Delegation*** dan ***Description*** menentukan seberapa **efektif dan efisien** kolaborasi Anda dengan AI. ***Discernment*** dan ***Diligence*** menentukan seberapa **etis dan aman**. Keempatnya saling terkait, bukan urutan langkah 1-2-3-4.
+***Delegation*** dan ***Description*** menentukan seberapa **efektif dan efisien** kolaborasi Anda dengan AI. ***Discernment*** dan ***Diligence*** menentukan seberapa **etis dan aman**. Keempatnya saling terkait dan tidak harus dijalankan berurutan.
 :::
 
 ::: aside
@@ -308,23 +312,23 @@ Dakan & Feller (2025), CC BY-NC-SA 4.0
 ## 1️⃣ *Delegation* — memutuskan siapa mengerjakan apa
 
 ::: {.incremental}
-* Memilah: bagian mana tetap Anda kerjakan sendiri, bagian mana dikerjakan bersama AI, bagian mana bisa diserahkan penuh.
-* Membutuhkan dua kesadaran sekaligus: **kesadaran akan tugas Anda sendiri** (apa sebenarnya yang ingin Anda capai) dan **kesadaran akan kemampuan platform AI** (apa yang realistis diharapkan darinya).
+* Memilah: bagian mana tetap Anda kerjakan sendiri, bagian mana dikerjakan bersama AI, bagian mana bisa diserahkan penuh
+* Membutuhkan dua kesadaran sekaligus: **kesadaran akan tugas Anda sendiri** (apa sebenarnya yang ingin Anda capai) dan **kesadaran akan kemampuan platform AI** (apa yang realistis diharapkan darinya)
 :::
 
 | Tugas | Delegasi |
 |---|---|
-| Merumuskan pertanyaan penelitian | **Anda** — AI boleh jadi mitra diskusi, bukan penentu |
+| Merumuskan pertanyaan penelitian | **Anda** (AI boleh jadi mitra diskusi) |
 | Menyusun draf item/alat ukur awal | **AI**, lalu Anda validasi dan seleksi secara ketat |
 | Menerjemahkan instrumen penelitian | **AI**, lalu Anda periksa kesepadanan makna |
-| Menginterpretasi hasil analisis statistik | **Anda dan AI bersama** — AI menawarkan alternatif bacaan, keputusan akhir tetap Anda |
+| Menginterpretasi hasil analisis statistik | **Anda dan AI bersama**: AI menawarkan alternatif bacaan, keputusan akhir tetap di tangan Anda |
 | Menyunting bahasa akademik naskah | **AI**, lalu Anda sunting ulang dan pastikan suara Anda tetap ada |
 
 ## 2️⃣ *Description* — AI tidak bisa membaca pikiran Anda
 
 ::: {.incremental}
-* Kualitas *output* AI sebagian besar ditentukan oleh seberapa jelas Anda mengartikulasikan tiga hal: **apa** yang Anda inginkan (*product*), **bagaimana** prosesnya (*process*), dan **bagaimana** AI harus merespon selama interaksi (*performance*).
-* Enam teknik praktis: beri konteks, beri contoh *output* yang diinginkan, tentukan batasan (format, panjang), pecah tugas kompleks jadi bertahap, minta AI berpikir dulu sebelum menjawab, tentukan peran AI dan *tone output*nya.
+* Kualitas *output* AI sebagian besar ditentukan oleh seberapa jelas Anda mengartikulasikan tiga hal: **apa** yang Anda inginkan (*product*), **bagaimana** prosesnya (*process*), dan **bagaimana** AI harus merespons selama interaksi (*performance*)
+* Enam teknik praktis: beri konteks, beri contoh *output* yang diinginkan, tentukan batasan (format, panjang), pecah tugas kompleks jadi bertahap, minta AI berpikir dulu sebelum menjawab, tentukan peran AI dan nada *output*-nya
 :::
 
 ::: {.callout-tip}
@@ -335,7 +339,7 @@ Jangan berharap *prompt* pertama Anda sempurna. Perlakukan sebagai dialog yang t
 ## 3️⃣ *Discernment* — mengevaluasi *output* AI
 
 ::: {.incremental}
-* Jika *Description* adalah tentang komunikasi Anda **ke** AI, *Discernment* adalah tentang evaluasi Anda atas *output* dari permintaan Anda.
+* Jika *Description* adalah tentang komunikasi Anda **ke** AI, *Discernment* adalah tentang evaluasi Anda atas *output* dari permintaan Anda
 * Tiga sisi yang perlu dinilai sekaligus:
   + ***Product discernment*** — apakah isinya akurat, relevan, koheren?
   + ***Process discernment*** — apakah alur penalarannya masuk akal, atau ada lompatan logika yang janggal?
@@ -343,15 +347,15 @@ Jangan berharap *prompt* pertama Anda sempurna. Perlakukan sebagai dialog yang t
 :::
 
 ::: {.callout-important}
-### Penting diingat
-Bahkan AI paling canggih sekalipun masih butuh penilaian manusia untuk berfungsi dengan baik. *Discernment* paling sulit digantikan oleh model yang lebih canggih. Semakin besar dan canggih modelnya, semakin "meyakinkan" pula kesalahannya, sehingga semakin besar juga kebutuhan akan penilai manusia yang kompeten.
+### Makin canggih model, makin perlu penilai manusia
+Kesalahan model yang lebih besar justru makin "meyakinkan", sehingga kebutuhan akan penilai manusia yang kompeten ikut naik.
 :::
 
 ## Modal Anda menilai *output* AI: *Domain expertise*
 
 ::: {.incremental}
-* Anda hanya bisa menangkap kesalahan AI di bidang yang **Anda kuasai**. Di luar itu, *output* sulit dibedakan antara yang salah dengan yang benar.
-* Kalau diterjemahkan ke riset psikologi, tiga pertanyaan Discernment di atas jadi:
+* Kesalahan AI paling mudah Anda tangkap di bidang yang **Anda kuasai**; di luar itu, *output* yang salah sulit dibedakan dari yang benar
+* Kalau diterjemahkan ke riset psikologi, tiga pertanyaan *Discernment* di atas jadi:
   + **Produk** — apakah ringkasan AI tentang sebuah konstruk cocok dengan definisi operasionalnya di literatur?
   + **Proses** — apakah AI benar-benar bernalar lewat logika statistik yang relevan, atau sekadar mencocokkan pola kalimat yang *terdengar* seperti klaim statistik?
   + **Performa** — apakah AI cukup hati-hati (*hedging*) soal temuan yang memang masih diperdebatkan di bidang Anda, atau menyampaikannya dengan *tone* kepercayaan diri/kepastian yang tidak semestinya?
@@ -366,8 +370,8 @@ Pilih satu konsep/konstruk inti dari topik tesis Anda. Minta AI memberikan **tig
 :::
 
 ::: {.incremental}
-* Nilai ketiganya dengan tiga lensa: **produk** (mana yang paling akurat?), **proses** (mana yang penalarannya paling koheren?), **performa** (mana yang paling peka terhadap nuansa bidang Anda?).
-* Tandai secara spesifik: bagian mana yang membuat Anda percaya, bagian mana yang membuat Anda curiga — dan **kenapa**.
+* Nilai ketiganya dengan tiga lensa: **produk** (mana yang paling akurat?), **proses** (mana yang penalarannya paling koheren?), **performa** (mana yang paling peka terhadap nuansa bidang Anda?)
+* Tandai secara spesifik: bagian mana yang membuat Anda percaya, bagian mana yang membuat Anda curiga — dan **kenapa**
 :::
 
 ::: {style="text-align: center"}
@@ -380,23 +384,23 @@ Pengetahuan spesifik apa yang membuat Anda bisa menangkap kelemahan tadi? Bagaim
 :::
 
 ::: notes
-±20 menit total termasuk berbagi. Ini praktik inti dari *lesson* "Discernment" kursus AI Fluency Anthropic, diadaptasi untuk konteks tesis. Dorong mahasiswa menyadari bahwa hasil aktivitas ini adalah bukti pengalaman langsung: keahlian domain merekalah yang membuat Discernment mungkin, bukan sekadar "kehati-hatian" secara umum.
+±20 menit total termasuk berbagi. Ini praktik inti dari *lesson* "Discernment" kursus AI Fluency Anthropic, diadaptasi untuk konteks tesis. Dorong mahasiswa menyadari bahwa hasil aktivitas ini adalah bukti pengalaman langsung: keahlian domain merekalah yang membuat Discernment mungkin.
 :::
 
 ## 4️⃣ *Diligence* — bertanggung jawab dan transparan
 
 ::: {.incremental}
-* ***Creation diligence*** — pertimbangan Anda saat memilih alat AI dan data apa yang Anda bagikan ke alat itu.
-* ***Transparency diligence*** — keterbukaan Anda ke pembaca/pembimbing tentang peran AI dalam karya Anda.
-* ***Deployment diligence*** — tanggung jawab Anda untuk memverifikasi *output* AI sebelum dipakai atau diserahkan, dan menerima konsekuensi atas hasil akhirnya.
+* ***Creation diligence*** — pertimbangan Anda saat memilih alat AI dan data apa yang Anda bagikan ke alat itu
+* ***Transparency diligence*** — keterbukaan Anda ke pembaca/pembimbing tentang peran AI dalam karya Anda
+* ***Deployment diligence*** — tanggung jawab Anda untuk memverifikasi *output* AI sebelum dipakai atau diserahkan, dan menerima konsekuensi atas hasil akhirnya
 :::
 
 ::: {.callout-note}
 ### Contoh pernyataan *disclosure*
-*"Dalam menyusun [dokumen/bagian ini], saya berkolaborasi dengan [nama AI] untuk membantu [tugas spesifik: menyusun draf, mencari referensi, menyunting bahasa, dst]. Seluruh konten yang dibantu/dihasilkan AI telah saya tinjau dan evaluasi secara menyeluruh. Hasil akhir mencerminkan pemahaman dan penilaian saya sendiri. Saya bertanggung jawab penuh atas isi, akurasi, dan penyajiannya."*
+*"Dalam menyusun [dokumen/bagian ini], saya berkolaborasi dengan [nama AI] untuk membantu [tugas spesifik: menyusun draf, mencari referensi, menyunting bahasa, dst]. Seluruh konten yang dibantu/dihasilkan AI telah saya tinjau dan evaluasi satu per satu. Hasil akhir mencerminkan pemahaman dan penilaian saya sendiri. Saya bertanggung jawab penuh atas isi, akurasi, dan penyajiannya."*
 :::
 
-Perhatikan polanya — mirip dengan *disclosure* yang saya tulis di slide pembuka *deck* ini.
+Perhatikan polanya: mirip dengan *disclosure* yang saya tulis di slide pembuka *deck* ini.
 
 ::: notes
 ±25 menit untuk keseluruhan bagian AI Fluency Framework, termasuk aktivitas Discernment. Sambungkan langsung ke pertanyaan refleksi *homework* di akhir sesi: keempat poin refleksi itu sebenarnya adalah Diligence, diterjemahkan jadi kebiasaan pribadi.
@@ -416,26 +420,26 @@ flowchart LR
 ```
 
 ::: {.incremental}
-* AI bisa berkontribusi di **setiap** tahap ini — tapi tidak dengan intensitas yang sama, dan tidak dengan tingkat risiko yang sama.
-* Bukti empiris (survei sosiolog) justru menunjukkan pola yang berkebalikan dengan intuisi publik: pemakaian AI **paling tinggi** untuk menulis, **paling rendah** untuk pengumpulan data.
+* AI bisa berkontribusi di **setiap** tahap ini, dengan intensitas dan tingkat risiko yang berbeda-beda
+* Bukti empiris (survei sosiolog) justru menunjukkan pola yang berkebalikan dengan intuisi publik: pemakaian AI **paling tinggi** untuk menulis, **paling rendah** untuk pengumpulan data
 :::
 
 ::: aside
-Alvero dkk. (2025)
+Alvero dkk. (2026)
 :::
 
 ## Penelusuran dan tinjauan literatur
 
 ::: {.incremental}
 * Alat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal. 
-  + Sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (*seed paper*) untuk mulai memberi rekomendasi yang relevan.
+  + Sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (*seed paper*) untuk mulai memberi rekomendasi yang relevan
 
 * Tapi *chatbot* umum (ChatGPT, Claude, Gemini) **belum terbukti lebih baik** dari mesin pencari akademik biasa untuk tugas ini. 
-  + Basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.
+  + Basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah
 :::
 
 ::: {.callout-caution}
-### Penting diingat
+### Jangan salin sitasi AI
 Jangan pernah menyalin sitasi hasil AI langsung ke daftar pustaka. Selalu telusuri sumber aslinya lewat tautan yang disediakan, jangan mengandalkan ringkasan yang dihasilkan AI.
 :::
 
@@ -448,9 +452,9 @@ Bolaños dkk. (2024); Lahrsow & Baumgarten (2026)
 ::: {.columns}
 ::: {.column width="60%"}
 ::: {.incremental}
-* AI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis.
-* Contoh: alat *Psychometric Item Generator* menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat, versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.
-* Tapi tetap ada batasnya: dalam satu studi, sekitar **25% saran skala kriteria** dari ChatGPT untuk validasi konstruk ternyata bermasalah, dan sebagian lagi bahkan tidak benar-benar ada.
+* AI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis
+* Contoh: alat *Psychometric Item Generator* menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat. Versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.
+* Tapi tetap ada batasnya: dalam satu studi, sekitar **25% saran skala kriteria** dari ChatGPT untuk validasi konstruk ternyata bermasalah, dan sebagian lagi bahkan tidak benar-benar ada
 :::
 :::
 
@@ -463,7 +467,7 @@ Hommel & Arslan (2025): LLM bisa menyimpulkan korelasi antar-item/skala psikolog
 
 ::: {.callout-important}
 ### Prinsipnya
-AI cocok jadi **kolam awal** kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing — bukan pengganti proses validasi psikometrik itu sendiri.
+AI cocok jadi **kolam awal** kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing lewat validasi psikometrik.
 :::
 
 ::: aside
@@ -483,21 +487,21 @@ Götz dkk. (2024); Austin dkk. (2025); Hommel & Arslan (2025)
 :::
 
 ::: {.incremental}
-* Model bahasa bisa menyimpulkan skor kepribadian dari teks jawaban terbuka (*zero-shot scoring*) — tanpa data pelatihan khusus untuk peserta itu.
-* Model bahasa juga bisa dipakai untuk membangkitkan dan memvalidasi jaringan item baru secara otomatis.
-* AI mempercepat langkah-langkah tertentu **di dalam** proses psikometri; validasi konvensional tetap wajib sebelum skala itu dipakai.
+* Model bahasa bisa menyimpulkan skor kepribadian dari teks jawaban terbuka (*zero-shot scoring*) — tanpa data pelatihan khusus untuk peserta itu
+* Model bahasa juga bisa dipakai untuk membangkitkan dan memvalidasi jaringan item baru secara otomatis
+* AI mempercepat langkah-langkah tertentu **di dalam** proses psikometri; validasi konvensional tetap wajib sebelum skala itu dipakai
 :::
 
 ::: aside
 Wright dkk. (2026); Russell-Lasalandra dkk. (2024)
 :::
 
-## Pengumpulan data — tahap paling sensitif
+## Pengumpulan data: tahap paling sensitif
 
 ::: {.incremental}
-* Ini tahap dengan pemakaian AI paling rendah di kalangan peneliti — dan alasannya masuk akal: risikonya paling tinggi bila data yang terlibat adalah data manusia sungguhan.
-* Beberapa pemakaian yang mulai berkembang: transkripsi wawancara otomatis, penerjemahan instrumen, dan simulasi respons manusia terhadap item survei ("*silicon sampling*") untuk melengkapi — bukan menggantikan — data manusia yang sulit dijangkau.
-* *Silicon sampling* masih sangat diperdebatkan: responsnya dikondisikan dari profil demografis, bukan dari pengalaman hidup sungguhan seseorang.
+* Pemakaian AI paling rendah di tahap ini, dan alasannya masuk akal: risikonya paling tinggi bila data yang terlibat adalah data dari partisipan manusia
+* Beberapa pemakaian yang mulai berkembang: transkripsi wawancara otomatis, penerjemahan instrumen, dan simulasi respons manusia terhadap item survei ("*silicon sampling*") untuk melengkapi data manusia yang sulit dijangkau
+* *Silicon sampling* masih sangat diperdebatkan: responsnya dikondisikan dari profil demografis, bukan dari pengalaman hidup seseorang yang sebenarnya
 :::
 
 ::: {.callout-caution}
@@ -505,17 +509,17 @@ Wright dkk. (2026); Russell-Lasalandra dkk. (2024)
 Jangan pernah mengunggah data mentah partisipan (apalagi yang belum dianonimkan) ke *chatbot* publik. Lebih detail soal ini di bagian Risiko.
 :::
 
-## Analisis data — AI sebagai "*coder*" kedua
+## Analisis data: AI sebagai pengode kedua
 
 ::: {.incremental}
-* Untuk analisis kualitatif, AI bisa berperan sebagai pengode kedua atau "*devil's advocate*" yang menantang pengodean Anda — bukan pengganti pengode manusia.
+* Untuk analisis kualitatif, AI bisa berperan sebagai pengode kedua atau "*devil's advocate*" yang menantang pengodean Anda
 * Protokol yang umum dipakai: manusia dan AI mengode data secara paralel, perbedaan hasil dibandingkan dan didiskusikan, lalu reliabilitas antar-pengode (mis. *Cohen's Kappa*) tetap dihitung seperti biasa.
-* Untuk analisis kuantitatif, AI bisa membantu menulis atau memperbaiki kode statistik (R, Python) — tapi tetap perlu diuji dan dipahami logikanya oleh Anda, bukan sekadar dijalankan.
+* Untuk analisis kuantitatif, AI bisa membantu menulis atau memperbaiki kode statistik (R, Python), tapi kodenya tetap perlu Anda uji dan pahami logikanya
 :::
 
 ::: {.callout-important}
-### Prinsip validasi yang tidak bisa ditawar
-Apa pun tugas pengodean yang dibantu AI, laporkan model/versi yang dipakai secara eksplisit, dan validasi terhadap pengodean manusia dengan ukuran reliabilitas standar — syarat dasar publikasi yang kredibel.
+### Syarat minimal publikasi
+Apa pun tugas pengodean yang dibantu AI, laporkan model/versinya secara eksplisit dan validasi hasilnya terhadap pengodean manusia dengan ukuran reliabilitas standar.
 :::
 
 ::: aside
@@ -525,9 +529,9 @@ Costa dkk. (2025)
 ## Penulisan naskah
 
 ::: {.incremental}
-* Dua pertiga pemakaian AI untuk menulis sebenarnya adalah **menyunting** teks yang sudah ada (memperbaiki tata bahasa, memparafrase, menerjemahkan, meringkas) — bukan menulis dari nol.
-* AI juga mulai dipakai untuk memberi umpan balik naskah sebelum dikirim ke pembimbing atau jurnal — berguna sebagai "pembaca pertama," tapi bukan pengganti telaah sejawat sungguhan.
-* Semakin besar porsi tulisan yang dihasilkan AI dari nol (bukan disunting), semakin besar juga kebutuhan Anda untuk memastikan suara dan penalaran akademik tetap milik Anda.
+* Dua pertiga pemakaian AI untuk menulis sebenarnya adalah **menyunting** teks yang sudah ada (memperbaiki tata bahasa, memparafrase, menerjemahkan, meringkas)
+* AI juga mulai dipakai untuk memberi umpan balik naskah sebelum dikirim ke pembimbing atau jurnal: berguna sebagai "pembaca pertama", tapi tidak bisa menggantikan telaah sejawat
+* Semakin besar porsi tulisan yang dihasilkan AI dari nol, semakin besar juga kebutuhan Anda untuk memastikan suara dan penalaran akademik tetap milik Anda
 :::
 
 ::: aside
@@ -545,7 +549,7 @@ Chatterji dkk. (2025)
 | Penulisan naskah | Penyuntingan bahasa, umpan balik draf | Argumen inti, klaim ilmiah, tanggung jawab isi |
 
 ::: notes
-±25 menit. Tekankan pola "AI paling rendah dipakai justru di tahap paling sensitif" sebagai temuan yang mengonfirmasi insting peneliti berpengalaman — bukan kebetulan.
+±25 menit. Tekankan pola "AI paling rendah dipakai justru di tahap paling sensitif" sebagai temuan yang mengonfirmasi insting peneliti berpengalaman.
 :::
 
 # Risiko dan Mitigasinya ⚠️ {background-color="#14497F"}
@@ -557,8 +561,8 @@ Chatterji dkk. (2025)
 **Risiko**
 
 ::: {.incremental}
-* AI bisa mengarang detail bibliografi (penulis, tahun, DOI) yang terlihat sangat meyakinkan.
-* Dalam satu pengujian, sekitar seperempat saran skala kriteria validasi yang dihasilkan AI ternyata bermasalah atau tidak benar-benar ada.
+* AI bisa mengarang detail bibliografi (penulis, tahun, DOI) yang terlihat sangat meyakinkan
+* Dalam satu pengujian, sekitar seperempat saran skala kriteria validasi yang dihasilkan AI ternyata bermasalah atau tidak benar-benar ada
 :::
 :::
 
@@ -566,8 +570,8 @@ Chatterji dkk. (2025)
 **Mitigasi**
 
 ::: {.incremental}
-* Selalu telusuri dan baca sumber aslinya — jangan pernah menyalin sitasi AI langsung ke naskah.
-* Perlakukan setiap klaim faktual dari AI sebagai hipotesis yang perlu diverifikasi, bukan fakta yang siap pakai.
+* Selalu telusuri dan baca sumber aslinya; jangan salin sitasi AI langsung ke naskah
+* Perlakukan setiap klaim faktual dari AI sebagai hipotesis yang perlu diverifikasi
 :::
 :::
 :::
@@ -583,8 +587,8 @@ Austin dkk. (2025)
 **Risiko**
 
 ::: {.incremental}
-* Data yang Anda unggah ke *chatbot* publik (termasuk data partisipan, naskah belum terbit) berpotensi dipakai sebagai data latihan lanjutan oleh penyedia layanan.
-* Sebagian penerbit jurnal membuat kesepakatan lisensi dengan penyedia AI atas teks artikel, tanpa opsi bagi penulis untuk tidak ikut serta.
+* Data yang Anda unggah ke *chatbot* publik (termasuk data partisipan, naskah belum terbit) berpotensi dipakai sebagai data latihan lanjutan oleh penyedia layanan
+* Sebagian penerbit jurnal membuat kesepakatan lisensi dengan penyedia AI atas teks artikel, tanpa opsi bagi penulis untuk tidak ikut serta
 :::
 :::
 
@@ -592,8 +596,8 @@ Austin dkk. (2025)
 **Mitigasi**
 
 ::: {.incremental}
-* Anonimkan data partisipan sebelum diproses AI dalam bentuk apa pun — dan hanya proses data yang sudah disetujui secara etik untuk itu.
-* Periksa kebijakan privasi/penyimpanan data platform sebelum mengunggah apa pun yang sensitif.
+* Anonimkan data partisipan sebelum diproses AI dalam bentuk apa pun, dan hanya proses data yang sudah disetujui secara etik untuk itu
+* Periksa kebijakan privasi/penyimpanan data platform sebelum mengunggah apa pun yang sensitif
 :::
 :::
 :::
@@ -609,8 +613,8 @@ Costa dkk. (2025); Van Quaquebeke dkk. (2025)
 **Risiko**
 
 ::: {.incremental}
-* Sebagian alat AI bisa mereproduksi karya berhak cipta hampir kata demi kata.
-* Parafrase yang dihasilkan AI dari sumber tertentu, jika tidak ditandai, bisa dianggap plagiarisme tanpa Anda sadari.
+* Sebagian alat AI bisa mereproduksi karya berhak cipta hampir kata demi kata
+* Parafrase yang dihasilkan AI dari sumber tertentu, jika tidak ditandai, bisa dianggap plagiarisme tanpa Anda sadari
 :::
 :::
 
@@ -618,8 +622,8 @@ Costa dkk. (2025); Van Quaquebeke dkk. (2025)
 **Mitigasi**
 
 ::: {.incremental}
-* Selalu baca ulang teks sumber asli — jangan mengandalkan ringkasan AI sebagai pengganti membaca.
-* Ikuti kebijakan program studi/jurnal tentang *disclosure* pemakaian AI, dan tandai bagian mana yang dibantu AI.
+* Baca sendiri teks sumber aslinya; ringkasan AI tidak menggantikan membaca
+* Ikuti kebijakan program studi/jurnal tentang *disclosure* pemakaian AI, dan tandai bagian mana yang dibantu AI
 :::
 :::
 :::
@@ -631,8 +635,8 @@ Costa dkk. (2025); Van Quaquebeke dkk. (2025)
 **Risiko**
 
 ::: {.incremental}
-* LLM dilatih dari data yang secara geografis dan sosial timpang — cenderung paling akurat merepresentasikan populasi Barat, berbahasa Inggris.
-* Untuk riset psikologi lintas budaya, ini berarti *output* AI bisa mencerminkan asumsi budaya tertentu, bukan pandangan netral.
+* LLM dilatih dari data yang secara geografis dan sosial timpang, sehingga cenderung paling akurat merepresentasikan populasi Barat, berbahasa Inggris
+* Untuk riset psikologi lintas budaya, ini berarti *output* AI bisa mencerminkan asumsi budaya tertentu
 :::
 :::
 
@@ -640,8 +644,8 @@ Costa dkk. (2025); Van Quaquebeke dkk. (2025)
 **Mitigasi**
 
 ::: {.incremental}
-* Jangan asumsikan *output* AI netral budaya, terutama saat topik Anda melibatkan populasi non-Barat atau konstruk yang sensitif budaya.
-* Bandingkan *output* AI dengan literatur lokal/kontekstual sebagai pengecekan silang, bukan sumber tunggal.
+* Jangan asumsikan *output* AI netral budaya, terutama saat topik Anda melibatkan populasi non-Barat atau konstruk yang sensitif budaya
+* Bandingkan *output* AI dengan literatur lokal/kontekstual sebagai pengecekan silang
 :::
 :::
 :::
@@ -653,8 +657,8 @@ Costa dkk. (2025); Van Quaquebeke dkk. (2025)
 **Risiko**
 
 ::: {.incremental}
-* *Cognitive offloading* — menyerahkan proses berpikir ke alat eksternal bisa melemahkan kemampuan itu sendiri seiring waktu, terutama bagi yang belum mahir di bidangnya.
-* "*Point-and-click scholarship*" — menghasilkan atau menafsirkan hasil statistik tanpa benar-benar memahami logikanya, karena percaya pada nada percaya diri AI.
+* *Cognitive offloading* — menyerahkan proses berpikir ke alat eksternal bisa melemahkan kemampuan itu sendiri seiring waktu, terutama bagi yang belum mahir di bidangnya
+* "*Point-and-click scholarship*" — menghasilkan atau menafsirkan hasil statistik tanpa benar-benar memahami logikanya, karena percaya pada nada percaya diri AI
 :::
 :::
 
@@ -662,8 +666,8 @@ Costa dkk. (2025); Van Quaquebeke dkk. (2025)
 **Mitigasi**
 
 ::: {.incremental}
-* Pakai AI untuk mempercepat tahap yang sudah Anda kuasai — bukan untuk melewati tahap belajar yang justru sedang Anda perlukan.
-* Terapkan *loop* Description–Discernment secara sadar: jangan terima jawaban pertama begitu saja.
+* Pakai AI untuk mempercepat tahap yang sudah Anda kuasai, jangan untuk melewati tahap belajar yang sedang Anda perlukan
+* Terapkan *loop* Description–Discernment secara sadar: jangan terima jawaban pertama begitu saja
 :::
 :::
 :::
@@ -675,30 +679,30 @@ Risko & Gilbert (2016); Cash dkk. (2026); Van Quaquebeke dkk. (2025)
 ## Reliabilitas dan reproduksibilitas
 
 ::: {.incremental}
-* *Output* AI bersifat probabilistik — *prompt* yang identik bisa menghasilkan jawaban berbeda di waktu berbeda. Ini bertentangan langsung dengan konsistensi yang dituntut riset ilmiah.
-* Untuk tugas pengodean/analisis, perubahan kecil pada konfigurasi model (versi, *temperature*, bahkan susunan kalimat *prompt*) bisa mengubah kesimpulan analitik secara substansial.
+* *Output* AI bersifat probabilistik — *prompt* yang identik bisa menghasilkan jawaban berbeda di waktu berbeda. Ini menyulitkan replikasi.
+* Untuk tugas pengodean/analisis, perubahan kecil pada konfigurasi model (versi, *temperature*, bahkan susunan kalimat *prompt*) bisa mengubah kesimpulan analitik secara substansial
 :::
 
 ::: {.callout-caution}
 ### Praktik minimum untuk riset yang bisa direplikasi
-Laporkan nama dan versi model persis yang Anda pakai (jangan cuma tulis "AI"), tetapkan dan laporkan nilai *temperature* yang dipakai — rendah untuk tugas yang butuh konsistensi — dan validasi hasil AI terhadap pengodean/penilaian manusia sebelum dipakai sebagai temuan.
+Laporkan nama dan versi model persis yang Anda pakai (jangan cuma tulis "AI"), tetapkan dan laporkan nilai *temperature* (rendah untuk tugas yang butuh konsistensi), dan validasi hasil AI terhadap pengodean/penilaian manusia sebelum dipakai sebagai temuan.
 :::
 
 ::: aside
 Storey (2026); Higgins dkk. (2026)
 :::
 
-## Ringkasan: satu kebiasaan untuk semua risiko di atas
+## Ringkasan: satu kebiasaan untuk mengurangi risiko
 
 ::: {.callout-important}
 ### *Deployment diligence*, dipraktikkan
-Sebelum menyerahkan apa pun yang dibantu AI — ke pembimbing, ke naskah, ke data — tanyakan tiga hal: **Sudahkah saya verifikasi faktanya? Sudahkah saya pastikan tidak ada data sensitif yang bocor? Sudahkah saya jujur soal peran AI di sini?**
+Sebelum menyerahkan apa pun yang dibantu AI (ke pembimbing, ke naskah, ke data), tanyakan tiga hal: **Sudahkah saya verifikasi faktanya? Sudahkah saya pastikan tidak ada data sensitif yang bocor? Sudahkah saya jujur soal peran AI di sini?**
 :::
 
 Ketiga pertanyaan ini sebenarnya adalah *Diligence* dari kerangka 4D, diterjemahkan jadi kebiasaan praktis yang bisa Anda cek setiap kali.
 
 ::: notes
-±15 menit. Jangan berlama-lama di tiap risiko individual — tujuannya membangun kesadaran, bukan menghafal daftar. Tutup dengan menyambungkan kembali ke Diligence supaya bagian ini terasa seperti aplikasi praktis kerangka 4D, bukan daftar ketakutan yang berdiri sendiri.
+±15 menit. Jangan berlama-lama di tiap risiko; tujuannya membangun kesadaran. Tutup dengan menyambungkan kembali ke Diligence supaya bagian ini terasa seperti aplikasi praktis kerangka 4D.
 :::
 
 # Kesimpulan 🎓 {background-color="#14497F"}
@@ -706,11 +710,8 @@ Ketiga pertanyaan ini sebenarnya adalah *Diligence* dari kerangka 4D, diterjemah
 ## Yang perlu Anda bawa pulang
 
 ::: {.incremental}
-* **Akal imitasi** adalah model statistik yang meniru bahasa manusia secara meyakinkan. Tanggung jawab tetap ada di tangan Anda.
-* Peneliti sungguhan memakai AI **lebih pelan dan lebih pragmatis** daripada narasi publik — dan tetap khawatir bahkan setelah memakainya.
-* ***Discernment*** adalah kompetensi yang paling menentukan kualitas hasil kerja Anda — dan ia dibangun dari keahlian domain yang sedang Anda kembangkan lewat tesis Anda sendiri.
-* AI bisa membantu di **setiap** tahap siklus penelitian, tapi dengan intensitas dan risiko yang berbeda-beda — paling aman di tahap penyuntingan dan eksplorasi, paling sensitif di tahap pengumpulan data.
-* Setiap risiko yang kita bahas punya penawar yang sama: **verifikasi, kehati-hatian data, dan kejujuran** — praktik *Diligence* yang sama, dipakai berulang.
+* Tanggung jawab atas *output* AI tetap di tangan Anda, dan kemampuan menilainya tumbuh dari keahlian domain yang sedang Anda bangun lewat tesis
+* Pertanyaan untuk dibawa pulang: di tahap mana dari tesis Anda, AI paling mungkin membuat Anda melewatkan proses belajar yang sebenarnya Anda perlukan?
 :::
 
 ## 🏠 Setelah *workshop* ini
@@ -728,7 +729,7 @@ Renungkan 4️⃣ poin di bawah:
 
 ## Referensi {.scrollable .smaller}
 
-* Alvero, A., Stoltz, D., Stuhler, O., & Taylor, M. (2025). Generative AI in sociological research: State of the discipline. *Sociological Science, 13*, 45–62.
+* Alvero, A., Stoltz, D., Stuhler, O., & Taylor, M. (2026). Generative AI in sociological research: State of the discipline. *Sociological Science, 13*, 45–62.
 * Austin, K. D., Crawley, H. K., Fleeson, W., & Furr, R. M. (2025). Using generative artificial intelligence to advance hypothesis-driven scale validation: Identifying criterion measures and generating precise a priori hypotheses. *Assessment*. Advance online publication. <https://doi.org/10.1177/10731911251401321>
 * Baumgarten, L., Lahrsow, M., & Kalmbach, F. (2025). *AI research tool overview* [Overview table]. Tübingen University Library.
 * Bent, D., Dakan, R., Feller, J., & Vo, M. (2026). *AI fluency: Framework & foundations* [Kursus daring]. Anthropic. <https://anthropic.skilljar.com/ai-fluency-framework-foundations>

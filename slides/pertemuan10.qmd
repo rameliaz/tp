@@ -28,7 +28,7 @@ execute:
 
 # Mengapa Aksesibilitas Penting? ⚖️ {background-color="#14497F"}
 
-## Lebih dari sekadar berempati
+## Aksesibilitas adalah hak
 
 ::: {.incremental}
 * Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi
@@ -85,7 +85,7 @@ Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet 
 
 ## Merancang untuk keberagaman sejak awal
 
-Kerangka **UDL** dari [CAST](https://udlguidelines.cast.org/) menawarkan tiga prinsip utama yang saling melengkapi:
+Kerangka **UDL** dari [CAST](https://udlguidelines.cast.org/) menawarkan tiga prinsip utama:
 
 ::: {.incremental}
 1. ***Multiple means of representation*** — sajikan informasi lewat lebih dari satu format (teks, audio, visual, video bertakarir)
@@ -97,14 +97,14 @@ Kerangka **UDL** dari [CAST](https://udlguidelines.cast.org/) menawarkan tiga pr
 [CAST (2024). *UDL Guidelines* versi 2.2](https://udlguidelines.cast.org/)
 :::
 
-## UDL bukan "solusi ekstra" untuk sebagian peserta didik
+## UDL dirancang untuk semua peserta didik
 
 ::: {.callout-important}
 ### Prinsip kunci
-UDL dirancang **untuk semua peserta didik di kelas**, bukan hanya penyandang disabilitas — mirip *ramp* di trotoar yang aslinya untuk pengguna kursi roda, tapi juga membantu orang tua yang mendorong kereta bayi
+UDL dirancang **untuk semua peserta didik di kelas**, termasuk penyandang disabilitas, sejalan dengan *curb-cut effect* yang sudah kita bahas
 :::
 
-Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **setelah** peserta didik melapor kesulitan. Ini respon reaktif, melelahkan, dan sering terlambat.
+Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **setelah** peserta didik melapor kesulitan. Respons semacam ini reaktif dan sering terlambat.
 
 # Teknologi Pembantu (Assistive Technology) 🛠️ {background-color="#14497F"}
 
@@ -114,7 +114,7 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 
 ::: {.incremental}
 * Rentangnya luas: dari **teknologi rendah** (kartu bergambar, pengatur waktu visual) hingga **teknologi tinggi** (*eye-tracker*, *brain-computer interface*)
-* Tidak selalu "canggih" — yang penting **tepat guna** sesuai kebutuhan individu
+* Tidak harus canggih; yang penting **tepat guna** sesuai kebutuhan individu
 :::
 
 ## Untuk hambatan penglihatan
@@ -154,7 +154,7 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 
 # Peran Akal Imitasi dalam Aksesibilitas 🤖 {background-color="#14497F"}
 
-## AI sebagai pengganda daya (*force multiplier*)
+## Yang bisa dibantu AI
 
 ::: {.incremental}
 * **Transkripsi dan *live captioning* otomatis** — akurasi meningkat pesat, meski masih bermasalah untuk dialek/logat tertentu
@@ -163,12 +163,12 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 * ***Augmentative and alternative communication* (AAC)** berbasis AI — memprediksi/menyusun kalimat bagi pengguna dengan hambatan bicara
 :::
 
-## Tapi bukan tanpa risiko
+## Risiko AI dalam aksesibilitas
 
 ::: {.incremental}
 * **Bias pengenalan suara** — sistem *automated speech recognition* terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih [(Koenecke et al., 2020)](https://doi.org/10.1073/pnas.1915768117)
 * **Halusinasi pada deskripsi otomatis** — AI generatif bisa "mengarang" detail visual yang tidak ada, fatal bagi pengguna *screen reader* yang sepenuhnya bergantung padanya
-* Relevan dengan kerangka **automation vs. augmentation** [(Fügener et al., 2026)](https://doi.org/10.1287/mnsc.2024.05684) — AI sebaiknya **melengkapi**, bukan **menggantikan begitu saja** penilaian dan pendampingan manusia
+* Kaitannya dengan kerangka ***automation* vs. *augmentation*** [(Fügener et al., 2026)](https://doi.org/10.1287/mnsc.2024.05684): AI sebaiknya **melengkapi** penilaian dan pendampingan manusia
 :::
 
 # Prinsip Desain Aksesibel 📐 {background-color="#14497F"}
@@ -215,17 +215,14 @@ Seorang peserta didik dengan disleksia berat meminta izin menggunakan *text-to-s
 :::
 
 ::: notes
-Diskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang mempengaruhi *akses* terhadap materi (aksesibilitas) vs. AI yang menggantikan *proses kognitif* itu sendiri (potensi "effortless trap"). Keduanya sering disalahpahami sebagai hal yang sama.
+Diskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang memengaruhi *akses* terhadap materi (aksesibilitas) vs. AI yang menggantikan *proses kognitif* itu sendiri (potensi "effortless trap"). Keduanya sering disalahpahami sebagai hal yang sama.
 :::
 
 ## Rangkuman
 
 ::: {.incremental}
-* Aksesibilitas adalah **hak**, dan berakar dari **model sosial disabilitas** — lebih dari sekadar empati dan kebaikan hati
-* **UDL** mendorong desain inklusif sejak awal, bukan akomodasi reaktif
-* **Teknologi pembantu** sangat beragam — dari alat sederhana hingga AI generatif dan harus dipilih sesuai kebutuhan individu, bukan sekadar tren
-* AI memperluas aksesibilitas, tapi juga membawa risiko baru (bias, halusinasi) yang perlu dikelola secara kritis
-* Desain aksesibel (**WCAG/POUR**) menguntungkan **semua orang**, bukan hanya penyandang disabilitas
+* Pertanyaan untuk dibawa pulang: dalam skenario tadi, di mana batas antara AI sebagai akomodasi dan AI yang menggantikan proses belajar, dan siapa yang berhak menentukannya?
+* Pertemuan berikutnya: asesmen berbasis teknologi, tempat pertanyaan soal keadilan ini muncul lagi
 :::
 
 ## Terima kasih!😊 {.closing-slide}

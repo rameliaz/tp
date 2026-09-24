@@ -30,17 +30,17 @@ execute:
 ## Satu fenomena yang dijelaskan delapan teori berbeda
 
 ::: {.incremental}
-* Menjelang awal 2000-an, riset penerimaan teknologi sudah punya banyak model bersaing: TRA, TAM, *motivational model*, *theory of planned behavior*, model gabungan TAM-TPB, *model of PC utilization*, *diffusion of innovations*, dan *social cognitive theory*.
-* Tiap model punya determinan sendiri, istilah sendiri, dan hasil validasi yang tidak selalu sebanding satu sama lain.
-* Venkatesh, Morris, Davis, & Davis (2003) membandingkan kedelapannya secara langsung di organisasi yang sama, lalu menyatukan elemen-elemen yang tumpang tindih menjadi satu model: ***unified theory of acceptance and use of technology* (UTAUT)**.
+* Menjelang awal 2000-an, riset penerimaan teknologi sudah punya banyak model bersaing: TRA, TAM, *motivational model*, *theory of planned behavior*, model gabungan TAM-TPB, *model of PC utilization*, *diffusion of innovations*, dan *social cognitive theory*
+* Tiap model punya determinan dan istilahnya sendiri, dengan hasil validasi yang sulit dibandingkan
+* Venkatesh, Morris, Davis, & Davis (2003) membandingkan kedelapannya secara langsung di organisasi yang sama, lalu menyatukan elemen-elemen yang tumpang tindih menjadi satu model: ***unified theory of acceptance and use of technology* (UTAUT)**
 :::
 
 ## Hasilnya: daya prediksi yang jauh lebih baik
 
 ::: {.incremental}
-* Kedelapan model individual sebelumnya menjelaskan **17–53%** varians niat perilaku.
-* UTAUT gabungan menjelaskan sekitar **70%** — lompatan besar dibanding model manapun yang berdiri sendiri.
-* UTAUT adalah **sintesis** delapan model: unsur yang secara empiris terbukti relevan dipertahankan, yang tumpang tindih digabungkan.
+* Kedelapan model individual sebelumnya menjelaskan **17–53%** varians niat perilaku
+* UTAUT gabungan menjelaskan sekitar **70%**
+* UTAUT **menyintesis** delapan model: unsur yang terbukti relevan dipertahankan, yang tumpang tindih digabungkan
 :::
 
 ::: aside
@@ -52,10 +52,10 @@ Venkatesh, Morris, Davis, & Davis (2003)
 ## Apa yang menentukan niat memakai teknologi
 
 ::: {.incremental}
-* ***Performance expectancy*** — keyakinan bahwa memakai sistem akan membantu mencapai kinerja yang lebih baik (posisinya setara dengan *perceived usefulness* di TAM).
-* ***Effort expectancy*** — tingkat kemudahan yang diasosiasikan dengan pemakaian sistem (setara *perceived ease of use*).
-* ***Social influence*** — sejauh mana seseorang merasa orang-orang penting baginya percaya ia sebaiknya memakai sistem tersebut.
-* ***Facilitating conditions*** — keyakinan bahwa infrastruktur organisasi dan teknis sudah tersedia untuk mendukung pemakaian sistem.
+* ***Performance expectancy*** — keyakinan bahwa memakai sistem akan membantu mencapai kinerja yang lebih baik (posisinya setara dengan *perceived usefulness* di TAM)
+* ***Effort expectancy*** — tingkat kemudahan yang diasosiasikan dengan pemakaian sistem (setara *perceived ease of use*)
+* ***Social influence*** — sejauh mana seseorang merasa orang-orang penting baginya percaya ia sebaiknya memakai sistem tersebut
+* ***Facilitating conditions*** — keyakinan bahwa infrastruktur organisasi dan teknis sudah tersedia untuk mendukung pemakaian sistem
 :::
 
 ::: {.callout-note}
@@ -68,14 +68,14 @@ Dua determinan pertama pada dasarnya **PU dan PEOU dari TAM**, diberi nama ulang
 ## Kenapa determinan yang sama berpengaruh beda di tiap orang
 
 ::: {.incremental}
-* Jenis kelamin, usia, pengalaman, dan sifat sukarela/wajib pemakaian **memoderasi** kekuatan hubungan keempat determinan terhadap niat dan pemakaian — bukan menjadi determinan tersendiri.
-* Contoh: pengaruh *social influence* terhadap niat pakai cenderung **lebih kuat** pada perempuan, pengguna yang lebih tua, dan pada tahap awal pengalaman memakai sistem.
-* Pengaruh *performance expectancy* cenderung **lebih kuat** pada laki-laki dan pengguna yang lebih muda.
+* Jenis kelamin, usia, pengalaman, dan sifat sukarela/wajib pemakaian **memoderasi** kekuatan hubungan keempat determinan terhadap niat dan pemakaian; keempatnya tidak berdiri sebagai determinan
+* Contoh: pengaruh *social influence* terhadap niat pakai cenderung **lebih kuat** pada perempuan, pengguna yang lebih tua, dan pada tahap awal pengalaman memakai sistem
+* Pengaruh *performance expectancy* cenderung **lebih kuat** pada laki-laki dan pengguna yang lebih muda
 :::
 
 ::: {.callout-tip}
 ### Implikasi untuk desain intervensi
-Kampanye penerimaan teknologi yang sama tidak akan sama efektifnya untuk semua orang — kelompok yang lebih dipengaruhi norma sosial butuh pendekatan berbeda dari kelompok yang lebih dipengaruhi ekspektasi kinerja.
+Kampanye penerimaan teknologi yang sama tidak akan sama efektifnya untuk semua orang. Kelompok yang lebih dipengaruhi norma sosial butuh pendekatan berbeda dari kelompok yang lebih dipengaruhi ekspektasi kinerja.
 :::
 
 # UTAUT2: Konteks Konsumen 🛍️ {background-color="#14497F"}
@@ -83,9 +83,9 @@ Kampanye penerimaan teknologi yang sama tidak akan sama efektifnya untuk semua o
 ## Konteks yang berbeda, kebutuhan model yang berbeda
 
 ::: {.incremental}
-* UTAUT dibangun dan divalidasi di konteks **organisasi**, di mana pemakaian teknologi sering **wajib** (ditugaskan perusahaan) — karyawan tidak benar-benar memilih apakah memakai sistem penggajian baru.
-* Venkatesh, Thong, & Xu (2012) memperluasnya ke konteks **konsumen**: pemakaian teknologi yang sepenuhnya sukarela, dan biayanya ditanggung sendiri oleh pengguna, bukan organisasi.
-* Konteks yang berbeda ini melahirkan tiga determinan baru yang tidak relevan di tempat kerja, tapi penting bagi konsumen.
+* UTAUT dibangun dan divalidasi di konteks **organisasi**, di mana pemakaian teknologi sering **wajib**: karyawan tidak bisa memilih untuk tidak memakai sistem penggajian baru
+* Venkatesh, Thong, & Xu (2012) memperluasnya ke konteks **konsumen**: pemakaian teknologi yang sepenuhnya sukarela, dan biayanya ditanggung sendiri oleh pengguna, bukan organisasi
+* Konteks ini memunculkan tiga determinan baru yang penting bagi konsumen
 :::
 
 ## Tiga konstruk baru UTAUT2
@@ -114,7 +114,7 @@ Sejauh mana seseorang cenderung melakukan suatu perilaku secara otomatis karena 
 :::
 
 ::: {.incremental}
-* Moderator berkurang dari empat jadi tiga — **sifat sukarela/wajib dihapus**, karena pemakaian konsumen memang selalu sukarela.
+* Moderator berkurang dari empat jadi tiga: **sifat sukarela/wajib dihapus**, karena pemakaian konsumen selalu sukarela
 :::
 
 ::: aside
@@ -129,16 +129,16 @@ Survei daring dua tahap terhadap 1.512 konsumen pengguna internet ponsel.
 :::
 
 ::: {.incremental}
-* Varians niat perilaku yang terjelaskan naik dari **56%** (UTAUT tanpa tiga konstruk baru) menjadi **74%** (UTAUT2 lengkap).
-* Varians pemakaian teknologi naik dari **40%** menjadi **52%**.
-* *Hedonic motivation* dan *habit* terbukti sebagai penambah daya prediksi yang paling besar — konsisten dengan intuisi bahwa orang memakai aplikasi hiburan bukan karena "kinerjanya lebih baik", tapi karena menyenangkan dan sudah jadi kebiasaan.
+* Varians niat perilaku yang terjelaskan naik dari **56%** (UTAUT tanpa tiga konstruk baru) menjadi **74%** (UTAUT2 lengkap)
+* Varians pemakaian teknologi naik dari **40%** menjadi **52%**
+* *Hedonic motivation* dan *habit* paling banyak menambah daya prediksi, sejalan dengan intuisi bahwa orang memakai aplikasi hiburan karena menyenangkan dan sudah jadi kebiasaan
 :::
 
-## Menghubungkan ke teknologi pembelajaran
+## Kaitannya dengan teknologi pembelajaran
 
 ::: {.incremental}
 * Sebagian besar teknologi pembelajaran berada di **antara** dua konteks ini: LMS kampus terasa "wajib" seperti konteks organisasi UTAUT, tapi aplikasi belajar mandiri (mis. aplikasi bahasa, *chatbot* AI) lebih dekat ke konteks konsumen UTAUT2.
-* *Hedonic motivation* dan *habit* jarang dipertimbangkan desainer LMS kampus, padahal keduanya terbukti kuat memprediksi pemakaian ketika teknologi itu sifatnya sukarela — poin yang relevan untuk merancang materi tambahan yang **tidak wajib** diakses mahasiswa.
+* *Hedonic motivation* dan *habit* jarang dipertimbangkan desainer LMS kampus, padahal keduanya terbukti kuat memprediksi pemakaian ketika pemakaiannya sukarela. Ini relevan untuk merancang materi tambahan yang **tidak wajib** diakses mahasiswa
 :::
 
 ::: notes
@@ -151,11 +151,11 @@ Bagian ceramah ±50 menit. Ini melengkapi trilogi TAM–TAM2–UTAUT/UTAUT2 yang
 
 ::: {.callout-note}
 ### Instruksi (kerja kelompok, ±40 menit)
-Pilih satu aplikasi belajar yang Anda pakai secara sukarela (bukan LMS yang diwajibkan kampus, i.e., Psyche).
+Pilih satu aplikasi belajar yang Anda pakai secara sukarela (selain LMS wajib kampus seperti Psyche).
 :::
 
 ::: {.incremental}
-* Nilai ketujuh determinan UTAUT2 untuk aplikasi tersebut — mana yang paling tinggi, mana yang paling rendah?
+* Nilai ketujuh determinan UTAUT2 untuk aplikasi tersebut: mana yang paling tinggi, mana yang paling rendah?
 * Apakah *habit* sudah terbentuk? Sejak kapan pemakaiannya terasa otomatis, tidak lagi memerlukan keputusan sadar?
 * Bandingkan dengan LMS yang diwajibkan oleh kampus: determinan mana yang relevan di LMS tapi tidak relevan di aplikasi yang Anda pakai secara sukarela, atau sebaliknya?
 :::
@@ -171,11 +171,8 @@ Sesi diskusi ±50 menit termasuk berbagi. Dorong mahasiswa membedakan determinan
 ## Rangkuman
 
 ::: {.incremental}
-* UTAUT menyatukan delapan model penerimaan teknologi sebelumnya menjadi empat determinan inti: **performance expectancy**, **effort expectancy**, **social influence**, **facilitating conditions** dan menjelaskan varians niat jauh lebih baik daripada model manapun secara terpisah.
-* Empat moderator (jenis kelamin, usia, pengalaman, sifat sukarela/wajib) menjelaskan **kenapa** determinan yang sama berpengaruh beda pada orang berbeda.
-* UTAUT2 memperluas model ke konteks konsumen, menambah **hedonic motivation**, **price value**, dan **habit**. 
-  + Tiga faktor ini sebenarnya tidak relevan di konteks/situasi kerja yang mewajibkan penggunaan teknologi, tapi penting saat pemakaian bersifat sukarela.
-* Sebagian besar teknologi pembelajaran berada di antara dua konteks ini, dan model mana yang lebih relevan bergantung pada seberapa sukarela pemakaiannya.
+* Pertanyaan untuk dibawa pulang: *chatbot* AI yang Anda pakai untuk tesis lebih cocok dijelaskan UTAUT (konteks organisasi) atau UTAUT2 (konteks konsumen)? Determinan mana yang paling kuat mendorong Anda memakainya?
+* Minggu depan: bagaimana teknologi memediasi proses belajar (*mediated learning*)
 :::
 
 ## Terima kasih!😊 {.closing-slide}

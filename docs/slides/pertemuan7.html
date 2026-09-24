@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Rizqy Amelia Zein">
-  <meta name="dcterms.date" content="2026-09-22">
+  <meta name="dcterms.date" content="2026-09-24">
   <title>Teknologi dalam Pembelajaran – Human-AI Collaboration dan Reinforcement Learning from Human Feedback</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -156,7 +156,7 @@ Rizqy Amelia Zein
     </div>
 </div>
 
-  <p class="date">2026-09-22</p>
+  <p class="date">2026-09-24</p>
 </section>
 <section id="agenda" class="slide level2 agenda-slide">
 <h2>Agenda</h2>
@@ -166,7 +166,6 @@ Rizqy Amelia Zein
 <li><strong><em>Reinforcement learning</em> untuk kolaborasi manusia-AI</strong></li>
 <li><strong>Risiko epistemik dalam kolaborasi manusia-AI</strong></li>
 <li><strong><em>The effortless trap</em>, <em>cognitive debt</em>, dan <em>productive struggle</em></strong></li>
-<li><strong>Sintesis</strong></li>
 </ol>
 </section>
 <section>
@@ -174,15 +173,15 @@ Rizqy Amelia Zein
 <h1>Apa Sebenarnya Akal Imitasi? 🤖</h1>
 
 </section>
-<section id="artificial-intelligence-a.k.a-akal-imitasi" class="slide level2">
-<h2><em>Artificial intelligence</em> a.k.a “akal imitasi”</h2>
+<section id="artificial-intelligence-alias-akal-imitasi" class="slide level2">
+<h2><em>Artificial intelligence</em> alias “akal imitasi”</h2>
 <ul>
-<li class="fragment">Banyak orang menerjemahkan <em>artificial intelligence</em> sebagai “kecerdasan buatan” dalam Bahasa Indonesia, dan akibatnya, publik menganggap <strong>seolah-olah</strong> AI benar-benar <em>cerdas</em></li>
-<li class="fragment">Padahal AI <em>chatbot</em> adalah model statistik dengan <em>output</em> teks (“<em>large language model</em>”) yang <strong>meniru</strong> proses dan produk kognisi manusia (“bahasa natural”)</li>
+<li class="fragment">Banyak orang menerjemahkan <em>artificial intelligence</em> sebagai “kecerdasan buatan”, sehingga publik mengira AI <strong>benar-benar</strong> <em>cerdas</em></li>
+<li class="fragment">Padahal <em>chatbot</em> AI adalah model statistik dengan <em>output</em> teks (“<em>large language model</em>”) yang <strong>meniru</strong> proses dan produk kognisi manusia (“bahasa alami”)</li>
 <li class="fragment">Frasa <em>akal imitasi</em> mengingatkan kita pada dua hal sekaligus:
 <ul>
-<li class="fragment">Kemampuan <em>large language model</em> (LLM) <strong>terasa natural</strong> seperti manusia karena kualitas teks <em>output</em>nya memang sangat meyakinkan</li>
-<li class="fragment">Tapi ia <strong>bukan manusia</strong>, sehingga tidak punya pemahaman, niat, apalagi tanggung jawab</li>
+<li class="fragment">Teks <em>output</em> <em>large language model</em> (LLM) <strong>terasa alami</strong> seperti tulisan manusia karena kualitasnya memang sangat meyakinkan</li>
+<li class="fragment">Tapi LLM <strong>bukan manusia</strong>, sehingga tidak punya pemahaman dalam arti manusiawi, niat, apalagi tanggung jawab</li>
 </ul></li>
 <li class="fragment">Konsekuensinya: yang bertanggung jawab atas <em>output</em> teks AI adalah <strong>kita</strong> sebagai penggunanya</li>
 </ul>
@@ -193,15 +192,16 @@ Rizqy Amelia Zein
 <div class="column" style="width:60%;">
 <ul>
 <li class="fragment"><strong>1950-an–1980-an</strong> — AI simbolik: manusia menuliskan aturan logikanya satu per satu (<em>expert systems</em>)</li>
-<li class="fragment"><strong>1990-an–2000-an</strong> — <em>machine learning</em>: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (e.g., <em>spam filter</em>)</li>
-<li class="fragment"><strong>2010-an</strong> — <em>deep learning</em>, permodelan bahasa yang meniru cara kerja jaringan saraf manusia; terobosan besar dalam rekognisi gambar dan suara (<em>natural language processing</em>, NLP)</li>
-<li class="fragment"><strong>2017</strong> — arsitektur <a href="https://www.ibm.com/think/topics/transformer-model"><strong><em>transformer</em></strong></a> diperkenalkan, yang merupakan fondasi semua LLM modern</li>
-<li class="fragment"><strong>2022</strong> — OpenAI merilis GPT-3.5; <em>generative</em> AI menjadi fenomena massal</li>
+<li class="fragment"><strong>1990-an–2000-an</strong> — <em>machine learning</em>: mesin belajar pola dari data, bukan lagi dari aturan eksplisit (mis. <em>spam filter</em>)</li>
+<li class="fragment"><strong>2010-an</strong> — <em>deep learning</em>: jaringan saraf tiruan berlapis yang terinspirasi cara kerja otak; terobosan besar dalam pengenalan gambar dan suara, lalu pemrosesan bahasa alami (<em>natural language processing</em>, NLP)</li>
+<li class="fragment"><strong>2017</strong> — arsitektur <a href="https://www.ibm.com/think/topics/transformer-model"><strong><em>transformer</em></strong></a> diperkenalkan dan menjadi fondasi hampir semua LLM modern</li>
+<li class="fragment"><strong>2022</strong> — OpenAI merilis ChatGPT (berbasis GPT-3.5); AI generatif menjadi fenomena massal</li>
+<li class="fragment">Google AI membuat visualisasi perkembangan produk AI mereka <a href="https://ai.google/our-ai-journey/?section=intro">di sini</a>.</li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="libs/sejarah-2017.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+<p><img data-src="libs/sejarah-2017.jpg" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 <div style="text-align: center">
@@ -216,23 +216,36 @@ Rizqy Amelia Zein
 <h2>Model Statistik di Balik Layar</h2>
 <p><em>Large language model</em> (LLM) pada intinya adalah model statistik raksasa dengan <em>output</em> teks yang menjawab satu pertanyaan:</p>
 <blockquote>
-<p><strong>“Dari semua <em>input</em> kata sejauh konteks percakapan ini, kata apa yang paling mungkin muncul berikutnya?”</strong></p>
+<p><strong>“Berdasarkan semua kata dalam percakapan sejauh ini, kata (token) apa yang paling mungkin muncul berikutnya?”</strong></p>
 </blockquote>
 
 <img data-src="libs/animatedllm.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><h3 id="klik-di-sini-animatedllm">Klik di sini ➡️ <a href="https://animatedllm.github.io/generation-simple">AnimatedLLM</a></h3>
+<aside class="notes">
+<p>Penyederhanaan: yang diprediksi sebenarnya <em>token</em> (potongan kata), dan token berikutnya biasanya diambil secara acak dari distribusi probabilitas, tidak selalu yang paling mungkin. Itu sebabnya <em>prompt</em> yang sama bisa menghasilkan jawaban berbeda.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="transformer-dan-mekanisme-attention" class="slide level2">
 <h2><em>Transformer</em> dan <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf">mekanisme <em>attention</em></a></h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p>Terobosannya adalah mekanisme <strong><em>attention</em></strong>: setiap kata bisa “memperhatikan” konteks dari semua kata lain dalam konteks untuk menentukan maknanya.</p>
+<p>Terobosannya adalah mekanisme <strong><em>attention</em></strong>: setiap kata bisa “memperhatikan” semua kata lain dalam kalimat untuk menentukan maknanya.</p>
 <ul>
-<li class="fragment">“Bisa <strong>ular</strong> itu amat mematikan” vs.&nbsp;“Saya <strong>bisa</strong> datang besok”
+<li class="fragment">“<strong>Bisa</strong> ular itu amat mematikan” vs.&nbsp;“Saya <strong>bisa</strong> datang besok”
 <ul>
-<li class="fragment">“Bisa” adalah kata yang sama, makna berbeda (i.e., “homonim”)</li>
+<li class="fragment">“Bisa” adalah kata yang sama dengan makna berbeda (yaitu homonim)</li>
 </ul></li>
-<li class="fragment">Model bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; <em>transformer</em> memproses seluruh kalimat <strong>sekaligus, secara paralel</strong></li>
-<li class="fragment">Paralelisme inilah yang memungkinkan <em>training</em> dengan data yang jauh lebih besar</li>
+<li class="fragment">Model bahasa generasi sebelumnya membaca kata satu per satu secara berurutan; saat pelatihan, <em>transformer</em> memproses seluruh kalimat <strong>sekaligus, secara paralel</strong></li>
+<li class="fragment">Paralelisme inilah yang memungkinkan pelatihan dengan data yang jauh lebih besar</li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
@@ -245,17 +258,17 @@ Rizqy Amelia Zein
 <aside><div>
 <p><a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"><em>Attention is all you need</em> (Vaswani et al., 2017)</a></p>
 </div></aside></section>
-<section id="bagaimana-llm-dibesarkan" class="slide level2">
-<h2>Bagaimana LLM “dibesarkan”?</h2>
-<p>2️⃣ tahap utama:</p>
+<section id="bagaimana-llm-dikembangkan" class="slide level2">
+<h2>Bagaimana LLM dikembangkan?</h2>
+<p>Dua tahap utama:</p>
 <ol type="1">
-<li class="fragment"><strong><em>Pre-training</em></strong> — model membaca miliaran dokumen dan belajar memprediksi kata berikutnya
+<li class="fragment"><strong><em>Pre-training</em></strong> — model membaca miliaran dokumen dan belajar memprediksi kata/token berikutnya
 <ul>
 <li class="fragment">Hasilnya: <em>base model</em> yang menguasai pola bahasa, pengetahuan umum, bahkan penalaran, tapi belum bisa menjadi “asisten”</li>
 </ul></li>
-<li class="fragment"><strong><em>Fine-tuning</em></strong> (termasuk <a href="https://www.ibm.com/think/topics/rlhf"><em>reinforcement learning from human feedback</em>, RLHF</a>) — model dilatih mengikuti instruksi, menjawab dengan sopan, dan menolak permintaan tidak patut bahkan berbahaya
+<li class="fragment"><strong><em>Fine-tuning</em></strong> (termasuk <a href="https://www.ibm.com/think/topics/rlhf"><em>reinforcement learning from human feedback</em>, RLHF</a>) — model dilatih mengikuti instruksi, menjawab dengan sopan, dan menolak permintaan yang tidak patut, apalagi berbahaya
 <ul>
-<li class="fragment">Hasilnya: <em>Chatbot</em> seperti ChatGPT, DeepSeek, atau Claude yang Anda kenal sekarang</li>
+<li class="fragment">Hasilnya: <em>chatbot</em> seperti ChatGPT, DeepSeek, atau Claude yang Anda kenal sekarang</li>
 </ul></li>
 </ol>
 <div class="callout callout-tip callout-titled callout-style-default">
@@ -267,7 +280,7 @@ Rizqy Amelia Zein
 <p><strong>Analogi proses psikologisnya</strong></p>
 </div>
 <div class="callout-content">
-<p><em>Pre-training</em> ≈ pemerolehan bahasa dan pengetahuan; <em>fine-tuning</em> ≈ sosialisasi — belajar norma tentang <em>bagaimana</em> menggunakan kemampuan itu.</p>
+<p><em>Pre-training</em> ≈ pemerolehan bahasa dan pengetahuan; <em>fine-tuning</em> ≈ sosialisasi, yaitu belajar norma tentang <em>bagaimana</em> menggunakan pengetahuan tersebut.</p>
 </div>
 </div>
 </div>
@@ -276,7 +289,7 @@ Rizqy Amelia Zein
 <h2>Optimasi LLM</h2>
 
 <img data-src="libs/finetuning.jpg" class="quarto-figure quarto-figure-center r-stretch"><div style="text-align: center">
-<p>Sumber: <a href="https://www.researchgate.net/publication/381108819_GAMedX_Generative_AI-based_Medical_Entity_Data_Extractor_Using_Large_Language_Models">Ghali, et al.&nbsp;(2024)</a></p>
+<p>Sumber: <a href="https://doi.org/10.48550/arXiv.2405.20585">Ghali et al.&nbsp;(2024)</a></p>
 </div>
 </section>
 <section id="kemampuan-ai-meningkat-drastis-karena" class="slide level2">
@@ -304,7 +317,7 @@ Rizqy Amelia Zein
 <li class="fragment"><strong><em>Chatbot</em></strong> — merespons pesan Anda satu per satu</li>
 <li class="fragment"><strong><em>Reasoning models</em></strong> — “berpikir” langkah demi langkah dulu sebelum menjawab</li>
 <li class="fragment"><strong><em>AI agent</em></strong> — merencanakan dan mengeksekusi tugas multi-langkah <strong>secara mandiri</strong> atas nama penggunanya, misalnya menjelajah web, memakai aplikasi, menulis dan menjalankan kode pemrograman</li>
-<li class="fragment"><strong><em>Embodied AI</em></strong> — akal imitasi yang diberi “tubuh”: robot yang “ditanam” LLM</li>
+<li class="fragment"><strong><em>Embodied AI</em></strong> — akal imitasi yang diberi “tubuh”: robot yang “ditanami” LLM</li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
@@ -320,42 +333,32 @@ Rizqy Amelia Zein
 <section id="apa-keterbatasan-ai" class="slide level2">
 <h2>Apa <em>keterbatasan</em> AI?</h2>
 <ul>
-<li class="fragment"><strong>Halusinasi</strong> — menghasilkan <em>output</em> yang salah secara faktual, tetapi dengan <em>tone</em> yang sangat meyakinkan, termasuk <strong>mengarang referensi ilmiah</strong></li>
+<li class="fragment"><strong>Halusinasi</strong> — menghasilkan <em>output</em> yang salah secara faktual, tetapi dengan nada yang sangat meyakinkan, termasuk <strong>mengarang referensi ilmiah</strong></li>
 <li class="fragment"><strong><em>Knowledge cutoff</em></strong> — pengetahuannya berhenti di tanggal tertentu; kejadian terbaru tidak diketahuinya, kecuali dilengkapi fitur pencarian web</li>
 <li class="fragment"><strong><em>Context window</em></strong> terbatas — <em>working memory</em>-nya bisa penuh; percakapan dan dokumen yang sangat panjang terpaksa terpotong, tidak selesai diproses</li>
-<li class="fragment"><strong>Penalaran yang rapuh</strong> — LLM bisa memberikan jawaban yang sama sekali berbeda ketika <em>prompt</em>nya diubah sedikit saja dari pola <em>data training</em>nya</li>
-<li class="fragment"><strong><em>Sycophancy</em></strong> — cenderung memberikan jawaban yang menyenangkan <em>user</em>, alih-alih mengoreksi kesalahan yang dilakukan oleh <em>user</em></li>
+<li class="fragment"><strong>Penalaran yang rapuh</strong> — LLM bisa memberikan jawaban yang sama sekali berbeda ketika <em>prompt</em>-nya diubah sedikit saja dari pola data pelatihannya</li>
+<li class="fragment"><strong><em>Sycophancy</em></strong> — cenderung memberikan jawaban yang menyenangkan pengguna, alih-alih mengoreksi kesalahan pengguna</li>
 </ul>
-<aside class="notes">
-<p>Bagian intro ±25 menit. Ini fondasi yang akan terus dipakai sepanjang sesi hari ini — pastikan mahasiswa memahami bahwa <em>fine-tuning</em> (termasuk RLHF) adalah titik sambung ke topik inti hari ini.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section></section>
 <section>
 <section id="automation-vs.-augmentation-dua-peran-ai-dalam-kolaborasi" class="title-slide slide level1 center" data-background-color="#14497F">
 <h1><em>Automation</em> vs.&nbsp;<em>Augmentation</em>: Dua Peran AI dalam Kolaborasi 🤝</h1>
 
 </section>
-<section id="dua-cara-ai-terlibat-dalam-pekerjaan-berbasis-penilaian" class="slide level2">
-<h2>Dua cara AI terlibat dalam pekerjaan berbasis penilaian</h2>
-<p><a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener et al.&nbsp;(2026)</a> meneliti peran AI dalam <em>judgment tasks</em> — tugas yang membutuhkan penilaian, bukan sekadar eksekusi mekanis:</p>
+<section id="dua-cara-ai-terlibat-dalam-judgement-task" class="slide level2">
+<h2>Dua cara AI terlibat dalam <em>judgement task</em></h2>
+<p><a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener et al.&nbsp;(2026)</a> meneliti peran AI dalam <em>judgment tasks</em>, yaitu tugas yang membutuhkan penilaian:</p>
 <ul>
 <li class="fragment"><strong><em>Automation</em></strong> — AI <strong>menggantikan</strong> manusia sepenuhnya pada suatu tugas</li>
-<li class="fragment"><strong><em>Augmentation</em></strong> — AI <strong>memberi saran</strong> (<em>advice</em>) kepada manusia, yang kemudian mengambil keputusan akhir — disebut <strong><em>judge-advisor system</em></strong></li>
+<li class="fragment"><strong><em>Augmentation</em></strong> — AI <strong>memberi saran</strong> (<em>advice</em>) kepada manusia, yang kemudian mengambil keputusan akhir; disebut <strong><em>judge-advisor system</em></strong></li>
 </ul>
-<div class="callout callout-note callout-style-simple">
+<div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
+<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
+</div>
+<p><strong>Dilema Kolaborasi Manusia dengan AIs</strong></p>
 </div>
 <div class="callout-content">
 <p><strong>Kapan</strong> sebaiknya AI menggantikan, <strong>kapan</strong> sebaiknya AI mendampingi, dan <strong>kapan</strong> manusia sebaiknya bekerja tanpa AI sama sekali?</p>
@@ -368,25 +371,25 @@ Rizqy Amelia Zein
 <ul>
 <li class="fragment"><strong><em>Between-task complementarity</em></strong> — manusia dan AI unggul pada <strong>jenis tugas yang berbeda</strong>
 <ul>
-<li class="fragment">Contoh: tugas A (manusia 90%, AI 60%) dan tugas B (manusia 60%, AI 90%) — alokasikan tugas B ke AI, performa gabungan meningkat</li>
+<li class="fragment">Contoh: tugas A (manusia 80%, AI 60%) dan tugas B (manusia 60%, AI 80%). Jika tugas A diberikan ke manusia dan tugas B ke AI, performa gabungan naik ke 80%</li>
 </ul></li>
 <li class="fragment"><strong><em>Within-task complementarity</em></strong> — pada <strong>tugas yang sama</strong>, manusia dan AI membuat kesalahan yang <strong>berbeda</strong> dan bisa saling mengoreksi
 <ul>
-<li class="fragment">Contoh: manusia dan AI sama-sama 70% akurat pada satu tugas, tapi kesalahannya tidak berkorelasi → jika manusia bisa membedakan saran AI yang benar dan salah, performa gabungan (<em>augmented</em>) bisa naik ke 91%</li>
+<li class="fragment">Contoh: akurasi manusia dan AI sama-sama 70% pada satu tugas, tapi kesalahannya tidak berkorelasi → jika manusia bisa membedakan saran AI yang benar dan salah, performa gabungan (<em>augmented</em>) bisa naik ke 91%</li>
 </ul></li>
 </ul>
 
 <aside><div>
-<p><a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener, Walzner, &amp; Gupta (2026)</a></p>
+<p><a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener et al.&nbsp;(2026)</a></p>
 </div></aside></section>
 <section id="bukti-empiris-klasifikasi-gambar" class="slide level2">
 <h2>Bukti empiris: klasifikasi gambar</h2>
-<p>Studi eksperimental (klasifikasi gambar dari ImageNet, <a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener, Walzner, &amp; Gupta (2026)</a>) membandingkan performa akurasi:</p>
+<p>Studi eksperimental (klasifikasi gambar dari ImageNet, <a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener et al., 2026</a>) membandingkan akurasi:</p>
 <ul>
 <li class="fragment"><strong>Manusia sendirian</strong>: 68%</li>
 <li class="fragment"><strong><em>Automation</em> (AI sendirian)</strong>: 77%</li>
 <li class="fragment"><strong><em>Augmentation</em> (manusia + saran AI)</strong>: 80%</li>
-<li class="fragment"><strong>Kerangka gabungan</strong> (automasi + augmentasi + realokasi sumber daya manusia): <strong>88%</strong></li>
+<li class="fragment"><strong>Pendekatan gabungan</strong> (otomasi + augmentasi + realokasi sumber daya manusia): <strong>88%</strong></li>
 </ul>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -394,21 +397,21 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Temuan kunci</strong></p>
+<p><strong>Kesimpulannya</strong></p>
 </div>
 <div class="callout-content">
-<p>Menggabungkan <strong>automasi, augmentasi, dan realokasi</strong> sumber daya manusia (manusia yang “dibebaskan” dari tugas yang diotomasi dialihkan ke tugas lain) memberi hasil jauh lebih baik daripada mengandalkan satu strategi saja.</p>
+<p>Menggabungkan <strong>otomasi, augmentasi, dan realokasi</strong> sumber daya manusia (manusia yang “dibebaskan” dari tugas yang diotomasi sehingga dapat mengerjakan tugas lain) memberi hasil jauh lebih baik daripada mengandalkan satu strategi saja.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="pola-alokasi-tugas-yang-optimal" class="slide level2">
 <h2>Pola alokasi tugas yang optimal</h2>
-<p>Berdasarkan performa relatif AI pada suatu tugas, pola berikut konsisten muncul:</p>
+<p>Berdasarkan performa relatif AI pada suatu tugas, polanya konsisten:</p>
 <ul>
-<li class="fragment"><strong>AI performa tinggi, tugas relatif mudah bagi AI</strong> → AI <strong>mengotomasi</strong> tugas tersebut sepenuhnya</li>
-<li class="fragment"><strong>AI dan manusia performanya setara</strong> → AI <strong>mengaugmentasi</strong> manusia (memberi saran, manusia memutuskan)</li>
-<li class="fragment"><strong>AI performa rendah, tugas sulit bagi AI</strong> → manusia bekerja <strong>tanpa AI</strong></li>
+<li class="fragment"><strong>Performa AI tinggi, tugas relatif mudah bagi AI</strong> → AI <strong>mengotomasi</strong> tugas tersebut sepenuhnya</li>
+<li class="fragment"><strong>Performa AI dan manusia setara</strong> → AI <strong>mendampingi</strong> manusia (memberi saran, manusia memutuskan)</li>
+<li class="fragment"><strong>Performa AI rendah, tugas sulit bagi AI</strong> → manusia bekerja <strong>tanpa AI</strong></li>
 </ul>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -419,7 +422,7 @@ Rizqy Amelia Zein
 <p><strong>Kapan augmentasi <em>tidak</em> membantu?</strong></p>
 </div>
 <div class="callout-content">
-<p>Jika AI jauh lebih unggul dari manusia (mis. akurasi AI 84% vs.&nbsp;manusia 58%), melibatkan manusia dalam pengambilan keputusan justru <strong>tidak meningkatkan</strong> akurasi — augmentasi hanya bermanfaat jika ada <em>complementarity</em> nyata, bukan sekadar karena “melibatkan manusia terasa lebih aman”</p>
+<p>Jika AI jauh lebih unggul dari manusia (mis. akurasi AI 84% vs.&nbsp;manusia 58%), melibatkan manusia dalam pengambilan keputusan justru <strong>tidak meningkatkan</strong> akurasi. Augmentasi hanya bermanfaat jika <em>complementarity</em> benar-benar ada.</p>
 </div>
 </div>
 </div>
@@ -432,29 +435,29 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3743">Kesavan &amp; Kushwaha (2020)</a> — Eksperimen lapangan di ritel suku cadang otomotif</strong></p>
+<p><strong><a href="https://doi.org/10.1287/mnsc.2020.3743">Kesavan dan Kushwaha (2020)</a>: eksperimen lapangan di ritel suku cadang otomotif</strong></p>
 </div>
 <div class="callout-content">
-<p>Karyawan diberi opsi meng-<em>override</em> rekomendasi alat yang memberikan informasi <em>data-driven</em>.</p>
+<p>Karyawan diberi opsi meng-<em>override</em> rekomendasi alat bantu keputusan berbasis data.</p>
 </div>
 </div>
 </div>
 <ul>
-<li class="fragment">Ketika produk masih di <strong>tahap pertumbuhan</strong> (data historis sedikit) — manusia yang meng-<em>override</em> alat (<strong>augmentasi</strong>) performa <strong>lebih baik</strong></li>
-<li class="fragment">Ketika produk sudah di <strong>tahap matang/menurun</strong> (data historis banyak) — mengikuti rekomendasi alat (<strong>automasi</strong>) performa <strong>lebih baik</strong></li>
-<li class="fragment"><strong>Implikasinya:</strong> ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi pembeda performa</li>
+<li class="fragment">Ketika produk masih di <strong>tahap <em>growth</em></strong> (data historis sedikit), karyawan yang meng-<em>override</em> alat (<strong>augmentasi</strong>) <strong>berkinerja lebih baik</strong>.</li>
+<li class="fragment">Ketika produk sudah di <strong>tahap matang/menurun</strong> (data historis banyak), mengikuti rekomendasi alat (<strong>otomasi</strong>) <strong>memberi hasil lebih baik</strong>.</li>
+<li class="fragment"><strong>Implikasinya:</strong> ketika data melimpah, AI cenderung lebih andal; ketika data terbatas, pengalaman dan intuisi manusia menjadi pembeda performa.</li>
 </ul>
 </section>
 <section id="risiko-kehilangan-tacit-knowledge" class="slide level2">
 <h2>Risiko kehilangan <em>tacit knowledge</em></h2>
 <ul>
-<li class="fragment"><em>Complementarity</em> manusia-AI mengandaikan manusia punya <strong>pengetahuan tak-terkodifikasi</strong> (<em>tacit knowledge</em>) yang tidak dimiliki AI</li>
-<li class="fragment">Tapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko <strong>berhenti berpikir aktif</strong> tentang tugasnya, dan <em>tacit knowledge</em> itu sendiri terancam hilang</li>
-<li class="fragment">Ini persis kekhawatiran soal <strong><em>deskilling</em></strong> yang akan kita bahas lebih dalam di sesi tentang <em>AI fluency</em></li>
+<li class="fragment"><em>Complementarity</em> manusia-AI mengandaikan manusia punya <strong>pengetahuan tak terkodifikasi</strong> (<em>tacit knowledge</em>) yang tidak dimiliki AI.</li>
+<li class="fragment">Tapi jika kolaborasi manusia-AI menjadi terlalu erat, manusia berisiko <strong>berhenti berpikir aktif</strong> tentang tugasnya, dan <em>tacit knowledge</em> itu sendiri terancam hilang.</li>
+<li class="fragment">Ini persis kekhawatiran soal <strong><em>deskilling</em></strong> yang akan kita bahas lebih dalam di sesi tentang <em>AI fluency</em>.</li>
 </ul>
 
 <aside><div>
-<p><a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener, Walzner, &amp; Gupta (2026)</a></p>
+<p><a href="https://doi.org/10.1287/mnsc.2024.05684">Fügener et al.&nbsp;(2026)</a></p>
 </div></aside></section></section>
 <section>
 <section id="reinforcement-learning-untuk-kolaborasi-manusia-ai" class="title-slide slide level1 center" data-background-color="#14497F">
@@ -463,73 +466,40 @@ Rizqy Amelia Zein
 </section>
 <section id="mengapa-reinforcement-learning" class="slide level2">
 <h2>Mengapa <em>reinforcement learning</em>?</h2>
-<p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li et al.&nbsp;(2025)</a> meninjau bagaimana <em>reinforcement learning</em> (RL), yang artinya AI yang belajar lewat mekanisme <em>reward</em> dan <em>trial-and-error</em>, dapat memperkuat kolaborasi manusia-AI:</p>
+<p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li et al.&nbsp;(2025)</a> meninjau bagaimana <em>reinforcement learning</em> (RL), yaitu pembelajaran mesin lewat <em>reward</em> dan <em>trial-and-error</em>, dapat memperkuat kolaborasi manusia-AI:</p>
 <ul>
-<li class="fragment">RL cocok untuk kolaborasi karena <strong>adaptif</strong>: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen lain, dan lingkungan.</li>
-<li class="fragment">Kolaborasi terjadi lewat <strong><em>umpan balik dua arah</em></strong>: interaksi manusia menjadi sinyal <em>training</em> untuk AI, sementara strategi AI yang dipersonalisasi tetap menyisakan kemungkinan manusia melakukan <em>override</em> pada keputusan yang penting.</li>
+<li class="fragment">RL cocok untuk kolaborasi karena <strong>adaptif</strong>: sistem terus menyesuaikan tindakannya berdasarkan interaksi dengan manusia, agen AI lain, dan lingkungan.</li>
+<li class="fragment"><strong>Umpan balik dua arah</strong>: interaksi manusia menjadi sumber belajar AI, sementara manusia tetap bisa meng-<em>override</em> keputusan penting.</li>
 </ul>
 </section>
 <section id="pembagian-peran-manusia-dan-sistem-ai" class="slide level2">
 <h2>Pembagian peran manusia dan sistem AI</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Komponen RL</th>
-<th>Peran Manusia</th>
-<th>Peran Sistem AI</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Ruang keadaan</strong></td>
-<td>Memberi pengetahuan domain</td>
-<td>Menghitung variabel <em>real-time</em></td>
-</tr>
-<tr class="even">
-<td><strong>Ruang aksi</strong></td>
-<td>Menentukan jenis aksi yang tersedia</td>
-<td>Memilih aksi optimal</td>
-</tr>
-<tr class="odd">
-<td><strong>Fungsi <em>reward</em></strong></td>
-<td>Menentukan bobot tujuan</td>
-<td>Menghitung <em>reward</em> multi-objektif</td>
-</tr>
-<tr class="even">
-<td><strong>Penerapan kebijakan</strong></td>
-<td>Mengambil keputusan akhir</td>
-<td>Menghasilkan kebijakan personal</td>
-</tr>
-<tr class="odd">
-<td><strong>Data pelatihan</strong></td>
-<td>Menyediakan <em>log</em> interaksi</td>
-<td>Mengekstraksi pola untuk <em>training</em></td>
-</tr>
-</tbody>
-</table>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="libs/li.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
 
 <aside><div>
-<p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li, Liu, Huang, &amp; Hussain (2025)</a></p>
+<p><a href="https://doi.org/10.1007/s12559-025-10500-7">Li et al.&nbsp;(2025)</a></p>
 </div></aside></section>
-<section id="tiga-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl" class="slide level2">
-<h2>Tiga tantangan utama kolaborasi manusia-AI berbasis RL</h2>
+<section id="empat-tantangan-utama-kolaborasi-manusia-ai-berbasis-rl" class="slide level2">
+<h2>Empat tantangan utama kolaborasi manusia-AI berbasis RL</h2>
 <ol type="1">
-<li class="fragment"><strong>Keselarasan dengan perilaku manusia</strong> (<em>alignment</em>) — perilaku manusia dipengaruhi bias kognisi, emosi, dan konteks yang sulit diprediksi AI secara presisi</li>
-<li class="fragment"><strong>Adaptabilitas di lingkungan dinamis</strong> — dunia nyata jauh lebih bervariasi daripada kondisi <em>training</em> yang terkendali; AI harus mampu beradaptasi pada perubahan yang belum pernah dilihat</li>
-<li class="fragment"><strong>Komunikasi dan koordinasi</strong> — terutama saat AI harus berkoordinasi dengan <strong>banyak</strong> manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal</li>
+<li class="fragment"><strong>Keselarasan dengan perilaku manusia</strong> (<em>alignment</em>) — perilaku manusia dipengaruhi bias kognitif, emosi, dan konteks yang sulit diprediksi AI secara presisi.</li>
+<li class="fragment"><strong>Adaptabilitas di lingkungan dinamis</strong> — dunia nyata jauh lebih bervariasi daripada kondisi <em>controlled training</em> LLM; AI harus mampu beradaptasi dengan situasi yang belum pernah dijumpai.</li>
+<li class="fragment"><strong>Komunikasi dan koordinasi</strong> — terutama saat AI harus berkoordinasi dengan <strong>banyak</strong> manusia/agen sekaligus, kesalahpahaman instruksi bisa berakibat fatal.</li>
+<li class="fragment"><strong>Generalisasi ke manusia yang belum dikenal</strong> — AI dilatih bersama manusia atau data tertentu, tapi harus bisa bekerja sama dengan manusia lain yang perilakunya belum pernah ditemui saat pelatihan.</li>
 </ol>
 </section>
 <section id="rlhf-rl-dari-umpan-balik-manusia" class="slide level2">
 <h2>RLHF: RL dari umpan balik manusia</h2>
 <ul>
-<li class="fragment"><strong><em>Reinforcement learning from human feedback</em> (RLHF)</strong> adalah salah satu metode RL yang <strong>secara spesifik</strong> memakai penilaian/preferensi manusia sebagai sinyal <em>reward</em></li>
-<li class="fragment">Inilah mekanisme yang kita bahas di awal sesi — bagian dari <em>fine-tuning</em> yang mengubah <em>base model</em> LLM menjadi <em>chatbot</em> yang sopan dan mengikuti instruksi</li>
-<li class="fragment">Tapi cakupannya <strong>lebih luas</strong> dari LLM saja: RLHF juga dipakai pada robotika, kendaraan otonom, dan sistem tutor personal — di mana pun preferensi manusia sulit dituliskan sebagai aturan eksplisit, tapi mudah “dicontohkan” lewat umpan balik</li>
+<li class="fragment"><strong><em>Reinforcement learning from human feedback</em> (RLHF)</strong> adalah salah satu metode RL yang <strong>secara spesifik</strong> memakai penilaian/preferensi manusia sebagai sinyal <em>reward</em>.
+<ul>
+<li class="fragment">Inilah mekanisme yang kita bahas di awal sesi: bagian dari <em>fine-tuning</em> yang mengubah <em>base model</em> LLM menjadi <em>chatbot</em> yang sopan dan mengikuti instruksi.</li>
+</ul></li>
+<li class="fragment">Tapi penerapannya <strong>tidak terbatas</strong> pada LLM: RLHF juga dipakai pada robotika, <em>self-driving cars</em>, dan sistem tutor personal, yaitu di mana pun preferensi manusia sulit dituliskan sebagai aturan eksplisit tapi mudah “dicontohkan” lewat umpan balik.</li>
 </ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -537,10 +507,11 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Menghubungkan kembali ke <em>augmentation</em></strong></p>
+<p><strong>Kaitannya dengan <em>augmentation</em></strong></p>
 </div>
 <div class="callout-content">
-<p>RLHF pada dasarnya adalah <strong>augmentasi di tingkat pelatihan model</strong>: bukan manusia mengoreksi <em>output</em> AI satu per satu secara manual selamanya, tapi umpan balik manusia diserap AI untuk memperbaiki perilakunya secara bertahap</p>
+<p>RLHF bisa dilihat sebagai <strong>kebalikan dari augmentasi</strong>: dalam augmentasi, AI menjadi pemandu bagi manusia; dalam RLHF, manusia menjadi <strong>pemandu</strong> bagi AI.</p>
+<p>Umpan balik manusia diserap untuk memperbaiki perilaku model secara bertahap, sehingga manusia tidak perlu terus mengoreksi <em>output</em> satu per satu</p>
 </div>
 </div>
 </div>
@@ -553,17 +524,17 @@ Rizqy Amelia Zein
 <section id="risiko-epistemik-yang-tak-terlihat-di-metrik-performa" class="slide level2">
 <h2>Risiko epistemik: yang tak terlihat di metrik performa</h2>
 <ul>
-<li class="fragment">Sejauh ini kita membahas kolaborasi manusia-AI dari sisi <strong>performa</strong> (akurasi, kecepatan, efisiensi)</li>
-<li class="fragment">Tapi ada risiko yang lebih mendasar: <strong><em>risiko epistemik</em></strong> — risiko terhadap <strong>cara kita membentuk keyakinan, menilai kebenaran, dan menyadari batas pengetahuan kita sendiri</strong> ketika AI ikut campur dalam prosesnya</li>
-<li class="fragment">Risiko ini sering tidak terlihat dalam metrik performa standar — justru karena itu jauh lebih mudah luput dari perhatian</li>
+<li class="fragment">Sejauh ini kita membahas kolaborasi manusia-AI dari sisi <strong>performa</strong> (akurasi, kecepatan, efisiensi).</li>
+<li class="fragment">Tapi ada risiko yang lebih krusial diantisipasi: <strong><em>risiko epistemik</em></strong>, yaitu risiko terhadap <strong>cara kita membentuk keyakinan, menilai kebenaran, dan menyadari batas pengetahuan kita sendiri</strong> ketika AI ikut campur dalam prosesnya.</li>
+<li class="fragment">Akurasi dan kecepatan bisa dimaksimalkan, sementara kemampuan kita menilai akurasi dari <em>output</em> AI tersebut justru bisa melemah tanpa disadari.</li>
 </ul>
 </section>
-<section id="ironi-rlhf-melatih-sycophancy-bukan-kebenaran" class="slide level2">
-<h2>Ironi RLHF: melatih <em>sycophancy</em>, bukan kebenaran</h2>
+<section id="ironi-rlhf-llm-yang-terlatih-justru-sycophant" class="slide level2">
+<h2>Ironi RLHF: LLM yang terlatih justru <em>sycophant</em></h2>
 <ul>
-<li class="fragment">Ingat <em>sycophancy</em> pada slide “keterbatasan AI” di awal sesi? Ia ternyata berakar pada cara RLHF melatih model</li>
-<li class="fragment"><a href="https://arxiv.org/abs/2310.13548">Sharma et al.&nbsp;(2023)</a> menemukan bahwa manusia (dan model <em>reward</em> yang meniru preferensi manusia) <strong>lebih memilih</strong> jawaban yang meyakinkan dan sejalan dengan pandangan mereka, dibanding jawaban yang benar tapi tidak sesuai ekspektasi, pada kebanyakan kasus</li>
-<li class="fragment">Karena <em>reward model</em> dilatih dari preferensi manusia semacam ini, <strong>optimisasi RLHF bisa secara sistematis mendorong model ke arah “menyenangkan” <em>user</em>, bukan “benar secara faktual”</strong></li>
+<li class="fragment">Ingat <em>sycophancy</em> pada <em>slide</em> “keterbatasan AI” di awal sesi? Sebagian penyebabnya kemungkinan adalah preferensi manusia yang dipakai dalam RLHF.</li>
+<li class="fragment"><a href="https://arxiv.org/abs/2310.13548">Sharma et al.&nbsp;(2023)</a> menemukan bahwa manusia (dan model <em>reward</em> yang meniru preferensi manusia) <strong>tidak jarang memilih</strong> jawaban yang meyakinkan dan sejalan dengan pandangan mereka daripada jawaban yang benar tetapi tidak sesuai harapan.</li>
+<li class="fragment">Karena model <em>reward</em> dilatih dari preferensi semacam ini, <strong>optimasi RLHF bisa ikut mendorong model ke arah “menyenangkan” pengguna, alih-alih “benar secara faktual”</strong>.</li>
 </ul>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -574,7 +545,7 @@ Rizqy Amelia Zein
 <p><strong>Implikasinya</strong></p>
 </div>
 <div class="callout-content">
-<p>Semakin “dipoles” lewat RLHF supaya model terasa membantu dan sopan, sebuah model <strong>berpotensi</strong> semakin terdengar meyakinkan, tanpa memberikan proporsi yang memadai pada akurasi. Ingat, kefasihan bahasa AI <strong>bukan</strong> jaminan kebenaran isinya.</p>
+<p>Makin dipoles lewat RLHF agar terasa membantu dan sopan, makin meyakinkan pula jawaban model, padahal akurasinya <strong>belum tentu</strong> ikut naik. Ingat, <em>output</em> AI sering terlihat meyakinkan (karena ditulis dengan “fasih”) tetapi “kefasihan” ini <strong>tidak menjamin</strong> kebenaran/akurasinya.</p>
 </div>
 </div>
 </div>
@@ -582,17 +553,17 @@ Rizqy Amelia Zein
 <section id="bias-otomasi-dalam-sistem-judge-advisor" class="slide level2">
 <h2>Bias otomasi dalam sistem <em>judge-advisor</em></h2>
 <ul>
-<li class="fragment">Ingat kerangka <em>augmentation</em> <a href="https://doi.org/10.1287/mnsc.2024.05684">(Fügener et al., 2026)</a>: manusia menerima <strong>saran</strong> AI, lalu memutuskan</li>
-<li class="fragment">Risiko epistemiknya: manusia cenderung <strong>terlalu percaya</strong> pada saran yang datang dari sistem yang tampak “objektif” dan konsisten (<strong><em>automation bias</em></strong>), terutama saat kelelahan atau tugasnya rutin</li>
-<li class="fragment">Augmentasi hanya benar-benar bermanfaat kalau manusia <strong>mampu membedakan</strong> saran AI yang benar dan salah</li>
+<li class="fragment">Ingat kerangka <em>augmentation</em> <a href="https://doi.org/10.1287/mnsc.2024.05684">(Fügener et al., 2026)</a>: manusia menerima <strong>saran</strong> AI, lalu memutuskan.</li>
+<li class="fragment">Risiko epistemiknya: manusia cenderung <strong>terlalu percaya</strong> pada saran yang datang dari sistem yang tampak “objektif” dan konsisten (<strong><em>automation bias</em></strong>), terutama saat kelelahan atau tugasnya rutin.</li>
+<li class="fragment">Augmentasi hanya benar-benar bermanfaat kalau manusia <strong>mampu membedakan</strong> saran AI yang benar dan salah.</li>
 </ul>
 </section>
 <section id="ilusi-pemahaman-the-effortless-trap" class="slide level2">
 <h2>Ilusi pemahaman: <em>“the effortless trap”</em></h2>
 <ul>
-<li class="fragment"><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić &amp; Frljić (2026)</a> — bacaan wajib Anda — menunjukkan bahwa AI generatif yang dipakai secara tidak tepat bisa menciptakan <strong>ilusi belajar</strong>: rasa percaya diri menguasai materi yang <strong>runtuh</strong> begitu diuji tanpa bantuan AI</li>
-<li class="fragment">Risiko epistemiknya ganda: salah paham, dan <strong>tidak menyadari</strong> bahwa diri sendiri salah paham — kombinasi itu yang berbahaya</li>
-<li class="fragment">Terhubung dengan konsep <strong>kegagalan <em>invisible</em></strong> <a href="https://doi.org/10.48550/arXiv.2604.25905">(Potts &amp; Sudhof, 2026)</a>: percakapan dengan AI terasa sukses, padahal pemahaman yang terbentuk keliru atau dangkal — akan dibahas lebih dalam pada sesi <em>AI fluency</em></li>
+<li class="fragment"><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić dan Frljić (2026)</a> berargumen, berdasarkan sintesis berbagai studi, bahwa AI generatif yang dipakai secara tidak tepat bisa menciptakan <strong>ilusi belajar</strong>: rasa percaya diri menguasai materi yang <strong>runtuh</strong> begitu diuji tanpa bantuan AI.</li>
+<li class="fragment">Artinya, risikonya berlipat ganda: pengguna salah paham, dan <strong>tidak sadar</strong> sedang salah paham.</li>
+<li class="fragment">Berkaitan dengan konsep <strong>kegagalan tak kasatmata</strong> (<em>invisible failures</em>) <a href="https://doi.org/10.48550/arXiv.2604.25905">(Potts &amp; Sudhof, 2026)</a>: interaksi/percakapan dengan AI tampak produktif, padahal hasilnya meleset.</li>
 </ul>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -603,7 +574,7 @@ Rizqy Amelia Zein
 <p><strong>Pertanyaan reflektif</strong></p>
 </div>
 <div class="callout-content">
-<p>Kapan terakhir kali Anda <strong>merasa yakin</strong> memahami sesuatu setelah berdiskusi dengan AI, tapi ternyata tidak bisa menjelaskannya ulang tanpa membuka kembali percakapan tersebut?</p>
+<p>Kapan terakhir kali Anda <strong>merasa yakin</strong> memahami sesuatu setelah berdiskusi dengan AI, tapi ternyata tidak bisa/kesulitan menjelaskannya ulang tanpa membuka kembali percakapan tersebut?</p>
 </div>
 </div>
 </div>
@@ -611,9 +582,9 @@ Rizqy Amelia Zein
 <section id="bukti-konkret-desain-penempatan-ai-yang-menentukan" class="slide level2">
 <h2>Bukti konkret: desain penempatan AI yang menentukan</h2>
 <ul>
-<li class="fragment"><strong>RCT hampir 1.000 siswa SMA matematika</strong> <a href="https://doi.org/10.1073/pnas.2422633122">(Bastani et al., 2025)</a>: kelompok dengan AI <strong>tanpa pengaman</strong> (langsung memberi jawaban) tampil lebih baik <strong>selama</strong> latihan, tapi skor <strong>17% lebih rendah</strong> dibanding kelompok tanpa akses AI sama sekali pada ujian mandiri</li>
-<li class="fragment">Kelompok dengan AI <strong>berpengaman</strong> (menahan jawaban, memberi petunjuk ala guru) memakai model yang <strong>sama persis</strong> — dan kerugian itu <strong>hilang</strong></li>
-<li class="fragment"><strong>Kesimpulan:</strong> bukan kehadiran AI yang merusak pembelajaran, tapi <strong>desain perannya</strong> — memberi jawaban di titik yang seharusnya diperjuangkan siswa sendiri</li>
+<li class="fragment"><strong>RCT pada hampir 1.000 siswa SMA (matematika)</strong> <a href="https://doi.org/10.1073/pnas.2422633122">(Bastani et al., 2025)</a>: kelompok yang memakai AI <strong>tanpa <em>guardrail</em></strong> (langsung memberi jawaban) tampil lebih baik <strong>selama</strong> latihan, tetapi skornya pada ujian mandiri <strong>17% lebih rendah</strong> dibanding kelompok tanpa akses AI sama sekali.</li>
+<li class="fragment">Kelompok yang memakai AI ber-<em>guardrail</em> (menahan jawaban, memberi petunjuk ala guru) menggunakan model yang <strong>sama persis</strong> membuat kerugian ini <strong>hilang</strong>.</li>
+<li class="fragment"><strong>Kesimpulan:</strong> yang merusak pembelajaran adalah <strong>desain perannya</strong>, yaitu AI memberi jawaban pada tahap yang seharusnya dikerjakan siswa sendiri.</li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -624,17 +595,20 @@ Rizqy Amelia Zein
 <p><strong>Sisi sebaliknya</strong></p>
 </div>
 <div class="callout-content">
-<p>Sebuah RCT terpisah pada mahasiswa fisika menemukan tutor AI yang dirancang cermat menghasilkan <strong>lebih dari 2 kali lipat</strong> pembelajaran dibanding kelas <em>active-learning</em> yang kuat — dalam waktu <strong>lebih singkat</strong> <a href="https://doi.org/10.1038/s41598-025-97652-6">(Kestin et al., 2025)</a>. <strong>Penempatannya</strong> yang menentukan hasil belajar.</p>
+<p>Sebuah RCT terpisah pada mahasiswa fisika menemukan bahwa capaian belajar, dengan tutor AI yang dirancang dengan baik, <strong>lebih baik dua kali lipat</strong> dibanding kelas <em>active learning</em> yang dirancang baik, dalam waktu <strong>lebih singkat</strong> <a href="https://doi.org/10.1038/s41598-025-97652-6">(Kestin et al., 2025)</a>. Kesimpulannya, bukan penggunaan tetapi <strong>peran AI</strong> dalam proses belajar yang menentukan hasil belajar.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="mengapa-terasa-mudah-bisa-menipu" class="slide level2">
-<h2>Mengapa “terasa mudah” bisa menipu</h2>
+<section id="productive-failure" class="slide level2">
+<h2><em>Productive failure</em></h2>
 <ul>
-<li class="fragment">Pembelajaran terjadi ketika siswa melakukan bagian yang <strong>berat secara kognitif</strong> — yang disebut ilmu kognisi sebagai <strong><em>productive struggle</em></strong> <a href="https://doi.org/10.1080/07370000802212669">(Kapur, 2008)</a></li>
-<li class="fragment">AI yang mengerjakan bagian itu <strong>terasa membantu</strong>, padahal menghilangkan justru kerja yang <strong>membangun keterampilan</strong></li>
-<li class="fragment">Bukti langsungnya: mahasiswa di kelas aktif yang <strong>efortful</strong> menilai diri mereka belajar <strong>lebih sedikit</strong>, padahal secara objektif mereka belajar <strong>lebih banyak</strong> <a href="https://doi.org/10.1073/pnas.1821936116">(Deslauriers et al., 2019)</a> — perasaan lancar (<em>fluent</em>) bukan indikator belajar yang valid</li>
+<li class="fragment">Belajar terjadi saat siswa sendiri mengerjakan bagian yang <strong>berat secara kognitif</strong> (<strong><em>productive struggle</em></strong>), sejalan dengan konsep <em>productive failure</em> <a href="https://doi.org/10.1080/07370000802212669">(Kapur, 2008)</a>.</li>
+<li class="fragment">AI yang mengerjakan bagian itu <strong>terasa membantu</strong>, padahal justru menghilangkan <em>friction</em> yang membantu <strong>mengasah keterampilan</strong> (baca <a href="https://www.nature.com/articles/s44271-026-00402-1">Zohar et al., 2026</a>).</li>
+<li class="fragment">Bukti empiriknya: mahasiswa di kelas yang aktif <strong>menuntut usaha</strong> menilai diri mereka belajar <strong>lebih sedikit</strong>, padahal secara objektif mereka belajar <strong>lebih banyak</strong> <a href="https://doi.org/10.1073/pnas.1821936116">(Deslauriers et al., 2019)</a>.
+<ul>
+<li class="fragment">Merasa “fasih” (<em>fluent</em>) bukan indikator belajar yang valid.</li>
+</ul></li>
 </ul>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -642,10 +616,11 @@ Rizqy Amelia Zein
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Studi kasus yang relevan untuk Anda</strong></p>
+<p><strong>Studi kasus</strong></p>
 </div>
 <div class="callout-content">
-<p>Programmer yang diberi asisten AI menyelesaikan tugas <em>coding</em> dengan baik, tapi skornya jauh lebih rendah pada tes konsep di balik kode yang <strong>baru saja mereka buat sendiri</strong> <a href="https://arxiv.org/abs/2601.20245">(Shen &amp; Tamkin, 2026)</a>. Pola yang sama sangat mungkin berlaku pada penulisan akademik dan analisis data.</p>
+<p>SWE yang diberi asisten AI menyelesaikan tugas <em>coding</em> dengan baik, tapi skornya 17% lebih rendah pada kuis tentang konsep di balik <em>script</em> yang <strong>baru saja mereka buat sendiri</strong> <a href="https://arxiv.org/abs/2601.20245">(Shen &amp; Tamkin, 2026)</a>.</p>
+<p>Pola yang sama sangat mungkin berlaku pada penulisan akademik dan analisis data.</p>
 </div>
 </div>
 </div>
@@ -653,10 +628,10 @@ Rizqy Amelia Zein
 <section id="cognitive-debt-bukti-yang-diperdebatkan-dari-neurosains" class="slide level2">
 <h2><em>Cognitive debt</em>: bukti (yang diperdebatkan) dari neurosains</h2>
 <ul>
-<li class="fragment">Studi MIT Media Lab <a href="https://arxiv.org/abs/2506.08872">(Kosmyna et al., 2025)</a> merekam aktivitas otak (EEG) 54 partisipan menulis esai dengan tiga kondisi: <strong>hanya otak</strong>, <strong>mesin pencari</strong>, atau <strong>ChatGPT</strong></li>
-<li class="fragment">Temuan utama: <strong>konektivitas otak paling lemah</strong> pada kelompok pengguna LLM, moderat pada pengguna mesin pencari, dan <strong>paling kuat/tersebar</strong> pada kelompok tanpa alat bantu</li>
-<li class="fragment">Pengguna LLM juga paling <strong>kesulitan mengutip</strong> esai yang <strong>baru saja mereka tulis sendiri</strong> — indikasi rendahnya rasa kepemilikan terhadap karya sendiri</li>
-<li class="fragment">Istilah <strong><em>cognitive debt</em></strong> menggambarkan gagasan bahwa kemudahan hari ini bisa “berutang” pada kapasitas kognitif di masa depan</li>
+<li class="fragment">Studi MIT Media Lab <a href="https://arxiv.org/abs/2506.08872">(Kosmyna et al., 2025)</a> merekam aktivitas otak (EEG) 54 partisipan menulis esai dengan tiga kondisi: <strong>dikerjakan sendiri</strong>, <strong>menggunakan mesin pencari</strong>, atau <strong>menggunakan ChatGPT</strong>.</li>
+<li class="fragment">Temuan utama: <strong>konektivitas otak paling lemah</strong> pada kelompok pengguna LLM, moderat pada pengguna mesin pencari, dan <strong>paling kuat/tersebar</strong> pada kelompok tanpa alat bantu.</li>
+<li class="fragment">Pengguna LLM juga paling <strong>kesulitan mengutip</strong> esai yang <strong>baru saja mereka tulis sendiri</strong>, dan melaporkan rasa kepemilikan paling rendah terhadap esainya.</li>
+<li class="fragment">Istilah <strong><em>cognitive debt</em></strong> menggambarkan gagasan bahwa kemudahan hari ini bisa “dibayar” dengan kapasitas kognitif di masa depan.</li>
 </ul>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -667,92 +642,58 @@ Rizqy Amelia Zein
 <p><strong>Bacalah dengan hati-hati</strong></p>
 </div>
 <div class="callout-content">
-<p>Studi ini masih berupa <strong>preprint</strong> dan metodologinya <strong>diperdebatkan</strong> — ada kritik terbit yang mempertanyakan temuannya <a href="https://arxiv.org/abs/2601.00856">(Stankovic et al., 2025)</a>. Perlakukan <em>cognitive debt</em> sebagai <strong>hipotesis yang sedang diuji</strong>, bukan fakta yang sudah mapan — contoh baik untuk melatih <em>discernment</em> Anda sendiri terhadap literatur ilmiah yang berkembang cepat.</p>
+<p>Studi ini masih berupa <strong><em>preprint</em></strong> dan metodologinya <strong>diperdebatkan</strong>: ada komentar kritis (juga berupa <em>preprint</em>) yang mempertanyakan desain studi dan metode EEG-nya <a href="https://arxiv.org/abs/2601.00856">(Stankovic et al., 2025)</a>. Perlakukan <em>cognitive debt</em> sebagai <strong>hipotesis yang sedang diuji</strong>.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="enam-gerakan-belajar-kerangka-penempatan-ai" class="slide level2">
-<h2>Enam gerakan belajar: kerangka penempatan AI</h2>
-<p><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić &amp; Frljić (2026)</a> menawarkan kerangka praktis: belajar satu ide baru terjadi lewat <strong>enam gerakan</strong>, berurutan:</p>
+<section id="enam-langkah-belajar-kerangka-penempatan-ai" class="slide level2">
+<h2>Enam langkah belajar: kerangka penempatan AI</h2>
+<p><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić dan Frljić (2026)</a> menawarkan kerangka praktis: belajar satu ide baru terjadi lewat <strong>enam langkah</strong> berurutan:</p>
 <ol type="1">
-<li class="fragment"><strong><em>Prime</em></strong> — memantik minat, membangunkan pengetahuan awal — <strong>AI boleh membantu</strong> (bikin analogi, contoh pemantik)</li>
-<li class="fragment"><strong><em>Probe</em></strong> — siswa menghadapi masalah sulit <strong>tanpa bantuan</strong> dulu — <strong>AI harus keluar</strong>, inilah perjuangan yang membangun</li>
-<li class="fragment"><strong><em>Point</em></strong> — guru membimbing lewat pertanyaan, bukan jawaban — <strong>AI sebagai tutor berpengaman</strong>: petunjuk, bukan solusi</li>
-<li class="fragment"><strong><em>Attach</em></strong> — barulah contoh yang sudah dikerjakan ditunjukkan — <strong>AI boleh membuat contoh</strong> yang relevan</li>
-<li class="fragment"><strong><em>Strengthen</em></strong> — latihan bervariasi memperkuat pemahaman — <strong>AI bisa menyediakan latihan tanpa batas</strong></li>
-<li class="fragment"><strong><em>Test</em></strong> — siswa diuji <strong>sendirian</strong>, tanpa bantuan — <strong>AI harus keluar total</strong>; inilah satu-satunya bukti bahwa belajar benar-benar terjadi</li>
+<li class="fragment"><strong><em>Prime</em></strong> — memantik minat dan mengaktifkan pengetahuan awal → <strong>AI boleh membantu</strong> (membuat analogi atau contoh)</li>
+<li class="fragment"><strong><em>Probe</em></strong> — siswa menghadapi masalah sulit <strong>tanpa bantuan</strong> dulu → <strong>AI tidak dilibatkan</strong> untuk memunculkan <em>productive struggle</em></li>
+<li class="fragment"><strong><em>Point</em></strong> — guru membimbing lewat pertanyaan → <strong>AI sebagai tutor ber-<em>guardrail</em></strong>: memberi petunjuk</li>
+<li class="fragment"><strong><em>Attach</em></strong> — barulah contoh soal beserta penyelesaiannya (<em>worked example</em>) ditunjukkan → <strong>AI boleh membuat contoh</strong> yang relevan</li>
+<li class="fragment"><strong><em>Strengthen</em></strong> — latihan bervariasi memperkuat pemahaman → <strong>AI bisa menyediakan latihan terus menerus</strong></li>
+<li class="fragment"><strong><em>Test</em></strong> — siswa diuji <strong>sendirian</strong>, tanpa bantuan → <strong>AI sama sekali tidak dilibatkan</strong>; inilah satu-satunya bukti bahwa proses belajar benar-benar terjadi</li>
 </ol>
 
 <aside><div>
-<p><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić &amp; Frljić (2026)</a></p>
+<p><a href="https://doi.org/10.48550/arXiv.2606.26181">Brčić dan Frljić (2026)</a></p>
 </div></aside></section>
 <section id="aturan-penempatan-kapan-ai-boleh-digunakan" class="slide level2">
 <h2>Aturan penempatan: kapan AI boleh digunakan?</h2>
-<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout callout-important callout-style-simple">
 <div class="callout-body">
-<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Diagnostik satu kalimat</strong></p>
-</div>
 <div class="callout-content">
-<p><strong>Jika membiarkan AI masuk membuat tugas terasa <em>tanpa usaha</em> (<em>effortless</em>), AI kemungkinan besar sedang menggantikan pekerjaan yang seharusnya membangun keterampilan itu sendiri.</strong></p>
+<p><strong>Jika tugas terasa tanpa usaha (<em>effortless</em>) setelah AI dilibatkan, besar kemungkinan AI sedang mengambil alih kerja yang seharusnya mengasah keterampilan tersebut.</strong></p>
 </div>
 </div>
 </div>
 <ul>
-<li class="fragment">Aturannya <strong>per keterampilan</strong>, bukan per mata kuliah — AI bisa pantas dipakai di satu bagian tugas dan harus dihindari di bagian lain, dalam jam yang sama</li>
-<li class="fragment">AI punya dua peran sah: <strong>memangkas kerja rutin</strong> yang bukan inti pembelajaran, dan <strong>menambah kepadatan latihan/umpan balik</strong> yang mustahil disediakan satu pengajar untuk semua orang</li>
-<li class="fragment">Yang <strong>tidak boleh</strong> dilakukan AI: mengerjakan perjuangan kognitif yang justru menjadi <strong>inti</strong> dari apa yang sedang dipelajari, dan mengaburkan bukti bahwa siswa benar-benar bisa berpikir/berkinerja <strong>mandiri</strong></li>
+<li class="fragment">Aturannya berlaku <strong>per keterampilan</strong>: AI mungkin tepat dipakai di satu bagian tugas tapi harus dihindari di bagian lain.</li>
+<li class="fragment">AI punya dua peran: <strong>memangkas kerja rutin</strong> atau <strong>tugas yang repetitif</strong> yang bukan inti pembelajaran, dan <strong>memperbanyak latihan dan umpan balik</strong> yang mustahil disediakan satu pengajar untuk semua peserta didik.</li>
+<li class="fragment">Yang <strong>tidak boleh</strong> dilakukan AI: mengambil alih perjuangan kognitif yang justru menjadi <strong>inti</strong> dari apa yang sedang dipelajari, atau mengaburkan bukti bahwa siswa benar-benar bisa berpikir dan berkinerja secara <strong>mandiri</strong>.</li>
 </ul>
 </section>
 <section id="mengelola-risiko-epistemik-dalam-kolaborasi" class="slide level2">
 <h2>Mengelola risiko epistemik dalam kolaborasi</h2>
 <ul>
-<li class="fragment"><strong>Jangan menyamakan kefasihan bahasa dengan kebenaran</strong> — model yang dilatih untuk terdengar meyakinkan tidak otomatis lebih akurat</li>
-<li class="fragment"><strong>Pertahankan “hak veto” epistemik</strong> — selalu sisakan ruang untuk menyatakan tidak setuju atau meminta AI menunjukkan dasar argumennya</li>
-<li class="fragment"><strong>Terapkan aturan penempatan</strong> — amankan usaha pertama (<em>Probe</em>) dan uji akhir mandiri (<em>Test</em>) Anda sendiri; gunakan AI dengan pengaman di antara keduanya</li>
-<li class="fragment">Keempat strategi ini adalah bibit dari kompetensi <strong><em>discernment</em></strong> yang akan kita bahas tuntas di sesi <em>AI literacy</em> dan <em>fluency</em></li>
-</ul>
-<aside class="notes">
-<p>Bagian ini menjembatani ke sesi berikutnya. Tekankan bahwa risiko epistemik berbeda dari risiko performa biasa — bukan “AI salah menjawab”, tapi “kita tidak sadar AI (atau kita sendiri) sedang salah”. Kaitkan enam gerakan ini langsung ke Tugas 1 (log interaksi UTS) — mahasiswa akan diminta merefleksikan di mana dalam prosesnya AI mereka tempatkan.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section></section>
-<section>
-<section id="sintesis-merancang-kolaborasi-manusia-ai-yang-baik" class="title-slide slide level1 center" data-background-color="#14497F">
-<h1>Sintesis: Merancang Kolaborasi Manusia-AI yang Baik 🧩</h1>
-
-</section>
-<section id="menyatukan-dua-kerangka" class="slide level2">
-<h2>Menyatukan dua kerangka</h2>
-<ul>
-<li class="fragment">Kerangka <strong>automation vs.&nbsp;augmentation</strong> <a href="https://doi.org/10.1287/mnsc.2024.05684">(Fügener et al., 2026)</a> menjawab pertanyaan <strong>“tugas mana”</strong> yang sebaiknya diotomasi, diaugmentasi, atau dikerjakan manusia sendiri</li>
-<li class="fragment">Kerangka <strong>RL untuk kolaborasi</strong> <a href="https://doi.org/10.1007/s12559-025-10500-7">(Li et al., 2025)</a> menjawab pertanyaan <strong>“bagaimana”</strong> sistem AI itu bisa terus belajar dan menyesuaikan diri dengan perilaku manusia dari waktu ke waktu</li>
-<li class="fragment">Keduanya bertemu pada satu prinsip: kolaborasi manusia-AI yang baik membutuhkan <strong><em>complementarity</em> yang dikelola secara sengaja</strong>, bukan sekadar “menambahkan AI” ke proses yang sudah ada</li>
+<li class="fragment">Jangan menyamakan <strong>kefasihan bahasa dengan kebenaran</strong>: model yang dilatih untuk terdengar meyakinkan tidak otomatis lebih akurat.</li>
+<li class="fragment"><strong>Bersikap <em>devil’s advocate</em> pada AI <em>chatbot</em>/<em>agent</em></strong>: selalu sisakan ruang untuk tidak setuju, atau minta AI menunjukkan dasar argumennya.</li>
+<li class="fragment">Terapkan <strong>aturan delegasi</strong>: kerjakan sendiri tahap <em>Probe</em> dan <em>Test</em>; gunakan AI ber-<em>guardrail</em> di antara keduanya.</li>
+<li class="fragment">Ketiga strategi ini adalah dasar kompetensi <strong><em>discernment</em></strong> yang akan kita bahas secara mendalam di sesi <em>AI literacy</em> dan <em>fluency</em>.</li>
 </ul>
 </section>
 <section id="rangkuman" class="slide level2">
 <h2>Rangkuman</h2>
 <ul>
-<li class="fragment">AI: model statistik yang “dibesarkan” lewat <em>pre-training</em> dan <em>fine-tuning</em> (termasuk RLHF) — bukan entitas yang benar-benar “berpikir”.</li>
-<li class="fragment"><strong><em>Automation</em></strong> menggantikan manusia; <strong><em>augmentation</em></strong> melengkapi manusia lewat saran — pilihannya bergantung pada jenis <em>complementarity</em> yang tersedia.</li>
-<li class="fragment">Bukti empiris menunjukkan kombinasi automasi + augmentasi + realokasi sumber daya manusia memberi hasil <strong>terbaik</strong>.</li>
-<li class="fragment"><strong><em>Reinforcement learning</em></strong> (termasuk RLHF) adalah mekanisme di balik AI yang terus beradaptasi lewat interaksi dengan manusia — tapi tetap menghadapi tantangan keselarasan, adaptabilitas, dan koordinasi.</li>
-<li class="fragment"><strong>Risiko epistemik</strong> mengintai di balik kefasihan AI: RLHF bisa melatih <em>sycophancy</em>, augmentasi bisa merosot jadi <em>automation bias</em>, dan kolaborasi yang nyaman bisa menciptakan ilusi pemahaman.</li>
-<li class="fragment"><strong><em>The effortless trap</em></strong> mengajarkan: yang menentukan bukan <em>ada/tidaknya</em> AI, tapi <strong>di titik mana</strong> dalam proses belajar ia ditempatkan — amankan <em>Probe</em> dan <em>Test</em>, gunakan AI berpengaman di antaranya.</li>
-<li class="fragment">Kolaborasi yang terlalu erat berisiko mengikis <em>tacit knowledge</em> manusia (dan berpotensi menimbulkan <em>cognitive debt</em>) — pertanyaan yang akan kita dalami lebih jauh di sesi tentang <em>AI literacy</em> dan <em>fluency</em>.</li>
+<li class="fragment">Pertanyaan refleksi: di tugas akhir Anda, tahap mana yang harus tetap Anda kerjakan tanpa AI (<em>Probe</em> dan <em>Test</em>), dan bagaimana Anda tahu kalau AI sudah terlalu dalam mengambil alih tahap itu?</li>
+<li class="fragment">Pertemuan berikutnya: <em>AI literacy</em> dan <em>AI fluency</em>, kompetensi yang menjaga kolaborasi manusia-AI ini agar tidak mengarah pada <em>automation bias</em>.</li>
 </ul>
 </section>
 <section id="terima-kasih" class="slide level2 closing-slide">
@@ -777,20 +718,20 @@ Rizqy Amelia Zein
 <h2>Rujukan</h2>
 <ul>
 <li>Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., &amp; Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. <em>Proceedings of the National Academy of Sciences, 122</em>(26), Article e2422633122. <a href="https://doi.org/10.1073/pnas.2422633122" class="uri">https://doi.org/10.1073/pnas.2422633122</a></li>
-<li>Brčić, M., &amp; Frljić, S. (2026). <em>The effortless trap: Productive struggle, AI, and the illusion of learning</em>. arXiv. <a href="https://doi.org/10.48550/arXiv.2606.26181" class="uri">https://doi.org/10.48550/arXiv.2606.26181</a></li>
+<li>Brčić, M., &amp; Frljić, S. (2026). <em>The effortless trap: Productive struggle, AI, and the illusion of learning</em> (arXiv:2606.26181). arXiv. <a href="https://doi.org/10.48550/arXiv.2606.26181" class="uri">https://doi.org/10.48550/arXiv.2606.26181</a></li>
 <li>Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., &amp; Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. <em>Proceedings of the National Academy of Sciences, 116</em>(39), 19251–19257. <a href="https://doi.org/10.1073/pnas.1821936116" class="uri">https://doi.org/10.1073/pnas.1821936116</a></li>
 <li>Fügener, A., Walzner, D. D., &amp; Gupta, A. (2026). Roles of artificial intelligence in collaboration with humans: Automation, augmentation, and the future of work. <em>Management Science, 72</em>(1), 538–557. <a href="https://doi.org/10.1287/mnsc.2024.05684" class="uri">https://doi.org/10.1287/mnsc.2024.05684</a></li>
-<li>Ghali, M.-K., Farrag, A., Sakai, H., El Baz, H., Jin, Y., &amp; Lam, S. (2024). <em>GAMedX: Generative AI-based medical entity data extractor using large language models</em>. arXiv. <a href="https://arxiv.org/abs/2405.20585" class="uri">https://arxiv.org/abs/2405.20585</a></li>
+<li>Ghali, M.-K., Farrag, A., Sakai, H., El Baz, H., Jin, Y., &amp; Lam, S. (2024). <em>GAMedX: Generative AI-based medical entity data extractor using large language models</em> (arXiv:2405.20585). arXiv. <a href="https://doi.org/10.48550/arXiv.2405.20585" class="uri">https://doi.org/10.48550/arXiv.2405.20585</a></li>
 <li>Kapur, M. (2008). Productive failure. <em>Cognition and Instruction, 26</em>(3), 379–424. <a href="https://doi.org/10.1080/07370000802212669" class="uri">https://doi.org/10.1080/07370000802212669</a></li>
 <li>Kesavan, S., &amp; Kushwaha, T. (2020). Field experiment on the profit implications of merchants’ discretionary power to override data-driven decision-making tools. <em>Management Science, 66</em>(11), 5182–5190. <a href="https://doi.org/10.1287/mnsc.2020.3743" class="uri">https://doi.org/10.1287/mnsc.2020.3743</a></li>
 <li>Kestin, G., Miller, K., Klales, A., Milbourne, T., &amp; Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. <em>Scientific Reports, 15</em>, Article 17458. <a href="https://doi.org/10.1038/s41598-025-97652-6" class="uri">https://doi.org/10.1038/s41598-025-97652-6</a></li>
-<li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X.-H., Beresnitzky, A. V., Braunstein, I., &amp; Maes, P. (2025). <em>Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task</em>. arXiv. <a href="https://arxiv.org/abs/2506.08872" class="uri">https://arxiv.org/abs/2506.08872</a></li>
-<li>Li, W., Liu, H., Huang, K., &amp; Hussain, A. (2025). Reinforcement learning for human-AI collaboration: Challenges, mechanisms, and methods. <em>Cognitive Computation, 17</em>, Article 146. <a href="https://doi.org/10.1007/s12559-025-10500-7" class="uri">https://doi.org/10.1007/s12559-025-10500-7</a></li>
-<li>Potts, C., &amp; Sudhof, M. (2026). <em>A paradox of AI fluency</em>. arXiv. <a href="https://doi.org/10.48550/arXiv.2604.25905" class="uri">https://doi.org/10.48550/arXiv.2604.25905</a></li>
-<li>Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., &amp; Perez, E. (2023). <em>Towards understanding sycophancy in language models</em>. arXiv. <a href="https://arxiv.org/abs/2310.13548" class="uri">https://arxiv.org/abs/2310.13548</a></li>
-<li>Shen, J. H., &amp; Tamkin, A. (2026). <em>How AI impacts skill formation</em>. arXiv. <a href="https://arxiv.org/abs/2601.20245" class="uri">https://arxiv.org/abs/2601.20245</a></li>
-<li>Stankovic, M., Hirche, E., Kollatzsch, S., &amp; Doetsch, J. N. (2025). <em>Comment on: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing tasks</em>. arXiv. <a href="https://arxiv.org/abs/2601.00856" class="uri">https://arxiv.org/abs/2601.00856</a></li>
-<li>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., &amp; Polosukhin, I. (2017). Attention is all you need. <em>Advances in Neural Information Processing Systems, 30</em>, 5998–6008.</li>
+<li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X.-H., Beresnitzky, A. V., Braunstein, I., &amp; Maes, P. (2025). <em>Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task</em> (arXiv:2506.08872). arXiv. <a href="https://doi.org/10.48550/arXiv.2506.08872" class="uri">https://doi.org/10.48550/arXiv.2506.08872</a></li>
+<li>Li, W., Liu, H., Huang, K., &amp; Hussain, A. (2025). Reinforcement learning for human-AI collaboration: Challenges, mechanisms, and methods. <em>Cognitive Computation, 17</em>(5), Article 146. <a href="https://doi.org/10.1007/s12559-025-10500-7" class="uri">https://doi.org/10.1007/s12559-025-10500-7</a></li>
+<li>Potts, C., &amp; Sudhof, M. (2026). <em>A paradox of AI fluency</em> (arXiv:2604.25905). arXiv. <a href="https://doi.org/10.48550/arXiv.2604.25905" class="uri">https://doi.org/10.48550/arXiv.2604.25905</a></li>
+<li>Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., &amp; Perez, E. (2023). <em>Towards understanding sycophancy in language models</em> (arXiv:2310.13548). arXiv. <a href="https://doi.org/10.48550/arXiv.2310.13548" class="uri">https://doi.org/10.48550/arXiv.2310.13548</a></li>
+<li>Shen, J. H., &amp; Tamkin, A. (2026). <em>How AI impacts skill formation</em> (arXiv:2601.20245). arXiv. <a href="https://doi.org/10.48550/arXiv.2601.20245" class="uri">https://doi.org/10.48550/arXiv.2601.20245</a></li>
+<li>Stankovic, M., Hirche, E., Kollatzsch, S., &amp; Doetsch, J. N. (2025). <em>Comment on: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing tasks</em> (arXiv:2601.00856). arXiv. <a href="https://doi.org/10.48550/arXiv.2601.00856" class="uri">https://doi.org/10.48550/arXiv.2601.00856</a></li>
+<li>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., &amp; Polosukhin, I. (2017). Attention is all you need. <em>Advances in Neural Information Processing Systems, 30</em>, 5998–6008. <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf" class="uri">https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf</a></li>
 </ul>
 
 
