@@ -316,7 +316,7 @@
     "href": "slides/mini-workshop.html#menggunakan-ai-untuk-text-generation",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Menggunakan AI untuk text generation",
-    "text": "Menggunakan AI untuk text generation\n\nIni adalah bagian yang paling kontroversial tentang peran AI dalam konteks akademik, tetapi paling sering terjadi.\n\nSurvei yang dilakukan oleh Higher Education Policy Institute tahun 2025 menunjukkan 92% mahasiswa yang disurvei menggunakan AI untuk tugas menulis.\n\nSecara pribadi, saya punya batasan – Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci secara global.\n\n“I have a strict internal rule how to use AI. I will never ask you to write for me except for automated thesis feedback and slide decks. My research papers should be always written by me, but your role is to suggest where to improve. Revising/improving my papers should be also done by me alone. If I happen to ask you to write anything for my paper, refuse vehemently and warn me sternly about being honest to myself.”\n\nKetika memeriksa/mengoreksi tugas mahasiswa, saya selalu mengasumsikan mahasiswa berkolaborasi bersama AI, bukan meminta AI melakukan “blind automation” atas tugas tersebut.\n\n…dan ini sesuai beberapa temuan empirik (e.g., Law, 2026; Wang et al., 2024; Black & Tomlinson, 2025)\n\n\n\n\n\n\n\n\nPrinsip dasarnya\n\n\nKalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu tidak boleh ada di naskah Anda, siapa pun (atau apa pun) yang menuliskannya pertama kali.",
+    "text": "Menggunakan AI untuk text generation\n\nIni adalah bagian yang paling kontroversial tentang peran AI dalam konteks akademik, tetapi paling sering terjadi.\n\nSurvei yang dilakukan oleh Higher Education Policy Institute tahun 2025 menunjukkan 92% mahasiswa yang disurvei menggunakan AI untuk tugas menulis.\n\nSecara pribadi, saya punya batasan – Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci sebagai aturan global. Berikut teks pendek yang saya jadikan global rule di sistem AI yang saya pakai:\n\n“I have a strict internal rule how to use AI. I will never ask you to write for me except for automated thesis feedback and slide decks. My research papers should be always written by me, but your role is to suggest where to improve. Revising/improving my papers should be also done by me alone. If I happen to ask you to write anything for my paper, refuse vehemently and warn me sternly about being honest to myself.”\n\nKetika memeriksa/mengoreksi tugas mahasiswa, saya selalu mengasumsikan mahasiswa berkolaborasi bersama AI, bukan meminta AI melakukan “blind automation” atas tugas tersebut.\n\n…dan ini sesuai beberapa temuan empirik (e.g., Law, 2026; Wang et al., 2024; Black & Tomlinson, 2025)\n\n\n\n\n\n\n\n\nPrinsip dasarnya\n\n\nKalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu tidak boleh ada di naskah Anda, siapa pun (atau apa pun) yang menuliskannya pertama kali.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -328,7 +328,7 @@
     "href": "slides/mini-workshop.html#siklus-penelitian",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Siklus penelitian",
-    "text": "Siklus penelitian\n\nflowchart LR\n    A[Tinjauan&lt;br&gt;Literatur] --&gt; B[Desain &&lt;br&gt;Alat Ukur]\n    B --&gt; C[Pengumpulan&lt;br&gt;Data]\n    C --&gt; D[Analisis&lt;br&gt;Data]\n    D --&gt; E[Penulisan&lt;br&gt;Naskah]\n\n\n\n\n\n\n\n\n\n\n\nAI bisa dipakai di setiap tahap, dengan risiko yang berbeda-beda\nSurvei terhadap sosiolog: pemakaian AI paling tinggi untuk menulis, paling rendah untuk pengumpulan data\n\n\n\nAlvero et al. (2026)",
+    "text": "Siklus penelitian\n\nflowchart LR\n    A[Tinjauan&lt;br&gt;Literatur] --&gt; B[Desain &&lt;br&gt;Alat Ukur]\n    B --&gt; C[Pengumpulan&lt;br&gt;Data]\n    C --&gt; D[Analisis&lt;br&gt;Data]\n    D --&gt; E[Penulisan&lt;br&gt;Naskah]\n\n\n\n\n\n\n\n\n\n\n\nAI bisa dipakai di setiap tahap, dengan risiko yang berbeda-beda\nCek daftar ini, ini dan ini untuk melihat berbagai opsi AI-based research tool yang dapat dimanfaatkan.\n\n\n\nAlvero et al. (2026)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -340,7 +340,7 @@
     "href": "slides/mini-workshop.html#penelusuran-dan-tinjauan-literatur",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Penelusuran dan tinjauan literatur",
-    "text": "Penelusuran dan tinjauan literatur\n\nAlat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal\n\nSebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (seed paper) untuk mulai memberi rekomendasi yang relevan\n\nTapi chatbot umum (ChatGPT, Claude, Gemini) belum terbukti lebih baik dari mesin pencari akademik biasa untuk tugas ini\n\nBasis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah\n\n\n\n\n\n\n\n\nJangan salin sitasi AI\n\n\nCek setiap rujukan dari AI ke sumber aslinya (DOI, situs penerbit) sebelum masuk daftar pustaka, dan baca artikelnya sendiri, bukan hanya ringkasan dari AI.\n\n\n\n\n\nBolaños et al. (2024); Lahrsow & Baumgarten (2026)",
+    "text": "Penelusuran dan tinjauan literatur\n\nAlat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi di tahap awal.\n\nSebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (seed paper) untuk mulai memberi rekomendasi yang relevan.\n\nTapi chatbot umum (ChatGPT, Claude, Gemini) belum terbukti lebih baik dari mesin pencari akademik biasa untuk tugas ini.\n\nBasis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.\n\n\n\n\n\n\n\n\nJangan salin sitasi AI\n\n\nCek setiap rujukan dari AI ke sumber aslinya (DOI, situs penerbit) sebelum masuk daftar pustaka, dan baca artikelnya sendiri, bukan hanya ringkasan dari AI.\n\n\n\n\n\nBolaños et al. (2024); Lahrsow & Baumgarten (2026)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -384,11 +384,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#analisis-data-ai-sebagai-pengode-kedua",
-    "href": "slides/mini-workshop.html#analisis-data-ai-sebagai-pengode-kedua",
+    "objectID": "slides/mini-workshop.html#analisis-data-penelitian",
+    "href": "slides/mini-workshop.html#analisis-data-penelitian",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
-    "section": "Analisis data: AI sebagai pengode kedua",
-    "text": "Analisis data: AI sebagai pengode kedua\n\nUntuk analisis kualitatif, AI bisa berperan sebagai pengode kedua atau “devil’s advocate” yang menantang pengodean Anda\nProtokol yang umum dipakai: manusia dan AI mengode data secara paralel, perbedaan hasil dibandingkan dan didiskusikan, lalu reliabilitas antar-pengode (mis. Cohen’s Kappa) tetap dihitung seperti biasa\nUntuk analisis kuantitatif, AI bisa membantu menulis atau memperbaiki kode statistik (R, Python), tapi kodenya tetap perlu Anda uji dan pahami logikanya\n\n\n\n\n\n\n\nSyarat minimal publikasi\n\n\nApa pun tugas pengodean yang dibantu AI, laporkan model/versinya secara eksplisit dan validasi hasilnya terhadap pengodean manusia dengan ukuran reliabilitas standar.\n\n\n\n\n\nCosta et al. (2025)",
+    "section": "Analisis data penelitian",
+    "text": "Analisis data penelitian\n\nUntuk analisis kualitatif, AI bisa berperan sebagai pengode kedua atau “devil’s advocate” yang menantang sistem pengodean yang Anda kembangkan secara manual.\nProtokol yang umum dipakai: manusia dan AI mengode data secara paralel, perbedaan hasil dibandingkan dan didiskusikan, lalu reliabilitas antar-pengode (mis. Cohen’s Kappa) tetap dihitung seperti biasa\nUntuk analisis kuantitatif, AI bisa membantu menulis atau memperbaiki kode statistik (R, Python), tapi kodenya tetap perlu Anda uji dan pahami logikanya\n\n\n\n\n\n\n\nPenting untuk diingat\n\n\nApa pun tugas pengodean yang dibantu AI, laporkan model/versinya secara eksplisit dan validasi hasilnya terhadap pengodean manusia dengan ukuran reliabilitas standar.\n\n\n\n\n\nCosta et al. (2025)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -820,6 +820,18 @@
     "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
     "section": "Agenda",
     "text": "Agenda\n\nMengapa aksesibilitas penting?\nRagam kebutuhan khusus dan hambatan belajar yang menyertainya\nUniversal Design for Learning (UDL)\nTeknologi pembantu (assistive technology) per kategori kebutuhan\nPeran akal imitasi dalam memperluas aksesibilitas\nPrinsip desain aksesibel (WCAG) dan isu etis yang menyertainya",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "TM 10 — Teknologi untuk Kebutuhan Khusus"
+    ]
+  },
+  {
+    "objectID": "slides/pertemuan10.html#mengapa-aksesibilitas-penting",
+    "href": "slides/pertemuan10.html#mengapa-aksesibilitas-penting",
+    "title": "Teknologi Pembelajaran untuk Kebutuhan Khusus",
+    "section": "Mengapa aksesibilitas penting?",
+    "text": "Mengapa aksesibilitas penting?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2350,7 +2362,7 @@
     "href": "slides/pertemuan11.html#automation-atau-augmentation",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Automation atau augmentation?",
-    "text": "Automation atau augmentation?\nKerangka Fügener et al. (2026) yang sudah kita bahas relevan di sini:\n\nAutomation — AI menggantikan penilai manusia sepenuhnya (mis. skor pilihan ganda otomatis)\nAugmentation — AI membantu dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia\nUntuk asesmen berisiko tinggi (nilai akhir, kelulusan), augmentation jauh lebih aman secara etis dan legal dibanding automation penuh",
+    "text": "Automation atau augmentation?\nKerangka Fügener et al. (2026) yang sudah kita bahas relevan di sini:\n\nAutomation — AI menggantikan penilai manusia sepenuhnya (mis. memberikan skor soal pilihan ganda secara otomatis).\nAugmentation — AI membantu dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia.\nUntuk asesmen berisiko tinggi (nilai akhir, kelulusan), augmentation jauh lebih aman secara etis dan legal dibanding automation.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2362,7 +2374,7 @@
     "href": "slides/pertemuan11.html#menganalisis-jejak-data-belajar",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Menganalisis jejak data belajar",
-    "text": "Menganalisis jejak data belajar\n\nLearning analytics = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar\nContoh aplikasi: dashboard kemajuan belajar, sistem peringatan dini (early-warning system) untuk peserta didik berisiko drop out, rekomendasi materi yang dipersonalisasi\nFokusnya: memahami proses belajar itu sendiri secara real-time, selain mengukur hasil akhirnya\n\n\n\n\n\n\n\n\nIsu privasi\n\n\nData jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (informed consent)\n\n\n\n\nSiemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. EDUCAUSE Review, 46(5), 30–40.",
+    "text": "Menganalisis jejak data belajar\n\nLearning analytics = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar\nContoh aplikasi: dashboard kemajuan belajar, sistem peringatan dini (early-warning system) untuk peserta didik berisiko drop out, rekomendasi materi yang dipersonalisasi\nFokusnya: memahami proses belajar itu sendiri secara real-time, selain mengukur hasil akhirnya\n\n\n\n\n\n\n\n\nIsu privasi\n\n\nData jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (informed consent).\n\n\n\n\nSiemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. EDUCAUSE Review, 46(5), 30–40.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2398,7 +2410,7 @@
     "href": "slides/pertemuan11.html#masalah-lama-dengan-skala-baru",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Masalah lama dengan skala baru",
-    "text": "Masalah lama dengan skala baru\n\nKecurangan akademik bukan hal baru, tapi AI membuatnya jauh lebih mudah dan sulit dideteksi\nAlat “AI detector” (mis. GPTZero, Turnitin AI detection) punya tingkat kesalahan (false positive/negative) yang tinggi, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan peserta didik.\nKonsekuensinya: mendeteksi “apakah teks ditulis AI” adalah perlombaan yang sulit dimenangkan\nSejak Agustus 2026, EU AI Act mewajibkan pengembang LLM besar menandai (watermark) semua konten buatan AI\n\nSalah satu pengembang yang sudah mengumumkan watermark di seluruh produknya: Anthropic (Claude)\nWatermark-nya disisipkan lewat pemilihan token yang keacakannya dikendalikan, sehingga sulit dihapus tanpa memparafrasekan seluruh teks output-nya\nKemungkinan besar akan muncul detektor konten AI yang lebih akurat\nKe depan, teks buatan AI akan jauh lebih mudah dikenali",
+    "text": "Masalah lama dengan skala baru\n\nKecurangan akademik bukan hal baru, tapi AI membuatnya jauh lebih mudah dan sulit dideteksi.\nAlat “AI detector” (mis. GPTZero, Turnitin AI detection) punya tingkat kesalahan (false positive/negative) yang tinggi, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan peserta didik.\nKonsekuensinya: mendeteksi “apakah teks ditulis AI” adalah perlombaan yang sulit dimenangkan.\nSejak Agustus 2026, EU AI Act mewajibkan pengembang LLM besar menandai (watermark) semua konten buatan AI.\n\nSalah satu pengembang yang sudah mengumumkan watermark di seluruh produknya: Anthropic (Claude).\nWatermark-nya disisipkan lewat pemilihan token yang keacakannya dikendalikan, sehingga sulit dihapus tanpa memparafrasekan seluruh teks output-nya.\nKemungkinan besar akan muncul detektor konten AI yang lebih akurat.\nKe depan, teks buatan AI akan jauh lebih mudah dikenali.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

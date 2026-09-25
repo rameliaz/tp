@@ -26,14 +26,20 @@ execute:
 5. **Peran akal imitasi** dalam memperluas aksesibilitas
 6. **Prinsip desain aksesibel** (WCAG) dan isu etis yang menyertainya
 
+## Mengapa aksesibilitas penting?
+
+<div style="display: flex; justify-content: center;">
+<iframe width="800" height="450" src="https://www.youtube.com/embed/KmFPWxjmnqE?si=2pqHOnq4Bc_OfqyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 # Mengapa Aksesibilitas Penting? ⚖️ {background-color="#14497F"}
 
 ## Aksesibilitas adalah hak
 
 ::: {.incremental}
-* Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi
-* Indonesia meratifikasi *Convention on the Rights of Persons with Disabilities* (CRPD) PBB melalui **UU No. 19 Tahun 2011**
-* Diperkuat oleh [**UU No. 8 Tahun 2016 tentang Penyandang Disabilitas**](https://peraturan.bpk.go.id/Details/37251/uu-no-8-), yang menjamin hak atas pendidikan inklusif di semua jenjang
+* Aksesibilitas dalam pendidikan adalah **hak** peserta didik yang harus dipenuhi.
+* Indonesia meratifikasi *Convention on the Rights of Persons with Disabilities* (CRPD) PBB melalui **UU No. 19 Tahun 2011**.
+* Diperkuat oleh [**UU No. 8 Tahun 2016 tentang Penyandang Disabilitas**](https://peraturan.bpk.go.id/Details/37251/uu-no-8-), yang menjamin hak atas pendidikan inklusif di semua jenjang.
 :::
 
 ## Model disabilitas: Model medis vs. sosial
@@ -62,7 +68,7 @@ execute:
 
 ::: {.callout-note}
 ### Implikasi bagi pendidik
-Kalau seorang peserta didik "gagal" mengakses materi, pertanyaan pertama bukan "apa yang salah dengan peserta didik ini?" tapi **"apa yang salah dengan desain materinya?"**
+Kalau seorang peserta didik "gagal" mengakses materi maka perlu direfleksikan **"apa yang salah dengan desain materinya?"**
 :::
 
 # Ragam Kebutuhan Khusus 🧩 {background-color="#14497F"}
@@ -78,7 +84,7 @@ Kalau seorang peserta didik "gagal" mengakses materi, pertanyaan pertama bukan "
 
 ::: {.callout-tip}
 ### Ingat
-Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet buruk, tangan cedera, lingkungan bising), sehingga desain yang aksesibel menguntungkan **semua orang**, bukan hanya penyandang disabilitas permanen ([*"curb-cut effect"*](https://en.wikipedia.org/wiki/Curb_cut_effect))
+Hambatan belajar juga bisa **situasional** atau **sementara** (koneksi internet buruk, tangan cedera, lingkungan bising), sehingga desain yang aksesibel menguntungkan **semua orang**, bukan hanya penyandang disabilitas permanen ([*"curb-cut effect"*](https://en.wikipedia.org/wiki/Curb_cut_effect)).
 :::
 
 # Universal Design for Learning 🎨 {background-color="#14497F"}
@@ -114,7 +120,7 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 
 ::: {.incremental}
 * Rentangnya luas: dari **teknologi rendah** (kartu bergambar, pengatur waktu visual) hingga **teknologi tinggi** (*eye-tracker*, *brain-computer interface*)
-* Tidak harus canggih; yang penting **tepat guna** sesuai kebutuhan individu
+* Tidak harus canggih/kompleks; yang penting **tepat guna** sesuai kebutuhan individu
 :::
 
 ## Untuk hambatan penglihatan
@@ -157,18 +163,18 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 ## Yang bisa dibantu AI
 
 ::: {.incremental}
-* **Transkripsi dan *live captioning* otomatis** — akurasi meningkat pesat, meski masih bermasalah untuk dialek/logat tertentu
-* **Deskripsi gambar otomatis (*alt text generation*)** — AI generatif mampu mendeskripsikan visual untuk pengguna *screen reader*
-* **Penyederhanaan teks** (*text simplification*) — meringkas atau menulis ulang bacaan kompleks ke tingkat keterbacaan yang lebih rendah
-* ***Augmentative and alternative communication* (AAC)** berbasis AI — memprediksi/menyusun kalimat bagi pengguna dengan hambatan bicara
+* **Transkripsi dan *live captioning* otomatis** — akurasi meningkat pesat, meski masih bermasalah untuk dialek/logat tertentu.
+* **Deskripsi gambar otomatis (*alt text generation*)** — AI generatif mampu mendeskripsikan visual untuk pengguna *screen reader*.
+* **Penyederhanaan teks** (*text simplification*) — meringkas atau menulis ulang bacaan kompleks ke tingkat keterbacaan yang lebih rendah.
+* ***Augmentative and alternative communication* (AAC)** berbasis AI — memprediksi/menyusun kalimat bagi pengguna dengan hambatan bicara.
 :::
 
 ## Risiko AI dalam aksesibilitas
 
 ::: {.incremental}
-* **Bias pengenalan suara** — sistem *automated speech recognition* terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih [(Koenecke et al., 2020)](https://doi.org/10.1073/pnas.1915768117)
-* **Halusinasi pada deskripsi otomatis** — AI generatif bisa "mengarang" detail visual yang tidak ada, fatal bagi pengguna *screen reader* yang sepenuhnya bergantung padanya
-* Kaitannya dengan kerangka ***automation* vs. *augmentation*** [(Fügener et al., 2026)](https://doi.org/10.1287/mnsc.2024.05684): AI sebaiknya **melengkapi** penilaian dan pendampingan manusia
+* **Bias pengenalan suara** — sistem *automated speech recognition* terbukti secara sistematis kurang akurat untuk penutur kulit hitam Amerika dibanding penutur kulit putih [(Koenecke et al., 2020)](https://doi.org/10.1073/pnas.1915768117).
+* **Halusinasi pada deskripsi otomatis** — AI generatif bisa "mengarang" detail visual yang tidak ada, fatal bagi pengguna *screen reader* yang sepenuhnya bergantung pada AI.
+* Kaitannya dengan kerangka ***automation* vs. *augmentation*** [(Fügener et al., 2026)](https://doi.org/10.1287/mnsc.2024.05684): AI sebaiknya **melengkapi** penilaian dan pendampingan manusia.
 :::
 
 # Prinsip Desain Aksesibel 📐 {background-color="#14497F"}
@@ -178,10 +184,10 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 *Web Content Accessibility Guidelines* ([WCAG 2.1](https://www.w3.org/TR/WCAG21/)) merangkum aksesibilitas digital dalam 4 prinsip:
 
 ::: {.incremental}
-* ***Perceivable*** — informasi harus dapat dipersepsikan lewat lebih dari satu indra (mis. teks alternatif untuk gambar)
-* ***Operable*** — antarmuka harus bisa dioperasikan lewat berbagai cara input (mis. navigasi *keyboard* penuh)
-* ***Understandable*** — informasi dan pengoperasian antarmuka harus mudah dipahami
-* ***Robust*** — konten harus kompatibel dengan berbagai teknologi pembantu, termasuk yang akan datang
+* ***Perceivable*** — informasi harus dapat dipersepsikan lewat lebih dari satu indra (mis. teks alternatif untuk gambar).
+* ***Operable*** — antarmuka harus bisa dioperasikan lewat berbagai cara input (mis. navigasi *keyboard* penuh).
+* ***Understandable*** — informasi dan pengoperasian antarmuka harus mudah dipahami.
+* ***Robust*** — konten harus kompatibel dengan berbagai teknologi pembantu, termasuk yang akan datang.
 :::
 
 ::: aside
@@ -191,11 +197,11 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 ## Menerapkannya di materi pembelajaran
 
 ::: {.incremental}
-* Beri **teks alternatif** pada semua gambar/diagram di *slide* dan modul
-* Sediakan **transkrip** untuk video/audio kuliah
-* Gunakan **kontras warna** yang cukup dan hindari mengandalkan warna semata untuk makna
-* Format dokumen (PDF/Word) dengan **struktur *heading*** yang benar agar terbaca *screen reader*
-* Berikan **fleksibilitas format tugas** sesuai prinsip UDL, tetapi bukan berarti menurunkan standar akademik
+* Beri **alt-text*** pada semua gambar/diagram di *slide* dan modul.
+* Sediakan **transkrip** untuk video/audio kuliah.
+* Gunakan **kontras warna** yang cukup dan hindari mengandalkan warna semata untuk makna.
+* Format dokumen (PDF/Word) dengan **struktur *heading*** yang benar agar terbaca *screen reader*.
+* Berikan **fleksibilitas format tugas** sesuai prinsip UDL, tetapi bukan berarti menurunkan standar akademik.
 :::
 
 # Diskusi & Refleksi 💬 {background-color="#14497F"}
@@ -211,7 +217,8 @@ Seorang peserta didik dengan disleksia berat meminta izin menggunakan *text-to-s
 ::: {.incremental}
 * Apakah masalah ini berkaitan dengan **kesetaraan** (*equality*, semua diperlakukan sama) atau **keadilan** (*equity*, semua diberi apa yang dibutuhkan)?
 * Bagaimana idealnya kebijakan kelas Anda **membedakan** antara teknologi pembantu yang bersifat **akomodasi** vs. yang berpotensi menjadi **kecurangan akademik**?
-* Kaitkan dengan gagasan ***the effortless trap*** [(Brčić & Frljić, 2026)](https://doi.org/10.48550/arXiv.2606.26181). Kapan bantuan AI memberdayakan, dan kapan ia justru menggantikan proses belajar yang esensial?
+* Kaitkan dengan gagasan ***the effortless trap*** [(Brčić & Frljić, 2026)](https://doi.org/10.48550/arXiv.2606.26181). 
+  - Kapan bantuan AI memberdayakan, dan kapan ia justru menggantikan proses belajar yang esensial?
 :::
 
 ::: notes
@@ -221,8 +228,14 @@ Diskusi ±15 menit. Dorong mahasiswa membedakan disabilitas yang memengaruhi *ak
 ## Rangkuman
 
 ::: {.incremental}
-* Pertanyaan untuk dibawa pulang: dalam skenario tadi, di mana batas antara AI sebagai akomodasi dan AI yang menggantikan proses belajar, dan siapa yang berhak menentukannya?
-* Pertemuan berikutnya: asesmen berbasis teknologi, tempat pertanyaan soal keadilan ini muncul lagi
+* Aksesibilitas adalah **hak** yang dijamin UU No. 19/2011 dan UU No. 8/2016.
+* **Model sosial** membingkai disabilitas sebagai ketidaksesuaian individu-lingkungan, sehingga solusinya ada pada **desain**, bukan "perbaikan" individu.
+* Empat kategori hambatan belajar (sensorik, motorik/fisik, kognitif, kesehatan mental) sering bersifat **situasional**, sehingga desain aksesibel menguntungkan semua orang (*curb-cut effect*).
+* **UDL** (representasi, aksi & ekspresi, keterlibatan — jamak/*multiple means*) dirancang proaktif untuk semua peserta didik, bukan akomodasi *ad hoc* yang reaktif.
+* **Teknologi pembantu** berjenjang dari rendah ke tinggi teknologi, dipilih sesuai kebutuhan spesifik tiap kategori hambatan.
+* AI membantu aksesibilitas lewat transkripsi, deskripsi gambar otomatis, penyederhanaan teks, dan AAC — tapi membawa risiko bias pengenalan suara dan halusinasi deskripsi; perannya idealnya **augmentasi**, bukan pengganti penilaian manusia.
+* **WCAG (POUR)** — *Perceivable, Operable, Understandable, Robust* — jadi prinsip praktis untuk merancang materi (alt-text, transkrip, kontras, struktur *heading*).
+* Pertanyaan refleksi: dalam skenario tadi, di mana batas antara AI sebagai asisten (akomodasi) dan AI yang menggantikan proses belajar, dan siapa yang berhak menentukannya?
 :::
 
 ## Terima kasih!😊 {.closing-slide}

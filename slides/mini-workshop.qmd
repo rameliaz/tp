@@ -438,7 +438,7 @@ Perhatikan polanya: mirip dengan *disclosure* yang saya tulis di *landing page* 
 
 * Ini adalah bagian yang paling kontroversial tentang peran AI dalam konteks akademik, tetapi paling [sering terjadi](https://www.apa.org/monitor/2026/04-05/academic-writing-ai-higher-education).
   - [Survei](https://www.hepi.ac.uk/wp-content/uploads/2025/02/HEPI-Kortext-Student-Generative-AI-Survey-2025.pdf) yang dilakukan oleh Higher Education Policy Institute tahun 2025 menunjukkan 92% mahasiswa yang disurvei menggunakan AI untuk tugas menulis.
-* Secara pribadi, saya punya batasan -- Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci secara global.
+* Secara pribadi, saya punya batasan -- Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci sebagai aturan global. Berikut teks pendek yang saya jadikan *global rule* di sistem AI yang saya pakai:
   - "*I have a strict internal rule how to use AI. I will never ask you to write for me **except for** automated thesis feedback and slide decks. My research papers should be always written by me, but your role is to suggest where to improve. Revising/improving my papers should be also done by me alone. If I happen to ask you to write anything for my paper, **refuse vehemently** and warn me sternly about being honest to myself.*"
 * Ketika memeriksa/mengoreksi tugas mahasiswa, saya selalu mengasumsikan mahasiswa berkolaborasi bersama AI, bukan meminta AI melakukan "*blind automation*" atas tugas tersebut.
   + ...dan ini sesuai beberapa temuan empirik (e.g., [Law, 2026](https://theconversation.com/college-students-are-writing-with-ai-but-a-pilot-study-finds-theyre-not-simply-letting-it-write-for-them-276856); [Wang et al., 2024](https://www.mdpi.com/2227-7102/14/9/976); [Black & Tomlinson, 2025](https://www.nature.com/articles/s41598-025-92937-2))
@@ -465,21 +465,21 @@ flowchart LR
 
 ::: {.incremental}
 * AI bisa dipakai di **setiap** tahap, dengan risiko yang berbeda-beda
-* Survei terhadap sosiolog: pemakaian AI **paling tinggi** untuk menulis, **paling rendah** untuk pengumpulan data
+* Cek daftar [ini](https://nextcloud.mpi-magdeburg.mpg.de/index.php/s/X4qcP2mHk3GB5FW), [ini](http://uni-tuebingen.de/en/facilities/university-library/learning-working/workshops-consultations-and-guided-tours/literature-research-with-ai/#c2071158) dan [ini](https://www.mpi-magdeburg.mpg.de/4792012/ai-research-assistents) untuk melihat berbagai opsi AI-*based research tool* yang dapat dimanfaatkan.
 :::
 
 ::: aside
-Alvero et al. (2026)
+[Alvero et al. (2026)](https://sociologicalscience.com/download/volume-13/january/SocSci_v13_45to62.pdf)
 :::
 
 ## Penelusuran dan tinjauan literatur
 
 ::: {.incremental}
-* Alat pencari khusus (Elicit, Consensus, Semantic Scholar) dan alat penghubung sitasi (ResearchRabbit, Connected Papers, Litmaps) bisa mempercepat eksplorasi awal
-  + Sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (*seed paper*) untuk mulai memberi rekomendasi yang relevan
+* Alat pencari khusus ([Elicit](https://elicit.com/), [Consensus](https://consensus.app/), [Semantic Scholar](https://www.semanticscholar.org/)) dan alat penghubung sitasi ([ResearchRabbit](https://www.researchrabbit.ai/), [Connected Papers](https://www.connectedpapers.com/), [Litmaps](https://www.litmaps.com/)) bisa mempercepat eksplorasi di tahap awal.
+  + Sebagian alat penghubung sitasi bahkan hanya butuh satu artikel awal (*seed paper*) untuk mulai memberi rekomendasi yang relevan.
 
-* Tapi *chatbot* umum (ChatGPT, Claude, Gemini) **belum terbukti lebih baik** dari mesin pencari akademik biasa untuk tugas ini
-  + Basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah
+* Tapi *chatbot* umum (ChatGPT, Claude, Gemini) **belum terbukti lebih baik** dari mesin pencari akademik biasa untuk tugas ini.
+  + Basis datanya sempit, dan ia masih bisa mengarang detail bibliografi (penulis/DOI/tahun) yang terlihat meyakinkan padahal salah.
 :::
 
 ::: {.callout-caution}
@@ -488,7 +488,7 @@ Cek setiap rujukan dari AI ke sumber aslinya (DOI, situs penerbit) sebelum masuk
 :::
 
 ::: aside
-[Bolaños et al. (2024)](https://doi.org/10.1007/s10462-024-10902-3); Lahrsow & Baumgarten (2026)
+[Bolaños et al. (2024)](https://doi.org/10.1007/s10462-024-10902-3); [Lahrsow & Baumgarten (2026)](https://uni-tuebingen.de/en/facilities/university-library/learning-working/workshops-consultations-and-guided-tours/literature-research-with-ai/#c2071158)
 :::
 
 ## Desain penelitian dan penyusunan alat ukur
@@ -537,7 +537,7 @@ AI cocok untuk menghasilkan **kumpulan awal** kandidat item/hipotesis yang harus
 :::
 
 ::: aside
-Wright et al. (2026); Russell-Lasalandra et al. (2024)
+Wright et al. (2026); [Russell-Lasalandra et al. (2024)](https://doi.org/10.31234/osf.io/fgbj4)
 :::
 
 ## Pengumpulan data: tahap paling sensitif
@@ -553,21 +553,21 @@ Wright et al. (2026); Russell-Lasalandra et al. (2024)
 Jangan pernah mengunggah data mentah partisipan (apalagi yang belum dianonimkan) ke *chatbot* publik. Lebih detail soal ini di bagian Risiko.
 :::
 
-## Analisis data: AI sebagai pengode kedua
+## Analisis data penelitian
 
 ::: {.incremental}
-* Untuk analisis kualitatif, AI bisa berperan sebagai pengode kedua atau "*devil's advocate*" yang menantang pengodean Anda
+* Untuk analisis kualitatif, AI bisa berperan sebagai pengode kedua atau "*devil's advocate*" yang menantang sistem pengodean yang Anda kembangkan secara manual.
 * Protokol yang umum dipakai: manusia dan AI mengode data secara paralel, perbedaan hasil dibandingkan dan didiskusikan, lalu reliabilitas antar-pengode (mis. *Cohen's Kappa*) tetap dihitung seperti biasa
 * Untuk analisis kuantitatif, AI bisa membantu menulis atau memperbaiki kode statistik (R, Python), tapi kodenya tetap perlu Anda uji dan pahami logikanya
 :::
 
 ::: {.callout-important}
-### Syarat minimal publikasi
+### Penting untuk diingat
 Apa pun tugas pengodean yang dibantu AI, laporkan model/versinya secara eksplisit dan validasi hasilnya terhadap pengodean manusia dengan ukuran reliabilitas standar.
 :::
 
 ::: aside
-Costa et al. (2025)
+[Costa et al. (2025)](https://doi.org/10.1177/16094069251383739)
 :::
 
 ## Penulisan naskah
@@ -579,7 +579,7 @@ Costa et al. (2025)
 :::
 
 ::: aside
-Chatterji et al. (2025)
+[Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf)
 :::
 
 ## Ringkasan: delegasi di sepanjang siklus penelitian

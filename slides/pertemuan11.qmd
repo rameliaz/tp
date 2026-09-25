@@ -108,9 +108,9 @@ Page, E. B. (1966). The imminence of grading essays by computer. *Phi Delta Kapp
 Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang sudah kita bahas relevan di sini:
 
 ::: {.incremental}
-* ***Automation*** — AI **menggantikan** penilai manusia sepenuhnya (mis. skor pilihan ganda otomatis)
-* ***Augmentation*** — AI **membantu** dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia
-* Untuk asesmen berisiko tinggi (nilai akhir, kelulusan), **augmentation** jauh lebih aman secara etis dan legal dibanding *automation* penuh
+* ***Automation*** — AI **menggantikan** penilai manusia sepenuhnya (mis. memberikan skor soal pilihan ganda secara otomatis).
+* ***Augmentation*** — AI **membantu** dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia.
+* Untuk asesmen berisiko tinggi (nilai akhir, kelulusan), **augmentation** jauh lebih aman secara etis dan legal dibanding *automation*.
 :::
 
 # *Learning Analytics* 📈 {background-color="#14497F"}
@@ -129,7 +129,7 @@ Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang 
 
 ::: {.callout-important}
 ### Isu privasi
-Data jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (*informed consent*)
+Data jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (*informed consent*).
 :::
 
 # Validitas, Reliabilitas, dan Keadilan ⚖️ {background-color="#14497F"}
@@ -160,14 +160,14 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 ## Masalah lama dengan skala baru
 
 ::: {.incremental}
-* Kecurangan akademik bukan hal baru, tapi AI membuatnya **jauh lebih mudah dan sulit dideteksi**
+* Kecurangan akademik bukan hal baru, tapi AI membuatnya **jauh lebih mudah dan sulit dideteksi**.
 * Alat "*AI detector*" (mis. GPTZero, Turnitin AI detection) punya tingkat **kesalahan (*false positive/negative*) yang tinggi**, sehingga tidak bisa dijadikan bukti tunggal untuk menilai kecurangan akademik yang dilakukan peserta didik.
-* Konsekuensinya: mendeteksi "apakah teks ditulis AI" adalah **perlombaan yang sulit dimenangkan**
-* Sejak Agustus 2026, [EU AI Act](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content) mewajibkan pengembang LLM besar menandai (*watermark*) semua konten buatan AI
-  + Salah satu pengembang yang sudah mengumumkan *watermark* di seluruh produknya: [Anthropic (Claude)](https://www.anthropic.com/news/claude-text-watermark)
-  + *Watermark*-nya disisipkan lewat pemilihan token yang keacakannya dikendalikan, sehingga sulit dihapus tanpa memparafrasekan seluruh teks *output*-nya
-  + Kemungkinan besar akan muncul detektor konten AI yang lebih akurat
-  + Ke depan, teks buatan AI akan jauh lebih mudah dikenali
+* Konsekuensinya: mendeteksi "apakah teks ditulis AI" adalah **perlombaan yang sulit dimenangkan**.
+* Sejak Agustus 2026, [EU AI Act](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content) mewajibkan pengembang LLM besar menandai (*watermark*) semua konten buatan AI.
+  + Salah satu pengembang yang sudah mengumumkan *watermark* di seluruh produknya: [Anthropic (Claude)](https://www.anthropic.com/news/claude-text-watermark).
+  + *Watermark*-nya disisipkan lewat pemilihan token yang keacakannya dikendalikan, sehingga sulit dihapus tanpa memparafrasekan seluruh teks *output*-nya.
+  + Kemungkinan besar akan muncul detektor konten AI yang lebih akurat.
+  + Ke depan, teks buatan AI akan jauh lebih mudah dikenali.
 :::
 
 ## Arah yang lebih menjanjikan: rancang ulang asesmen
@@ -181,13 +181,20 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 
 ::: {.callout-tip}
 ### Kaitannya dengan *effortless trap*
-[Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) mengingatkan: pertanyaan intinya adalah ***di titik mana* dalam proses belajar** AI ditempatkan. Kalau tugas asesmen terasa "tanpa usaha" (*effortless*) dengan bantuan AI, desainnya perlu ditinjau ulang
+[Brčić & Frljić (2026)](https://doi.org/10.48550/arXiv.2606.26181) mengingatkan: pertanyaan intinya adalah ***di titik mana* dalam proses belajar** AI ditempatkan. Kalau tugas asesmen terasa "tanpa usaha" (*effortless*) dengan bantuan AI, desainnya perlu ditinjau ulang.
 :::
 
 ## Rangkuman
 
 ::: {.incremental}
-* Pertanyaan untuk dibawa pulang: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?
+* Asesmen bergeser dari **statis** (kertas, satu waktu) ke ekosistem data — skala besar, umpan balik cepat, dan granularitas proses, mendorong pergeseran ke asesmen **formatif** berkelanjutan
+* **CBT** mendigitalkan soal yang tetap statis; **CAT** menyesuaikan soal secara *real-time* berbasis *item response theory* untuk estimasi kemampuan lebih presisi dengan soal lebih sedikit
+* Penilaian otomatis berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik *machine learning*, hingga LLM yang menilai **kualitas argumen**
+* Kerangka **automation vs. augmentation**: untuk asesmen berisiko tinggi, **augmentation** (AI membantu, manusia memutuskan) jauh lebih aman secara etis dan legal
+* ***Learning analytics*** membuka jejak proses belajar untuk *dashboard*, sistem peringatan dini, dan personalisasi — tapi membawa isu privasi data yang granular dan sensitif
+* Validitas, reliabilitas, dan keadilan tetap jadi pertanyaan lama dalam konteks baru: skor AI rentan dieksploitasi fitur permukaan dan bias terhadap gaya penulisan non-dominan, sehingga *human-in-the-loop* wajib untuk asesmen berisiko tinggi
+* Integritas akademik: *AI detector* tidak cukup andal untuk jadi bukti tunggal kecurangan; arah yang lebih menjanjikan adalah **merancang ulang asesmen** — otentik, berbasis proses, deklarasi penggunaan AI, dan asesmen lisan/interaktif
+* Pertanyaan refleksi: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?
 :::
 
 ## Terima kasih!😊 {.closing-slide}
