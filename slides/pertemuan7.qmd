@@ -1,5 +1,5 @@
 ---
-title: "*Human-AI Collaboration* dan *Reinforcement Learning from Human Feedback*"
+title: "Kolaborasi Manusia-AI dan *Reinforcement Learning from Human Feedback*"
 subtitle: "MK Teknologi dalam Pembelajaran"
 author: "Rizqy Amelia Zein"
 institute:
@@ -67,11 +67,11 @@ execute:
 Sumber: [*A Timeline of LLM Innovation*](https://synthedia.substack.com/p/a-timeline-of-large-language-model)
 :::
 
-## Model Statistik di Balik Layar
+## Cara kerja LLM
 
 *Large language model* (LLM) pada intinya adalah model statistik raksasa dengan *output* teks yang menjawab satu pertanyaan:
 
-> **"Berdasarkan semua kata dalam percakapan sejauh ini, kata (token) apa yang paling mungkin muncul berikutnya?"**
+> **"Berdasarkan semua kata dalam percakapan ini, kata (token) apa yang paling mungkin muncul berikutnya?"**
 
 ![](libs/animatedllm.png){fig-align="center" width="80%"}
 

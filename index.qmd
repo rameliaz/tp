@@ -16,7 +16,7 @@ Jadwal di bawah ini hanya mencakup pertemuan yang diampu oleh Rizqy Amelia Zein 
 
 | TM | Tanggal & Waktu | Topik | Moda | Tautan | Materi |
 |:--:|------------------|-------|------|--------|--------|
-| 7 | Jumat, 25 September, 15.30 WIB | *Human-AI collaboration* dan *reinforcement learning from human feedback* | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan7.qmd) |
+| 7 | Jumat, 25 September, 15.30 WIB | Kolaborasi Manusia-AI dan *reinforcement learning from human feedback* | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan7.qmd) |
 | 9 | Jumat, 16 Oktober, 15.30 WIB | AI *literacy* dan *fluency* | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan9.qmd) |
 | 10 | Jumat, 23 Oktober, 15.30 WIB | Teknologi pembelajaran untuk kebutuhan khusus: aksesibilitas/teknologi pembantu | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan10.qmd) |
 | 11 | Jumat, 30 Oktober, 15.30 WIB | Penggunaan teknologi dalam asesmen pembelajaran | Kuliah | [Klik di sini untuk bergabung ke MS Teams](https://teams.microsoft.com/meet/425188554715103?p=YV8GLNgTN1gtwrzdkW) | [Slide](slides/pertemuan11.qmd) |
