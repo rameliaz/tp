@@ -129,7 +129,7 @@ Kerangka ini mengelompokkan **17 kompetensi** ke dalam lima pertanyaan besar:
 Kerangka ini awalnya dirancang untuk pendidikan K-12, tapi kompetensinya berlaku lintas jenjang pendidikan.
 :::
 
-# Kerangka 4D *AI Fluency* 🧭 {background-color="#14497F"}
+# Kerangka 4D AI Fluency 🧭 {background-color="#14497F"}
 
 ## Definisi *AI fluency*
 
