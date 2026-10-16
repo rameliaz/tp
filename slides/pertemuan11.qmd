@@ -187,9 +187,9 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 ## Rangkuman
 
 ::: {.incremental}
-* Asesmen bergeser dari **statis** (kertas, satu waktu) ke ekosistem data — skala besar, umpan balik cepat, dan granularitas proses, mendorong pergeseran ke asesmen **formatif** berkelanjutan
-* **CBT** mendigitalkan soal yang tetap statis; **CAT** menyesuaikan soal secara *real-time* berbasis *item response theory* untuk estimasi kemampuan lebih presisi dengan soal lebih sedikit
-* Penilaian otomatis berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik *machine learning*, hingga LLM yang menilai **kualitas argumen**
+* Asesmen bergeser dari **statis** (*paper-based*, satu waktu) ke ekosistem data, yang karakteristiknya skala besar, umpan balik cepat, dan granularitas proses, mendorong pergeseran ke asesmen **formatif** berkelanjutan.
+* **CBT** mendigitalkan soal yang statis; **CAT** menyesuaikan soal secara *real-time* berbasis *item response theory* untuk estimasi kemampuan lebih presisi dengan soal lebih sedikit.
+* *Automated scoring* berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik *machine learning*, hingga LLM yang menilai **kualitas argumen**
 * Kerangka **automation vs. augmentation**: untuk asesmen berisiko tinggi, **augmentation** (AI membantu, manusia memutuskan) jauh lebih aman secara etis dan legal
 * ***Learning analytics*** membuka jejak proses belajar untuk *dashboard*, sistem peringatan dini, dan personalisasi — tapi membawa isu privasi data yang granular dan sensitif
 * Validitas, reliabilitas, dan keadilan tetap jadi pertanyaan lama dalam konteks baru: skor AI rentan dieksploitasi fitur permukaan dan bias terhadap gaya penulisan non-dominan, sehingga *human-in-the-loop* wajib untuk asesmen berisiko tinggi

@@ -39,13 +39,13 @@ Materi ini sebagian terinspirasi dari kursus daring "*AI Fluency: Framework & Fo
 
 :::
 
-# Mengapa *AI Fluency* Penting? 📉 {background-color="#14497F"}
+# Mengapa AI Fluency Penting? 📉 {background-color="#14497F"}
 
 ## Pendidik umumnya belum siap
 
 ::: {.incremental}
-* Survei *Alberta Teachers Association* (Desember 2023) terhadap **2.148 guru**: hanya **29.4%** optimis, **37.2%** khawatir akan dampak negatif AI, sisanya bersikap netral atau tidak yakin.
-* Survei *EdWeek Research Center* terhadap 498 guru K-12 tentang alasan **tidak** memakai AI di kelas: prioritas lain (46%), tidak tahu caranya (36%), tidak ada kebijakan (33%), tidak tahu cara memakainya **secara efektif** (30%).
+* Survei [*Alberta Teachers Association* (Desember 2023)](https://teachers.ab.ca/news/alberta-teachers-have-mixed-views-ai) terhadap **2.148 guru** di Kanada: hanya **29.4%** optimis, **37.2%** khawatir akan dampak negatif AI, sisanya bersikap netral atau tidak yakin.
+* Survei [*EdWeek Research Center*](https://www.edweek.org/technology/most-teachers-are-not-using-ai-heres-why/2024/01) terhadap 498 guru K-12 tentang alasan **tidak** memakai AI di kelas: prioritas lain (46%), tidak tahu caranya (36%), tidak ada kebijakan (33%), tidak tahu cara memakainya **secara efektif** (30%).
 * Hambatan utamanya adalah **kurangnya kompetensi**, dan inilah yang coba dijawab kerangka *AI literacy* dan *AI fluency*.
 :::
 
@@ -91,7 +91,7 @@ Analoginya seperti belajar bahasa: *literacy* = bisa membaca; *fluency* = bisa b
 
 ::: {.incremental}
 * [Rogers & Carbonaro (2025)](https://doi.org/10.22329/jtl.v19i4.9420) menelusuri pergeseran serupa dalam sejarah: literasi komputer → *digital fluency*.
-* *National Research Council* (1999) menyimpulkan literasi komputer "terlalu sederhana" di tengah perubahan teknologi yang begitu cepat, lalu memperkenalkan konsep **FITness** (*fluency with information technology*).
+* [*National Research Council* (1999)](https://www.nationalacademies.org/read/6482/chapter/2) menyimpulkan literasi komputer "terlalu sederhana" di tengah perubahan teknologi yang begitu cepat, lalu memperkenalkan konsep **FITness** (*fluency with information technology*).
 * ***Fluency*** = "kemampuan merumuskan ulang pengetahuan, berekspresi kreatif, dan **menghasilkan** informasi".
 * Ini sejalan dengan **Taksonomi Bloom Versi Revisi** ([Anderson & Krathwohl, 2001](https://books.google.de/books/about/A_Taxonomy_for_Learning_Teaching_and_Ass.html?hl=de&id=EMQlAQAAIAAJ&redir_esc=y); [Krathwohl, 2002](https://www.jstor.org/stable/1477405)): "*mencipta*" (*create*) adalah level kognitif **tertinggi**, di atas memahami dan mengevaluasi.
 :::
@@ -114,14 +114,14 @@ Kerangka ini mengelompokkan **17 kompetensi** ke dalam lima pertanyaan besar:
 2. **Apa yang bisa dilakukan AI?** — kekuatan dan kelemahannya, membayangkan AI masa depan
 3. **Bagaimana cara kerja AI?** — representasi, pengambilan keputusan, langkah-langkah *machine learning*, literasi data
 4. **Bagaimana AI seharusnya digunakan?** — etika berkolaborasi dengan AI
-5. **Bagaimana manusia mempersepsikan AI?** — sejauh mana AI "dianggap" bisa diprogram/dikendalikan
+5. **Bagaimana manusia mempersepsikan AI?** — sejauh mana AI "dianggap" bisa diprogram/dikendalikan pengguna
 :::
 
 ## Bagaimana contoh penerapannya
 
 ::: {.incremental}
 * **"Apa itu AI?"** — peserta didik mampu membedakan AI umum (*general*, fiksi ilmiah) dari AI sempit (*narrow*, yang benar-benar ada saat ini, seperti *chatbot*).
-* **"Bagaimana cara kerja AI?"** — peserta didik memahami bahwa AI "belajar dari data", sehingga bisa **mempertahankan bias** yang ada di data tersebut.
+* **"Bagaimana cara kerja AI?"** — peserta didik memahami bahwa AI "dilatih dari sekumpulan data", sehingga mungkin saja **mempertahankan bias** yang ada di data latih tersebut.
 * **"Bagaimana AI seharusnya digunakan?"** — peserta didik mampu menimbang implikasi etis sebelum memakai AI untuk suatu tugas.
 :::
 
@@ -195,6 +195,14 @@ Kualitas *output* AI sangat ditentukan oleh kualitas komunikasi Anda:
 Komunikasikan dan evaluasi *output* AI, meskipun Anda menolaknya. Jelaskan alasannya supaya AI bisa menyesuaikan *output* berikutnya dalam percakapan yang sama. Ingat prinsip RLHF yang sudah didiskusikan di [Pertemuan 7](pertemuan7.qmd).
 :::
 
+## Ilustrasi: AI sebagai "jin botol"🧞
+
+![](libs/jin.png){fig-align="center"}
+
+::: {style="text-align: center; font-size: 0.5em;"}
+Ilustrasi dibuat dengan GPT-5.5
+:::
+
 ## *Discernment* — mengevaluasi secara kritis
 
 Cara Anda **menilai** *output* AI:
@@ -223,7 +231,7 @@ Menemukan kesalahan pada *output* AI adalah **bukti Anda menggunakannya dengan b
 Tanpa keahlian di bidang Anda sendiri, keempat kompetensi ini sulit dijalankan: Anda tidak akan mampu menilai apakah *output* AI benar-benar akurat atau sekadar terdengar meyakinkan.
 :::
 
-# Mengapa *Fluency* Menentukan Hasil? 📊 {background-color="#14497F"}
+# Mengapa Fluency Menentukan Hasil? 📊 {background-color="#14497F"}
 
 ## Bukti dari 27 ribu percakapan manusia-AI
 
@@ -272,7 +280,7 @@ Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada **28.4%** kasus. Setela
 
 ::: {.incremental}
 * Studi lain: peserta yang belajar topik lewat AI (dibanding lewat mesin pencari seperti Google) menulis saran yang **lebih pendek, kurang orisinal, dan dinilai kurang membantu**. 
-  + Mereka juga menghabiskan **lebih sedikit waktu belajar** dan **kurang merasa memiliki** (*ownership*) pengetahuan yang diperoleh.
+  + Mereka juga menghabiskan **lebih sedikit waktu belajar** dan **kurang merasa memiliki** (*ownership*) atas pengetahuan yang diperoleh.
 * Kesimpulan penulis **tidak alarmis**: *"terlalu dini untuk memastikan"* efek jangka panjangnya, tapi risikonya tetap ada, dan besar-kecilnya bergantung pada **bagaimana** AI dipakai.
 :::
 
@@ -280,12 +288,40 @@ Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada **28.4%** kasus. Setela
 [Cash, Kelly, Macnamara, & Risko (2026)](https://doi.org/10.1016/j.tics.2026.06.004)
 :::
 
+## Interaksi yang sukses ≠ *learning gain*
+
+![](libs/turkey.png){fig-align="center"}
+
+::: source
+Sumber: [Bastani et al. (2024)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486); [OECD Digital Education Outlook 2026](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html)
+:::
+
+## *Fine-tuned educational* vs. *General purpose* LLM
+
+![](libs/ft_gp.png){fig-align="center"}
+
+::: {.incremental}
+* LLM yang sudah di*fine-tune* untuk keperluan belajar, sehingga responnya mengikuti skenario pembelajaran *bisa jadi* menghasilkan *outcome* pembelajaran yang lebih baik.
+* Model-model ini dilatih ulang sebagian berdasarkan data yang relevan dengan bidang pendidikan, atau “dikonfigurasi” melalui serangkaian instruksi dan petunjuk mengenai cara mereka seharusnya menanggapi permintaan pengguna.
+
+:::
+
+## Bagaimana buktinya?
+
+![](libs/student_outcome.png){fig-align="center"}
+
+::: source
+Sumber: [Kestin, et al., (2025)](https://www.nature.com/articles/s41598-025-97652-6); [OECD Digital Education Outlook 2026](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html)
+
+:::
+
 ## Menyatukan optimisme dan kehati-hatian
 
 ::: {.incremental}
-* [Potts & Sudhof (2026)](https://doi.org/10.48550/arXiv.2604.25905): pengguna **fasih** justru mendapat hasil lebih baik karena mereka **aktif terlibat**, bukan pasrah pada *output* yang disodorkan AI.
+* [Potts & Sudhof (2026)](https://doi.org/10.48550/arXiv.2604.25905): pengguna **fasih** justru mendapat hasil lebih baik karena mereka **aktif terlibat**, bukan menerima *output* yang disodorkan AI begitu saja.
 * [Cash et al. (2026)](https://doi.org/10.1016/j.tics.2026.06.004): risiko *deskilling* muncul justru ketika keterlibatan aktif itu **hilang**, yaitu saat AI dipakai untuk menghindari kerja kognitif.
-* **Kedua literatur ini sepakat**: yang membedakan AI sebagai alat pemberdaya vs. alat yang mengikis kompetensi adalah **seberapa aktif** Anda terlibat dalam prosesnya. Hal ini juga merupakan inti dari *discernment* dan *diligence* dalam kerangka 4D.
+* **Kedua literatur ini sepakat**: yang membedakan AI sebagai alat yang memberdayakan vs. alat yang mengikis kompetensi adalah **seberapa aktif** pengguna terlibat dalam prosesnya. 
+* Tetapi, [Bastani et al. (2024)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) dan [Kestin, et al., (2025)](https://www.nature.com/articles/s41598-025-97652-6) menunjukkan bahwa peserta didik sebaiknya didampingi oleh LLM yang sudah di *fine tune* untuk tujuan pendidikan, bukan dengan *general purpose* LLM.
 :::
 
 ## Rangkuman
@@ -293,7 +329,7 @@ Sebelum AI diperkenalkan, dokter mendeteksi adenoma pada **28.4%** kasus. Setela
 ::: {.incremental}
 * ***AI literacy*** (memahami, mengevaluasi) dan ***AI fluency*** (berkarya, berkolaborasi) dapat dikembangkan secara **paralel**.
 * Kerangka **4D** — *delegation*, *description*, *discernment*, *diligence*, dapat menuntun kolaborasi manusia dengan AI yang efektif, efisien, etis, dan aman.
-* Penggun yanga **fasih** justru mendapat hasil lebih baik karena **aktif terlibat**, bukan pasrah begitu saja pada *output* AI.
+* Pengguna yang **fasih** justru mendapat hasil lebih baik karena **aktif terlibat**, bukan pasrah begitu saja pada *output* yang diberikan AI.
 * *Cognitive offloading* adalah konsekuensi logis dari kolaborasi manusia-AI, tapi keterlibatan aktif adalah kunci menghindari *skill decay*.
 * Pertanyaan refleksi: di bidang mana Anda cukup ahli untuk menangkap kesalahan AI, dan di bidang mana Anda sebenarnya menerima *output*-nya tanpa dicek kembali?
 * Pertemuan berikutnya: aksesibilitas, yaitu bagaimana teknologi (termasuk AI) memperluas akses belajar.

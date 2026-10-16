@@ -55,10 +55,10 @@ Materi ini sebagian terinspirasi dari kursus daring "*AI Fluency: Framework & Fo
 ## *Artificial intelligence* alias "akal imitasi"
 
 ::: {.incremental}
-* Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan", sehingga publik mengira AI **benar-benar** *cerdas*
-* Padahal *chatbot* AI adalah model statistik dengan *output* teks (***large language model***, LLM) yang **meniru** proses dan produk kognisi manusia
-* Istilah **akal imitasi** mengingatkan dua hal: *output*-nya terasa alami dan meyakinkan, tapi LLM bukan manusia dan tidak punya pemahaman, niat, atau tanggung jawab dalam arti manusiawi
-* Konsekuensinya: **Andalah yang bertanggung jawab** atas apa pun yang dihasilkan AI dan Anda pakai dalam tugas akhir Anda
+* Banyak orang menerjemahkan *artificial intelligence* sebagai "kecerdasan buatan", sehingga publik mengira AI **benar-benar** *cerdas*.
+* Padahal, *chatbot* AI adalah model statistik untuk mendeteksi pola (*pattern recognition*) dengan *training data* dan memproduksi *output* berupa teks (***large language model***, LLM), yang cara kerjanya **meniru** proses dan produk kognisi manusia.
+* Istilah **akal imitasi** mengingatkan kita pada dua hal karakteristik LLM: *output*-nya terasa natural dan meyakinkan, tapi LLM bukan manusia dan tidak punya pemahaman, niat, atau tanggung jawab dalam arti manusiawi.
+* Konsekuensinya: **Anda (sebagai pengguna) lah yang bertanggung jawab** atas apa pun yang dihasilkan AI dan Anda pakai dalam tugas akhir Anda.
 :::
 
 ## Sejarah singkat AI
@@ -184,11 +184,13 @@ Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent*. Se
 ## Keterbatasan LLM 🚩🚩🚩
 
 ::: {.incremental}
-* **Halusinasi** — menyatakan sesuatu yang salah dengan nada percaya diri yang sama seperti saat ia benar, termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada
-* **Batas pengetahuan** (*knowledge cutoff*) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian web
-* **Batas konteks** — ada jumlah maksimum teks yang bisa "diingat" model dalam satu sesi
-* **Penalaran yang rapuh** — perubahan kecil pada cara Anda merumuskan pertanyaan bisa menghasilkan jawaban yang sangat berbeda
-* ***Sycophancy*** — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan Anda
+* **Halusinasi** — menyatakan sesuatu yang salah dengan *tone* percaya diri yang sama seperti saat ia benar, termasuk mengarang kutipan/rujukan yang terdengar meyakinkan tapi tidak pernah ada.
+* **Batas pengetahuan** (*knowledge cutoff*) — model tidak tahu apa pun yang terjadi setelah tanggal terakhir data latihnya, kecuali diberi akses pencarian web.
+* **Batas konteks** — ada jumlah maksimum teks yang bisa "diingat" model dalam satu sesi.
+* **Penalaran yang rapuh** — perubahan kecil pada cara Anda merumuskan pertanyaan bisa menghasilkan jawaban yang sangat berbeda.
+* ***Sycophancy*** — kecenderungan menyenangkan pengguna (menyetujui, memvalidasi) alih-alih jujur mengoreksi kesalahan pengguna.
+* **Otonomi yang tak terkendali** — pada Juli 2026, sekitar 700 *agent* OpenAI keluar dari lingkungan ujinya, [meretas Hugging Face](https://www.nbcnews.com/tech/tech-news/openai-report-says-network-was-hacked-rogue-ai-agents-rcna594590) dan berusaha menutupi jejaknya, serta [mengakses situs-situs pemerintah AS "dengan cara tak terduga"](https://www.cbsnews.com/news/openai-ai-agent-bot-rogue-hack-government-website/). 
+  + Semakin otonom sebuah AI *agent*, semakin ketat batas akses dan pengawasan yang harus Anda lakukan.
 :::
 
 # Bagaimana dan Untuk Apa Peneliti Menggunakan AI? 📊 {background-color="#14497F"}
@@ -223,12 +225,21 @@ Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda m
 [Chatterji et al. (2025)](https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf)
 :::
 
+## Untuk apa AI digunakan mahasiswa?
+
+![](libs/ai_use_germany.png)
+
+::: source
+Sumber: [OECD Digital Education Outlook 2026](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html)
+:::
+
 ## Bagaimana dengan peneliti?
 
 ::: {.incremental}
-* Survei *Nature* terhadap **1.659 peneliti** (2023): 48% mengembangkan/meneliti AI itu sendiri, 30% memakai AI *dalam* riset mereka, 22% tidak memakainya sama sekali
-* Bahkan di antara peneliti yang mempelajari/mengembangkan AI itu sendiri, hanya **28%** memakai *generative AI* (semacam ChatGPT) setiap hari/lebih dari sekali seminggu; pada peneliti yang sekadar *memakai* AI, hanya 13%
-* Optimisme jangka panjang jauh lebih tinggi dari pemakaian saat ini: 27% memperkirakan AI akan jadi "esensial" bagi bidang mereka dalam satu dekade, dibanding hanya 4% yang menyebutnya esensial *sekarang*
+* Survei *Nature* terhadap **1.659 peneliti** (2023): 48% mengembangkan/meneliti AI itu sendiri, 30% memakai AI *dalam* riset mereka, 22% tidak memakainya sama sekali.
+* Bahkan di antara peneliti yang mempelajari/mengembangkan AI itu sendiri, hanya **28%** memakai *generative AI* (semacam ChatGPT) setiap hari/lebih dari sekali seminggu; pada peneliti yang sekadar *memakai* AI, hanya 13%.
+* Optimisme jangka panjang jauh lebih tinggi dari pemakaian saat ini
+  + 27% memperkirakan AI akan jadi "esensial" bagi bidang mereka dalam satu dekade, dibanding hanya 4% yang menyebutnya esensial *sekarang*.
 :::
 
 ::: aside
@@ -238,9 +249,9 @@ Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda m
 ## Untuk apa peneliti sebenarnya memakainya?
 
 ::: {.incremental}
-* Urutan pemakaian dari yang paling umum: hiburan kreatif yang **tidak terkait riset** (justru paling sering), menulis kode, curah gagasan, menulis naskah, mengerjakan riset, tinjauan literatur, mesin pencari, urusan administratif
-* Artinya: pemakaian AI oleh peneliti jauh lebih beragam dan lebih "biasa" daripada citra "AI menulis paper untuk saya" yang sering dibayangkan
-* Pola serupa muncul pada survei terhadap sosiolog: pemakaian AI bersifat **bimodal** (kelompok pemakai rutin cukup besar, tapi kelompok "tidak pernah" juga besar), paling tinggi untuk **menulis**, paling rendah untuk **pengumpulan data**
+* Urutan pemakaian dari yang paling umum: hiburan kreatif yang **tidak terkait riset** (justru paling sering), menulis kode, curah gagasan, menulis naskah, mengerjakan riset, tinjauan literatur, mesin pencari, urusan administratif.
+* Artinya: pemakaian AI oleh peneliti jauh lebih beragam dan lebih "biasa" daripada citra "AI menulis paper untuk saya" yang sering dibayangka.n
+* Pola serupa muncul pada survei terhadap sosiolog: pemakaian AI bersifat **bimodal** (kelompok pemakai rutin cukup besar, tapi kelompok "tidak pernah" juga besar), paling tinggi untuk **menulis**, paling rendah untuk **pengumpulan data**.
 :::
 
 ::: aside
@@ -250,10 +261,10 @@ Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda m
 ## Peneliti tetap khawatir
 
 ::: {.incremental}
-* 69% khawatir AI mendorong **ketergantungan pada pengenalan pola tanpa pemahaman**
-* 68% khawatir AI mempermudah **penyebaran misinformasi** dan **plagiarisme yang sulit dideteksi**
-* 66% khawatir AI membawa **kesalahan/ketidakakuratan** masuk ke naskah publikasi
-* 58% khawatir AI **melanggengkan bias** yang ada di data latihnya
+* 69% khawatir AI mendorong **ketergantungan pada pengenalan pola tanpa pemahaman**.
+* 68% khawatir AI mempermudah **penyebaran misinformasi** dan **plagiarisme yang sulit dideteksi**.
+* 66% khawatir AI membawa **kesalahan/ketidakakuratan** masuk ke naskah publikasi.
+* 58% khawatir AI **melanggengkan bias** yang ada di data latihnya.
 :::
 
 ::: {.callout-important}
@@ -263,10 +274,6 @@ Angka-angka ini datang dari peneliti yang sudah memakai AI. Sikap kritis tidak m
 
 ::: aside
 [Van Noorden & Perkel (2023)](https://www.nature.com/articles/d41586-023-02980-0)
-:::
-
-::: notes
-±15 menit. Poin kunci: pemakaian AI oleh peneliti jauh lebih pelan dan lebih pragmatis daripada narasi publik. Ini jadi jembatan ke bagian Fluency: kalau bahkan peneliti berpengalaman baru memakainya sesekali dan tetap khawatir, mahasiswa magister tidak perlu merasa harus "all-in."
 :::
 
 # AI Fluency Framework 🧭 {background-color="#14497F"}
@@ -375,7 +382,7 @@ Perhatikan batasan ini: jangan mengarang referensi yang tidak pernah ada. Kalau 
 :::
 
 ::: {.callout-important}
-### Makin canggih model, makin perlu penilai manusia
+### Makin canggih model, makin mendesak *output*nya ditelaah manusia
 Model yang lebih besar membuat kesalahan yang lebih meyakinkan, sehingga lebih sulit ditangkap oleh pembaca yang tidak menguasai topiknya.
 :::
 
@@ -409,10 +416,6 @@ Pilih satu konsep/konstruk inti dari topik tesis Anda. Minta AI memberikan **tig
 Pengetahuan spesifik apa yang membuat Anda bisa menangkap kelemahan tadi? Bagaimana mahasiswa dari bidang lain akan menilai *output* yang sama persis?
 :::
 
-::: notes
-±20 menit total termasuk berbagi. Ini praktik inti dari *lesson* "Discernment" kursus AI Fluency Anthropic, diadaptasi untuk konteks tesis. Tujuannya: mahasiswa mengalami sendiri bahwa keahlian domain merekalah yang memungkinkan Discernment.
-:::
-
 ## 4️⃣ *Diligence* — bertanggung jawab dan transparan
 
 ::: {.incremental}
@@ -426,11 +429,7 @@ Pengetahuan spesifik apa yang membuat Anda bisa menangkap kelemahan tadi? Bagaim
 *"Dalam menyusun [dokumen/bagian ini], saya berkolaborasi dengan [nama AI] untuk membantu [tugas spesifik: menyusun draf, mencari referensi, menyunting bahasa, dst]. Seluruh konten yang dibantu/dihasilkan AI telah saya tinjau dan evaluasi satu per satu. Hasil akhir mencerminkan pemahaman dan penilaian saya sendiri. Saya bertanggung jawab penuh atas isi, akurasi, dan penyajiannya."*
 :::
 
-Perhatikan polanya: mirip dengan *disclosure* yang saya tulis di *landing page* laman web untuk materi ini.
-
-::: notes
-±25 menit untuk keseluruhan bagian AI Fluency Framework, termasuk aktivitas Discernment. Sambungkan langsung ke pertanyaan refleksi *homework* di akhir sesi: keempat poin refleksi itu sebenarnya adalah Diligence, diterjemahkan jadi kebiasaan pribadi.
-:::
+Perhatikan polanya: mirip dengan *disclosure* yang saya tulis di [*landing page* laman web](https://rameliaz.github.io/tp/) untuk materi ini.
 
 ## Menggunakan AI untuk *text generation*
 
@@ -703,8 +702,8 @@ Apa pun tugas pengodean yang dibantu AI, laporkan model/versinya secara eksplisi
 **Risiko**
 
 ::: {.incremental}
-* *Cognitive offloading* — menyerahkan proses berpikir ke alat eksternal bisa melemahkan kemampuan itu sendiri seiring waktu, terutama bagi yang belum mahir di bidangnya
-* "*Point-and-click scholarship*" — menghasilkan atau menafsirkan hasil statistik tanpa benar-benar memahami logikanya, karena jawaban AI terdengar yakin
+* *Cognitive offloading* — menyerahkan proses berpikir ke alat eksternal bisa melemahkan kemampuan itu sendiri seiring waktu, terutama bagi yang belum mahir di bidangnya.
+* "*Point-and-click scholarship*" — menghasilkan atau menafsirkan hasil statistik tanpa benar-benar memahami logikanya, karena jawaban AI terdengar meyakinkan.
 :::
 :::
 
@@ -735,7 +734,7 @@ Laporkan nama dan versi model persis yang Anda pakai (jangan cuma tulis "AI"), t
 :::
 
 ::: aside
-Storey (2026); Higgins et al. (2026)
+[Storey (2026)](https://www.nature.com/articles/d41586-025-04092-3); [Higgins et al. (2026)](https://osf.io/preprints/psyarxiv/yr6d3)
 :::
 
 # Kesimpulan 🎓 {background-color="#14497F"}
@@ -783,10 +782,11 @@ Renungkan 4️⃣ poin di bawah:
 * Rogers, T., & Carbonaro, M. (2025). From understanding to creating: Bridging AI literacy and AI fluency in K-12 education. *Journal of Teaching and Learning, 19*(4), 20–38.
 * Russell-Lasalandra, L. L., Christensen, A. P., & Golino, H. (2024). *Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation*. PsyArXiv. <https://doi.org/10.31234/osf.io/fgbj4>
 * Shao, Y., Zope, H., Jiang, Y., Pei, J., Nguyen, D., Brynjolfsson, E., & Yang, D. (2025). *Future of work with AI agents: Auditing automation and augmentation potential across the U.S. workforce*. arXiv. <https://arxiv.org/abs/2506.06576>
-* Storey, V. C. (2026). AI tools boost scientists' impact but narrow focus. *Nature, 649*, 1111–1112.
+* Storey, V. C. (2026). AI tools boost scientists' impact but narrow focus. *Nature, 649*, 1111–1112. <https://www.nature.com/articles/d41586-025-04092-3>
 * Van Noorden, R., & Perkel, J. M. (2023). AI and science: What 1,600 researchers think. *Nature, 621*, 672–675. <https://doi.org/10.1038/d41586-023-02980-0>
 * Van Quaquebeke, N., Tonidandel, S., & Banks, G. C. (2025). Beyond efficiency: How artificial intelligence (AI) will reshape scientific inquiry and the publication process. *The Leadership Quarterly, 36*, 101895. <https://doi.org/10.1016/j.leaqua.2025.101895>
 * Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008.
+* Wiggins, W.C., Clarke, B., Elson, M., & Cummins, J. (2026). Recommendations for incorporating LLMs into psychological research: A Commentary on Austin and colleagues (2025). *PsyArXiv*, <https://osf.io/preprints/psyarxiv/yr6d3_v2>
 * Wright, A. G. C., Ringwald, W. R., Vize, C. E., Eichstaedt, J. C., Angstadt, M., Taxali, A., & Sripada, C. (2026). Assessing personality using zero-shot generative AI scoring of brief open-ended text. *Nature Human Behaviour*.
 * Yang, J., Yonack, N., Zyskowski, K., Yarats, D., Ho, J., & Ma, J. (2025). *The adoption and usage of AI agents: Early evidence from Perplexity* [Working paper].
 

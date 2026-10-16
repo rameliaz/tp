@@ -28,9 +28,7 @@ execute:
 
 ## Mengapa aksesibilitas penting?
 
-<div style="display: flex; justify-content: center;">
-<iframe width="800" height="450" src="https://www.youtube.com/embed/KmFPWxjmnqE?si=2pqHOnq4Bc_OfqyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{{< video https://www.youtube.com/watch?v=KmFPWxjmnqE >}}
 
 # Mengapa Aksesibilitas Penting? ⚖️ {background-color="#14497F"}
 
