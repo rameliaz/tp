@@ -195,7 +195,7 @@ Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent*. Se
 
 # Bagaimana dan Untuk Apa Peneliti Menggunakan AI? 📊 {background-color="#14497F"}
 
-## Arus utama dalam hitungan tiga tahun
+## ;Menjadi arus utama dalam tiga tahun
 
 ::: {.incremental}
 * ChatGPT diluncurkan November 2022. Per Juli 2025: sekitar **18 miliar pesan per minggu**, dari sekitar **700 juta pengguna**, kira-kira 1 dari 10 orang dewasa di dunia.

@@ -28,7 +28,9 @@ execute:
 
 ## Mengapa aksesibilitas penting?
 
-{{< video https://www.youtube.com/watch?v=KmFPWxjmnqE >}}
+::: {style="text-align: center;"}
+{{< video https://www.youtube.com/watch?v=KmFPWxjmnqE width="800" height="450" >}}
+:::
 
 # Mengapa Aksesibilitas Penting? ⚖️ {background-color="#14497F"}
 
@@ -195,7 +197,7 @@ Bandingkan dengan pendekatan lama: akomodasi *ad hoc* yang baru diberikan **sete
 ## Menerapkannya di materi pembelajaran
 
 ::: {.incremental}
-* Beri **alt-text*** pada semua gambar/diagram di *slide* dan modul.
+* Beri **alt-text** pada semua gambar/diagram di *slide* dan modul.
 * Sediakan **transkrip** untuk video/audio kuliah.
 * Gunakan **kontras warna** yang cukup dan hindari mengandalkan warna semata untuk makna.
 * Format dokumen (PDF/Word) dengan **struktur *heading*** yang benar agar terbaca *screen reader*.
