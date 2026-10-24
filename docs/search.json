@@ -72,11 +72,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#kenapa-llm-bisa-paham-konteks-kalimat",
-    "href": "slides/mini-workshop.html#kenapa-llm-bisa-paham-konteks-kalimat",
+    "objectID": "slides/mini-workshop.html#mengapa-llm-bisa-paham-konteks-kalimat",
+    "href": "slides/mini-workshop.html#mengapa-llm-bisa-paham-konteks-kalimat",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
-    "section": "Kenapa LLM bisa “paham” konteks kalimat",
-    "text": "Kenapa LLM bisa “paham” konteks kalimat\n\n\nContoh: “Bisa ular itu amat mematikan” vs. “Saya bisa datang besok.”\n\nKata yang sama dengan makna berbeda (homonim), bergantung pada konteks kalimatnya\nArsitektur transformer memungkinkan setiap kata “memperhatikan” (attention) semua kata lain dalam konteks, bukan cuma kata sebelumnya\nIni juga yang membuat pelatihan LLM bisa dilakukan paralel dalam skala masif\n\n\n\n\n\n\n\n\n\n\nVaswani et al. (2017), “Attention is all you need”",
+    "section": "Mengapa LLM bisa “paham” konteks kalimat",
+    "text": "Mengapa LLM bisa “paham” konteks kalimat\n\n\nContoh: “Bisa ular itu amat mematikan” vs. “Saya bisa datang besok.”\n\nKata yang sama dengan makna berbeda (homonim), bergantung pada konteks kalimatnya\nArsitektur transformer memungkinkan setiap kata “memperhatikan” (attention) semua kata lain dalam konteks, bukan cuma kata sebelumnya\nIni juga yang membuat pelatihan LLM bisa dilakukan paralel dalam skala masif\n\n\n\n\n\n\n\n\n\n\nVaswani et al. (2017), “Attention is all you need”",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -96,11 +96,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#kenapa-kemampuannya-melonjak-drastis-sejak-2022",
-    "href": "slides/mini-workshop.html#kenapa-kemampuannya-melonjak-drastis-sejak-2022",
+    "objectID": "slides/mini-workshop.html#mengapa-kemampuannya-melonjak-drastis-sejak-2022",
+    "href": "slides/mini-workshop.html#mengapa-kemampuannya-melonjak-drastis-sejak-2022",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
-    "section": "Kenapa kemampuannya melonjak drastis sejak 2022?",
-    "text": "Kenapa kemampuannya melonjak drastis sejak 2022?\n\n\n\nArsitektur — transformer bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (scaling laws)\nData — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode)\nDaya Komputasi — GPU dan data center yang dibutuhkan untuk melatih LLM dengan parameter raksasa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmergent capabilities\n\n\nPada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit, misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu alasan perilaku LLM sulit diprediksi sepenuhnya.\n\n\n\n\nKalau ada yang bertanya: beredar rumor bahwa sebuah pengembang model mendekati recursive self-improvement. Sampaikan sebagai rumor yang belum terverifikasi.",
+    "section": "Mengapa kemampuannya melonjak drastis sejak 2022?",
+    "text": "Mengapa kemampuannya melonjak drastis sejak 2022?\n\n\n\nArsitektur — transformer bisa diskalakan; semakin besar modelnya, semakin baik performanya, dalam pola yang cukup terprediksi (scaling laws)\nData — ledakan teks digital yang tersedia untuk dilatih (situs web, buku, kode)\nDaya Komputasi — GPU dan data center yang dibutuhkan untuk melatih LLM dengan parameter raksasa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmergent capabilities\n\n\nPada ambang skala tertentu, kemampuan baru bisa muncul tanpa pernah diprogram secara eksplisit, misalnya kemampuan menerjemahkan atau menalar bertahap. Ini salah satu alasan perilaku LLM sulit diprediksi sepenuhnya.\n\n\n\n\nKalau ada yang bertanya: beredar rumor bahwa sebuah pengembang model mendekati recursive self-improvement. Sampaikan sebagai rumor yang belum terverifikasi.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -112,7 +112,7 @@
     "href": "slides/mini-workshop.html#chatbot-reasoning-model-dan-agent",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Chatbot, reasoning model, dan agent",
-    "text": "Chatbot, reasoning model, dan agent\n\n\n\nChatbot — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.\nReasoning model — “berpikir” bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks.\n\nBiasanya hanya bisa dilakukan model frontier (model dengan parameter raksasa, e.g., GPT-6 Astra, Claude Opus 5.5, Fable dan Mythos, Kimi K-3, DeepSeek 4.1, Gemini 3.8, Qwen 3.8).\n\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara otonom atas nama Anda (menjelajah web, memakai aplikasi, menjalankan kode), dengan pengawasan yang jauh lebih longgar\n\nHanya menghasilkan performa optimal ketika menggunakan model frontier. Model lightweight masih bisa digunakan, tetapi harus diberi guardrail.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenapa ini penting untuk riset Anda\n\n\nBeberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk agent. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.",
+    "text": "Chatbot, reasoning model, dan agent\n\n\n\nChatbot — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.\nReasoning model — “berpikir” bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks.\n\nBiasanya hanya bisa dilakukan model frontier (model dengan parameter raksasa, e.g., GPT-6 Astra, Claude Opus 5.5, Fable dan Mythos, Kimi K-3, DeepSeek 4.1, Gemini 3.8, Qwen 3.8).\n\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara otonom atas nama Anda (menjelajah web, memakai aplikasi, menjalankan kode), dengan pengawasan yang jauh lebih longgar\n\nHanya menghasilkan performa optimal ketika menggunakan model frontier. Model lightweight masih bisa digunakan, tetapi harus diberi guardrail.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMengapa ini penting untuk riset Anda\n\n\nBeberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk agent. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -132,11 +132,11 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#arus-utama-dalam-hitungan-tiga-tahun",
-    "href": "slides/mini-workshop.html#arus-utama-dalam-hitungan-tiga-tahun",
+    "objectID": "slides/mini-workshop.html#menjadi-arus-utama-dalam-tiga-tahun",
+    "href": "slides/mini-workshop.html#menjadi-arus-utama-dalam-tiga-tahun",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
-    "section": "Arus utama dalam hitungan tiga tahun",
-    "text": "Arus utama dalam hitungan tiga tahun\n\nChatGPT diluncurkan November 2022. Per Juli 2025: sekitar 18 miliar pesan per minggu, dari sekitar 700 juta pengguna, kira-kira 1 dari 10 orang dewasa di dunia.\nProporsi pemakaiannya bergeser: pada Juni 2024, pemakaian untuk pekerjaan vs. di luar pekerjaan hampir seimbang (47% vs. 53%). Setahun kemudian, pemakaian non-kerja mendominasi (73%).\nTiga kategori percakapan terbesar: mencari panduan praktis (±29%), mencari informasi (±24%), dan menulis (±24%); totalnya sekitar 77% dari seluruh pemakaian.\n\n\n\nChatterji et al. (2025)",
+    "section": ";Menjadi arus utama dalam tiga tahun",
+    "text": ";Menjadi arus utama dalam tiga tahun\n\nChatGPT diluncurkan November 2022. Per Juli 2025: sekitar 18 miliar pesan per minggu, dari sekitar 700 juta pengguna, kira-kira 1 dari 10 orang dewasa di dunia.\nProporsi pemakaiannya bergeser: pada Juni 2024, pemakaian untuk pekerjaan vs. di luar pekerjaan hampir seimbang (47% vs. 53%). Setahun kemudian, pemakaian non-kerja mendominasi (73%).\nTiga kategori percakapan terbesar: mencari panduan praktis (±29%), mencari informasi (±24%), dan menulis (±24%); totalnya sekitar 77% dari seluruh pemakaian.\n\n\n\nChatterji et al. (2025)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -244,7 +244,19 @@
     "href": "slides/mini-workshop.html#delegation-memutuskan-siapa-mengerjakan-apa",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "1️⃣ Delegation — memutuskan siapa mengerjakan apa",
-    "text": "1️⃣ Delegation — memutuskan siapa mengerjakan apa\n\nMemilah: bagian mana tetap Anda kerjakan sendiri, bagian mana dikerjakan bersama AI, bagian mana bisa diserahkan penuh\nButuh dua hal: paham tugas Anda sendiri (apa sebenarnya yang ingin Anda capai) dan paham kemampuan platform AI (apa yang realistis diharapkan darinya)\n\n\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh jadi mitra diskusi)\n\n\nMenyusun draf item/alat ukur awal\nAI, lalu Anda validasi dan seleksi secara ketat\n\n\nMenerjemahkan instrumen penelitian\nAI, lalu Anda periksa kesepadanan makna secara manual\n\n\nMenginterpretasi hasil analisis statistik\nAnda dan AI bersama: AI menawarkan alternatif interpretasi, keputusan akhir tetap di tangan Anda\n\n\nMenyunting bahasa akademik di naskah\nAI, lalu Anda sunting ulang dan pastikan kontribusi Anda tetap signifikan",
+    "text": "1️⃣ Delegation — memutuskan siapa mengerjakan apa\n\nMemilah: bagian mana tetap Anda kerjakan sendiri, bagian mana dikerjakan bersama AI, bagian mana bisa diserahkan penuh\nButuh dua hal: paham tugas Anda sendiri (apa sebenarnya yang ingin Anda capai) dan paham kemampuan platform AI (apa yang realistis diharapkan darinya)",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "Mini-Workshop Persiapan Tesis"
+    ]
+  },
+  {
+    "objectID": "slides/mini-workshop.html#delegation-memutuskan-siapa-mengerjakan-apa-1",
+    "href": "slides/mini-workshop.html#delegation-memutuskan-siapa-mengerjakan-apa-1",
+    "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
+    "section": "1️⃣ Delegation — memutuskan siapa mengerjakan apa",
+    "text": "1️⃣ Delegation — memutuskan siapa mengerjakan apa\n\n\n\n\n\n\n\n\nTugas\nDelegasi\n\n\n\n\nMerumuskan pertanyaan penelitian\nAnda (AI boleh jadi mitra diskusi)\n\n\nMenyusun draf item/alat ukur awal\nAI, lalu Anda validasi dan seleksi secara ketat\n\n\nMenerjemahkan instrumen penelitian\nAI, lalu Anda periksa kesepadanan makna secara manual\n\n\nMenginterpretasi hasil analisis statistik\nAnda dan AI bersama: AI menawarkan alternatif interpretasi, keputusan akhir tetap di tangan Anda\n\n\nMenyunting bahasa akademik di naskah\nAI, lalu Anda sunting ulang dan pastikan kontribusi Anda tetap signifikan",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -300,18 +312,6 @@
     ]
   },
   {
-    "objectID": "slides/mini-workshop.html#praktik-uji-discernment",
-    "href": "slides/mini-workshop.html#praktik-uji-discernment",
-    "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
-    "section": "🎯 Praktik: uji Discernment",
-    "text": "🎯 Praktik: uji Discernment\n\n\n\n\n\n\nInstruksi\n\n\nPilih satu konsep/konstruk inti dari topik tesis Anda. Minta AI memberikan tiga penjelasan berbeda untuk konsep tersebut, misalnya tiga cara menjelaskan konstruknya untuk audiens berbeda, atau tiga sudut pandang teoretis yang berbeda.\n\n\n\n\nNilai ketiganya dengan tiga kriteria: produk (mana yang paling akurat?), proses (mana yang penalarannya paling koheren?), performa (mana yang paling peka terhadap nuansa bidang Anda?)\nTandai secara spesifik: bagian mana yang membuat Anda percaya, bagian mana yang membuat Anda curiga, dan kenapa.\n\n\n\n\n\n\n\n\nPertanyaan refleksi\n\n\nPengetahuan spesifik apa yang membuat Anda bisa menangkap kelemahan tadi? Bagaimana mahasiswa dari bidang lain akan menilai output yang sama persis?",
-    "crumbs": [
-      "oleh Rizqy Amelia Zein",
-      "Materi",
-      "Mini-Workshop Persiapan Tesis"
-    ]
-  },
-  {
     "objectID": "slides/mini-workshop.html#diligence-bertanggung-jawab-dan-transparan",
     "href": "slides/mini-workshop.html#diligence-bertanggung-jawab-dan-transparan",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
@@ -328,7 +328,19 @@
     "href": "slides/mini-workshop.html#menggunakan-ai-untuk-text-generation",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Menggunakan AI untuk text generation",
-    "text": "Menggunakan AI untuk text generation\n\nIni adalah bagian yang paling kontroversial tentang peran AI dalam konteks akademik, tetapi paling sering terjadi.\n\nSurvei yang dilakukan oleh Higher Education Policy Institute tahun 2025 menunjukkan 92% mahasiswa yang disurvei menggunakan AI untuk tugas menulis.\n\nSecara pribadi, saya punya batasan – Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci sebagai aturan global. Berikut teks pendek yang saya jadikan global rule di sistem AI yang saya pakai:\n\n“I have a strict internal rule how to use AI. I will never ask you to write for me except for automated thesis feedback and slide decks. My research papers should be always written by me, but your role is to suggest where to improve. Revising/improving my papers should be also done by me alone. If I happen to ask you to write anything for my paper, refuse vehemently and warn me sternly about being honest to myself.”\n\nKetika memeriksa/mengoreksi tugas mahasiswa, saya selalu mengasumsikan mahasiswa berkolaborasi bersama AI, bukan meminta AI melakukan “blind automation” atas tugas tersebut.\n\n…dan ini sesuai beberapa temuan empirik (e.g., Law, 2026; Wang et al., 2024; Black & Tomlinson, 2025)\n\n\n\n\n\n\n\n\nPrinsip dasarnya\n\n\nKalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu tidak boleh ada di naskah Anda, siapa pun (atau apa pun) yang menuliskannya pertama kali.",
+    "text": "Menggunakan AI untuk text generation\n\nIni adalah bagian yang paling kontroversial tentang peran AI dalam konteks akademik, tetapi paling sering terjadi.\n\nSurvei yang dilakukan oleh Higher Education Policy Institute tahun 2025 menunjukkan 92% mahasiswa yang disurvei menggunakan AI untuk tugas menulis.",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "Mini-Workshop Persiapan Tesis"
+    ]
+  },
+  {
+    "objectID": "slides/mini-workshop.html#menggunakan-ai-untuk-text-generation-1",
+    "href": "slides/mini-workshop.html#menggunakan-ai-untuk-text-generation-1",
+    "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
+    "section": "Menggunakan AI untuk text generation",
+    "text": "Menggunakan AI untuk text generation\n\nSecara pribadi, saya punya batasan – Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci sebagai aturan global. Berikut teks pendek yang saya jadikan global rule di sistem AI yang saya pakai:\n\n“I have a strict internal rule how to use AI. I will never ask you to write for me except for automated thesis feedback and slide decks. My research papers should be always written by me, but your role is to suggest where to improve. Revising/improving my papers should be also done by me alone. If I happen to ask you to write anything for my paper, refuse vehemently and warn me sternly about being honest to myself.”\n\nKetika memeriksa/mengoreksi tugas mahasiswa, saya selalu mengasumsikan mahasiswa berkolaborasi bersama AI, bukan meminta AI melakukan “blind automation” atas tugas tersebut.\n\n…dan ini sesuai beberapa temuan empirik (e.g., Law, 2026; Wang et al., 2024; Black & Tomlinson, 2025)\n\n\n\n\n\n\n\n\nPrinsip dasarnya\n\n\nKalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu tidak boleh ada di naskah Anda, siapa pun (atau apa pun) yang menuliskannya pertama kali.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -340,7 +352,7 @@
     "href": "slides/mini-workshop.html#siklus-penelitian",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Siklus penelitian",
-    "text": "Siklus penelitian\n\nflowchart LR\n    A[Tinjauan&lt;br&gt;Literatur] --&gt; B[Desain &&lt;br&gt;Alat Ukur]\n    B --&gt; C[Pengumpulan&lt;br&gt;Data]\n    C --&gt; D[Analisis&lt;br&gt;Data]\n    D --&gt; E[Penulisan&lt;br&gt;Naskah]\n\n\n\n\n\n\n\n\n\n\n\nAI bisa dipakai di setiap tahap, dengan risiko yang berbeda-beda\nCek daftar ini, ini dan ini untuk melihat berbagai opsi AI-based research tool yang dapat dimanfaatkan.\n\n\n\nAlvero et al. (2026)",
+    "text": "Siklus penelitian\n\n\n\n\n\nflowchart LR\n    A[Tinjauan&lt;br&gt;Literatur] --&gt; B[Desain &&lt;br&gt;Alat Ukur]\n    B --&gt; C[Pengumpulan&lt;br&gt;Data]\n    C --&gt; D[Analisis&lt;br&gt;Data]\n    D --&gt; E[Penulisan&lt;br&gt;Naskah]\n\n\n\n\n\n\n\nAI bisa dipakai di setiap tahap, dengan risiko yang berbeda-beda\nCek daftar ini, ini dan ini untuk melihat berbagai opsi AI-based research tool yang dapat dimanfaatkan.\n\n\n\nAlvero et al. (2026)",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -364,7 +376,7 @@
     "href": "slides/mini-workshop.html#desain-penelitian-dan-penyusunan-alat-ukur",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Desain penelitian dan penyusunan alat ukur",
-    "text": "Desain penelitian dan penyusunan alat ukur\n\n\n\nAI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis\nContoh: alat Psychometric Item Generator menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat. Versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.\nTapi tetap ada batasnya: dalam satu studi, sekitar 25% saran skala kriteria dari ChatGPT untuk validasi konstruk ternyata bermasalah, sebagian bahkan skala yang tidak pernah ada\n\n\n\n\n\n\n\nHommel & Arslan (2025): LLM bisa menyimpulkan korelasi antar-item/skala psikologis langsung dari teksnya.\n\n\n\n\n\n\n\nPrinsipnya\n\n\nAI cocok untuk menghasilkan kumpulan awal kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing lewat validasi psikometrik.\n\n\n\n\n\nGötz et al. (2024); Austin et al. (2025); Hommel & Arslan (2025)",
+    "text": "Desain penelitian dan penyusunan alat ukur\n\n\n\nAI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis\nContoh: alat Psychometric Item Generator menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat. Versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding Götz et al. (2024).\nTapi tetap ada batasnya: dalam satu studi, sekitar 25% saran skala kriteria dari ChatGPT untuk validasi konstruk ternyata bermasalah, sebagian bahkan skala yang tidak pernah ada Austin et al. (2025).\n\n\n\n\n\n\n\nHommel & Arslan (2025): LLM bisa menyimpulkan korelasi antar-item/skala psikologis langsung dari teksnya.\n\n\n\n\n\n\n\nPrinsipnya\n\n\nAI cocok untuk menghasilkan kumpulan awal kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing lewat validasi psikometrik.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -376,7 +388,7 @@
     "href": "slides/mini-workshop.html#contoh-lain-ai-untuk-penilaian-konstruk-psikologis",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Contoh lain: AI untuk penilaian konstruk psikologis",
-    "text": "Contoh lain: AI untuk penilaian konstruk psikologis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel bahasa bisa menyimpulkan skor kepribadian dari teks jawaban terbuka (zero-shot scoring), tanpa data pelatihan khusus untuk peserta itu\nModel bahasa juga bisa dipakai untuk menghasilkan dan memvalidasi jaringan item baru secara otomatis\nAI mempercepat langkah-langkah tertentu di dalam proses psikometri; validasi konvensional tetap wajib sebelum skala itu dipakai\n\n\n\nWright et al. (2026); Russell-Lasalandra et al. (2024)",
+    "text": "Contoh lain: AI untuk penilaian konstruk psikologis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel bahasa bisa menyimpulkan skor kepribadian dari teks jawaban terbuka (zero-shot scoring), tanpa data pelatihan khusus untuk peserta tersebut (Wright et al., 2026).\nModel bahasa juga bisa dipakai untuk menghasilkan dan memvalidasi jaringan item baru secara otomatis Russell-Lasalandra et al. (2024).\nAI mempercepat langkah-langkah tertentu di dalam proses psikometri; validasi konvensional tetap wajib sebelum skala itu dipakai.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -497,6 +509,18 @@
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Reliabilitas dan reproducibility",
     "text": "Reliabilitas dan reproducibility\n\nOutput AI bersifat probabilistik: prompt yang identik bisa menghasilkan jawaban berbeda di waktu berbeda, sehingga sulit direplikasi.\nUntuk tugas pengodean/analisis, perubahan kecil pada konfigurasi model (versi, temperature, bahkan susunan kalimat prompt) bisa mengubah kesimpulan analitik secara substansial.\n\n\n\n\n\n\n\nPraktik minimum untuk riset yang bisa direplikasi\n\n\nLaporkan nama dan versi model persis yang Anda pakai (jangan cuma tulis “AI”), tetapkan dan laporkan nilai temperature (rendah untuk tugas yang butuh konsistensi), dan validasi hasil AI terhadap pengodean/penilaian manusia sebelum dipakai sebagai temuan.\n\n\n\n\n\nStorey (2026); Higgins et al. (2026)",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "Mini-Workshop Persiapan Tesis"
+    ]
+  },
+  {
+    "objectID": "slides/mini-workshop.html#kesimpulan",
+    "href": "slides/mini-workshop.html#kesimpulan",
+    "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
+    "section": "Kesimpulan",
+    "text": "Kesimpulan\n\nSebelum menyerahkan apa pun yang dibantu AI (ke pembimbing, ke naskah, ke data), tanyakan tiga hal:\n\nSudahkah saya verifikasi faktanya?\nSudahkah saya pastikan tidak ada data pribadi partisipan yang saya berikan ke AI?\nSudahkah saya jujur soal peran AI di sini?\n\nTanggung jawab atas output AI tetap di tangan Anda, dan kemampuan mengevaluasinya tumbuh dari domain expertise yang sedang Anda bangun dengan menempuh pendidikan magister.\nKalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu tidak boleh ada di naskah Anda, siapa pun (atau apa pun) yang menuliskannya pertama kali.\nPertanyaan refleksi setelah workshop ini: putuskan di tahap mana dari tesis Anda, AI paling mungkin membuat Anda melewatkan proses belajar yang sebenarnya Anda perlukan?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

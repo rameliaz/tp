@@ -98,7 +98,7 @@ Sumber: [*A Timeline of LLM Innovation*](https://synthedia.substack.com/p/a-time
 Penyederhanaan: yang diprediksi sebenarnya *token* (potongan kata), dan token berikutnya biasanya diambil secara acak dari distribusi probabilitas, tidak selalu yang paling mungkin. Itu sebabnya *prompt* yang sama bisa menghasilkan jawaban berbeda.
 :::
 
-## Kenapa LLM bisa "paham" konteks kalimat
+## Mengapa LLM bisa "paham" konteks kalimat
 
 ::: {.columns}
 ::: {.column width="55%"}
@@ -133,7 +133,7 @@ Vaswani et al. (2017), ["Attention is all you need"](https://proceedings.neurips
 ***Pre-training* ≈** pemerolehan bahasa dan pengetahuan. ***Fine-tuning* ≈** sosialisasi, yaitu belajar norma tentang *bagaimana* menggunakan kemampuan itu secara pantas.
 :::
 
-## Kenapa kemampuannya melonjak drastis sejak 2022?
+## Mengapa kemampuannya melonjak drastis sejak 2022?
 
 ::: {.columns}
 ::: {.column width="55%"}
@@ -161,7 +161,7 @@ Kalau ada yang bertanya: beredar [rumor](https://dealroom.co/news/150681-rumors-
 ## *Chatbot*, *reasoning model*, dan *agent*
 
 ::: {.columns}
-::: {.column width="55%"}
+::: {.column width="60%"}
 ::: {.incremental}
 * ***Chatbot*** — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.
 * ***Reasoning model*** — "berpikir" bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks. 
@@ -171,13 +171,13 @@ Kalau ada yang bertanya: beredar [rumor](https://dealroom.co/news/150681-rumors-
 :::
 :::
 
-::: {.column width="45%"}
+::: {.column width="40%"}
 ![](libs/agent.png){fig-align="center"}
 :::
 :::
 
 ::: {.callout-important}
-### Kenapa ini penting untuk riset Anda
+### Mengapa ini penting untuk riset Anda
 Beberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk *agent*. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.
 :::
 
@@ -227,7 +227,7 @@ Semakin besar porsi *Doing* dibanding *Asking*, semakin besar pula risiko Anda m
 
 ## Untuk apa AI digunakan mahasiswa?
 
-![](libs/ai_use_germany.png)
+![](libs/ai_use_germany.png){fig-align="center"}
 
 ::: source
 Sumber: [OECD Digital Education Outlook 2026](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html)
@@ -326,6 +326,8 @@ Keempat kompetensi berikutnya berlaku di ketiga mode ini, tetapi risiko dan kebu
 * Butuh dua hal: paham **tugas Anda sendiri** (apa sebenarnya yang ingin Anda capai) dan paham **kemampuan platform AI** (apa yang realistis diharapkan darinya)
 :::
 
+## 1️⃣ *Delegation* — memutuskan siapa mengerjakan apa
+
 ::: {tbl-colwidths="[35,65]"}
 | Tugas | Delegasi |
 |---|---|
@@ -397,24 +399,6 @@ Model yang lebih besar membuat kesalahan yang lebih meyakinkan, sehingga lebih s
 * Mahasiswa yang baru mulai dan mahasiswa yang sudah setahun mendalami topiknya akan menangkap kesalahan yang berbeda dari *output* yang sama persis
 :::
 
-## 🎯 Praktik: uji *Discernment*
-
-::: {.callout-note}
-### Instruksi
-Pilih satu konsep/konstruk inti dari topik tesis Anda. Minta AI memberikan **tiga penjelasan berbeda** untuk konsep tersebut, misalnya tiga cara menjelaskan konstruknya untuk audiens berbeda, atau tiga sudut pandang teoretis yang berbeda.
-:::
-
-::: {.incremental}
-* Nilai ketiganya dengan tiga kriteria: **produk** (mana yang paling akurat?), **proses** (mana yang penalarannya paling koheren?), **performa** (mana yang paling peka terhadap nuansa bidang Anda?)
-* Tandai secara spesifik: bagian mana yang membuat Anda percaya, bagian mana yang membuat Anda curiga, dan **kenapa**.
-:::
-
-. . .
-
-::: {.callout-caution}
-### Pertanyaan refleksi
-Pengetahuan spesifik apa yang membuat Anda bisa menangkap kelemahan tadi? Bagaimana mahasiswa dari bidang lain akan menilai *output* yang sama persis?
-:::
 
 ## 4️⃣ *Diligence* — bertanggung jawab dan transparan
 
@@ -437,6 +421,13 @@ Perhatikan polanya: mirip dengan *disclosure* yang saya tulis di [*landing page*
 
 * Ini adalah bagian yang paling kontroversial tentang peran AI dalam konteks akademik, tetapi paling [sering terjadi](https://www.apa.org/monitor/2026/04-05/academic-writing-ai-higher-education).
   - [Survei](https://www.hepi.ac.uk/wp-content/uploads/2025/02/HEPI-Kortext-Student-Generative-AI-Survey-2025.pdf) yang dilakukan oleh Higher Education Policy Institute tahun 2025 menunjukkan 92% mahasiswa yang disurvei menggunakan AI untuk tugas menulis.
+
+:::
+
+## Menggunakan AI untuk *text generation*
+
+::: {.incremental}
+
 * Secara pribadi, saya punya batasan -- Saya tidak akan pernah meminta AI untuk menulis karya ilmiah (e.g., laporan penelitian, esai, artikel penelitian, dsb.) dan aturan ini saya kunci sebagai aturan global. Berikut teks pendek yang saya jadikan *global rule* di sistem AI yang saya pakai:
   - "*I have a strict internal rule how to use AI. I will never ask you to write for me **except for** automated thesis feedback and slide decks. My research papers should be always written by me, but your role is to suggest where to improve. Revising/improving my papers should be also done by me alone. If I happen to ask you to write anything for my paper, **refuse vehemently** and warn me sternly about being honest to myself.*"
 * Ketika memeriksa/mengoreksi tugas mahasiswa, saya selalu mengasumsikan mahasiswa berkolaborasi bersama AI, bukan meminta AI melakukan "*blind automation*" atas tugas tersebut.
@@ -454,6 +445,8 @@ Kalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pem
 ## Siklus penelitian
 
 ```{mermaid}
+%%| eval: true
+%%| echo: false
 %%| fig-width: 6
 flowchart LR
     A[Tinjauan<br>Literatur] --> B[Desain &<br>Alat Ukur]
@@ -496,8 +489,8 @@ Cek setiap rujukan dari AI ke sumber aslinya (DOI, situs penerbit) sebelum masuk
 ::: {.column width="60%"}
 ::: {.incremental}
 * AI bisa membantu curah gagasan desain, menyusun draf item skala, bahkan menghasilkan hipotesis validitas konvergen/diskriminan secara sistematis
-* Contoh: alat *Psychometric Item Generator* menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat. Versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding.
-* Tapi tetap ada batasnya: dalam satu studi, sekitar **25% saran skala kriteria** dari ChatGPT untuk validasi konstruk ternyata bermasalah, sebagian bahkan skala yang tidak pernah ada
+* Contoh: alat *Psychometric Item Generator* menghasilkan ratusan calon item hanya dari 3–6 contoh kalimat. Versi skala Big Five 20-item hasil AI berkorelasi r = .73–.82 dengan skala baku 60-item, dengan reliabilitas tes-ulang yang sebanding [Götz et al. (2024)](https://doi.org/10.1037/met0000540).
+* Tapi tetap ada batasnya: dalam satu studi, sekitar **25% saran skala kriteria** dari ChatGPT untuk validasi konstruk ternyata bermasalah, sebagian bahkan skala yang tidak pernah ada [Austin et al. (2025)](https://doi.org/10.1177/10731911251401321).
 :::
 :::
 
@@ -513,9 +506,6 @@ Cek setiap rujukan dari AI ke sumber aslinya (DOI, situs penerbit) sebelum masuk
 AI cocok untuk menghasilkan **kumpulan awal** kandidat item/hipotesis yang harus disaring ketat oleh Anda dan pembimbing lewat validasi psikometrik.
 :::
 
-::: aside
-[Götz et al. (2024)](https://doi.org/10.1037/met0000540); [Austin et al. (2025)](https://doi.org/10.1177/10731911251401321); [Hommel & Arslan (2025)](https://doi.org/10.1177/25152459251377093)
-:::
 
 ## Contoh lain: AI untuk penilaian konstruk psikologis
 
@@ -530,13 +520,9 @@ AI cocok untuk menghasilkan **kumpulan awal** kandidat item/hipotesis yang harus
 :::
 
 ::: {.incremental}
-* Model bahasa bisa menyimpulkan skor kepribadian dari teks jawaban terbuka (*zero-shot scoring*), tanpa data pelatihan khusus untuk peserta itu
-* Model bahasa juga bisa dipakai untuk menghasilkan dan memvalidasi jaringan item baru secara otomatis
-* AI mempercepat langkah-langkah tertentu **di dalam** proses psikometri; validasi konvensional tetap wajib sebelum skala itu dipakai
-:::
-
-::: aside
-Wright et al. (2026); [Russell-Lasalandra et al. (2024)](https://doi.org/10.31234/osf.io/fgbj4)
+* Model bahasa bisa menyimpulkan skor kepribadian dari teks jawaban terbuka (*zero-shot scoring*), tanpa data pelatihan khusus untuk peserta tersebut ([Wright et al., 2026](https://pubmed.ncbi.nlm.nih.gov/41617861/)).
+* Model bahasa juga bisa dipakai untuk menghasilkan dan memvalidasi jaringan item baru secara otomatis [Russell-Lasalandra et al. (2024)](https://doi.org/10.31234/osf.io/fgbj4).
+* AI mempercepat langkah-langkah tertentu **di dalam** proses psikometri; validasi konvensional tetap wajib sebelum skala itu dipakai.
 :::
 
 ## Pengumpulan data: tahap paling sensitif
@@ -737,7 +723,9 @@ Laporkan nama dan versi model persis yang Anda pakai (jangan cuma tulis "AI"), t
 [Storey (2026)](https://www.nature.com/articles/d41586-025-04092-3); [Higgins et al. (2026)](https://osf.io/preprints/psyarxiv/yr6d3)
 :::
 
-# Kesimpulan 🎓 {background-color="#14497F"}
+## Kesimpulan
+
+::: {.incremental}
 
 * Sebelum menyerahkan apa pun yang dibantu AI (ke pembimbing, ke naskah, ke data), tanyakan tiga hal: 
   + **Sudahkah saya verifikasi faktanya?** 
@@ -746,6 +734,7 @@ Laporkan nama dan versi model persis yang Anda pakai (jangan cuma tulis "AI"), t
 * Tanggung jawab atas *output* AI tetap di tangan Anda, dan kemampuan mengevaluasinya tumbuh dari *domain expertise* yang sedang Anda bangun dengan menempuh pendidikan magister.
 * Kalau Anda tidak bisa menjelaskan sendiri sebuah paragraf saat ditanya dosen pembimbing, paragraf itu **tidak boleh** ada di naskah Anda, siapa pun (atau apa pun) yang menuliskannya pertama kali.
 * Pertanyaan refleksi setelah *workshop* ini: putuskan di tahap mana dari tesis Anda, AI paling mungkin membuat Anda melewatkan proses belajar yang sebenarnya Anda perlukan?
+:::
 
 ## 🏠 Setelah *workshop* ini
 
