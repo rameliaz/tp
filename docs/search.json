@@ -112,7 +112,19 @@
     "href": "slides/mini-workshop.html#chatbot-reasoning-model-dan-agent",
     "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
     "section": "Chatbot, reasoning model, dan agent",
-    "text": "Chatbot, reasoning model, dan agent\n\n\n\nChatbot — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.\nReasoning model — “berpikir” bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks.\n\nBiasanya hanya bisa dilakukan model frontier (model dengan parameter raksasa, e.g., GPT-6 Astra, Claude Opus 5.5, Fable dan Mythos, Kimi K-3, DeepSeek 4.1, Gemini 3.8, Qwen 3.8).\n\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara otonom atas nama Anda (menjelajah web, memakai aplikasi, menjalankan kode), dengan pengawasan yang jauh lebih longgar\n\nHanya menghasilkan performa optimal ketika menggunakan model frontier. Model lightweight masih bisa digunakan, tetapi harus diberi guardrail.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMengapa ini penting untuk riset Anda\n\n\nBeberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk agent. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.",
+    "text": "Chatbot, reasoning model, dan agent\n\n\n\nChatbot — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.\nReasoning model — “berpikir” bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks.\n\nBiasanya hanya bisa dilakukan model frontier (model dengan parameter raksasa, e.g., GPT-6 Astra, Claude Opus 5.5, Fable dan Mythos, Kimi K-3, DeepSeek 4.1, Gemini 3.8, Qwen 3.8).",
+    "crumbs": [
+      "oleh Rizqy Amelia Zein",
+      "Materi",
+      "Mini-Workshop Persiapan Tesis"
+    ]
+  },
+  {
+    "objectID": "slides/mini-workshop.html#chatbot-reasoning-model-dan-agent-1",
+    "href": "slides/mini-workshop.html#chatbot-reasoning-model-dan-agent-1",
+    "title": "Menggunakan Akal Imitasi untuk Penelitian Tugas Akhir",
+    "section": "Chatbot, reasoning model, dan agent",
+    "text": "Chatbot, reasoning model, dan agent\n\n\n\nAI agent — merencanakan dan mengeksekusi tugas multi-langkah secara otonom atas nama Anda (menjelajah web, memakai aplikasi, menjalankan kode), dengan pengawasan yang jauh lebih longgar\n\nHanya menghasilkan performa optimal ketika menggunakan model frontier. Model lightweight masih bisa digunakan, tetapi harus diberi guardrail.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMengapa ini penting untuk riset Anda\n\n\nBeberapa alat bantu riset (lihat bagian selanjutnya) sudah berbentuk agent. Semakin otonom alatnya, semakin besar juga tanggung jawab Anda untuk memeriksa apa yang sudah dikerjakannya.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2409,7 +2421,7 @@
     "href": "slides/pertemuan11.html#asesmen-formatif-vs.-sumatif",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Asesmen formatif vs. sumatif",
-    "text": "Asesmen formatif vs. sumatif\n\n\nFormatif\n\nBerlangsung selama proses belajar\nTujuan: umpan balik untuk perbaikan\nRisiko rendah (low-stakes)\nContoh: UTS, UAS\n\n\nSumatif\n\nDilakukan di akhir suatu periode belajar\nTujuan: mengukur capaian akhir\nRisiko tinggi (high-stakes)\nContoh: UTBK, UKMPPDI\n\n\n\n\n\n\n\n\nMengapa ini penting untuk teknologi asesmen\n\n\nTeknologi paling berdampak justru pada asesmen formatif, karena skala dan kecepatan umpan balik yang dibutuhkan sulit dicapai manusia sendirian",
+    "text": "Asesmen formatif vs. sumatif\n\n\nFormatif\n\nBerlangsung selama proses belajar\nTujuan: umpan balik untuk perbaikan\nRisiko rendah (low-stakes)\nContoh: UTS, UAS\n\n\nSumatif\n\nDilakukan di akhir suatu periode belajar\nTujuan: mengukur capaian akhir\nRisiko tinggi (high-stakes)\nContoh: UTBK, UKMPPD\n\n\n\n\n\n\n\n\nMengapa ini penting untuk teknologi asesmen\n\n\nTeknologi paling berdampak justru pada asesmen formatif, karena skala dan kecepatan umpan balik yang dibutuhkan sulit dicapai manusia sendirian",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2445,7 +2457,7 @@
     "href": "slides/pertemuan11.html#tiga-generasi-penilaian-otomatis",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Tiga generasi penilaian otomatis",
-    "text": "Tiga generasi penilaian otomatis\n\nAutomated essay scoring (AES) pertama kali dikembangkan tahun 1966 oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, kosakata) untuk memprediksi skor manusia\nGenerasi machine learning (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih “atomistik”, jadi belum benar-benar “memahami” makna esai\nGenerasi LLM (2020-an–kini): model dapat mengevaluasi kualitas argumen dan memberi umpan balik berbentuk kalimat\n\n\n\nPage, E. B. (1966). The imminence of grading essays by computer. Phi Delta Kappan, 47(5), 238–243.",
+    "text": "Tiga generasi penilaian otomatis\n\nAutomated essay scoring (AES) pertama kali dikembangkan tahun 1966 oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, variasi kosakata) untuk memprediksi skor (bacaan lebih lanjut: Page, 1994 dan Ke & Ng, 2019).\nGenerasi machine learning (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih “atomistik”, jadi belum benar-benar “memahami” makna esai (Perelman, 2014).\nGenerasi LLM (2022-an–sekarang): model dapat mengevaluasi kualitas argumen dan memberi umpan balik berbentuk kalimat (Pack, dkk., 2024).",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2457,7 +2469,7 @@
     "href": "slides/pertemuan11.html#automation-atau-augmentation",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Automation atau augmentation?",
-    "text": "Automation atau augmentation?\nKerangka Fügener et al. (2026) yang sudah kita bahas relevan di sini:\n\nAutomation — AI menggantikan penilai manusia sepenuhnya (mis. memberikan skor soal pilihan ganda secara otomatis).\nAugmentation — AI membantu dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia.\nUntuk asesmen berisiko tinggi (nilai akhir, kelulusan), augmentation jauh lebih aman secara etis dan legal dibanding automation.",
+    "text": "Automation atau augmentation?\nKerangka Fügener et al. (2026) yang sudah kita bahas relevan di sini:\n\nAutomation — AI menggantikan penilai manusia sepenuhnya (mis. memberikan skor soal pilihan ganda secara otomatis).\nAugmentation — AI membantu pengajar: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia.\nUntuk asesmen berisiko tinggi (nilai akhir, kelulusan), augmentation jauh lebih aman secara etis dan legal dibanding automation.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2469,7 +2481,7 @@
     "href": "slides/pertemuan11.html#menganalisis-jejak-data-belajar",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Menganalisis jejak data belajar",
-    "text": "Menganalisis jejak data belajar\n\nLearning analytics = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar\nContoh aplikasi: dashboard kemajuan belajar, sistem peringatan dini (early-warning system) untuk peserta didik berisiko drop out, rekomendasi materi yang dipersonalisasi\nFokusnya: memahami proses belajar itu sendiri secara real-time, selain mengukur hasil akhirnya\n\n\n\n\n\n\n\n\nIsu privasi\n\n\nData jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (informed consent).\n\n\n\n\nSiemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. EDUCAUSE Review, 46(5), 30–40.",
+    "text": "Menganalisis jejak data belajar\n\nLearning analytics = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar.\nContoh aplikasi: dashboard kemajuan belajar, sistem peringatan dini (early-warning system) untuk peserta didik berisiko drop out, rekomendasi materi yang dipersonalisasi.\nFokusnya: memahami proses belajar itu sendiri secara real-time, selain mengukur hasil akhirnya.\n\n\n\n\n\n\n\n\nIsu privasi\n\n\nData jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal, dan harus melalui proses informed consent dengan peserta didik yang datanya direkam.\n\n\n\n\nSiemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. EDUCAUSE Review, 46(5), 30–40.",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2481,7 +2493,7 @@
     "href": "slides/pertemuan11.html#pertanyaan-lama-konteks-baru",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Pertanyaan lama, konteks baru",
-    "text": "Pertanyaan lama, konteks baru\n\nValiditas konstruk — apakah skor AI benar-benar mengukur kemampuan yang ingin diukur, atau justru fitur permukaan yang mudah “digoreng” (esai panjang cenderung dinilai tinggi meski isinya lemah)?\nReliabilitas — apakah model memberi skor yang konsisten untuk kualitas jawaban yang setara?\nKeadilan (fairness) — apakah model bias terhadap gaya menulis kelompok tertentu (penutur bahasa kedua, dialek non-standar)?",
+    "text": "Pertanyaan lama, konteks baru\n\nValiditas konstruk — apakah skor AI benar-benar mengukur kemampuan yang ingin diukur, atau justru fitur permukaan yang mudah “diakali” (esai panjang cenderung dinilai tinggi meski argumentasinya lemah)?\nReliabilitas — apakah model memberi skor yang konsisten untuk kualitas jawaban yang setara?\nKeadilan (fairness) — apakah model bias terhadap gaya menulis kelompok tertentu (penutur bahasa kedua, dialek non-standar)?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",
@@ -2529,7 +2541,7 @@
     "href": "slides/pertemuan11.html#rangkuman",
     "title": "Penggunaan Teknologi dalam Asesmen Pembelajaran",
     "section": "Rangkuman",
-    "text": "Rangkuman\n\nAsesmen bergeser dari statis (paper-based, satu waktu) ke ekosistem data, yang karakteristiknya skala besar, umpan balik cepat, dan granularitas proses, mendorong pergeseran ke asesmen formatif berkelanjutan.\nCBT mendigitalkan soal yang statis; CAT menyesuaikan soal secara real-time berbasis item response theory untuk estimasi kemampuan lebih presisi dengan soal lebih sedikit.\nAutomated scoring berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik machine learning, hingga LLM yang menilai kualitas argumen\nKerangka automation vs. augmentation: untuk asesmen berisiko tinggi, augmentation (AI membantu, manusia memutuskan) jauh lebih aman secara etis dan legal\nLearning analytics membuka jejak proses belajar untuk dashboard, sistem peringatan dini, dan personalisasi — tapi membawa isu privasi data yang granular dan sensitif\nValiditas, reliabilitas, dan keadilan tetap jadi pertanyaan lama dalam konteks baru: skor AI rentan dieksploitasi fitur permukaan dan bias terhadap gaya penulisan non-dominan, sehingga human-in-the-loop wajib untuk asesmen berisiko tinggi\nIntegritas akademik: AI detector tidak cukup andal untuk jadi bukti tunggal kecurangan; arah yang lebih menjanjikan adalah merancang ulang asesmen — otentik, berbasis proses, deklarasi penggunaan AI, dan asesmen lisan/interaktif\nPertanyaan refleksi: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?",
+    "text": "Rangkuman\n\nAsesmen bergeser dari statis (paper-based, satu waktu) ke ekosistem data, yang karakteristiknya skala besar, umpan balik cepat, dan granularitas proses, mendorong pergeseran ke asesmen formatif berkelanjutan.\nCBT mendigitalkan soal yang statis; CAT menyesuaikan soal secara real-time berbasis item response theory untuk estimasi kemampuan lebih presisi dengan soal lebih sedikit.\nAutomated scoring berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik machine learning, hingga LLM yang menilai kualitas argumen.\nKerangka automation vs. augmentation: untuk asesmen berisiko tinggi, augmentation (AI membantu, manusia memutuskan) jauh lebih aman secara etis dan legal.\nLearning analytics membuka jejak proses belajar untuk dashboard, sistem peringatan dini, dan personalisasi — tapi membawa isu privasi data yang granular dan sensitif.\nValiditas, reliabilitas, dan keadilan tetap jadi pertanyaan lama dalam konteks baru: skor AI rentan dieksploitasi fitur permukaan dan bias terhadap gaya penulisan non-dominan, sehingga human-in-the-loop wajib untuk asesmen berisiko tinggi.\nIntegritas akademik: AI detector tidak cukup andal untuk jadi bukti tunggal kecurangan; arah yang lebih baik adalah merancang ulang asesmen agar lebih otentik, berbasis proses, mendorng deklarasi penggunaan AI, dan asesmen lisan/interaktif.\nPertanyaan refleksi: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?",
     "crumbs": [
       "oleh Rizqy Amelia Zein",
       "Materi",

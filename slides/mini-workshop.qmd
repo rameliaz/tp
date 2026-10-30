@@ -166,6 +166,19 @@ Kalau ada yang bertanya: beredar [rumor](https://dealroom.co/news/150681-rumors-
 * ***Chatbot*** — merespons pesan demi pesan, menunggu instruksi Anda di setiap langkah.
 * ***Reasoning model*** — "berpikir" bertahap sebelum menjawab, biasanya menghasilkan jawaban lebih terstruktur untuk masalah kompleks. 
   - Biasanya hanya bisa dilakukan model *frontier* (model dengan parameter raksasa, e.g., [GPT-6 Astra](https://openai.com/index/gpt-6-astra/), Claude [Opus 5.5](https://www.anthropic.com/claude-opus-5-5/), [Fable dan Mythos](https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5), [Kimi K-3](https://huggingface.co/moonshotai/Kimi-K3), [DeepSeek 4.1](https://www.deepseek.com/en/news/deepseek-v4-1-flash/), [Gemini 3.8](https://deepmind.google/models/gemini/), [Qwen 3.8](https://qwen.ai/blog?id=qwen3.8)).
+:::
+:::
+
+::: {.column width="40%"}
+![](libs/agent.png){fig-align="center"}
+:::
+:::
+
+## *Chatbot*, *reasoning model*, dan *agent*
+
+::: {.columns}
+::: {.column width="60%"}
+::: {.incremental}
 * ***AI agent*** — merencanakan dan mengeksekusi tugas multi-langkah secara **otonom** atas nama Anda (menjelajah web, memakai aplikasi, menjalankan kode), dengan pengawasan yang jauh lebih longgar
   - Hanya menghasilkan performa optimal ketika menggunakan model *frontier*. Model *lightweight* masih bisa digunakan, tetapi harus diberi *guardrail*.
 :::

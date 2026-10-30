@@ -57,7 +57,7 @@ execute:
 * Dilakukan di akhir suatu periode belajar
 * Tujuan: mengukur capaian akhir
 * Risiko tinggi (*high-stakes*)
-* Contoh: UTBK, UKMPPDI
+* Contoh: [UTBK](https://snpmb.id/fr/), [UKMPPD](https://fkkmk.ugm.ac.id/menakar-standar-kompetensi-dokter-di-indonesia/)
 :::
 :::
 :::
@@ -94,14 +94,11 @@ Teknologi paling berdampak justru pada asesmen **formatif**, karena skala dan ke
 ## Tiga generasi penilaian otomatis
 
 ::: {.incremental}
-* ***Automated essay scoring* (AES)** pertama kali dikembangkan tahun **1966** oleh Ellis Page, yang memakai fitur permukaan teks (panjang kalimat, kosakata) untuk memprediksi skor manusia
-* Generasi *machine learning* (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih "atomistik", jadi belum benar-benar "memahami" makna esai
-* Generasi **LLM** (2020-an–kini): model dapat mengevaluasi **kualitas argumen** dan memberi **umpan balik berbentuk kalimat**
+* ***Automated essay scoring* (AES)** pertama kali dikembangkan tahun **1966** oleh [Ellis Page](https://www.jstor.org/stable/20371545), yang memakai fitur permukaan teks (panjang kalimat, variasi kosakata) untuk memprediksi skor (bacaan lebih lanjut: [Page, 1994](https://www.tandfonline.com/doi/abs/10.1080/00220973.1994.9943835) dan [Ke & Ng, 2019](https://ijcai.org/proceedings/2019/879)).
+* Generasi *machine learning* (2000-an–2010-an): fitur linguistik lebih kaya (kohesi wacana, struktur argumen), tapi masih "atomistik", jadi belum benar-benar "memahami" makna esai ([Perelman, 2014](https://www.tandfonline.com/doi/abs/10.1080/00220973.1994.9943835)).
+* Generasi **LLM** (2022-an–sekarang): model dapat mengevaluasi **kualitas argumen** dan memberi **umpan balik berbentuk kalimat** ([Pack, dkk., 2024](https://www.sciencedirect.com/science/article/pii/S2666920X24000353?via%3Dihub)).
 :::
 
-::: aside
-Page, E. B. (1966). The imminence of grading essays by computer. *Phi Delta Kappan, 47*(5), 238–243.
-:::
 
 ## *Automation* atau *augmentation*?
 
@@ -109,18 +106,18 @@ Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang 
 
 ::: {.incremental}
 * ***Automation*** — AI **menggantikan** penilai manusia sepenuhnya (mis. memberikan skor soal pilihan ganda secara otomatis).
-* ***Augmentation*** — AI **membantu** dosen: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia.
+* ***Augmentation*** — AI **membantu** pengajar: menyaring jawaban, memberi draf skor awal, menyoroti bagian bermasalah. Keputusan akhir tetap di tangan manusia.
 * Untuk asesmen berisiko tinggi (nilai akhir, kelulusan), **augmentation** jauh lebih aman secara etis dan legal dibanding *automation*.
 :::
 
-# *Learning Analytics* 📈 {background-color="#14497F"}
+# Learning Analytics 📈 {background-color="#14497F"}
 
 ## Menganalisis jejak data belajar
 
 ::: {.incremental}
-* ***Learning analytics*** = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar
-* Contoh aplikasi: *dashboard* kemajuan belajar, sistem peringatan dini (*early-warning system*) untuk peserta didik berisiko *drop out*, rekomendasi materi yang dipersonalisasi
-* Fokusnya: memahami **proses belajar** itu sendiri secara *real-time*, selain mengukur hasil akhirnya
+* ***Learning analytics*** = pengumpulan dan analisis data interaksi peserta didik (klik, waktu akses, pola mengerjakan) untuk memahami dan meningkatkan proses belajar.
+* Contoh aplikasi: *dashboard* kemajuan belajar, sistem peringatan dini (*early-warning system*) untuk peserta didik berisiko *drop out*, rekomendasi materi yang dipersonalisasi.
+* Fokusnya: memahami **proses belajar** itu sendiri secara *real-time*, selain mengukur hasil akhirnya.
 :::
 
 ::: aside
@@ -129,7 +126,7 @@ Kerangka [Fügener et al. (2026)](https://doi.org/10.1287/mnsc.2024.05684) yang 
 
 ::: {.callout-important}
 ### Isu privasi
-Data jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal (*informed consent*).
+Data jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa lama disimpan, dan untuk keperluan apa selain asesmen harus jelas sejak awal, dan harus melalui proses *informed consent* dengan peserta didik yang datanya direkam.
 :::
 
 # Validitas, Reliabilitas, dan Keadilan ⚖️ {background-color="#14497F"}
@@ -137,7 +134,7 @@ Data jejak belajar sangat granular dan sensitif. Siapa yang punya akses, berapa 
 ## Pertanyaan lama, konteks baru
 
 ::: {.incremental}
-* ***Validitas konstruk*** — apakah skor AI benar-benar mengukur kemampuan yang ingin diukur, atau justru **fitur permukaan** yang mudah "digoreng" (esai panjang cenderung dinilai tinggi meski isinya lemah)?
+* ***Validitas konstruk*** — apakah skor AI benar-benar mengukur kemampuan yang ingin diukur, atau justru **fitur permukaan** yang mudah "diakali" (esai panjang cenderung dinilai tinggi meski argumentasinya lemah)?
 * ***Reliabilitas*** — apakah model memberi skor yang konsisten untuk kualitas jawaban yang setara?
 * ***Keadilan* (*fairness*)** — apakah model bias terhadap gaya menulis kelompok tertentu (penutur bahasa kedua, dialek non-standar)?
 :::
@@ -189,12 +186,12 @@ AI **tidak boleh menjadi satu-satunya penilai** untuk asesmen berisiko tinggi. P
 ::: {.incremental}
 * Asesmen bergeser dari **statis** (*paper-based*, satu waktu) ke ekosistem data, yang karakteristiknya skala besar, umpan balik cepat, dan granularitas proses, mendorong pergeseran ke asesmen **formatif** berkelanjutan.
 * **CBT** mendigitalkan soal yang statis; **CAT** menyesuaikan soal secara *real-time* berbasis *item response theory* untuk estimasi kemampuan lebih presisi dengan soal lebih sedikit.
-* *Automated scoring* berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik *machine learning*, hingga LLM yang menilai **kualitas argumen**
-* Kerangka **automation vs. augmentation**: untuk asesmen berisiko tinggi, **augmentation** (AI membantu, manusia memutuskan) jauh lebih aman secara etis dan legal
-* ***Learning analytics*** membuka jejak proses belajar untuk *dashboard*, sistem peringatan dini, dan personalisasi — tapi membawa isu privasi data yang granular dan sensitif
-* Validitas, reliabilitas, dan keadilan tetap jadi pertanyaan lama dalam konteks baru: skor AI rentan dieksploitasi fitur permukaan dan bias terhadap gaya penulisan non-dominan, sehingga *human-in-the-loop* wajib untuk asesmen berisiko tinggi
-* Integritas akademik: *AI detector* tidak cukup andal untuk jadi bukti tunggal kecurangan; arah yang lebih menjanjikan adalah **merancang ulang asesmen** — otentik, berbasis proses, deklarasi penggunaan AI, dan asesmen lisan/interaktif
-* Pertanyaan refleksi: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?
+* *Automated scoring* berkembang tiga generasi — dari fitur permukaan teks (1966), ke fitur linguistik *machine learning*, hingga LLM yang menilai **kualitas argumen**.
+* Kerangka **automation vs. augmentation**: untuk asesmen berisiko tinggi, **augmentation** (AI membantu, manusia memutuskan) jauh lebih aman secara etis dan legal.
+* ***Learning analytics*** membuka jejak proses belajar untuk *dashboard*, sistem peringatan dini, dan personalisasi — tapi membawa isu privasi data yang granular dan sensitif.
+* Validitas, reliabilitas, dan keadilan tetap jadi pertanyaan lama dalam konteks baru: skor AI rentan dieksploitasi fitur permukaan dan bias terhadap gaya penulisan non-dominan, sehingga *human-in-the-loop* wajib untuk asesmen berisiko tinggi.
+* Integritas akademik: *AI detector* tidak cukup andal untuk jadi bukti tunggal kecurangan; arah yang lebih baik adalah **merancang ulang asesmen** agar lebih otentik, berbasis proses, mendorng deklarasi penggunaan AI, dan asesmen lisan/interaktif.
+* **Pertanyaan refleksi**: kalau kelak Anda merancang ulang satu tugas di kelas yang Anda ampu, bagaimana caranya supaya proses belajar mahasiswa tetap terlihat meski mereka memakai AI?
 :::
 
 ## Terima kasih!😊 {.closing-slide}
